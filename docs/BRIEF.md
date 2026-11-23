@@ -11,7 +11,7 @@ A public website, built for the owner first:
 
 All parts link to each other. A recipe links to the explainers it uses. Each explainer lists the recipes that use it. The build generates the reverse links from the recipe data and body links; nobody keeps manual lists.
 
-- Site content: **Czech** only, no i18n.
+- Site content: **Czech** only, no i18n. The site addresses the reader informally (**tykání**, never vykání), in content and UI text alike.
 - Code, slugs, file names, data keys and comments: **English**.
 - Never commercial. Content licence: **CC BY-NC-SA 4.0**.
 

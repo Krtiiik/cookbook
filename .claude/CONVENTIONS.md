@@ -8,6 +8,7 @@ Skip anything tooling already checks. Prefer a rule plus a one-line reason over 
 ## Content
 
 - Site text is Czech. Slugs, keys, file names and code are English (`onion`, not `cibule`), so links stay stable when titles change.
+- Address the reader informally (tykání: "nakrájej", "tvoje", "zkus"), never with vykání ("nakrájejte", "Vaše"). This applies to all Czech text: recipes, explainers and UI labels, buttons and messages.
 - Slugs are unique across all sections and recipes, so `[[slug]]` never needs a section prefix.
 - Link a method, equipment or troubleshooting page with `[[slug]]` or `[[slug|text]]` in the body. Do not add frontmatter lists for them.
 - Every written page needs at least one incoming link.

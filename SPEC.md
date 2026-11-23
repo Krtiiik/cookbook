@@ -126,4 +126,4 @@ Plain JavaScript in `static/`. Keep these classes and attributes, or update the 
 - Public static site on GitHub Pages. Keep everything as local files in `static/`. External stylesheets only from Google Fonts; scripts only from cdnjs, jsdelivr or unpkg, pinned. Prefer none.
 - Must work at phone width (16px side gutter, no horizontal page scroll) and in light and dark mode.
 - Pages must be readable without JavaScript. Search, filters, previews, the scaler, the converter and the calendar filter need it.
-- UI text is Czech.
+- UI text is Czech and addresses the reader informally (tykání: "Hledej", "Přepočítej porce", "Zkus jiný filtr"), never with vykání ("Hledejte", "Vaše").
