@@ -361,7 +361,9 @@ html:not(.js) .scaler button { display: none; }
   .prose ol.steps li::before { width: 44px; height: 44px; font-size: 28px; }
   .hist li { grid-template-columns: 24px minmax(0, 1fr); }
   .hist li span { grid-column: 2; }
-  .season th[scope=row] { min-width: 104px; padding: 4px 6px; }
+  .season { min-width: 560px; }
+  .season th[scope=row], .season thead th.season__name { width: 104px; min-width: 104px; max-width: 110px; padding: 4px 6px; white-space: normal; }
+  .polaroid .ph.empty { aspect-ratio: auto; height: 160px; }
   .row2 { grid-template-columns: minmax(0, 1fr); }
   .filters .field { min-width: 100%; }
 }

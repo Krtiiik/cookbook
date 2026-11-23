@@ -265,6 +265,9 @@
   (function () {
     var month = new Date().getMonth() + 1;
     $$('.season [data-month="' + month + '"], .strip [data-month="' + month + '"]').forEach(function (c) { c.classList.add('now'); });
+    // On a narrow screen the grid scrolls: start with the current month next to the row titles.
+    var box = $('.scroll'), head = $('.season thead th[data-month="' + month + '"]'), name = $('.season thead th.season__name');
+    if (box && head && name && box.scrollWidth > box.clientWidth) box.scrollLeft = head.offsetLeft - name.offsetWidth - 6;
   })();
 
   /* ---------- season calendar filter */
