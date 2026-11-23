@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+dist/
+.cache/
+# private recipe corpus for drafting; never published
+corpus/
