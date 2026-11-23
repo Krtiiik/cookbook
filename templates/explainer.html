@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% from "_macros.html" import link, recipe_row, explainer_row %}
+{% block kind %}explainer{% endblock %}
+{% block meta %}<meta name="description" content="{{ page.summary }}">{% endblock %}
+{% block main %}
+{% set section = SECTIONS[page.section] %}
+<article class="explainer is-{{ page.status }} c-{{ page.color }}">
+  <div class="banner">{{ page.banner_svg|safe }}</div>
+  <div class="head">
+    <div>
+      <a class="label" href="{{ root }}{{ page.section }}/index.html">{{ section.label }}</a>
+      <h1 class="xt">{{ page.title }}</h1>
+      <p class="lead">{{ page.summary }}</p>
+    </div>
+    <span class="state"><i></i>{{ 'napsáno' if page.written else 'zatím nenapsáno' }}</span>
+  </div>
+
+  {% if page.section == 'suroviny' %}
+  <section class="box facts-box c-mint" aria-labelledby="data-h">
+    <h2 id="data-h" class="sr">Údaje o surovině</h2>
+    <dl class="ingdata">
+      <div><dt>kategorie</dt><dd>{{ site.label('categories', page.category) }}</dd></div>
+      <div><dt>alergeny</dt><dd>{% for a in site.allergens if a.slug in (page.data.allergens or []) %}{{ a.title }}{% if not loop.last %}, {% endif %}{% else %}žádné z EU 14{% endfor %}</dd></div>
+      {% if page.data.substitutes %}<div><dt>náhrady</dt><dd>{% for s in page.data.substitutes %}{{ link(site.pages[s], root) }}{% if not loop.last %}, {% endif %}{% endfor %}</dd></div>{% endif %}
+      <div class="wide"><dt>sezóna</dt><dd>
+        {% if page.data.season == 'all-year' %}celý rok{% else %}
+        <ol class="strip" aria-label="Sezóna podle měsíců">
+          {% for m in range(1, 13) %}<li class="{% if m in page.data.season %}is-in-season{% endif %}" data-month="{{ m }}" title="{{ MONTHS[m - 1] }}{% if m in page.data.season %}: v sezóně{% endif %}"><span>{{ MONTHS_SHORT[m - 1] }}</span></li>{% endfor %}
+        </ol>
+        {% endif %}
+      </dd></div>
+    </dl>
+  </section>
+  {% endif %}
+
+  <div class="xbody">
+    {% if page.written %}
+    <div class="prose">{{ body|safe }}</div>
+    {% else %}
+    <div class="unwritten">
+      <p class="hand">zatím nenapsáno</p>
+      <p>Tahle stránka je v plánu. Odkazy na ni už fungují a vpravo vidíš recepty, které ji používají.</p>
+    </div>
+    {% endif %}
+    <aside class="side">
+      {% set related = site.related(page) %}
+      {% if related %}
+      <section class="box c-mint" aria-labelledby="rel-h">
+        <h2 id="rel-h">Související</h2>
+        <ul>{% for p in related %}{{ explainer_row(p, root) }}{% endfor %}</ul>
+      </section>
+      {% endif %}
+      <section class="box c-mustard" aria-labelledby="used-h">
+        <h2 id="used-h">Použito v receptech</h2>
+        {% set users = site.used_in(page) %}
+        {% if users %}
+        <ul class="rlist">{% for p in users %}{{ recipe_row(site, p, root) }}{% endfor %}</ul>
+        {% else %}
+        <p class="none">Zatím žádný recept.</p>
+        {% endif %}
+      </section>
+    </aside>
+  </div>
+</article>
+{% endblock %}

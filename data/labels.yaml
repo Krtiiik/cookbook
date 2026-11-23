@@ -1,0 +1,33 @@
+# Czech labels for values used in recipes and catalogs. The build rejects a value missing here.
+difficulty: { easy: snadná, medium: střední, hard: náročná }
+season: { spring: jaro, summer: léto, autumn: podzim, winter: zima }
+diet: { vegetarian: vegetariánské, vegan: veganské }
+cuisine:
+  czech: česká
+  hungarian: maďarská
+  italian: italská
+  french: francouzská
+  asian: asijská
+categories:
+  # suroviny
+  vegetables: zelenina
+  fruit: ovoce
+  herbs: bylinky
+  mushrooms: houby
+  fish: ryby
+  meat: maso
+  dairy: mléčné výrobky
+  spices: koření
+  flour: mouka a obiloviny
+  fats: tuky
+  pantry: spíž
+  # metody
+  moist-heat: vlhké teplo
+  dry-heat: suché teplo
+  prep: příprava
+  # vybaveni
+  pots: hrnce a pánve
+  tools: nástroje
+  # reseni-problemu
+  sauces: omáčky
+  meat-problems: maso

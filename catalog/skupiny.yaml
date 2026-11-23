@@ -1,0 +1,12 @@
+# Recipe groups. kind: course (what the dish is) or occasion (when you make it).
+# color: the enamel colour of the group's chip (tomato, mint, mustard, cobalt); decoration only.
+- { slug: zaklady, kind: course, title: Základy, summary: "Vývary, omáčky a těsta, ze kterých vychází další recepty.", color: mustard }
+- { slug: polevky, kind: course, title: Polévky, color: tomato }
+- { slug: hlavni-jidla, kind: course, title: Hlavní jídla, color: tomato }
+- { slug: prilohy, kind: course, title: Přílohy, color: mint }
+- { slug: salaty, kind: course, title: Saláty, color: mint }
+- { slug: omacky, kind: course, title: Omáčky, color: tomato }
+- { slug: moucniky, kind: course, title: Moučníky, color: cobalt }
+- { slug: rychla-vecere, kind: occasion, title: Rychlá večeře, color: cobalt }
+- { slug: vanoce, kind: occasion, title: Vánoce, color: tomato }
+- { slug: zimni, kind: occasion, title: Zimní, color: cobalt }

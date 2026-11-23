@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% from "_macros.html" import cards, link %}
+{% block kind %}home{% endblock %}
+{% block main %}
+<section class="hero">
+  <div>
+    <h1>Co dnes uvaříme?</h1>
+    <p>Recepty, které vařím doma, a vysvětlení, proč fungují. Každý recept začíná jako koncept. Až ho uvařím a vyfotím, je otestovaný.</p>
+    <p>K receptům patří stránky o metodách, surovinách, vybavení a o tom, co se může pokazit.</p>
+    <div class="dots" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+    <span class="aside">↓ nejdřív to nejnovější</span>
+  </div>
+  <aside class="log" aria-labelledby="log-h">
+    <h2 id="log-h">Poslední úpravy</h2>
+    <ol>
+    {% for date, r, note in site.recent_changes(5) %}
+      <li><time datetime="{{ date.isoformat() }}">{{ date.day }}. {{ date.month }}.</time><span>{{ link(r, root) }} — {{ note }}</span></li>
+    {% endfor %}
+    </ol>
+  </aside>
+</section>
+
+<section class="c-tomato" aria-labelledby="new-h">
+  <h2 class="h2" id="new-h">Nejnovější recepty <small>{{ [8, site.recipes|length]|min }} z {{ site.recipes|length }}</small><a href="{{ root }}recepty/index.html">Všechny recepty →</a></h2>
+  {{ cards(site, site.recipes[:8], root) }}
+</section>
+
+<section class="block c-mint" aria-labelledby="sec-h">
+  <h2 class="h2" id="sec-h">Jak a proč <small>vysvětlení k receptům</small></h2>
+  <div class="secs">
+  {% for s in site.sections %}
+    <div class="sec-box c-{{ s.color }}">
+      <h3><a href="{{ root }}{{ s.url }}">{{ s.title }}</a></h3>
+      <div class="bar" aria-hidden="true"><i style="width: {{ (100 * s.written_count / ([s.pages|length, 1]|max))|round|int }}%"></i></div>
+      <div class="count">napsáno {{ s.written_count }} z {{ s.pages|length }}</div>
+      <ul>
+      {% for p in s.pages[:4] %}
+        <li>{{ link(p, root) }}{% if not p.written %}<small>zatím nenapsáno</small>{% endif %}</li>
+      {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
+  </div>
+</section>
+
+<section class="block c-mustard" aria-labelledby="grp-h">
+  <h2 class="h2" id="grp-h">Skupiny <small>podle druhu a příležitosti</small><a href="{{ root }}skupiny/index.html">Všechny skupiny →</a></h2>
+  <div class="groups">
+  {% for kind, kind_title in GROUP_KINDS.items() %}
+    <div><h3>{{ kind_title }}</h3><div class="chips">
+    {% for g in site.groups if g.kind == kind %}<a class="chip c-{{ g.color }}" href="{{ root }}{{ g.url }}">{{ g.title }}</a>{% endfor %}
+    </div></div>
+  {% endfor %}
+  </div>
+</section>
+{% endblock %}

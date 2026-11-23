@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Zástupný obrázek: stránka zatím nenapsaná">
+  <rect width="1200" height="400" style="fill: var(--banner-bg, #fffaf0)"/>
+  <rect x="60" y="50" width="1080" height="300" rx="20" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-dasharray: 18 14; opacity: .35"/>
+  <g style="fill: var(--banner-fg, #1b2a4a); opacity: .15"><circle cx="300" cy="130" r="16"/><circle cx="420" cy="270" r="16"/><circle cx="800" cy="130" r="16"/><circle cx="900" cy="270" r="16"/></g>
+  <path d="M540 250 L660 130 L690 160 L570 280 L530 290 Z" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round; opacity: .45"/>
+</svg>

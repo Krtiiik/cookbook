@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block kind %}groups{% endblock %}
+{% block main %}
+<h1 class="pt">Skupiny</h1>
+<p class="lead">Recepty podle druhu jídla a podle příležitosti. Jeden recept může být ve více skupinách.</p>
+<div class="groups">
+{% for kind, kind_title in GROUP_KINDS.items() %}
+  <section>
+    <h2 class="h2 c-tomato">{{ kind_title }}</h2>
+    <ul class="group-list">
+    {% for g in site.groups if g.kind == kind %}
+      <li><a class="chip c-{{ g.color }}" href="{{ root }}{{ g.url }}">{{ g.title }}</a> <span class="count">{{ cz_plural(g.recipes|length, 'recept', 'recepty', 'receptů') }}</span>{% if g.summary %}<small>{{ g.summary }}</small>{% endif %}</li>
+    {% endfor %}
+    </ul>
+  </section>
+{% endfor %}
+</div>
+{% endblock %}

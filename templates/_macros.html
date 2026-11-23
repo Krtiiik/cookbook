@@ -1,0 +1,56 @@
+{% macro link(page, root, text=None) -%}
+<a class="site-link is-{{ page.status }}" data-slug="{{ page.slug }}" href="{{ root }}{{ page.url }}">{{ text or page.title }}</a>
+{%- endmacro %}
+
+{% macro photo(page, root, sizes="(max-width: 600px) 100vw, 300px", empty="zatím bez fotky") -%}
+{% if page.photo %}
+<img class="photo" src="{{ root }}{{ page.photo[800] }}" srcset="{% for w, url in page.photo|dictsort %}{{ root }}{{ url }} {{ w }}w{% if not loop.last %}, {% endif %}{% endfor %}" sizes="{{ sizes }}" alt="{{ page.title }}" loading="lazy">
+{% else %}
+<div class="ph empty">{{ empty }}</div>
+{% endif %}
+{%- endmacro %}
+
+{% macro group_names(site, page) -%}
+{% for g in site.groups if g.slug in page.groups and g.kind == 'course' %}{{ g.title }}{% if not loop.last %}, {% endif %}{% endfor %}
+{%- endmacro %}
+
+{% macro recipe_card(site, page, root, color) -%}
+<a class="card recipe-card is-{{ page.status }} c-{{ color }}" href="{{ root }}{{ page.url }}" data-slug="{{ page.slug }}">
+  {{ photo(page, root) }}
+  {% if page.status == 'draft' %}<span class="sticky">netestováno</span>{% endif %}
+  <h3>{{ page.title }}</h3>
+  <p>{{ page.summary }}</p>
+  <div class="meta"><span>⏱ {{ page.time_total_min|minutes }}</span>{% set names = group_names(site, page) %}{% if names %}<span>{{ names }}</span>{% endif %}</div>
+</a>
+{%- endmacro %}
+
+{% macro explainer_card(page, root) -%}
+<a class="card explainer-card is-{{ page.status }} c-{{ page.color }}" href="{{ root }}{{ page.url }}" data-slug="{{ page.slug }}">
+  <div class="ban">{{ page.banner_svg|safe }}</div>
+  <span class="lbl">{{ SECTIONS[page.section].label }}</span>
+  <h3>{{ page.title }}</h3>
+  <p>{{ page.summary }}</p>
+  {% if not page.written %}<span class="later">zatím nenapsáno</span>{% endif %}
+</a>
+{%- endmacro %}
+
+{% macro cards(site, pages, root) -%}
+<div class="grid4">
+{% for p in pages %}
+{% if p.kind == 'recipe' %}{{ recipe_card(site, p, root, COLORS[loop.index0 % 4]) }}{% else %}{{ explainer_card(p, root) }}{% endif %}
+{% endfor %}
+</div>
+{%- endmacro %}
+
+{% macro recipe_row(site, page, root) -%}
+<li class="is-{{ page.status }}">
+  <span class="thumb{% if not page.photo %} empty{% endif %}">{% if page.photo %}<img src="{{ root }}{{ page.photo[400] }}" alt="" loading="lazy">{% endif %}</span>
+  <span>{{ link(page, root) }}{% if page.status == 'draft' %}<span class="note">netestováno</span>{% endif %}<small>{{ page.time_total_min|minutes }}{% set names = group_names(site, page) %}{% if names %} · {{ names }}{% endif %}</small></span>
+</li>
+{%- endmacro %}
+
+{% macro explainer_row(page, root) -%}
+<li class="d-{{ page.color }}{% if not page.written %} is-planned{% endif %}">
+  <span>{{ link(page, root) }}{% if not page.written %}<span class="tag">zatím nenapsáno</span>{% endif %}<small>{{ SECTIONS[page.section].label }}</small></span>
+</li>
+{%- endmacro %}

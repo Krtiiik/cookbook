@@ -1,0 +1,289 @@
+/* Krtkova Kuchařka: theme, search, link previews, recipe filters, serving scaler,
+   unit converter and season calendar. Data comes from index.js (window.SITE_INDEX). */
+(function () {
+  'use strict';
+  var INDEX = window.SITE_INDEX || { pages: [], units: {}, banners: [] };
+  var ROOT = document.documentElement.getAttribute('data-root') || '';
+  var BY_SLUG = {};
+  INDEX.pages.forEach(function (p) { BY_SLUG[p.slug] = p; });
+  var STATUS = { written: 'napsáno', planned: 'zatím nenapsáno', draft: 'netestováno', tested: 'otestováno' };
+
+  function $(sel, el) { return (el || document).querySelector(sel); }
+  function $$(sel, el) { return Array.prototype.slice.call((el || document).querySelectorAll(sel)); }
+  function fold(t) { return String(t).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase(); }
+  function el(tag, cls, text) {
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text != null) e.textContent = text;
+    return e;
+  }
+  function num(v) {
+    var r = Math.abs(v) >= 100 ? Math.round(v) : Math.round(v * 100) / 100;
+    return String(r).replace('.', ',');
+  }
+
+  /* ---------- theme: system -> light -> dark -> system, kept under kk-theme */
+  (function () {
+    var btn = $('button.theme');
+    if (!btn) return;
+    var LABEL = { system: 'Motiv: podle systému', light: 'Motiv: světlý', dark: 'Motiv: tmavý' };
+    var SHORT = { system: 'Auto', light: 'Světlý', dark: 'Tmavý' };
+    var NEXT = { system: 'light', light: 'dark', dark: 'system' };
+    function apply(t) {
+      if (t === 'system') document.documentElement.removeAttribute('data-theme');
+      else document.documentElement.setAttribute('data-theme', t);
+      btn.setAttribute('data-theme-current', t);
+      btn.setAttribute('aria-label', LABEL[t] + '. Přepni.');
+      btn.title = LABEL[t] + '. Přepni.';
+      $('.theme__label', btn).textContent = SHORT[t];
+    }
+    var current = 'system';
+    try { current = localStorage.getItem('kk-theme') || 'system'; } catch (e) {}
+    if (!LABEL[current]) current = 'system';
+    apply(current);
+    btn.addEventListener('click', function () {
+      current = NEXT[current];
+      try { localStorage.setItem('kk-theme', current); } catch (e) {}
+      apply(current);
+    });
+  })();
+
+  /* ---------- search */
+  (function () {
+    var form = $('.search');
+    if (!form) return;
+    var input = $('.search__input', form);
+    var list = $('.search__results', form);
+    var active = -1;
+    function results(q) {
+      var f = fold(q.trim());
+      if (!f) return [];
+      var words = f.split(/\s+/);
+      return INDEX.pages.filter(function (p) {
+        return words.every(function (w) { return p.fold.indexOf(w) >= 0; });
+      }).sort(function (a, b) {
+        var at = fold(a.title).indexOf(words[0]) === 0 ? 0 : 1, bt = fold(b.title).indexOf(words[0]) === 0 ? 0 : 1;
+        return at - bt || (a.kind === 'recipe' ? 0 : 1) - (b.kind === 'recipe' ? 0 : 1);
+      }).slice(0, 8);
+    }
+    function render() {
+      var found = results(input.value);
+      list.textContent = '';
+      active = -1;
+      if (!input.value.trim()) { list.hidden = true; return; }
+      if (!found.length) {
+        list.appendChild(el('li', 'search__empty', 'Nic nenalezeno. Zkus jiné slovo.'));
+      }
+      found.forEach(function (p) {
+        var li = el('li', 'search__result is-' + p.status);
+        var a = el('a', 'search__link');
+        a.href = ROOT + p.url;
+        a.appendChild(el('span', 'search__title', p.title));
+        a.appendChild(el('span', 'search__meta', p.section + ' · ' + STATUS[p.status]));
+        li.appendChild(a);
+        list.appendChild(li);
+      });
+      list.hidden = false;
+    }
+    function move(d) {
+      var items = $$('.search__result', list);
+      if (!items.length) return;
+      if (active >= 0) items[active].classList.remove('is-active');
+      active = (active + d + items.length) % items.length;
+      items[active].classList.add('is-active');
+      items[active].scrollIntoView({ block: 'nearest' });
+    }
+    input.addEventListener('input', render);
+    input.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowDown') { e.preventDefault(); move(1); }
+      else if (e.key === 'ArrowUp') { e.preventDefault(); move(-1); }
+      else if (e.key === 'Escape') { list.hidden = true; }
+      else if (e.key === 'Enter') {
+        var items = $$('.search__link', list);
+        var target = items[active >= 0 ? active : 0];
+        if (target) { e.preventDefault(); window.location.href = target.href; }
+      }
+    });
+    document.addEventListener('click', function (e) { if (!form.contains(e.target)) list.hidden = true; });
+    input.addEventListener('focus', function () { if (input.value.trim()) render(); });
+  })();
+
+  /* ---------- link previews */
+  (function () {
+    var box = $('.link-preview');
+    if (!box || !window.matchMedia('(hover: hover)').matches) return;
+    var timer = null;
+    function show(a) {
+      var p = BY_SLUG[a.getAttribute('data-slug')];
+      if (!p) return;
+      box.textContent = '';
+      var media = el('div', 'link-preview__media');
+      if (p.banner != null) media.innerHTML = INDEX.banners[p.banner];
+      else if (p.photo) { var img = el('img'); img.src = ROOT + p.photo; img.alt = ''; media.appendChild(img); }
+      else media.appendChild(el('div', 'ph empty', 'bez fotky'));
+      var text = el('div', 'link-preview__text');
+      text.appendChild(el('div', 'link-preview__section', p.section));
+      text.appendChild(el('div', 'link-preview__title', p.title));
+      text.appendChild(el('div', 'link-preview__summary', p.summary));
+      text.appendChild(el('div', 'link-preview__status', STATUS[p.status]));
+      box.appendChild(media);
+      box.appendChild(text);
+      box.className = 'link-preview is-' + p.status;
+      box.hidden = false;
+      var r = a.getBoundingClientRect();
+      var w = box.offsetWidth, h = box.offsetHeight;
+      var left = Math.min(Math.max(8, r.left + window.scrollX), window.scrollX + document.documentElement.clientWidth - w - 8);
+      var below = r.bottom + 8 + h < window.innerHeight;
+      var top = below ? r.bottom + window.scrollY + 8 : r.top + window.scrollY - h - 8;
+      box.style.left = left + 'px';
+      box.style.top = top + 'px';
+    }
+    function hide() { box.hidden = true; }
+    function target(e) {
+      var a = e.target.closest && e.target.closest('a.site-link[data-slug]');
+      return a && !a.closest('.link-preview') ? a : null;
+    }
+    document.addEventListener('mouseover', function (e) {
+      var a = target(e);
+      if (!a) return;
+      clearTimeout(timer);
+      timer = setTimeout(function () { show(a); }, 250);
+    });
+    document.addEventListener('mouseout', function (e) { if (target(e)) { clearTimeout(timer); hide(); } });
+    document.addEventListener('focusin', function (e) { var a = target(e); if (a) show(a); });
+    document.addEventListener('focusout', function (e) { if (target(e)) hide(); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') hide(); });
+  })();
+
+  /* ---------- recipe list filters */
+  (function () {
+    var form = $('form.filters');
+    var cards = $$('.recipe-list .card[data-slug]');
+    if (!form || !cards.length) return;
+    var count = $('.filters__count');
+    var empty = $('.filters__empty');
+    var details = $('.filters-wrap');
+    if (details && window.matchMedia('(max-width: 600px)').matches) details.open = false;
+    var params = new URLSearchParams(window.location.search);
+    $$('select', form).forEach(function (s) { if (params.get(s.name)) s.value = params.get(s.name); });
+    function matches(p, f) {
+      if (f.group && p.groups.indexOf(f.group) < 0) return false;
+      if (f.season && p.season.length && p.season.indexOf(f.season) < 0) return false;
+      if (f.diet && p.diet.indexOf(f.diet) < 0) return false;
+      if (f.allergen && p.allergens.indexOf(f.allergen) >= 0) return false;
+      if (f.difficulty && p.difficulty !== f.difficulty) return false;
+      if (f.time && p.time_total_min > +f.time) return false;
+      if (f.cuisine && p.cuisine !== f.cuisine) return false;
+      return true;
+    }
+    function apply() {
+      var f = {};
+      $$('select', form).forEach(function (s) { f[s.name] = s.value; });
+      var shown = 0;
+      cards.forEach(function (c) {
+        var ok = matches(BY_SLUG[c.getAttribute('data-slug')], f);
+        c.hidden = !ok;
+        if (ok) shown++;
+      });
+      empty.hidden = shown > 0;
+      count.textContent = 'zobrazeno ' + shown + ' z ' + cards.length;
+      var q = new URLSearchParams();
+      Object.keys(f).forEach(function (k) { if (f[k]) q.set(k, f[k]); });
+      history.replaceState(null, '', q.toString() ? '?' + q : window.location.pathname);
+    }
+    form.addEventListener('change', apply);
+    apply();
+  })();
+
+  /* ---------- serving scaler */
+  (function () {
+    var scaler = $('.scaler');
+    if (!scaler) return;
+    var input = $('.scaler__servings', scaler);
+    var base = +input.getAttribute('data-base');
+    var amounts = $$('.ing__amount[data-qty]');
+    function step(unit, v) {
+      var s = unit.round[0][1];
+      unit.round.forEach(function (r) { if (v >= r[0]) s = r[1]; });
+      return s;
+    }
+    function form(unit, v) {
+      var whole = Math.abs(v - Math.round(v)) < 1e-9;
+      if (!whole) return unit.forms[3];
+      if (Math.round(v) === 1) return unit.forms[0];
+      if (v >= 2 && v <= 4) return unit.forms[1];
+      return unit.forms[2];
+    }
+    function update() {
+      var n = parseInt(input.value, 10);
+      if (!(n >= 1 && n <= 99)) return;
+      var factor = n / base;
+      amounts.forEach(function (a) {
+        var unit = INDEX.units[a.getAttribute('data-unit')];
+        var q = +a.getAttribute('data-qty');
+        var v = q;
+        if (factor !== 1 && unit.scalable) {
+          var raw = q * factor, s = step(unit, raw);
+          v = Math.max(s, Math.round(raw / s) * s);
+        }
+        v = Math.round(v * 100) / 100;
+        a.textContent = String(v).replace('.', ',') + ' ' + form(unit, v);
+      });
+    }
+    function set(n) { input.value = Math.min(99, Math.max(1, n)); update(); }
+    $('.scaler__dec', scaler).addEventListener('click', function () { set(+input.value - 1); });
+    $('.scaler__inc', scaler).addEventListener('click', function () { set(+input.value + 1); });
+    input.addEventListener('input', update);
+  })();
+
+  /* ---------- unit converter */
+  (function () {
+    var box = $('.converter');
+    if (!box) return;
+    var amt = $('.converter__amount', box), from = $('.converter__from', box), to = $('.converter__to', box);
+    var item = $('.converter__item', box), out = $('.converter__result', box);
+    function update() {
+      var x = parseFloat(String(amt.value).replace(',', '.'));
+      var f = from.selectedOptions[0], density = +item.selectedOptions[0].getAttribute('data-density');
+      var result;
+      if (isNaN(x)) result = 'Zadej číslo';
+      else if (from.value === 'F') result = to.value === 'C' ? num((x - 32) * 5 / 9) + ' °C' : 'Zvol °C';
+      else if (to.value === 'C') result = 'Zvol g nebo ml';
+      else {
+        var ml = f.getAttribute('data-ml') ? x * +f.getAttribute('data-ml') : null;
+        var g = f.getAttribute('data-g') ? x * +f.getAttribute('data-g') : null;
+        if (to.value === 'ml') result = num(ml != null ? ml : g / density) + ' ml';
+        else result = num(g != null ? g : ml * density) + ' g';
+      }
+      out.textContent = result;
+    }
+    [amt, from, to, item].forEach(function (e) { e.addEventListener('input', update); e.addEventListener('change', update); });
+    update();
+  })();
+
+  /* ---------- current month in the season grid and ingredient strip */
+  (function () {
+    var month = new Date().getMonth() + 1;
+    $$('.season [data-month="' + month + '"], .strip [data-month="' + month + '"]').forEach(function (c) { c.classList.add('now'); });
+  })();
+
+  /* ---------- season calendar filter */
+  (function () {
+    var table = $('table.season');
+    if (!table) return;
+    var q = $('.season__search'), cat = $('.season__category');
+    var rows = $$('tbody tr', table), countEl = $('.season__count'), empty = $('.season__empty');
+    function apply() {
+      var f = fold(q.value.trim()), c = cat.value, shown = 0;
+      rows.forEach(function (r) {
+        var ok = (!c || r.getAttribute('data-category') === c) && (!f || fold(r.getAttribute('data-fold')).indexOf(f) >= 0);
+        r.hidden = !ok;
+        if (ok) shown++;
+      });
+      countEl.textContent = shown + ' z ' + rows.length + ' surovin';
+      empty.hidden = shown > 0;
+    }
+    q.addEventListener('input', apply);
+    cat.addEventListener('change', apply);
+  })();
+})();

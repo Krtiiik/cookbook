@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+{% from "_macros.html" import link, cards, recipe_row, explainer_card %}
+{% block kind %}recipe{% endblock %}
+{% block meta %}<meta name="description" content="{{ page.summary }}">
+<script type="application/ld+json">{{ page.jsonld|safe }}</script>{% endblock %}
+{% block main %}
+<article class="recipe is-{{ page.status }}">
+  <div class="rtop">
+    <figure class="polaroid">
+      {% if page.photo %}
+      <img class="photo" src="{{ root }}{{ page.photo[800] }}" srcset="{% for w, url in page.photo|dictsort %}{{ root }}{{ url }} {{ w }}w{% if not loop.last %}, {% endif %}{% endfor %}" sizes="(max-width: 980px) 100vw, 640px" alt="{{ page.title }}">
+      <figcaption>uvařeno {{ page.updated|date }}</figcaption>
+      {% else %}
+      <div class="ph empty">zatím bez fotky</div>
+      <span class="sticky">netestováno</span>
+      <figcaption>čeká na uvaření</figcaption>
+      {% endif %}
+    </figure>
+    <div>
+      <div class="chips">{% for g in site.groups if g.slug in page.groups %}<a class="chip c-{{ g.color }}" href="{{ root }}{{ g.url }}">{{ g.title }}</a>{% endfor %}</div>
+      <h1 class="rt">{{ page.title }}</h1>
+      <p class="lead">{{ page.summary }}</p>
+      <dl class="facts">
+        <div><dt>porce</dt><dd>{{ page.servings }}</dd></div>
+        <div><dt>aktivně</dt><dd>{{ page.time_active_min|minutes }}</dd></div>
+        <div><dt>celkem</dt><dd>{{ page.time_total_min|minutes }}</dd></div>
+        <div><dt>obtížnost</dt><dd>{{ site.label('difficulty', page.difficulty) }}</dd></div>
+        <div><dt>kuchyně</dt><dd>{{ site.label('cuisine', page.cuisine) }}</dd></div>
+        <div><dt>sezóna</dt><dd>{% for s in page.season %}{{ site.label('season', s) }}{% if not loop.last %}, {% endif %}{% else %}celý rok{% endfor %}</dd></div>
+        <div><dt>dieta</dt><dd>{% for d in page.diet %}{{ site.label('diet', d) }}{% if not loop.last %}, {% endif %}{% else %}—{% endfor %}</dd></div>
+        <div class="wide"><dt>alergeny</dt><dd>{% for a in site.allergens if a.slug in page.allergens %}{{ a.title }}{% if not loop.last %}, {% endif %}{% else %}žádné z EU 14{% endfor %}</dd></div>
+      </dl>
+      {% if page.status == 'tested' %}
+      <span class="status-line"><i></i>otestováno, {{ cz_plural(page.changes|length, 'úprava', 'úpravy', 'úprav') }}</span>
+      {% else %}
+      <span class="status-line is-draft"><i></i>netestováno: recept je napsaný, ale ještě nebyl uvařený</span>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="rbody">
+    <aside class="ings" aria-labelledby="ing-h">
+      <h2 id="ing-h">Suroviny</h2>
+      <div class="scaler" data-base="{{ page.servings }}">
+        <label for="serv">porce</label>
+        <button type="button" class="scaler__dec" aria-label="Méně porcí">−</button>
+        <input id="serv" class="scaler__servings" type="number" min="1" max="99" data-base="{{ page.servings }}" value="{{ page.servings }}">
+        <button type="button" class="scaler__inc" aria-label="Více porcí">+</button>
+      </div>
+      {% for g in page.ingredient_groups %}
+      {% if g.name %}<h3>{{ g.name }}</h3>{% endif %}
+      <ul>
+        {% for i in g.items %}
+        {% set target = site.pages[i.item] %}
+        <li class="ing"><span class="ing__amount"{% if i.qty %} data-qty="{{ i.qty }}" data-unit="{{ i.unit }}"{% endif %}>{{ i.display }}</span><span>{{ link(target, root, default_link_text(target.title)) }}{% if target.kind == 'recipe' %}<span class="basic">základ</span>{% endif %}{% if i.note %}<small>, {{ i.note }}</small>{% endif %}</span></li>
+        {% endfor %}
+      </ul>
+      {% endfor %}
+    </aside>
+    <div class="prose">
+      {{ body|safe }}
+    </div>
+  </div>
+
+  {% set used = site.linked_explainers(page) %}
+  {% if used %}
+  <section class="block c-mint" aria-labelledby="used-h">
+    <h2 class="h2" id="used-h">Použité metody a vybavení <small>odkazy z postupu</small></h2>
+    <div class="grid4">{% for p in used %}{{ explainer_card(p, root) }}{% endfor %}</div>
+  </section>
+  {% endif %}
+
+  {% set users = site.used_in(page) %}
+  {% if users %}
+  <section class="block c-tomato" aria-labelledby="users-h">
+    <h2 class="h2" id="users-h">Použito v receptech</h2>
+    <ul class="rlist plain">{% for p in users %}{{ recipe_row(site, p, root) }}{% endfor %}</ul>
+  </section>
+  {% endif %}
+
+  <section class="block c-mustard" aria-labelledby="hist-h">
+    <h2 class="h2" id="hist-h">Historie úprav</h2>
+    <ol class="hist">
+      {% for c in page.changes %}<li><time datetime="{{ c.date.isoformat() }}">{{ c.date|date }}</time><span>{{ c.note }}</span></li>{% endfor %}
+    </ol>
+  </section>
+</article>
+{% endblock %}

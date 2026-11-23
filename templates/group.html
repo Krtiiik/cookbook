@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% from "_macros.html" import recipe_card %}
+{% block kind %}group{% endblock %}
+{% block main %}
+<a class="label c-{{ group.color }}" href="{{ root }}skupiny/index.html">{{ GROUP_KINDS[group.kind]|lower }}</a>
+<h1 class="pt">{{ group.title }}</h1>
+<p class="lead">{% if group.summary %}{{ group.summary }} {% endif %}{{ cz_plural(group.recipes|length, 'recept', 'recepty', 'receptů') }}.</p>
+{% if group.recipes %}
+<div class="grid4">{% for p in group.recipes %}{{ recipe_card(site, p, root, COLORS[loop.index0 % 4]) }}{% endfor %}</div>
+{% else %}
+<p class="empty">V této skupině zatím nic není.</p>
+{% endif %}
+{% endblock %}

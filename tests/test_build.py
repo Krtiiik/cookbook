@@ -1,0 +1,296 @@
+import importlib.util
+import json
+import re
+import shutil
+import sys
+import textwrap
+from pathlib import Path
+
+import pytest
+from PIL import Image
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+def _load(name: str, file: str):
+    spec = importlib.util.spec_from_file_location(name, ROOT / "scripts" / file)
+    module = importlib.util.module_from_spec(spec)
+    sys.modules[name] = module
+    spec.loader.exec_module(module)
+    return module
+
+
+build = _load("cookbook_build", "build.py")
+import_photo = _load("cookbook_import_photo", "import_photo.py")
+
+SVG = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400"></svg>'
+RECIPE = """
+---
+title: Polévka
+summary: Jednoduchá polévka.
+status: {status}
+servings: 4
+time_active_min: 10
+time_total_min: 40
+difficulty: easy
+cuisine: czech
+groups: [{groups}]
+ingredient_groups:
+  - items:
+{items}
+changes:
+  - {{ date: 2026-11-20, note: "První verze." }}
+---
+## Postup
+
+1. Uvař [[stock|vývar]] a [[braising]].
+2. Osol.
+
+## Poznámky
+
+Poznámka.
+"""
+
+
+def write(root: Path, rel: str, text: str) -> None:
+    path = root / rel
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(textwrap.dedent(text).lstrip("\n"), encoding="utf-8")
+
+
+def add_recipe(root, slug="polevka", status="draft", groups="polevky",
+               items="      - { qty: 2, unit: lzice, item: onion }\n      - { qty: 500, unit: ml, item: stock }"):
+    write(root, f"content/recepty/{slug}.md", RECIPE.format(status=status, groups=groups, items=items))
+
+
+@pytest.fixture
+def site_root(tmp_path: Path) -> Path:
+    shutil.copytree(ROOT / "data", tmp_path / "data")
+    write(tmp_path, "catalog/metody.yaml", """
+        - { slug: braising, title: Dušení, summary: Pomalu., category: moist-heat }
+        - { slug: browning, title: Hnědnutí, summary: Kůrka., category: dry-heat }
+    """)
+    write(tmp_path, "catalog/suroviny.yaml", """
+        - { slug: onion, title: Cibule, summary: Ostrá., category: vegetables, animal: none, season: all-year }
+        - { slug: butter, title: Máslo, summary: Tuk., category: fats, animal: dairy, season: all-year, allergens: [milk] }
+        - { slug: bones, title: Kosti, summary: Na vývar., category: meat, animal: meat, season: [10, 11] }
+        - { slug: celeriac, title: Celer, summary: Vůně., category: vegetables, animal: none, season: [9, 10], allergens: [celery] }
+    """)
+    write(tmp_path, "catalog/vybaveni.yaml", "[]\n")
+    write(tmp_path, "catalog/reseni-problemu.yaml", "[]\n")
+    write(tmp_path, "catalog/skupiny.yaml", """
+        - { slug: zaklady, kind: course, title: Základy }
+        - { slug: polevky, kind: course, title: Polévky }
+    """)
+    write(tmp_path, "banners/_planned.svg", SVG)
+    write(tmp_path, "banners/braising.svg", SVG)
+    write(tmp_path, "content/metody/braising.md", "Dusí se [[browning|po opečení]].\n")
+    write(tmp_path, "content/recepty/stock.md", RECIPE.format(
+        status="draft", groups="zaklady",
+        items="      - { qty: 1, unit: kg, item: bones }\n      - { qty: 100, unit: g, item: celeriac }",
+    ).replace("[[stock|vývar]] a ", ""))
+    return tmp_path
+
+
+def problems(root: Path) -> str:
+    with pytest.raises(build.BuildError) as e:
+        build.load_site(root)
+    return "\n".join(e.value.problems)
+
+
+# ---------------------------------------------------------------- loading and checks
+
+
+def test_explainer_is_written_only_when_its_file_exists(site_root):
+    site = build.load_site(site_root)
+    assert site.pages["braising"].written
+    assert not site.pages["browning"].written
+    assert [p.slug for p in site.sections[0].pages] == ["braising", "browning"]
+
+
+def test_the_build_lists_every_problem_at_once(site_root):
+    add_recipe(site_root, items="      - { qty: 2, unit: cup, item: onion }\n      - { qty: 1, unit: g, item: ghost }")
+    write(site_root, "content/metody/braising.md", "See [[nowhere]].\n")
+    text = problems(site_root)
+    assert "unknown unit cup" in text  # US units are for the converter only
+    assert "links to unknown [[nowhere]]" in text
+
+
+def test_unknown_ingredient_and_group_fail(site_root):
+    add_recipe(site_root, groups="polevky, ghosts", items="      - { qty: 1, unit: g, item: ghost }")
+    text = problems(site_root)
+    assert "unknown group ghosts" in text
+    assert "ingredient ghost is not in catalog/suroviny.yaml" in text
+
+
+def test_a_tested_recipe_needs_a_photo(site_root):
+    add_recipe(site_root, status="tested")
+    assert "a tested recipe needs a photo photos/polevka.webp" in problems(site_root)
+
+
+def test_slugs_are_unique_across_recipes_and_explainers(site_root):
+    add_recipe(site_root, slug="onion")
+    assert "slug onion is already used" in problems(site_root)
+
+
+def test_explainer_file_must_be_in_its_catalog(site_root):
+    write(site_root, "content/metody/stray.md", "Text.\n")
+    assert "content/metody/stray.md: not in catalog/metody.yaml" in problems(site_root)
+
+
+def test_written_explainer_needs_a_banner(site_root):
+    (site_root / "banners" / "braising.svg").unlink()
+    assert "braising: written explainer has no banner" in problems(site_root)
+
+
+# ---------------------------------------------------------------- derived data
+
+
+def test_allergens_and_diet_pass_through_a_basic(site_root):
+    add_recipe(site_root)
+    site = build.load_site(site_root)
+    stock, soup = site.pages["stock"], site.pages["polevka"]
+    assert stock.is_basic and stock.allergens == ["celery"] and stock.diet == []
+    assert soup.allergens == ["celery"] and soup.diet == []
+    assert site.pages["stock"].backlinks == ["polevka"]  # used as an ingredient
+    assert site.pages["onion"].backlinks == ["polevka"]
+
+
+def test_diet_is_vegetarian_with_dairy_and_vegan_without(site_root):
+    add_recipe(site_root, slug="maslova", items="      - { qty: 50, unit: g, item: butter }")
+    add_recipe(site_root, slug="cibulova", items="      - { qty: 50, unit: g, item: onion }")
+    site = build.load_site(site_root)
+    assert site.pages["maslova"].diet == ["vegetarian"]
+    assert site.pages["maslova"].allergens == ["milk"]
+    assert site.pages["cibulova"].diet == ["vegetarian", "vegan"]
+
+
+def test_a_basic_override_passes_on_to_its_users(site_root):
+    text = (site_root / "content/recepty/stock.md").read_text(encoding="utf-8")
+    write(site_root, "content/recepty/stock.md", text.replace("status: draft", "status: draft\nallergens: []"))
+    add_recipe(site_root)
+    assert build.load_site(site_root).pages["polevka"].allergens == []
+
+
+def test_basics_in_a_loop_fail(site_root):
+    add_recipe(site_root, slug="a", groups="zaklady", items="      - { qty: 1, unit: g, item: b }")
+    add_recipe(site_root, slug="b", groups="zaklady", items="      - { qty: 1, unit: g, item: a }")
+    assert "basics use each other in a loop" in problems(site_root)
+
+
+# ---------------------------------------------------------------- amounts
+
+
+@pytest.mark.parametrize("unit, qty, factor, text", [
+    ("lzice", 1, 1, "1 lžíce"),
+    ("lzice", 2, 1, "2 lžíce"),
+    ("lzice", 5, 1, "5 lžic"),
+    ("lzice", 3, 0.5, "1,5 lžíce"),
+    ("strouzek", 3, 1.5, "5 stroužků"),  # half rounds up, as in the browser scaler
+    ("strouzek", 1, 1, "1 stroužek"),
+    ("g", 1000, 0.75, "750 g"),
+    ("g", 33, 0.5, "17 g"),
+    ("ml", 500, 0.25, "130 ml"),  # from 100 ml the step is 10 ml
+    ("spetka", 1, 3, "1 špetka"),  # a pinch never scales
+])
+def test_amounts_scale_round_and_use_czech_forms(site_root, unit, qty, factor, text):
+    units = build.load_site(site_root).units
+    assert build.fmt_amount(units[unit], qty, factor) == text
+
+
+def test_never_rounds_below_one_step(site_root):
+    units = build.load_site(site_root).units
+    assert build.fmt_amount(units["lzicka"], 1, 0.1) == "0,5 lžičky"
+
+
+# ---------------------------------------------------------------- rendering
+
+
+def test_body_rendering_adds_design_hooks(site_root):
+    add_recipe(site_root)
+    site = build.load_site(site_root)
+    html = build.render_body(site, site.pages["polevka"], "../")
+    assert '<h2 class="c-tomato">Postup</h2>\n<ol class="steps">' in html
+    assert '<a class="site-link is-draft" data-slug="stock" href="../recepty/stock.html">vývar</a>' in html
+    assert '<a class="site-link is-written" data-slug="braising" href="../metody/braising.html">dušení</a>' in html
+    assert '<p class="handnote">Poznámka.</p>' in html
+
+
+def test_recipe_jsonld_lists_steps_and_ingredients(site_root):
+    add_recipe(site_root)
+    site = build.load_site(site_root)
+    data = json.loads(build.recipe_jsonld(site, site.pages["polevka"]))
+    assert data["@type"] == "Recipe"
+    assert [s["text"] for s in data["recipeInstructions"]] == ["Uvař vývar a braising.", "Osol."]
+    assert data["recipeIngredient"] == ["2 lžíce cibule", "500 ml polévka"]
+    assert data["totalTime"] == "PT40M"
+
+
+def test_tested_recipe_gets_resized_photos(site_root, tmp_path):
+    add_recipe(site_root, status="tested")
+    Image.new("RGB", (2000, 1333), "red").save(site_root / "photos.webp")
+    (site_root / "photos").mkdir()
+    shutil.move(site_root / "photos.webp", site_root / "photos" / "polevka.webp")
+    site = build.load_site(site_root)
+    out = tmp_path / "out"
+    build.render_site(site, out, ROOT / "templates", ROOT / "static", tmp_path / "cache")
+    for w in build.PHOTO_WIDTHS:
+        with Image.open(out / "photos" / f"polevka-{w}.webp") as img:
+            assert img.width == w
+    html = (out / "recepty" / "polevka.html").read_text(encoding="utf-8")
+    assert 'srcset="../photos/polevka-400.webp 400w' in html
+    assert '"image"' in html
+
+
+def test_import_photo_shrinks_and_drops_metadata(tmp_path):
+    source = tmp_path / "phone.jpg"
+    exif = Image.Exif()
+    exif[0x010F] = "PhoneMaker"  # camera make, stands in for GPS and other metadata
+    Image.new("RGB", (4000, 3000), "blue").save(source, exif=exif)
+    target = import_photo.import_photo(source, "polevka", tmp_path / "photos")
+    with Image.open(target) as img:
+        assert max(img.size) == import_photo.LONG_SIDE
+        assert not img.getexif()
+
+
+# ---------------------------------------------------------------- the real site
+
+
+@pytest.fixture(scope="module")
+def real_site(tmp_path_factory):
+    out = tmp_path_factory.mktemp("dist")
+    site = build.load_site(ROOT)
+    build.render_site(site, out, ROOT / "templates", ROOT / "static", tmp_path_factory.mktemp("cache"))
+    return site, out
+
+
+def test_real_site_builds(real_site):
+    site, out = real_site
+    assert (out / "index.html").exists()
+    assert (out / "zaklady" / "index.html").exists()
+    for page in site.pages.values():
+        assert (out / page.url).exists()
+
+
+def test_every_internal_link_and_asset_resolves(real_site):
+    _, out = real_site
+    missing = []
+    for html in out.rglob("*.html"):
+        text = html.read_text(encoding="utf-8")
+        for ref in re.findall(r'(?:href|src)="([^"#?]+)', text):
+            if ref.startswith(("http:", "https:", "mailto:")):
+                continue
+            if not (html.parent / ref).resolve().exists():
+                missing.append(f"{html.relative_to(out)} -> {ref}")
+    assert not missing, missing
+
+
+def test_index_holds_previews_and_filters(real_site):
+    _, out = real_site
+    text = (out / "static" / "index.js").read_text(encoding="utf-8")
+    data = json.loads(text.removeprefix("window.SITE_INDEX = ").rstrip().rstrip(";"))
+    gulas = next(p for p in data["pages"] if p["slug"] == "hovezi-gulas")
+    assert gulas["status"] == "draft" and "celery" in gulas["allergens"]
+    braising = next(p for p in data["pages"] if p["slug"] == "braising")
+    assert data["banners"][braising["banner"]].startswith("<svg")
+    assert data["units"]["lzice"]["forms"] == ["lžíce", "lžíce", "lžic", "lžíce"]

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Cibule a nakrájené půlměsíce">
+  <rect width="1200" height="400" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M60 362 H1140" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-dasharray: 2 12; stroke-linecap: round; opacity: .45"/>
+  <path d="M470 120 C380 160 370 330 480 345 L560 345 C670 330 660 160 570 120 Q545 70 520 60 Q495 70 470 120 Z" style="fill: var(--banner-warm, #e9b44c); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M520 75 C470 160 470 300 505 344 M520 75 C570 160 570 300 535 344" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; opacity: .6"/>
+  <path d="M520 60 q-6 -30 6 -46" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linecap: round"/>
+  <g style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linecap: round">
+    <path d="M720 330 a60 60 0 0 1 120 0" style="fill: var(--banner-bg, #fffaf0)"/>
+    <path d="M740 330 a40 40 0 0 1 80 0"/>
+    <path d="M860 330 a60 60 0 0 1 120 0" style="fill: var(--banner-bg, #fffaf0)"/>
+    <path d="M880 330 a40 40 0 0 1 80 0"/>
+  </g>
+  <text x="760" y="230" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">na půlměsíce</text>
+</svg>

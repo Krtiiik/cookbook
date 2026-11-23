@@ -1,0 +1,15 @@
+# The 14 allergens the EU requires to be declared (Regulation 1169/2011, Annex II).
+- { slug: gluten, title: obiloviny s lepkem }
+- { slug: crustaceans, title: korýši }
+- { slug: eggs, title: vejce }
+- { slug: fish, title: ryby }
+- { slug: peanuts, title: arašídy }
+- { slug: soybeans, title: sója }
+- { slug: milk, title: mléko }
+- { slug: nuts, title: skořápkové plody }
+- { slug: celery, title: celer }
+- { slug: mustard, title: hořčice }
+- { slug: sesame, title: sezam }
+- { slug: sulphites, title: oxid siřičitý a siřičitany }
+- { slug: lupin, title: vlčí bob }
+- { slug: molluscs, title: měkkýši }

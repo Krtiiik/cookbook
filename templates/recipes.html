@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% from "_macros.html" import recipe_card %}
+{% block kind %}recipes{% endblock %}
+{% block main %}
+<h1 class="pt">Recepty</h1>
+<p class="lead">Všechny recepty, nejdřív ty naposledy upravené. Recepty se štítkem „netestováno“ ještě nebyly uvařené.</p>
+
+<details class="filters-wrap" open>
+  <summary>Filtry</summary>
+  <form class="filters" aria-label="Filtry receptů">
+    <div class="field"><label for="f-group">Skupina</label>
+      <select id="f-group" name="group"><option value="">všechny</option>
+      {% for kind, kind_title in GROUP_KINDS.items() %}<optgroup label="{{ kind_title }}">{% for g in site.groups if g.kind == kind %}<option value="{{ g.slug }}">{{ g.title }}</option>{% endfor %}</optgroup>{% endfor %}
+      </select></div>
+    <div class="field"><label for="f-season">Sezóna</label>
+      <select id="f-season" name="season"><option value="">kdykoli</option>{% for k, v in site.labels.season.items() %}<option value="{{ k }}">{{ v }}</option>{% endfor %}</select></div>
+    <div class="field"><label for="f-diet">Dieta</label>
+      <select id="f-diet" name="diet"><option value="">jakákoli</option>{% for k, v in site.labels.diet.items() %}<option value="{{ k }}">{{ v }}</option>{% endfor %}</select></div>
+    <div class="field"><label for="f-allergen">Bez alergenu</label>
+      <select id="f-allergen" name="allergen"><option value="">nehledě na alergeny</option>{% for a in site.allergens %}<option value="{{ a.slug }}">bez: {{ a.title }}</option>{% endfor %}</select></div>
+    <div class="field"><label for="f-difficulty">Obtížnost</label>
+      <select id="f-difficulty" name="difficulty"><option value="">jakákoli</option>{% for k, v in site.labels.difficulty.items() %}<option value="{{ k }}">{{ v }}</option>{% endfor %}</select></div>
+    <div class="field"><label for="f-time">Čas celkem</label>
+      <select id="f-time" name="time"><option value="">jakýkoli</option><option value="30">do 30 min</option><option value="60">do 1 h</option><option value="120">do 2 h</option></select></div>
+    <div class="field"><label for="f-cuisine">Kuchyně</label>
+      <select id="f-cuisine" name="cuisine"><option value="">jakákoli</option>{% for k, v in site.labels.cuisine.items() if site.recipes|selectattr('cuisine', 'equalto', k)|list %}<option value="{{ k }}">{{ v }}</option>{% endfor %}</select></div>
+  </form>
+  <p class="filters__count" aria-live="polite"></p>
+</details>
+
+<div class="grid4 recipe-list">
+{% for p in site.recipes %}{{ recipe_card(site, p, root, COLORS[loop.index0 % 4]) }}{% endfor %}
+</div>
+<p class="empty filters__empty" hidden>Nic neodpovídá. Zkus jiný filtr.</p>
+{% endblock %}

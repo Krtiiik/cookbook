@@ -1,0 +1,23 @@
+# Units for recipe amounts and the converter.
+#   forms: Czech forms for 1 / 2-4 / 5+ / decimals (one string when they are all the same;
+#          with 3 forms, decimals use the 2-4 form)
+#   round: [from amount, step] pairs; a scaled amount is rounded to the step of the highest
+#          "from" it reaches
+#   scalable: false for amounts that do not grow with servings (a pinch)
+#   ml / g: size of one unit, for the converter; in_recipes: false for converter-only units
+- { slug: g, title: gram, forms: g, round: [[0, 1], [100, 10]], g: 1 }
+- { slug: kg, title: kilogram, forms: kg, round: [[0, 0.1]], g: 1000 }
+- { slug: ml, title: mililitr, forms: ml, round: [[0, 5], [100, 10]], ml: 1 }
+- { slug: l, title: litr, forms: l, round: [[0, 0.1]], ml: 1000 }
+- { slug: ks, forms: ks, round: [[0, 1]] }
+- { slug: lzice, title: lžíce (15 ml), forms: [lžíce, lžíce, lžic], round: [[0, 0.5]], ml: 15 }
+- { slug: lzicka, title: lžička (5 ml), forms: [lžička, lžičky, lžiček], round: [[0, 0.5]], ml: 5 }
+- { slug: strouzek, forms: [stroužek, stroužky, stroužků, stroužku], round: [[0, 1]] }
+- { slug: spetka, forms: [špetka, špetky, špetek], scalable: false }
+- { slug: hrnek, title: hrnek (250 ml), forms: [hrnek, hrnky, hrnků, hrnku], round: [[0, 0.5]], ml: 250 }
+- { slug: cup, title: hrnek (US), forms: cup, ml: 236.6, in_recipes: false }
+- { slug: tbsp, title: lžíce (US), forms: tbsp, ml: 14.79, in_recipes: false }
+- { slug: tsp, title: lžička (US), forms: tsp, ml: 4.93, in_recipes: false }
+- { slug: floz, title: fl oz, forms: fl oz, ml: 29.57, in_recipes: false }
+- { slug: oz, title: unce (oz), forms: oz, g: 28.35, in_recipes: false }
+- { slug: lb, title: libra (lb), forms: lb, g: 453.6, in_recipes: false }

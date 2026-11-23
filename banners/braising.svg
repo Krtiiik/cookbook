@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Smaltovaný hrnec s pokličkou na mírném plameni, nad ním stoupá pára">
+  <style>.steam path{animation:steam-rise 3.4s ease-in-out infinite}.steam path:nth-child(2){animation-delay:1.1s}.steam path:nth-child(3){animation-delay:2.2s}@keyframes steam-rise{0%{opacity:0;transform:translateY(14px)}40%{opacity:1}100%{opacity:0;transform:translateY(-16px)}}@media (prefers-reduced-motion:reduce){.steam path{animation:none}}</style>
+  <rect width="1200" height="400" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M60 362 H1140" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-dasharray: 2 12; stroke-linecap: round; opacity: .45"/>
+  <path d="M496 376 q16-38 32-2 q16-48 32-2 q16-38 32-2 q16-52 32-2 q16-38 32-2 q16-48 32-2 Z" style="fill: var(--banner-warm, #e9b44c); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+  <path d="M432 172 C500 168 700 168 768 174 L752 326 Q750 344 732 345 L468 344 Q450 343 448 326 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <g style="fill: #fff7ea"><circle cx="500" cy="230" r="12"/><circle cx="580" cy="285" r="12"/><circle cx="650" cy="225" r="12"/><circle cx="710" cy="290" r="12"/></g>
+  <path d="M432 196 q-44 2 -42 26 q2 20 46 16" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 8; stroke-linecap: round"/>
+  <path d="M768 196 q44 2 42 26 q-2 20 -46 16" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 8; stroke-linecap: round"/>
+  <path d="M412 168 C470 118 730 112 790 166 Z" style="fill: var(--banner-cool, #1f4fa3); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <circle cx="600" cy="120" r="15" style="fill: var(--banner-warm, #e9b44c); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6"/>
+  <g class="steam" style="fill: none; stroke: var(--banner-cool, #1f4fa3); stroke-width: 6; stroke-linecap: round">
+    <path d="M470 140 q-20-24 0-48 q20-24 0-46"/>
+    <path d="M600 92 q-18-22 0-42 q18-20 0-36"/>
+    <path d="M730 140 q-20-24 0-48 q20-24 0-46"/>
+  </g>
+  <path d="M840 130 q40 -40 110 -36" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="960" y="104" style="font: 600 40px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">poklička!</text>
+  <path d="M828 266 q50 10 96 -10" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="936" y="262" style="font: 600 36px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">jen do půlky masa</text>
+  <path d="M380 360 q-60 -10 -110 -60" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="110" y="286" style="font: 600 36px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">mírný oheň</text>
+</svg>

@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% from "_macros.html" import explainer_card %}
+{% block kind %}section{% endblock %}
+{% block main %}
+<h1 class="pt">{{ section.title }}</h1>
+<p class="lead">Napsáno {{ section.written_count }} z {{ section.pages|length }}. Stránky v plánu už mají odkazy a ukazují recepty, které je používají.</p>
+<div class="grid4">{% for p in section.pages %}{{ explainer_card(p, root) }}{% endfor %}</div>
+{% endblock %}
