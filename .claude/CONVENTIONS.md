@@ -17,6 +17,8 @@ Skip anything tooling already checks. Prefer a rule plus a one-line reason over 
 - Food-safety numbers (temperatures, storage times) need a cited authority. Never invent them.
 - Draft text from the corpus must be new writing. No sentence may be a near-copy of a source.
 - Add a `changes` entry each time a tested recipe changes in substance.
+- Czech past tense shows gender, and the owner's is not recorded. Write about cooking in the present or in neutral forms ("ještě nebyl uvařený", not "ještě jsem ho nevařil").
+- Quote YAML values that contain a comma or a colon (`note: "rozpůlená, ve slupce"`); unquoted, YAML splits them into unknown keys.
 
 ## Where things go
 
@@ -26,6 +28,15 @@ Skip anything tooling already checks. Prefer a rule plus a one-line reason over 
 - Recipe photos: run the import script; never commit an original.
 - Corpus files: outside the repository or in a git-ignored folder.
 
+- New category, cuisine or season value: add its Czech label to `data/labels.yaml`.
+- Lists a template needs (related pages, backlinks, recent changes) are methods on `Site` in the build, not loops in Jinja: templates run with `StrictUndefined`, and Python is easier to test.
+
+## Code
+
+- The build collects problems into a list and raises once at the end; never stop at the first problem.
+- Rounding of scaled amounts must match in `build.py` and `site.js` (half up, step from `units.yaml`).
+- The look follows `docs/STYLE.md`; the classes and data attributes in `SPEC.md` are the contract between templates, CSS and JS.
+
 ## Banners
 
 - 3:1 SVG, colours only through the banner CSS variables in `SPEC.md`, no `id` attributes.
@@ -33,4 +44,5 @@ Skip anything tooling already checks. Prefer a rule plus a one-line reason over 
 
 ## Testing
 
-<!-- To be set when the build exists: pytest, tests also build the real site. -->
+- pytest in `tests/test_build.py`. Unit tests build a small site in `tmp_path` (the real `data/` plus small catalogs); the last tests build the real site and check that every internal link resolves.
+- A new check in the build gets a test that triggers its message.

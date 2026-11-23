@@ -2,7 +2,7 @@
 
 This is the contract between the site's structure (build script, catalogs, content, data, banners, photos) and its design (templates and styles). The design can change any markup and styling, provided that it keeps the data, URLs and hooks below working. The content model and the reasons behind it are in `docs/BRIEF.md`.
 
-Status: the build does not exist yet. This spec states what it will give to the templates. When the build and this spec disagree, fix the one that is wrong in the same change.
+The look itself is in `docs/STYLE.md`. When the build and this spec disagree, fix the one that is wrong in the same change.
 
 ## Ownership
 
@@ -36,7 +36,7 @@ All URLs are relative. Every template gets `root` and must put it before every i
 | Explainer | `<section>/<slug>.html` | `explainer.html` | One explainer, written or planned |
 | Groups | `skupiny/index.html` | `groups.html` | All groups, sorted by kind |
 | Group | `skupiny/<slug>.html` | `group.html` | Recipes in one group |
-| Basics | `zaklady/index.html` | `group.html` | Same page as `skupiny/zaklady.html`, at a short URL |
+| Basics | `zaklady/index.html` | `group.html` | The page of the group `zaklady` (it has no `skupiny/` page) |
 | Reference | `reference/index.html` | `reference.html` | Unit converter and seasonal calendar |
 | About | `o-webu/index.html` | `about.html` | Licence, credits, how the site is made |
 
@@ -74,13 +74,16 @@ Templates are Jinja2 (`StrictUndefined`, autoescape on). Every template receives
 | `site.pages` | dict slug → page, every recipe and explainer |
 | `site.units` | dict unit slug → unit |
 | `site.allergens` | list of the EU 14: `slug`, `title` |
+| `site.labels`, `site.label(kind, value)` | Czech labels from `data/labels.yaml` |
+| `site.meta` | `data/site.yaml`: `title`, `tagline`, `url`, `licence`, `licence_url` |
+| `site.related(page)`, `site.used_in(page)`, `site.linked_explainers(page)`, `site.recent_changes(n)` | ready-made lists for the side boxes, backlinks and the home log |
 | `root` | relative prefix to the site root |
 | `current` | this page's URL relative to the root |
 | `title` | text for `<title>` |
 
 A **page** has `kind` (`recipe`/`explainer`), `slug`, `title`, `summary`, `url`, `links` (slugs linked from the body), `backlinks` (slugs that link here).
 
-A **recipe** page also has: `status` (`draft`/`tested`), `photo` (dict of sizes → URL, or none), `servings`, `time_active_min`, `time_total_min`, `difficulty`, `cuisine`, `season`, `groups` (slugs), `diet`, `allergens` (derived), `ingredient_groups` (each item: `qty`, `unit`, `item`, `note`, `text`, `display` (Czech text for the base servings)), `changes`, `jsonld` (string, output with `| safe` in a `<script type="application/ld+json">`).
+A **recipe** page also has: `status` (`draft`/`tested`), `photo` (dict of widths 400/800/1600 → URL, or none), `updated` (date of the newest change), `is_basic`, `servings`, `time_active_min`, `time_total_min`, `difficulty`, `cuisine`, `season`, `groups` (slugs), `diet`, `allergens` (derived), `ingredient_groups` (each item: `qty`, `unit`, `item`, `note`, `text`, `display` (Czech text for the base servings)), `changes`, `jsonld` (string, output with `| safe` in a `<script type="application/ld+json">`).
 
 An **explainer** page also has: `section`, `status` (`written`/`planned`), `banner_svg` (inline SVG, output with `| safe`), `category`, and the section's catalog fields (`season`, `substitutes`, `allergens`, `animal` for ingredients; `related` for methods).
 
@@ -108,7 +111,7 @@ Plain JavaScript in `static/`. Keep these classes and attributes, or update the 
 
 | Feature | Hook |
 |---|---|
-| Data | `static/index.js` (generated) sets `window.SITE_INDEX = {pages, groups, sections, units, banners}`. Each page entry has `slug, kind, title, summary, url, status, section?, groups?, season?, diet?, allergens?, difficulty?, time_total_min?, cuisine?, photo?, banner?`. Load it before the other scripts. |
+| Data | `static/index.js` (generated) sets `window.SITE_INDEX = {pages, groups, sections, units, banners}`. Each page entry has `slug, kind, title, summary, url, status, fold` (title and summary without diacritics, for search), `section` (Czech label), and for recipes `groups, season, diet, allergens, difficulty, time_total_min, cuisine, photo?`, for explainers `banner`. `units` holds the recipe units with `forms`, `scalable` and `round`. Load it before the other scripts. |
 | Root | `<html data-root="{{ root }}">` |
 | Internal links | `a.site-link[data-slug]` with `is-written`/`is-planned`/`is-draft`/`is-tested`. Body links come from the build, so these class names are fixed. |
 | Hover preview | one hidden `.link-preview` that the script fills with `.link-preview__media` (banner or photo) and `.link-preview__text` (`__section`, `__title`, `__summary`, `__status`) |
@@ -119,7 +122,9 @@ Plain JavaScript in `static/`. Keep these classes and attributes, or update the 
 | Calendar | `table.season` with `tr[data-slug][data-category]`, `td.is-in-season`; filter controls `input.season__search`, `select.season__category` |
 | Status | `.is-written`/`.is-planned`/`.is-draft`/`.is-tested` on cards, links and the article |
 | Page kind | `body.page-home|recipes|recipe|section|explainer|groups|group|reference|about` |
-| Theme switch | `button.theme[data-theme-current=system|light|dark]`, as on the trading site; choice kept in `localStorage` |
+| Theme switch | `button.theme[data-theme-current=system|light|dark]` with `.theme__icon--<choice>` and `.theme__label`; the choice is kept in `localStorage` under `kk-theme`, and the inline script in `base.html` sets `data-theme` and `html.js` before first paint |
+| Current month | the script adds `.now` to `[data-month=N]` cells in `table.season` and `.strip` |
+| No-JS | `html:not(.js)` hides controls that need the script (theme switch, scaler buttons) |
 
 ## Constraints
 
@@ -127,3 +132,13 @@ Plain JavaScript in `static/`. Keep these classes and attributes, or update the 
 - Must work at phone width (16px side gutter, no horizontal page scroll) and in light and dark mode.
 - Pages must be readable without JavaScript. Search, filters, previews, the scaler, the converter and the calendar filter need it.
 - UI text is Czech and addresses the reader informally (tykání: "Hledej", "Přepočítej porce", "Zkus jiný filtr"), never with vykání ("Hledejte", "Vaše").
+
+## Build and preview
+
+```
+uv run python scripts/build.py                      # builds dist/; lists every problem and exits 1 on any
+uv run pytest                                       # tests; they also build the real site
+uv run python scripts/import_photo.py PATH SLUG     # shrinks a photo to photos/<slug>.webp, without metadata
+```
+
+Preview with the `site` entry in `.claude/launch.json`: it runs `scripts/serve.py`, which serves `dist/` on `$PORT` (default 8766). GitHub Actions deploys the site when a change reaches `main`.

@@ -85,3 +85,7 @@ The hook checks the literal path in the command, so it can't be tricked and neit
 - In a sub-session or agent, finish the rest of the task and report the blocked operation to the parent session or the user.
 
 ## Test commands
+
+- `uv run pytest`: all tests; they also build the real site.
+- `uv run python scripts/build.py`: build `dist/`; lists every content problem and exits 1 on any.
+- Preview: the `site` entry in `.claude/launch.json` serves `dist/` on port 8766 (rebuild first).

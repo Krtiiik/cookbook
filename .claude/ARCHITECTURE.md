@@ -9,7 +9,7 @@ why a design was chosen over the obvious alternative, and the constraints that s
 
 ## Overview
 
-A static Czech cooking site: recipes are the main content, explainers (methods, ingredients, equipment, troubleshooting) support them. A custom Python build turns Markdown, YAML catalogs and data files into HTML plus one JSON index, and deploys to GitHub Pages. The full brief is `docs/BRIEF.md`; the structure/design contract is `SPEC.md`. Nothing is built yet.
+A static Czech cooking site: recipes are the main content, explainers (methods, ingredients, equipment, troubleshooting) support them. A custom Python build turns Markdown, YAML catalogs and data files into HTML plus one JSON index, and deploys to GitHub Pages. The full brief is `docs/BRIEF.md`, the structure/design contract is `SPEC.md`, and the look is `docs/STYLE.md` (ported from the hybrid "Smaltovaný sešit" prototypes on the design canvas). The authoring skills, agents and the corpus lookup are not built yet.
 
 ## Components and flow
 
@@ -42,7 +42,11 @@ A static Czech cooking site: recipes are the main content, explainers (methods, 
 
 **Own JSON index, not Pagefind.** One file drives search, filters and previews, as on the trading site. Enough for a few hundred pages.
 
-**Photos shrunk on import.** Phone originals would bloat the repo and Pages limits; originals stay outside the repository.
+**Photo found by file name.** A tested recipe needs `photos/<slug>.webp`; there is no `photo` field to keep in sync, the same way an explainer is written when its body file exists.
+
+**Labels in one data file.** Difficulty, cuisine, season, diet and category values are English keys with Czech labels in `data/labels.yaml`. The build rejects unknown values, so a typo cannot create a new filter option.
+
+**Photos shrunk on import, metadata dropped.** Phone originals would bloat the repo and the Pages limits, so originals stay outside the repository. The import script also removes EXIF, so phone GPS data is never published.
 
 **Private corpus.** Recipe datasets are used only for comparing variants when drafting. They never enter the published site; a near-copy check runs on each draft.
 

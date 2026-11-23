@@ -43,24 +43,23 @@ Two kinds of content page:
 ---
 title: "Hovězí guláš"
 summary: "One or two sentences."
-status: tested                # draft | tested
-photo: hovezi-gulas.webp      # required when tested
+status: tested                # draft | tested; tested needs photos/<slug>.webp
 servings: 4
 time_active_min: 30
 time_total_min: 180
 difficulty: medium            # easy | medium | hard
 cuisine: czech
 season: [autumn, winter]
-groups: [hlavni-jidlo, zimni]
+groups: [hlavni-jidla, zimni]
 ingredient_groups:
   - name: Guláš
     items:
       - { qty: 1000, unit: g, item: beef-shank }
       - { qty: 500, unit: g, item: onion, note: nakrájená }
       - { qty: 2, unit: lzice, item: sweet-paprika }
-      - { qty: 500, unit: ml, item: beef-stock }   # a basic: links to its recipe
+      - { qty: 500, unit: ml, item: hovezi-vyvar } # a basic: links to its recipe
       - { text: podle chuti, item: salt }          # never scales
-changes:
+changes:                      # at least one entry; newest is the "updated" date
   - { date: 2026-11-20, note: "Víc cibule, kratší vaření." }
 # optional overrides of derived data:
 # allergens: [...]
@@ -68,9 +67,10 @@ changes:
 ---
 ```
 
-- The slug is the file name.
+- The slug is the file name. The photo is found by file name too (`photos/<slug>.webp`), so there is no `photo` field.
+- Quote a `note` or `text` that contains a comma or a colon, or YAML splits it.
 - `item` is an ingredient slug from `catalog/suroviny.yaml` or the slug of a recipe in group `zaklady` (a **basic**).
-- `unit` is a slug from `data/units.yaml`.
+- `unit` is a recipe unit from `data/units.yaml`. `difficulty`, `cuisine` and `season` take values from `data/labels.yaml`.
 - **Derived, not typed**: allergens (EU 14) and diet (vegetarian, vegan) come from the ingredient catalog. Use the optional fields only to override.
 - **No** `course`, `methods`, `equipment`, `uses_basics`, `ingredients`, `tags`, `version` or `archived` fields. Groups replace course and tags. Body links replace the method and equipment lists. `ingredient_groups` replaces the ingredient list and `uses_basics`.
 
@@ -97,7 +97,8 @@ Catalog entries (one file per section in `catalog/`):
   season: all-year             # or month numbers, e.g. [6, 7, 8]; drives the calendar
   substitutes: [shallot, leek]
   allergens: []                # EU 14 slugs
-  animal: none                 # none | dairy | egg | fish | meat (drives diet)
+  animal: none                 # none | dairy | egg | honey | fish | meat (drives diet)
+  density: 1.0                 # optional, g/ml, only for the unit converter
 
 # catalog/metody.yaml
 - slug: braising
@@ -107,7 +108,7 @@ Catalog entries (one file per section in `catalog/`):
   related: [stewing, confit]
 ```
 
-Equipment and troubleshooting entries have `slug`, `title`, `summary` and `category`.
+Equipment and troubleshooting entries have `slug`, `title`, `summary`, and optional `category` and `related`. Every `category` value needs a Czech label in `data/labels.yaml`.
 
 Body sections:
 
@@ -143,9 +144,11 @@ Kinds: `course` (what the dish is) and `occasion` (when you make it). The build 
 | File | Content |
 |---|---|
 | `catalog/suroviny.yaml`, `metody.yaml`, `vybaveni.yaml`, `reseni-problemu.yaml` | Explainer entries |
-| `catalog/skupiny.yaml` | Recipe groups |
-| `data/units.yaml` | Units: slug, Czech forms (1 / 2–4 / 5+), `scalable`, `round` step, optional grams-per-unit for the converter |
+| `catalog/skupiny.yaml` | Recipe groups: `slug`, `kind`, `title`, optional `summary` and `color` (chip colour) |
+| `data/units.yaml` | Units: slug, Czech forms (1 / 2–4 / 5+ / decimals), `scalable`, `round` steps, `ml` or `g` per unit for the converter; US units are converter-only (`in_recipes: false`) |
 | `data/allergens.yaml` | The EU 14 allergens with Czech names |
+| `data/labels.yaml` | Czech labels for difficulty, season, diet, cuisine and catalog categories; the build rejects a value missing here |
+| `data/site.yaml` | Site name, tagline, public URL (for JSON-LD), licence |
 
 Not in the first phase: USDA nutrition values, Wikidata ids, Open Food Facts.
 
@@ -196,11 +199,12 @@ Adapted from the trading site's pipeline:
 - **Hosting**: GitHub Pages, deployed by a GitHub Actions workflow on push to `main` (tests and build first).
 - **Client JS**: plain JavaScript, no framework: search, filters, previews, scaler, converter, calendar, theme switch.
 
-## 11. First steps
+## 11. Status and next steps
 
-1. Set up the build: catalogs, units, recipe loader, validation, `[[link]]` resolution, backlinks.
-2. Add 2–3 sample pages of each type to test the model and the links.
-3. Recipe page: ingredients from data, scaler, JSON-LD, print view.
-4. Generated index: search, previews, filters.
-5. Corpus lookup script and the authoring skills; try the workflow on one recipe.
-6. Reference page and `o-webu`.
+Done: the build with validation, links and derived data; recipe, explainer, list, group, reference and about pages in the "Smaltovaný sešit" style (`docs/STYLE.md`); search, previews, filters, scaler, converter and season calendar; photo import; tests; the Pages workflow. Sample content: 3 draft recipes and 3 written explainers.
+
+Next:
+
+1. Corpus lookup script (TheMealDB into SQLite) and the near-copy check.
+2. Authoring skills and agents (`write-recipe`, `write-explainer`; writer, illustrator, reviewer, fact-checker).
+3. Doneness temperatures and storage times on the reference page, with cited sources.
