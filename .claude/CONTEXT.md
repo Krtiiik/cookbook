@@ -9,13 +9,48 @@ Glossary for Claude: the terms and top-level concepts this project uses with a s
 
 ## Language
 
-**Term**: What it means in this project, in one sentence.
-_Avoid_: other names people use for it, so Claude doesn't introduce them.
+**Recipe**: the main content: one dish, with structured ingredients, steps and the owner's notes.
+_Avoid_: dish page, post.
+
+**Explainer**: a supporting page in one of four sections: method, ingredient, equipment, troubleshooting.
+_Avoid_: concept, article, wiki page.
+
+**Section**: one of the four explainer kinds (`metody`, `suroviny`, `vybaveni`, `reseni-problemu`).
+_Avoid_: category (that is a field inside a section).
+
+**Catalog**: the per-section list of explainers (slug, title, summary, data), plus the list of groups. It is also the roadmap.
+
+**Written / planned**: an explainer is written when its body file exists, planned when it is only in the catalog.
+_Avoid_: stub, draft (for explainers).
+
+**Draft / tested**: a recipe's status. A draft is published but marked "netestováno"; a tested recipe was cooked and has a photo.
+_Avoid_: unpublished, final.
+
+**Group**: a named set of recipes, defined in the catalog, with a kind.
+_Avoid_: tag, collection, category.
+
+**Kind**: what a group sorts by: `course` (what the dish is) or `occasion` (when you make it).
+
+**Basic**: a recipe in the group `zaklady` (stock, sauce, dough) that other recipes use as an ingredient.
+_Avoid_: sub-recipe, component.
+
+**Ingredient item**: one line of a recipe's ingredient list: amount, unit, ingredient or basic slug, note.
+
+**Unit**: one entry of the fixed unit list, with Czech forms and scaling rules.
+
+**Banner**: the hand-drawn SVG header of an explainer.
+
+**Corpus**: the private recipe dataset used only as reference when drafting. Never published.
 
 ## Relationships
 
-<!-- How the terms connect, e.g. "An **Order** has many **Lines**." -->
+- A **recipe** has **ingredient items**; each names an ingredient explainer or a **basic**.
+- A **recipe** links to method, equipment and troubleshooting **explainers** from its body; each explainer lists the recipes that link to it.
+- A **recipe** is in one or more **groups**; each group has one **kind**.
+- A recipe's allergens and diet are derived from its ingredients' catalog data.
 
 ## Ambiguities
 
-<!-- Words used loosely or differently by different people, and which meaning wins. -->
+- "Základy" is a **group** (kind `course`), not a section.
+- "Draft" is only a recipe status. A missing explainer is **planned**.
+- "Kategorie" in the catalog is a field inside a section (vegetables, moist-heat), not a group.
