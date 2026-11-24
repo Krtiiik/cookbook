@@ -2,7 +2,7 @@
 
 Hovězí kosti jsou kosti z nohou, kloubů a žeber s málo masem nebo žádným. Jsou základ [[hovezi-vyvar|hovězího vývaru]]: dávají mu chuť, tuk a želatinu.
 
-Z vývaru je nedělní hovězí polévka s nudlemi a játrovými knedlíčky, polévka s kapáním nebo s rýží. Vývarem se podlévá [[hovezi-gulas|guláš]], svíčková, koprovka i rajská, a omáčka z něj má plnější chuť než z vody. Doma se proto vyplatí uvařit vývar z většího hrnce kostí a zamrazit ho po porcích.
+Z vývaru je nedělní hovězí polévka s nudlemi a játrovými knedlíčky, polévka s kapáním nebo s [[rice|rýží]]. Vývarem se podlévá [[hovezi-gulas|guláš]], svíčková, koprovka i rajská, a omáčka z něj má plnější chuť než z vody. Doma se proto vyplatí uvařit vývar z většího hrnce kostí a zamrazit ho po porcích.
 
 Každý druh kosti dá něco jiného. Morek uvnitř dlouhých kostí dá chuť a tuk. Chrupavky a vazy na kloubech jsou plné kolagenu. Za několik hodin v [[simmering|mírném varu]] se kolagen mění na želatinu (viz [[braising|dušení]]) a vývar dostane plnost. Proto se kosti obvykle míchají.
 

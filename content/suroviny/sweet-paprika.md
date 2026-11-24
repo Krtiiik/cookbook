@@ -54,8 +54,8 @@ Kolik: do guláše asi 2 lžíce na 1 kg masa. Paprikáš, segedín a bramborov�
 
 ### Další použití
 
-- **Paprikáš a segedín:** paprika jde na cibuli stejně jako u guláše, mimo oheň. Smetanu rozmíchanou s hladkou moukou přidáváš až na konci, do měkkého masa. Paprika už je v té chvíli v omáčce a nepřipálí se.
-- **Do jíšky:** gulášová polévka a bramborový guláš se někdy zahušťují jíškou s paprikou. Jíšku opraž bez papriky, stáhni hrnec z ohně, papriku vmíchej až potom a hned zalij. Mouka se praží několik minut, paprika by to nevydržela.
+- **Paprikáš a segedín:** paprika jde na cibuli stejně jako u guláše, mimo oheň. Smetanu rozmíchanou s [[flour|hladkou moukou]] přidáváš až na konci, do měkkého masa, a po zahuštění necháš aspoň 15 minut mírně vařit. Paprika už je v té chvíli v omáčce a nepřipálí se.
+- **Do jíšky:** gulášová polévka a bramborový guláš se někdy zahušťují [[flour|jíškou]] s paprikou. Jíšku opraž bez papriky, stáhni hrnec z ohně, papriku vmíchej až potom a hned zalij. Po zahuštění nech aspoň 15 minut mírně vařit. Mouka se praží několik minut, paprika by to nevydržela.
 - **Za studena:** na pomazánky, chleba se sádlem nebo vejce ji jen posyp. Nic se nepřipálí a barva je nejjasnější.
 - **Na kuře do trouby:** rozmíchej papriku v oleji se solí a kmínem a kuře tím potři. V oleji se rozloží po kůži rovnoměrně. Když kůže tmavne moc rychle, přikryj kuře alobalem.
 

@@ -67,7 +67,7 @@ Každé koření jde do hrnce v jinou chvíli. Mletý kmín a paprika jdou do hr
 - **S pivem:** až polovinu vývaru nahraď světlým nebo tmavým pivem (obsahuje lepek). Přilij ho v kroku 8 spolu s vývarem. Omáčka bude tmavší, se sladovou, lehce nahořklou chutí.
 - **Víc česneku:** kdo má rád česnekový guláš, přidá na konci s majoránkou ještě 1–2 prolisované stroužky.
 - **Ostřejší:** 1 lžičku sladké papriky nahraď pálivou, viz [[hot-paprika|pálivá paprika]].
-- **Hustší omáčka:** doma se často na konci zapráší 1 lžíce hladké mouky, nebo se vmíchá mouka rozmíchaná ve studené vodě, a 10 minut se provaří (obsahuje lepek). Omáčka bude hustší a matnější; s dostatkem cibule to není potřeba.
+- **Hustší omáčka:** doma se na konci vmíchá 1–2 lžíce hladké mouky rozmíchané ve studené vodě ([[flour|zátřepka]], obsahuje lepek). Vlij ji tenkým proudem a míchej ode dna. Omáčka se pak aspoň 15 minut mírně vaří; bude hustší a matnější. S dostatkem cibule to není potřeba.
 - **Bez vývaru:** voda s bujónem. Bujón je slaný a často obsahuje celer, někdy i lepek, mléko nebo sóju; čti složení na obalu. Guláš pak sol, až ochutnáš na konci. Jen s vodou a lžící protlaku navíc bude chuť lehčí.
 - **V troubě:** troubu zapni už při kroku 7. Místo kroků 10–12 dej přikrytý litinový hrnec nebo kastrol s kovovými úchyty do trouby; teplotu a postup najdeš u [[braising|dušení]].
 

@@ -5,7 +5,7 @@ Rajčatový protlak je rajčatová dřeň bez slupek a semínek, zahuštěná od
 Kam patří:
 
 - **[[hovezi-gulas|Guláš]], segedín, paprikáš:** jen trochu, pro barvu a plnost. Do guláše na 4 porce stačí 1 lžíce. Opeče se na hotové cibuli spolu s česnekem a kmínem, než přijde paprika.
-- **Rajská omáčka:** tady je protlak hlavní. Opeče se na tuku, zalije vývarem, zahustí jíškou a dochutí cukrem a octem nebo citronem.
+- **Rajská omáčka:** tady je protlak hlavní. Opeče se na tuku, zalije vývarem, zahustí [[flour|jíškou]], aspoň 15 minut mírně vaří a dochutí cukrem a octem nebo citronem.
 - **Špagety s masem:** protlak se opeče s cibulí a mletým masem a zalije vodou nebo rajčaty z plechovky.
 - **Buřtguláš:** cibule, buřty, paprika a lžíce nebo dvě protlaku.
 - **Lečo:** když jsou rajčata vodnatá, lžíce protlaku dodá barvu a chuť.

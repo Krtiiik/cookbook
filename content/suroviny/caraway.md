@@ -76,7 +76,7 @@ Když se z pánve kouří nebo semínka zčernají, kmín zhořkl. Vyhoď ho a z
 2. Přidej celý kmín a míchej, jen pár vteřin, nejvýš půl minuty.
 3. Jakmile zavoní, hned přidej cibuli nebo tekutinu. Ty hrnec zchladí a kmín se dál nepraží.
 
-Tuk pak voní kmínem a rozvede jeho chuť po celém jídle. Takhle začíná kmínová polévka: ke kmínu na tuku hned přisyp [[flour|hladkou mouku]] (obsahuje lepek), udělej světlou jíšku a zalij ji vodou. Stejně můžeš začít i zelí nebo opékané brambory.
+Tuk pak voní kmínem a rozvede jeho chuť po celém jídle. Takhle začíná kmínová polévka: ke kmínu na tuku hned přisyp [[flour|hladkou mouku]] (obsahuje lepek), udělej světlou jíšku, zalij ji vodou a po zahuštění nech aspoň 15 minut mírně vařit. Stejně můžeš začít i zelí nebo opékané brambory.
 
 ### Mletý kmín na tuku
 

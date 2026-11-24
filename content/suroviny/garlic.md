@@ -10,7 +10,7 @@ Syrový česnek je ostrý a štiplavý. Ostrost ale v celém stroužku ještě n
 - **Nepaličák:** bez stonku, stroužky ve více vrstvách, uvnitř i drobné. Vydrží déle, často do jara. Díky měkkým listům se dá splést do copu a pověsit ve spíži.
 - **Český, nebo dovozový:** český česnek se sklízí v červenci a od léta je na trzích, u pěstitelů a v některých obchodech s označením původu ČR. V supermarketech bývá celý rok hlavně dovozový, často z Číny nebo ze Španělska: bílé, stejně velké hlavičky s ostře zastřiženými kořínky. Bývá méně aromatický. Na česnečku a pomazánky se vyplatí český, do guláše stačí jakýkoli.
 - **Mladý česnek:** v květnu a červnu, se zelenou natí a měkkou, vlhkou slupkou. Je jemnější a jí se celý i s natí, nasekaný do pomazánky nebo na chleba s máslem.
-- **[[wild-garlic|Medvědí česnek]]:** planý příbuzný česneku, roste v březnu a dubnu v lužních lesích. Jí se listy, ne hlavička. Na trzích a v obchodech se prodává ve svazcích. Když ho sbíráš v lese, ber jen listy, které bezpečně poznáš: podobají se jedovaté konvalince, ocúnu a áronu. Medvědí česnek voní po česneku už při promnutí, ale když už máš česnekem cítit prsty, vůně tě neochrání; poznávej i tvar listu.
+- **[[wild-garlic|Medvědí česnek]]:** planý příbuzný česneku, roste v březnu a dubnu v lužních lesích. Jí se listy, ne hlavička. Na trzích a v obchodech se prodává ve svazcích. Když ho sbíráš v lese, ber jen listy, které bezpečně poznáš: podobají se jedovaté konvalince, ocúnu a árónu. Medvědí česnek voní po česneku už při promnutí, ale když už máš česnekem cítit prsty, vůně tě neochrání; poznávej i tvar listu.
 
 ## Jak vybrat
 
@@ -70,6 +70,6 @@ Stejné riziko má nakládaný hermelín: sýr s česnekem v oleji. Platí pro n
 
 ## Náhrady
 
-- **[[wild-garlic|Medvědí česnek]]:** jen na jaře. Přidej ho syrový nebo až na konci vaření, teplem ztrácí vůni.
+- **[[wild-garlic|Medvědí česnek]]:** jen na jaře, asi hrst listů (50 g) za stroužek. Přidej ho syrový nebo až na konci vaření, teplem ztrácí vůni.
 - **Sušený česnek (granulovaný nebo mletý):** asi ⅛ lžičky prášku za 1 stroužek. Přidej ho do tekutiny nebo do těsta, v rozpáleném tuku bez tekutiny se rychle připálí. Na česnečku a topinky se nehodí, chybí mu ostrost čerstvého.
 - **Mladý česnek:** místo zralého, dej ho víc, je jemnější.

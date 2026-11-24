@@ -61,7 +61,7 @@ Zbytky ohřívej, až se celé prohřejí a začnou mírně vařit: ve středu a
 
 - **V hrnci:** guláš, svíčkovou nebo polévku ohřívej pod pokličkou na mírném ohni, se lžící vody, a míchej ode dna. Měř uprostřed hrnce.
 - **V mikrovlnce:** v půlce času promíchej, ohřívej dál a změř nejstudenější místo, obvykle střed porce.
-- **Co nevaří:** kaši, brambory a porce v mikrovlnce, které nevaří, ohřej, až mají ve středu aspoň 75 °C, nebo 70 °C po 2 minuty.
+- **Co nevaří:** kaši, brambory, rýži a porce v mikrovlnce, které nevaří, ohřej, až mají ve středu aspoň 75 °C, nebo 70 °C po 2 minuty.
 - Ohřej jen tolik, kolik sníš. Britský úřad FSA radí ohřívat jídlo jen jednou.
 
 ### Lednice a mrazák

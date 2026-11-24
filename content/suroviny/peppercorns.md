@@ -61,7 +61,7 @@ Tohle platí pro každé suché koření, nejen pro pepř:
 
 **Celý pepř na začátku dlouhého vaření.** Do [[hovezi-vyvar|hovězího vývaru]] jde 10 kuliček, jakmile sebereš pěnu a stáhneš oheň. Pak se vaří celé 4 hodiny. Na konci je sceď spolu s ostatním. Do jídla, které nescezuješ, dej kuličky do čajového sítka nebo do plátýnka, ať je pak snadno vyndáš (viz [[bay-leaf|bobkový list]]). Kousnout do celé kuličky není příjemné.
 
-**Svíčková.** Na svíčkovou dej asi 10 kuliček pepře spolu s pár kuličkami [[allspice|nového koření]] a 2 [[bay-leaf|bobkovými listy]] ke kořenové zelenině a masu, ať už maso nejdřív marinuješ, nebo ho rovnou dusíš. Koření se dusí s masem celou dobu. Než omáčku rozmixuješ, kuličky i listy vylov: rozmixované kuličky by omáčku zbytečně zostřily a zůstaly by v ní tvrdé kousky. Kdo nechce lovit, dá koření do plátýnka.
+**Svíčková.** Na svíčkovou dej asi 10 kuliček pepře spolu s 5–6 kuličkami [[allspice|nového koření]] a 2 [[bay-leaf|bobkovými listy]] ke kořenové zelenině a masu, ať už maso nejdřív marinuješ, nebo ho rovnou dusíš. Koření se dusí s masem celou dobu. Než omáčku rozmixuješ, kuličky i listy vylov: rozmixované kuličky by omáčku zbytečně zostřily a zůstaly by v ní tvrdé kousky. Kdo nechce lovit, dá koření do plátýnka.
 
 **Nálevy.** Do nálevu na okurky a na utopence jde celý pepř, nové koření a bobkový list, k tomu cibule, u okurek kopr a hořčičné semínko. Kuličky dej rovnou do sklenice, nebo je svař s nálevem. Vůni pouštějí pomalu, celé dny ve sklenici. Mletý pepř se sem nehodí, zakalil by nálev.
 

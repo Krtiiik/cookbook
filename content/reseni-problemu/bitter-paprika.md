@@ -13,7 +13,7 @@ Mletá [[sweet-paprika|paprika]] je jemný prášek a obsahuje cukry. V horkém 
 - **Paprika na přímém žáru.** Nejčastější příčina. České recepty píšou „stáhni z ohně a zasyp paprikou“, ale v praxi se paprika často sype rovnou do hrnce na plotně. Hrnec s cibulí a tukem je na středním ohni moc horký a paprika se v něm opéká na přímém žáru.
 - **Litinová nebo elektrická plotna.** Plotna hřeje ještě několik minut po vypnutí a tuk v hrnci se dál ohřívá. Hrnec z plotny sundej.
 - **Dlouhá pauza bez tekutiny.** Paprika leží v tuku a nic ji nechladí. Dokud v hrnci není maso, šťáva nebo voda, teplota tuku neklesne.
-- **Paprika v jíšce.** Do gulášové polévky nebo bramborového guláše se paprika někdy přidává do jíšky. Mouka se praží několik minut, paprika by vydržela jen pár vteřin. Když je v hrnci od začátku, připálí se dřív, než je jíška hotová. (→ hořká polévka, tmavá jíška)
+- **Paprika v jíšce.** Do gulášové polévky nebo bramborového guláše se paprika někdy přidává do [[flour|jíšky]]. Mouka se praží několik minut, paprika by vydržela jen pár vteřin. Když je v hrnci od začátku, připálí se dřív, než je jíška hotová. (→ hořká polévka, tmavá jíška)
 - **Málo míchání.** Paprika se usadí na dně a připálí se tam, i když zbytek hrnce vypadá v pořádku.
 - **Připálené dno na konci.** Hustá omáčka s paprikou se při zahušťování přichytí ke dnu. Proto se v [[hovezi-gulas|guláši]] na konci často míchá.
 - **Hořkost odjinud.** Černý [[browning|výpek]] po opékání masa nebo cibule [[burnt-onion|zčernalá na okrajích]] dají hořkou chuť stejně a vina pak padne na papriku.

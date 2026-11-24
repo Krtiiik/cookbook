@@ -36,7 +36,7 @@ Nestihneš ji uvařit? Zamraz ji hned. Při −18 °C je maso bezpečné témě�
 - Na polévku opečené články přendej do hrnce, výpek z pánve vyvař trochou vody a přilij. Zalij studenou vodou a vař jako [[hovezi-vyvar|vývar]]: pěnu sbírej, kořenovou zeleninu přidej na poslední hodinu.
 - Seber lžící tuk z hladiny (nebo nech hrnec přes noc v lednici a ztuhlý tuk sundej). Pak vytáhni články a maso oddělej vidličkou od kostí.
 - Maso vrať do omáčky.
-- Polévku sceď a zahusti ji tmavou jíškou: na tuku opraž [[flour|hladkou mouku]] (obsahuje lepek) za stálého míchání do hněda. Jíšku rozmíchej s trochou studeného vývaru bez hrudek a metlou ji vmíchej do horké polévky. Pak ji nech [[simmering|probublávat]] aspoň 15 minut, ať není cítit syrová mouka, a míchej ode dna. Nakonec vrať maso a zeleninu. Často se dochucuje troškou červeného vína (obsahuje siřičitany).
+- Polévku sceď a zahusti ji [[flour|tmavou jíškou]] (obsahuje lepek), asi 40 g mouky na litr. Na jíšku použij tuk sebraný z hladiny. Pak ji nech [[simmering|probublávat]] aspoň 15 minut, ať není cítit syrová mouka, a míchej ode dna. Nakonec vrať maso a zeleninu. Často se dochucuje troškou červeného vína (obsahuje siřičitany).
 - Zůstalo maso po hodinách tuhé? Viz [[tough-stew|proč je dušené maso tuhé]].
 
 ## Náhrady

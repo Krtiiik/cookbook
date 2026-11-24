@@ -10,7 +10,7 @@ Oproti [[caramelising|karamelizaci]]: tam cibule na tuku zůstává mnohem déle
 
 - **Ano:** základ polévek: bramboračka, houbová, krémové polévky z květáku, brokolice nebo [[pumpkin|dýně]]. Cibule a kořenová zelenina se zpotí na másle a pak se zalijí vodou nebo vývarem.
 - **Ano:** světlé omáčky, kde má vyniknout smetana, houby nebo zelenina. Často pokračují jíškou: do zpocené cibule se vmíchá mouka.
-- **Ano:** cibule nebo [[shallot|šalotka]] před přidáním rýže do rizota.
+- **Ano:** cibule nebo [[shallot|šalotka]] před přidáním [[rice|rýže]] do rizota.
 - **Vhodná zelenina:** [[onion|cibule]], šalotka, [[leek|pórek]], [[carrot|mrkev]], [[celeriac|celer]], [[parsley-root|petržel]], [[garlic|česnek]] (ten až na konci).
 - **Ne:** guláš, cibulka na sádle do zelí a tmavé omáčky. Tam potřebuješ barvu, takže cibuli opékáš déle ([[caramelising]]).
 - **Ne:** zelenina do čirého vývaru. Většinou jde do hrnce syrová a vaří se ve vodě ([[simmering]]).
@@ -27,9 +27,7 @@ Oproti [[caramelising|karamelizaci]]: tam cibule na tuku zůstává mnohem déle
 
 ### Jíška ze zpocené zeleniny
 
-1. Zpocenou zeleninu zaprás [[flour|hladkou moukou]].
-2. Míchej na mírném ohni. Jak dlouho a do jaké barvy, řekne recept.
-3. Zalévej studenou tekutinou po částech a pořád míchej, ať se nedělají hrudky.
+Zpocenou zeleninu zaprás hladkou moukou (obsahuje lepek) a 1–2 minuty míchej na mírném ohni; kolik tuku a mouky, viz [[flour|zaprášení]]. Pak zalévej studenou tekutinou po částech, pořád míchej, ať se nedělají hrudky, a nech aspoň 15 minut mírně vařit.
 
 ### Poklička ano, nebo ne?
 

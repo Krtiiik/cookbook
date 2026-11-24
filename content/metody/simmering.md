@@ -23,7 +23,7 @@ Proč na rozdílu záleží:
 
 - **Ano:** [[hovezi-vyvar|hovězí]] i slepičí vývar, polévky, [[hovezi-gulas|guláš]] a všechno, co se vaří hodiny. Hovězí vývar táhne kolem 4 hodin: chuť z kostí a zeleniny přechází do vody pomalu.
 - **Ano:** vařené hovězí ke koprovce nebo rajské omáčce, uzené maso. V mírném varu zůstane maso šťavnaté.
-- **Ano:** polévky zahuštěné jíškou nebo moukou. Po zahuštění je nech probublávat aspoň 15 minut, aby nebyla cítit syrová mouka, a míchej ode dna: hustá polévka se snadno připálí.
+- **Ano:** polévky zahuštěné [[flour|jíškou nebo moukou]]. Po zahuštění je nech probublávat aspoň 15 minut, aby nebyla cítit syrová mouka, a míchej ode dna: hustá polévka se snadno připálí.
 - **Ano:** [[braising|dušení]]. Tekutina pod pokličkou má jen mírně vařit: občas bublinka, nikdy bubliny po celé ploše.
 - **Ano:** knedlíky. Vkládáš je do vody, která prudce vře, aby se povrch hned stáhl. Jakmile voda znovu začne vařit, stáhni oheň, aby voda jen mírně vařila. V prudkém varu se knedlíky, hlavně bramborové, na povrchu rozvaří.
 - **Ano:** luštěniny a [[potatoes|brambory]], které se mají uvařit a nerozpadnout. Suché fazole (hlavně červené) ale nejdřív namoč aspoň na 5 hodin, nejlépe přes noc. Vodu slij, zalij čerstvou a vař je prudce aspoň 10 minut (podle Health Canada). Teprve potom stáhni oheň, aby voda jen mírně vařila. Při nižší teplotě se v nich nezničí přírodní jed (lektin).
