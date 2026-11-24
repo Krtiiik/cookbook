@@ -18,7 +18,7 @@ Na dně pánve zůstane hnědý povlak: **výpek**. Je to rozpuštěná a zhněd
 
 - **Ano:** před [[braising|dušením]]: dušené hovězí, svíčková, [[oxtail|oháňka]], [[beef-cheeks|líčka]]. Kůrka a výpek dají omáčce chuť i barvu.
 - **Ano:** přírodní plátky, kotlety a steaky, které se jen opečou a podávají. Mleté maso na omáčku ke špagetám.
-- **Ano:** kosti na tmavý [[hovezi-vyvar|vývar]], opečené v troubě.
+- **Ano:** kosti na tmavý [[hovezi-vyvar|vývar]], opečené v troubě (jak, viz [[beef-bones|hovězí kosti]]).
 - **Ne:** světlá jídla, kde barva vadí: slepičí polévka, světlý vývar, koprovka a jiné bílé omáčky.
 - **Jen zatáhnout:** když se maso přidává k cibuli a paprice, třeba v [[hovezi-gulas|guláši]] nebo v paprikáši. Viz níže.
 - **Něco jiného:** řízky. Ty se smaží v obalu a kůrku dá obal, ne maso.
