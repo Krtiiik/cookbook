@@ -216,7 +216,6 @@
       return copy;
     }
     details.querySelector('summary').addEventListener('click', function (e) {
-      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
       e.preventDefault();
       if (busy) return;
       busy = true;

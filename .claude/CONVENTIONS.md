@@ -20,6 +20,7 @@ Skip anything tooling already checks. Prefer a rule plus a one-line reason over 
 - Raw-meat storage follows USDA FSIS by cut: fridge days, freezer months for quality ("bezpečné neomezeně"). Quality-only times (spices) need no source but must not read as safety claims.
 - A recipe step that cooks until soft gives the fork test with the time, not the time alone.
 - Troubleshooting pages use exactly these headings: Příznak, Možné příčiny, Jak to zachránit, Jak tomu předejít. A cause may end with "(→ …)" naming the symptom it gives.
+- Equipment pages use exactly these headings: K čemu je, Jak vybrat, Při práci, Péče, Náhrady (bold bullets). "Při práci" stays neutral, so it fits a pánev as well as a nůž.
 - Ingredient pages have a body "Náhrady" section (bold bullets). Catalog `substitutes` lists only existing slugs; substitutes without a slug stay plain text there.
 - `[[slug]]` without text renders the title in the nominative. Where the sentence needs another case, write `[[slug|text]]`.
 - An explainer's catalog summary uses the body's terms and does not blur states the body separates (it is the link preview).
@@ -43,6 +44,7 @@ Skip anything tooling already checks. Prefer a rule plus a one-line reason over 
 
 - The build collects problems into a list and raises once at the end; never stop at the first problem.
 - Rounding of scaled amounts must match in `build.py` and `site.js` (half up, step from `units.yaml`).
+- Site UI animation (such as the filter fold) ignores `prefers-reduced-motion`. The owner turns that setting on only to quiet Windows animations, not for a health need. Banners keep their own rule below.
 - The look follows `docs/STYLE.md`; the classes and data attributes in `SPEC.md` are the contract between templates, CSS and JS.
 
 ## Banners
