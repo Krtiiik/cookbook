@@ -122,7 +122,7 @@ body {
 ### Header and navigation
 
 - **Top row:** logo, search, theme switch, with a 2.5px ink rule under it.
-  - **Logo:** a 44px tomato circle with a white mug icon (inline SVG, `aria-hidden`), then "Krtkova Kuchařka" (hand 34px) and the tagline "sešit receptů a poznámek" (note 19px, `--accent`).
+  - **Logo:** a 44px tomato circle with a white icon of a chef's hat on a molehill (a nod to "Krtkova") (inline SVG, `aria-hidden`), then "Krtkova Kuchařka" (hand 34px) and the tagline "sešit receptů a poznámek" (note 19px, `--accent`).
   - **Search** `.search`: a pill input with a 2.5px ink border on `--card` and a magnifier icon inside on the left. The placeholder is "Hledej recept, surovinu, postup…". Results (`ol.search__results`) open below it as a card with a 5px mustard shadow.
   - **Theme switch** `button.theme[data-theme-current]`: a cobalt-filled pill (`--on-cobalt` text) with a 3px mustard shadow. It cycles system → light → dark. The icon is a half-filled circle, a sun or a moon. The label is "Auto", "Světlý" or "Tmavý" in Caveat. Its `aria-label` and `title` are "Motiv: podle systému. Přepni." (and the same for the other states).
 - **Nav row:** Recepty, Metody, Suroviny, Vybavení, Řešení problémů (hand 22px). A secondary group (Skupiny, Základy, Reference, O webu) sits at the right in body 15px, muted, with a dotted underline. A 1.5px dashed rule is under the row.

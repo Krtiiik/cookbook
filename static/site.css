@@ -65,7 +65,7 @@ img { max-width: 100%; }
 /* ---------- header */
 .top { display: flex; align-items: center; gap: 20px; padding: 16px 0 12px; border-bottom: 2.5px solid var(--ink); }
 .logo { text-decoration: none; display: flex; align-items: center; gap: 12px; line-height: 1; }
-.logo .mug { width: 44px; height: 44px; border-radius: 50%; background: var(--tomato); border: 2.5px solid var(--ink); display: flex; align-items: center; justify-content: center; color: var(--on-tomato); flex: none; }
+.logo .mark { width: 44px; height: 44px; border-radius: 50%; background: var(--tomato); border: 2.5px solid var(--ink); display: flex; align-items: center; justify-content: center; color: var(--on-tomato); flex: none; }
 .logo b { font: 400 34px var(--font-hand); display: block; }
 .logo i { font: 600 19px var(--font-note); color: var(--accent); display: block; margin-top: 2px; font-style: normal; }
 .search { flex: 1; max-width: 420px; margin-left: auto; position: relative; }
