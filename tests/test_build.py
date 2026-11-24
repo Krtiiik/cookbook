@@ -321,6 +321,15 @@ def test_ingredient_section_has_category_and_season_filters(real_site):
     assert 'class="filters"' not in (out / "metody" / "index.html").read_text(encoding="utf-8")
 
 
+def test_filter_boxes_share_the_fold_wrapper(real_site):
+    # The fold in site.js runs only when details.filters-wrap sits in .filters-box, which
+    # also holds the bottom margin.
+    _, out = real_site
+    for rel in ("recepty/index.html", "suroviny/index.html"):
+        html = (out / rel).read_text(encoding="utf-8")
+        assert re.search(r'<div class="filters-box">\s*<details class="filters-wrap"', html), rel
+
+
 def test_converter_and_calendar_have_own_pages(real_site):
     _, out = real_site
     converter = (out / "prevodnik" / "index.html").read_text(encoding="utf-8")

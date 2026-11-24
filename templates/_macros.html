@@ -54,3 +54,16 @@
   <span>{{ link(page, root) }}{% if not page.written %}<span class="tag">zatím nenapsáno</span>{% endif %}<small>{{ SECTIONS[page.section].label }}</small></span>
 </li>
 {%- endmacro %}
+
+{# The filter card above a .filter-list. The fold in site.js needs the .filters-box wrapper. #}
+{% macro filter_box(label) -%}
+<div class="filters-box">
+<details class="filters-wrap" open>
+  <summary>Filtry</summary>
+  <form class="filters" aria-label="{{ label }}">
+{{ caller() }}
+  </form>
+  <p class="filters__count" aria-live="polite"></p>
+</details>
+</div>
+{%- endmacro %}
