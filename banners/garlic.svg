@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Bílá hlavička česneku se stroužky a kořínky, vedle tři stroužky, jeden rozkrojený se zeleným klíčkem, a mladý zelený česnek s listy">
+  <rect width="1200" height="400" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M60 362 H1140" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-dasharray: 2 12; stroke-linecap: round; opacity: .45"/>
+  <path d="M400 342 l-8 14 M412 344 l-3 15 M424 344 l2 15 M436 342 l7 14" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linecap: round"/>
+  <path d="M410 84 Q420 70 430 84 L436 120 C460 160 520 170 540 230 C555 290 510 340 420 342 C330 340 285 290 300 230 C320 170 380 160 404 120 Z" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <g style="fill: none; stroke: var(--banner-accent, #c8462a); stroke-width: 5; stroke-linecap: round; opacity: .45">
+    <path d="M396 150 C366 200 360 270 380 320"/><path d="M446 150 C476 200 482 270 462 320"/>
+  </g>
+  <g style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linecap: round; opacity: .6">
+    <path d="M412 124 C360 180 350 290 392 340"/><path d="M428 124 C480 180 490 290 448 340"/>
+    <path d="M406 130 C330 190 310 280 340 328"/><path d="M434 130 C510 190 530 280 500 328"/>
+  </g>
+  <path d="M414 90 q6 -4 12 0" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linecap: round; opacity: .5"/>
+  <g style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round">
+    <path d="M110 342 C100 300 140 268 184 258 Q194 256 192 266 C184 290 192 322 214 342 Z"/>
+    <path d="M200 342 C196 306 222 282 256 270 Q266 268 264 278 C258 300 262 324 280 342 Z"/>
+  </g>
+  <g style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linecap: round; opacity: .45">
+    <path d="M136 330 C132 304 154 284 178 274"/><path d="M220 332 C218 308 234 292 252 284"/>
+  </g>
+  <path d="M600 342 C590 304 624 276 668 268 L700 296 L716 342 Z" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M626 330 C624 308 642 292 664 284" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linecap: round; opacity: .45"/>
+  <ellipse cx="708" cy="318" rx="28" ry="24" style="fill: var(--banner-bg, #fffaf0); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6"/>
+  <path d="M700 330 q8 -14 6 -26 q8 12 2 26 Z" style="fill: var(--banner-cool, #1f4fa3); stroke: var(--banner-fg, #1b2a4a); stroke-width: 2; stroke-linejoin: round"/>
+  <path d="M840 300 L1096 168 L1108 190 L852 324 Z" style="fill: var(--banner-cool, #1f4fa3); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M996 226 C1010 150 1050 96 1110 70 C1070 112 1042 162 1024 214 Z" style="fill: var(--banner-cool, #1f4fa3); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M1084 182 C1116 176 1146 196 1166 238 C1136 214 1110 206 1090 204 Z" style="fill: var(--banner-cool, #1f4fa3); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M1090 174 C1120 150 1140 120 1146 84 C1152 124 1136 164 1106 194 Z" style="fill: var(--banner-cool, #1f4fa3); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M870 300 L1060 202 M1014 206 q16 -60 70 -112 M1106 186 q20 -30 34 -80" style="fill: none; stroke: #fff7ea; stroke-width: 4; stroke-linecap: round; opacity: .5"/>
+  <path d="M772 318 l-14 -6 M772 328 l-16 4 M776 338 l-10 12" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linecap: round"/>
+  <ellipse cx="814" cy="320" rx="44" ry="30" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6"/>
+  <path d="M790 306 q24 -8 48 2" style="fill: none; stroke: var(--banner-accent, #c8462a); stroke-width: 4; stroke-linecap: round; opacity: .45"/>
+  <path d="M760 128 q-40 60 -48 162" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="600" y="112" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">přidej až na konci</text>
+</svg>
