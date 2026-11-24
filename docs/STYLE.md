@@ -128,7 +128,7 @@ body {
 - **Nav row: divider tabs** (`a.tab`) standing on a 2.5px ink rule, like the tabs of a notebook's dividers. Each tab is `--card` with a 2.5px ink border (no bottom), a 12–14px top radius and a 6px stripe of its section colour along the top (Recepty ink, Metody tomato, Suroviny mint, Vybavení mustard, Řešení problémů cobalt). Hand 22px.
   - **Secondary tabs** (`.tab--more`: Skupiny, Převodník, Sezónní kalendář, O webu) sit at the right: smaller (hand 18px), `--ink2`, with a `--pencil` stripe, because they are pages, not colour-coded sections.
   - **Current page** (`.tab.on`): rises to 58px, gets a 10px stripe and a `--paper` fill whose bottom covers the rule, so the tab joins the page below. The font and width stay the same, so no tab moves sideways when you change pages, and the nav keeps one height. This replaces the old underline bar. Still no highlight behind the word.
-  - **Rejstřík** (narrow screens): `button.stack` is four divider tabs one behind the other, each 10px right and 9px higher (front `--card` with a menu icon, then mustard, mint, cobalt). It opens `#rejstrik`, a list of index cards: the five sections full width with a 9px colour edge on the left, the current one pushed out with a 4px ink shadow and "tady jsi" in Caveat, then the secondary pages in two columns. When open, the front tab joins the page and shows a cross.
+  - **Rejstřík** (narrow screens): `button.stack` is four divider tabs one behind the other, each 6px right and 4px higher, so the back one reaches the height of the current tab (front `--card` with a menu icon, then mustard, mint, cobalt). It opens `#rejstrik`, a list of index cards: the five sections full width with a 9px colour edge on the left, the current one pushed out with a 4px ink shadow and "tady jsi" in Caveat, then the secondary pages in two columns. When open, the front tab joins the page and shows a cross.
 
 ### Links (`a.site-link`)
 
@@ -235,7 +235,7 @@ The prototypes use container queries only so the phone artboards work. The site 
 **At 600px and below:**
 - **Side padding:** 16px.
 - **Header:** wraps. The search drops to its own full-width row (`order: 3`).
-- **Nav:** at 1200px and below the secondary tabs move into the Rejstřík; at 760px and below only the current tab and the Rejstřík button stay. Without the script all tabs stay and wrap.
+- **Nav:** at 1200px and below the secondary tabs move into the Rejstřík; at 820px and below only the current tab and the Rejstřík button stay. Without the script all tabs stay and wrap.
 - **Grids:** 1 column.
 - **Titles:** 42–46px. The hero h1 is 44px.
 - **Facts:** 2 columns.
