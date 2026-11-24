@@ -14,9 +14,9 @@
 - { slug: celeriac, title: Celer bulvový, summary: "Kořenová zelenina s výraznou vůní. Alergen (celer).", category: vegetables, animal: none, season: [8, 9, 10, 11, 12, 1, 2, 3, 4], allergens: [celery], substitutes: [parsley-root, carrot] }
 - { slug: parsley-root, title: Petržel kořenová, summary: "Bílý kořen s vůní petrželky, kořenitější než mrkev.", category: vegetables, animal: none, season: [8, 9, 10, 11, 12, 1, 2, 3, 4], substitutes: [carrot, celeriac] }
 - { slug: pumpkin, title: Dýně, summary: "Hokkaido se nemusí loupat.", category: vegetables, animal: none, season: [9, 10, 11] }
-- { slug: tomato, title: Rajčata, summary: "Nejlepší v létě. V zimě raději z plechovky.", category: vegetables, animal: none, season: [7, 8, 9] }
+- { slug: tomato, title: Rajčata, summary: "Nejlepší v létě. V zimě raději z plechovky.", category: vegetables, animal: none, season: [7, 8, 9], substitutes: [tomato-paste] }
 - { slug: asparagus, title: Chřest, summary: "Jarní zelenina, bílý i zelený.", category: vegetables, animal: none, season: [4, 5, 6] }
-- { slug: wild-garlic, title: Medvědí česnek, summary: "Jarní bylina s česnekovou vůní.", category: herbs, animal: none, season: [3, 4] }
+- { slug: wild-garlic, title: Medvědí česnek, summary: "Jarní bylina s česnekovou vůní. Má jedovaté dvojníky: konvalinku, ocún a árón.", category: herbs, animal: none, season: [3, 4], substitutes: [garlic] }
 - { slug: strawberry, title: Jahody, summary: "Domácí jen několik týdnů v roce.", category: fruit, animal: none, season: [5, 6, 7] }
 - { slug: apple, title: Jablka, summary: "Podzimní odrůdy vydrží ve sklepě do jara.", category: fruit, animal: none, season: [8, 9, 10, 11] }
 - { slug: plum, title: Švestky, summary: "Na knedlíky, koláče a povidla.", category: fruit, animal: none, season: [8, 9] }
@@ -29,16 +29,16 @@
 - { slug: marjoram, title: Majoránka, summary: "Sušená do guláše, bramboračky a bramboráků. Do polévky 10–15 minut před koncem, promnutá v dlaních.", category: spices, animal: none, season: all-year }
 - { slug: bay-leaf, title: Bobkový list, summary: "Do vývarů a omáček, před podáváním vyndej.", category: spices, animal: none, season: all-year }
 - { slug: peppercorns, title: Černý pepř, summary: "Celý do vývaru, svíčkové a nálevů, mletý na dochucení. Jak skladovat koření a kdy celé, kdy mleté.", category: spices, animal: none, season: all-year }
-- { slug: allspice, title: Nové koření, summary: "Celé kuličky do vývaru, svíčkové a nálevů. Voní mírně po hřebíčku.", category: spices, animal: none, season: all-year }
+- { slug: allspice, title: Nové koření, summary: "Celé kuličky do vývaru, svíčkové a nálevů. Voní po hřebíčku, nepálí jako pepř.", category: spices, animal: none, season: all-year }
 - { slug: salt, title: Sůl, summary: "Dochutí jídlo a vytáhne vodu. Kdy solit, záleží na jídle; vývar až na konci.", category: pantry, animal: none, season: all-year, density: 1.2 }
 - { slug: water, title: Voda, summary: "Do vývarů a na podlévání.", category: pantry, animal: none, season: all-year, density: 1 }
 - { slug: tomato-paste, title: Rajčatový protlak, summary: "Zahuštěná rajčata. Krátce opeč, ztmavne a ztratí syrovou chuť.", category: pantry, animal: none, season: all-year, substitutes: [tomato] }
 - { slug: lard, title: Sádlo, summary: "Vepřový tuk, tradiční v české kuchyni. Snese střední až vysoký oheň.", category: fats, animal: meat, season: all-year, substitutes: [oil, butter] }
 - { slug: oil, title: Olej, summary: "Rafinovaný snese vysokou teplotu, panenský raději za studena.", category: fats, animal: none, season: all-year, density: 0.92, substitutes: [lard, butter] }
 - { slug: butter, title: Máslo, summary: "Obyčejné na chuť a na mírný až střední oheň. Přepuštěné snese vysokou teplotu.", category: fats, animal: dairy, season: all-year, allergens: [milk], density: 0.96, substitutes: [oil, lard] }
-- { slug: milk, title: Mléko, summary: "Plnotučné do kaše a omáček.", category: dairy, animal: dairy, season: all-year, allergens: [milk], density: 1.03 }
+- { slug: milk, title: Mléko, summary: "Plnotučné do kaše a omáček. Ohřívej pomalu, kyselinu přidej až na konci.", category: dairy, animal: dairy, season: all-year, allergens: [milk], density: 1.03 }
 - { slug: potatoes, title: Brambory, summary: "Moučné (typ C) na kaši, pevné (typ A) do salátu.", category: vegetables, animal: none, season: all-year, substitutes: [celeriac, rice] }
-- { slug: flour, title: Hladká mouka, summary: "Pšeničná mouka na omáčky a těsta.", category: flour, animal: none, season: all-year, allergens: [gluten], density: 0.53 }
+- { slug: flour, title: Hladká mouka, summary: "Pšeničná mouka na jíšku, zahuštění polévek a omáček, trojobal a těsto.", category: flour, animal: none, season: all-year, allergens: [gluten], density: 0.53 }
 - { slug: sugar, title: Cukr krupice, summary: "Bílý cukr na pečení a vaření.", category: pantry, animal: none, season: all-year, density: 0.85 }
-- { slug: rice, title: Rýže, summary: "Dlouhozrnná jako příloha, kulatozrnná do rizota a kaše.", category: flour, animal: none, season: all-year, density: 0.78 }
+- { slug: rice, title: Rýže, summary: "Dlouhozrnná jako příloha a do domácího rizota, kulatozrnná do mléčné rýže a nákypu.", category: flour, animal: none, season: all-year, density: 0.78, substitutes: [potatoes] }
 - { slug: honey, title: Med, summary: "Sladidlo s vlastní chutí.", category: pantry, animal: honey, season: all-year, density: 1.42 }
