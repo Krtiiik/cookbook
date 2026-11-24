@@ -3,7 +3,7 @@ title: Hovězí guláš
 summary: "Hodně cibule, sladká paprika a kližka dušená do měkka. Omáčku zahustí jen cibule, bez mouky."
 status: draft
 servings: 4
-time_active_min: 45
+time_active_min: 70
 time_total_min: 210
 difficulty: medium
 cuisine: czech
@@ -19,38 +19,64 @@ ingredient_groups:
       - { qty: 1, unit: lzice, item: tomato-paste }
       - { qty: 2, unit: lzice, item: sweet-paprika }
       - { qty: 1, unit: lzicka, item: caraway, note: mletý }
-      - { qty: 500, unit: ml, item: hovezi-vyvar, note: nesolený }
+      - { qty: 500, unit: ml, item: hovezi-vyvar, note: "nesolený, uvařený předem; nebo viz Bez vývaru" }
+      - { text: podle potřeby, item: water, note: "horká, na dolévání" }
       - { qty: 1, unit: lzicka, item: marjoram, note: sušená }
       - { text: podle chuti, item: salt }
+      - { text: podle chuti, item: peppercorns, note: čerstvě mletý }
+  - name: K podávání
+    items:
+      - { qty: 1, unit: ks, item: onion, note: na tenké kroužky }
 changes:
   - { date: 2026-11-23, note: "První verze (netestováno)." }
+  - { date: 2026-11-24, note: "Přepsáno podle české domácí kuchyně, nové zdroje k bezpečnosti potravin." }
 ---
 ## Postup
 
-1. Maso nakrájej [[chefs-knife|nožem]] na kostky asi 4 cm, osuš je papírovou utěrkou a osol. Menší kostky se při dlouhém [[braising|dušení]] rozpadnou.
-2. V [[dutch-oven|litinovém hrnci]] rozpusť na středním ohni sádlo, až se lehce tetelí. Přidej cibuli a špetku soli a opékej ji 20–25 minut, až zezlátne a změkne ([[caramelising|karamelizace]]).
-3. Přidej česnek, kmín a protlak a minutu míchej. Hrnec stáhni z ohně a vmíchej papriku jen na pár vteřin: na přímém žáru [[bitter-paprika|zhořkne]].
-4. Přidej maso, vrať hrnec na střední oheň a pořád míchej. Maso a jeho šťáva hrnec zchladí, takže paprika už nezhořkne. Míchej asi 5 minut, až se maso [[browning|na povrchu zatáhne]] a ze všech stran zešedne. Zalij [[hovezi-vyvar|hovězím vývarem]], aby bylo maso skoro ponořené.
-5. Na středním ohni přiveď guláš do [[simmering|mírného varu]].
-6. Přikryj, stáhni oheň na mírný a po 5 minutách zkontroluj hladinu: má se jen mírně vařit. Vař 2–2,5 hodiny, až vidlička projde masem bez odporu ([[tough-stew|zůstalo tuhé?]]). Občas promíchej a podle potřeby dolij trochu horké vody.
-7. Odkryj, přidej majoránku a nech 15 minut zhoustnout na středním ohni. Často míchej, ať se omáčka nepřichytí ke dnu. Dosol podle chuti.
+Vývar se vaří 5 hodin. Uvař ho den předem, nebo použij vodu s bujónem (viz Varianty).
+
+1. Maso nakrájej [[chefs-knife|nožem]] na kostky asi 4 cm, osuš je papírovou utěrkou a dej je zatím do lednice. Menší kostky se při dlouhém [[braising|dušení]] rozpadnou.
+2. V kastrolu nebo [[dutch-oven|litinovém hrnci]] aspoň 4 l (na dvojnásobek široký, 7–8 l) rozpusť na středním ohni sádlo, až se leskne a lehce tetelí.
+3. Přidej cibuli a špetku soli a opékej ji dozlatova, 20–25 minut ([[caramelising|cibule dozlatova]]). Míchej každé 2–3 minuty.
+4. V tenkém smaltovaném kastrolu stáhni oheň na středně mírný a míchej častěji. Potrvá to déle, řiď se barvou.
+5. Přidej česnek, mletý kmín a protlak a minutu míchej, až protlak ztmavne a česnek zavoní.
+6. Stáhni hrnec z ohně (z litinové nebo elektrické plotny ho sundej) a vmíchej papriku, jen na pár vteřin. Na přímém žáru by [[bitter-paprika|zhořkla]].
+7. Maso osol a hned ho přidej, vrať hrnec na střední oheň a pořád míchej. Maso a jeho šťáva hrnec zchladí, takže paprika už nezhořkne. Asi po 5 minutách je maso [[browning|na povrchu zatažené]], ze všech stran šedé.
+8. Zalij celým [[hovezi-vyvar|hovězím vývarem]]. Když maso není skoro ponořené, dolij horkou vodu.
+9. Na středním ohni přiveď guláš do [[simmering|mírného varu]].
+10. Přikryj pokličkou a stáhni oheň na mírný.
+11. Po 5 minutách zkontroluj hladinu: má jen mírně vařit, občas bublinka.
+12. Vař 2–2,5 hodiny. Každých 20–30 minut promíchej a dolij trochu horké vody, aby maso zůstalo skoro ponořené a dno se nepřichytávalo.
+13. Po 2 hodinách zkus kostku vidličkou. Hotové maso projde vidličkou bez odporu. Když ne, vař dál a zkoušej každých 20–30 minut ([[tough-stew|zůstalo tuhé?]]).
+14. Odkryj, majoránku promni mezi dlaněmi a nasyp ji do hrnce.
+15. Nech guláš odkrytý na středním ohni zhoustnout, asi 15 minut, a často míchej ode dna. Hotová omáčka obalí hřbet lžíce a cibule v ní už není vidět. Když je pořád řídká, vař dalších 5–10 minut.
+16. Dosol a opepři podle chuti.
+17. Podávej s houskovým knedlíkem nebo s chlebem (oba obsahují lepek). Navrch dej syrovou cibuli nakrájenou na tenké kroužky.
 
 ## Proč to funguje
 
-Kližka má hodně kolagenu. Při dlouhém mírném varu se kolagen mění na želatinu: maso změkne a omáčka dostane hladkou texturu. Při prudkém varu se svalová vlákna stáhnou a maso zůstane suché, i když je měkké.
+Kližka má hodně kolagenu. Při dlouhém mírném varu se kolagen mění na želatinu: maso změkne a omáčka dostane hladkou, lesklou texturu. Při prudkém varu se svalová vlákna stáhnou a maso zůstane suché, i když je měkké.
 
-Cibule se při pomalém opékání rozpadne a omáčku zahustí. Proto je jí skoro tolik jako masa.
+Cibule osmahnutá dozlatova se při dušení rozpadne a omáčku zahustí bez mouky. Proto je jí tolik: na kilo masa půl kila.
+
+Každé koření jde do hrnce v jinou chvíli. Mletý kmín a paprika jdou do hrnce brzy, na tuk s osmahnutou cibulí, protože tvoří základ omáčky. Majoránka je jemná bylinka a dlouhým varem by vyprchala, proto přijde až 15 minut před koncem. Mletý pepř by se vyvařil, dej ho až na konci.
 
 ## Varianty a náhrady
 
-- Místo kližky [[beef-cheeks|hovězí líčka]] (dus je celá a na konci je rozděl lžící na kousky) nebo [[beef-chuck|plec]]. Líčka potřebují kolem 3 hodin, často déle; plec podobně jako kližka, vidličkou zkoušej dřív.
-- Část vývaru nahraď tmavým pivem (obsahuje lepek).
-- Bez vývaru: voda a lžíce protlaku navíc. Chuť bude lehčí.
+- **Jiné maso:** místo kližky [[beef-cheeks|hovězí líčka]] (dus je celá a na konci je rozděl lžící na kousky) nebo [[beef-chuck|plec]]. Líčka potřebují kolem 3 hodin, často déle; plec podobně jako kližka, vidličkou zkoušej dřív.
+- **S pivem:** až polovinu vývaru nahraď světlým nebo tmavým pivem (obsahuje lepek). Přilij ho v kroku 8 spolu s vývarem. Omáčka bude tmavší, se sladovou, lehce nahořklou chutí.
+- **Víc česneku:** kdo má rád česnekový guláš, přidá na konci s majoránkou ještě 1–2 prolisované stroužky.
+- **Ostřejší:** 1 lžičku sladké papriky nahraď pálivou, viz [[hot-paprika|pálivá paprika]].
+- **Hustší omáčka:** doma se často na konci zapráší 1 lžíce hladké mouky, nebo se vmíchá mouka rozmíchaná ve studené vodě, a 10 minut se provaří (obsahuje lepek). Omáčka bude hustší a matnější; s dostatkem cibule to není potřeba.
+- **Bez vývaru:** voda s bujónem. Bujón je slaný a často obsahuje celer, někdy i lepek, mléko nebo sóju; čti složení na obalu. Guláš pak sol, až ochutnáš na konci. Jen s vodou a lžící protlaku navíc bude chuť lehčí.
+- **V troubě:** troubu zapni už při kroku 7. Místo kroků 10–12 dej přikrytý litinový hrnec nebo kastrol s kovovými úchyty do trouby; teplotu a postup najdeš u [[braising|dušení]].
 
 ## Skladování a ohřev
 
-Rozlij do mělkých nádob, ať rychle vychladne, a do 2 hodin dej do lednice. Vydrží 3 dny, v mrazáku zhruba 3 měsíce (podle USDA FSIS). Ohřívej pomalu pod pokličkou, se lžící vody, až se celý prohřeje a začne mírně vařit (aspoň 74 °C, viz [[thermometer|teploměr]]).
+Guláš rozlij do mělkých nádob, ať rychle vychladne, a do 2 hodin ho dej do lednice (podle SZÚ). Vydrží 2 dny (podle bezpecnostpotravin.cz). V mrazáku vydrží zhruba 2–3 měsíce (podle britského úřadu FSA); to je lhůta kvality. Rozmrazuj ho v lednici a sněz do 24 hodin (podle britského úřadu FSA).
+
+Hodně lidí vaří guláš den předem, mnohým druhý den chutná plněji. Ohřívej ho pod pokličkou na mírném ohni, se lžící vody, a míchej ode dna, až se celý prohřeje a začne mírně vařit (ve středu aspoň 75 °C, nebo 70 °C po 2 minuty, podle SZÚ a BfR, viz [[thermometer|teploměr]]). Ohřej jen tolik, kolik sníš: britský úřad FSA radí ohřívat jídlo jen jednou.
 
 ## Poznámky
 
-Cibuli nespěchej. Když zezlátne za 10 minut, je oheň moc silný.
+Na poloviční dávku vezmi menší hrnec, 2–3 l. Na dvojnásobek se cibule opéká déle, řiď se barvou, a maso zatahuj déle, dokud není celé šedé.
