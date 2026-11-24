@@ -273,6 +273,7 @@
       function frame(p) {
         var a = Math.acos(p), depth = s * Math.sin(a);
         card.style.height = layer.style.height = shut + L * p + 'px';
+        layer.style.setProperty('--fold', p.toFixed(3));
         strips.forEach(function (st, k) {
           st.style.top = head + k * s * p + 'px';
           st.style.transform = k % 2
