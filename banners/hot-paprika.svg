@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Hromádka sytě červené mleté papriky vedle dlouhé zahnuté pálivé papričky, nad kterou plápolá malý plamínek">
+  <style>.flame{animation:flame-flicker 2.6s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 100%}@keyframes flame-flicker{0%,100%{transform:scaleY(1)}50%{transform:scaleY(.92)}}</style>
+  <rect width="1200" height="400" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M60 362 H1140" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-dasharray: 2 12; stroke-linecap: round; opacity: .45"/>
+  <path d="M150 345 C186 292 240 238 290 228 Q306 224 322 230 C376 250 418 298 452 345 Z" style="fill: var(--banner-accent, #c8462a); fill: color-mix(in srgb, var(--banner-accent, #c8462a) 78%, black); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <g style="fill: var(--banner-fg, #1b2a4a); opacity: .5">
+    <circle cx="250" cy="290" r="4"/><circle cx="296" cy="260" r="4"/><circle cx="340" cy="298" r="4"/><circle cx="384" cy="320" r="4"/><circle cx="216" cy="326" r="4"/>
+  </g>
+  <g style="fill: var(--banner-accent, #c8462a); fill: color-mix(in srgb, var(--banner-accent, #c8462a) 78%, black); stroke: var(--banner-fg, #1b2a4a); stroke-width: 3">
+    <circle cx="134" cy="344" r="5"/><circle cx="470" cy="340" r="5"/><circle cx="490" cy="346" r="4"/>
+  </g>
+  <path d="M1000 230 C880 212 760 238 676 292 Q650 308 634 290 Q638 326 682 330 C780 314 900 304 1000 292 Q1018 260 1000 230 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M724 292 q110 -50 250 -46" style="fill: none; stroke: #fff7ea; stroke-width: 6; stroke-linecap: round; opacity: .85"/>
+  <g style="fill: var(--banner-fg, #1b2a4a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linecap: round; stroke-linejoin: round">
+    <path d="M1000 230 Q1024 222 1038 238 Q1046 262 1034 286 Q1020 298 1000 292 Q1016 260 1000 230 Z"/>
+    <path d="M1036 258 q34 -4 50 -40" style="fill: none"/>
+  </g>
+  <path class="flame" d="M790 196 C774 168 796 154 798 124 C810 144 820 138 822 112 C840 140 858 158 852 196 Z" style="fill: var(--banner-warm, #e9b44c); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+  <path class="flame" d="M806 196 C800 180 812 170 816 156 C826 170 836 182 834 196 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linejoin: round"/>
+  <g style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linecap: round">
+    <path d="M760 168 l-22 -10"/>
+    <path d="M880 168 l22 -10"/>
+    <path d="M766 132 l-18 -18"/>
+    <path d="M876 132 l18 -18"/>
+  </g>
+  <path d="M920 104 q-30 -4 -60 22" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="930" y="112" style="font: 600 40px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">pálí!</text>
+  <path d="M230 126 q60 30 64 92" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="90" y="110" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">dávkuj opatrně</text>
+</svg>
