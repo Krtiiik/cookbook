@@ -34,7 +34,9 @@ Mixér rozbije škrobová zrna a kaše zlepkovatí. Šťouchadlo je nechá celá
 
 ## Skladování a ohřev
 
-Zbylou kaši ohřej v hrnci s trochou mléka a stále míchej.
+Rozlož do mělkých nádob, ať rychle vychladne, a do 2 hodin dej do lednice. Vydrží 3 dny (podle USDA FSIS).
+
+Zbylou kaši ohřej v hrnci s trochou mléka a stále míchej, až se celá prohřeje (aspoň 74 °C, viz [[thermometer|teploměr]]).
 
 ## Poznámky
 

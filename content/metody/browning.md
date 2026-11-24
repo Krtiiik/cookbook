@@ -24,7 +24,7 @@ Na dně pánve zůstane hnědý povlak: **výpek**. Je to rozpuštěná a zhněd
 1. Maso osuš papírovou utěrkou ze všech stran.
 2. Osol těsně před opékáním.
 3. Rozehřej pánev na středně vysokém ohni, 2–3 minuty naprázdno. Smaltovaný [[dutch-oven|litinový hrnec]] nahřívej až s tukem.
-4. Přidej tuk, který snese vysokou teplotu: [[lard|sádlo]] nebo rafinovaný olej (řepkový, slunečnicový). Tuk se má lesknout a lehce tetelit.
+4. Přidej tuk, který snese vysokou teplotu: [[lard|sádlo]] nebo rafinovaný [[oil|olej]] (řepkový, slunečnicový). Tuk se má lesknout a lehce tetelit.
 5. Pokládej maso po kouscích, s mezerou asi 1 cm. Když se nevejde všechno, opékej po dávkách.
 6. Nehýbej s ním 2–3 minuty. Maso se nejdřív přilepí; až se kůrka vytvoří, pustí se samo.
 7. Otáčej a opeč i ostatní strany. Hotové kusy dej stranou na talíř.

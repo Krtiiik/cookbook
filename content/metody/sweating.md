@@ -18,7 +18,7 @@ Oproti [[caramelising|karamelizaci]]: tam cibule na tuku zůstává mnohem déle
 ## Postup
 
 1. Zeleninu nakrájej na stejně velké kousky. Malé kousky změknou dřív než velké a začnou hnědnout.
-2. V hrnci nebo na pánvi s těžkým dnem ohřej tuk na mírném ohni. Stačí asi 1 lžíce [[butter|másla]] nebo oleje na 1 cibuli, aby dno pokryla tenká vrstva. U velkého množství (500 g a víc) může být zpočátku střední oheň, dokud zelenina pouští vodu.
+2. V hrnci nebo na pánvi s těžkým dnem ohřej tuk na mírném ohni. Stačí asi 1 lžíce [[butter|másla]] nebo [[oil|oleje]] na 1 cibuli, aby dno pokryla tenká vrstva. U velkého množství (500 g a víc) může být zpočátku střední oheň, dokud zelenina pouští vodu.
 3. Přidej zeleninu a hned ji promíchej, ať je celá v tuku. Tuk má jemně syčet, ne prskat.
 4. Přidej špetku [[salt|soli]]. Sůl vytáhne ze zeleniny vodu a ta ji chrání před připálením.
 5. Míchej každou minutu nebo dvě. Cibule potřebuje asi 8–10 minut, kořenová zelenina o něco déle. Na větší množství nebo tvrdou kořenovou zeleninu přiklop pokličkou (viz níže) a na posledních pár minut ji sundej.

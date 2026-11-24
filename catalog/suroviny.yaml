@@ -32,9 +32,9 @@
 - { slug: salt, title: Sůl, summary: "Na dochucení. Do vývaru až na konci.", category: pantry, animal: none, season: all-year }
 - { slug: water, title: Voda, summary: "Do vývarů a na podlévání.", category: pantry, animal: none, season: all-year, density: 1 }
 - { slug: tomato-paste, title: Rajčatový protlak, summary: "Zahuštěná rajčata. Krátce opeč, chuť zesílí.", category: pantry, animal: none, season: all-year }
-- { slug: lard, title: Sádlo, summary: "Vepřový tuk. Snese vysokou teplotu.", category: fats, animal: meat, season: all-year }
-- { slug: oil, title: Olej, summary: "Rafinovaný snese vysokou teplotu, panenský raději za studena.", category: fats, animal: none, season: all-year, density: 0.92 }
-- { slug: butter, title: Máslo, summary: "Na chuť a na nižší teploty.", category: fats, animal: dairy, season: all-year, allergens: [milk], density: 0.96 }
+- { slug: lard, title: Sádlo, summary: "Vepřový tuk. Snese vysokou teplotu.", category: fats, animal: meat, season: all-year, substitutes: [oil, butter] }
+- { slug: oil, title: Olej, summary: "Rafinovaný snese vysokou teplotu, panenský raději za studena.", category: fats, animal: none, season: all-year, density: 0.92, substitutes: [lard, butter] }
+- { slug: butter, title: Máslo, summary: "Na chuť a na nižší teploty.", category: fats, animal: dairy, season: all-year, allergens: [milk], density: 0.96, substitutes: [oil, lard] }
 - { slug: milk, title: Mléko, summary: "Plnotučné do kaše a omáček.", category: dairy, animal: dairy, season: all-year, allergens: [milk], density: 1.03 }
 - { slug: potatoes, title: Brambory, summary: "Moučné na kaši, pevné do salátu.", category: vegetables, animal: none, season: all-year }
 - { slug: flour, title: Hladká mouka, summary: "Pšeničná mouka na omáčky a těsta.", category: flour, animal: none, season: all-year, allergens: [gluten], density: 0.53 }

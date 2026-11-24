@@ -7,7 +7,9 @@
   title: Kuchařský nůž
   summary: "Jeden dobrý nůž na většinu práce."
   category: tools
+  related: [onion]
 - slug: thermometer
   title: Teploměr
-  summary: "Vpichovací teploměr na maso a cukr."
+  summary: "Teploměr na maso, cukr a olej na smažení: vpichovací, se sondou nebo se sponou."
   category: tools
+  related: [simmering, oil]

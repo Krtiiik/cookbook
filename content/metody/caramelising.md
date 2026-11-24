@@ -30,13 +30,13 @@ Cibule je z velké části voda. Ze 500 g syrové cibule zbude ve zlaté fázi a
 - **Ano:** guláše, cibulová polévka, omáčky k masu, hamburgery, slané koláče.
 - **Ano:** jídla, kde má cibule zahustit omáčku bez mouky.
 - **Ne:** jemné omáčky a rizota, kde má cibule zůstat světlá a nenápadná. Tam ji jen zpoť.
-- **Ne:** když spěcháš. Na silném ohni bez stálého míchání cibule zhnědne na okrajích a uvnitř zůstane tuhá a hořká. Rychleji to jde jen se silnějším ohněm, stálým mícháním a častým podléváním vodou, a tmavě hnědá i tak aspoň 15–30 minut.
+- **Ne:** když spěcháš. Na vysokém ohni bez stálého míchání cibule zhnědne na okrajích a uvnitř zůstane tuhá a hořká. Rychleji to jde jen s vyšším ohněm, stálým mícháním a častým podléváním vodou, a tmavě hnědá i tak aspoň 15–30 minut.
 
 ## Postup
 
 1. Cibuli oloupej a nakrájej na tenké půlměsíce, stejně silné, ať se opékají stejně rychle.
 2. Vyber širokou pánev nebo [[dutch-oven|litinový hrnec]]. Na velké ploše se voda odpaří rychleji. Cibule může ležet ve vrstvě 3–4 cm, za pár minut klesne.
-3. Na 500 g cibule rozehřej 2–3 lžíce tuku: sádlo, olej nebo přepuštěné máslo. Obyčejné máslo použij jen do zlaté fáze, při delším opékání se připálí.
+3. Na 500 g cibule rozehřej 2–3 lžíce tuku: [[lard|sádlo]], [[oil|olej]] nebo [[butter|přepuštěné máslo]]. Obyčejné máslo použij jen do zlaté fáze, při delším opékání se připálí.
 4. Přidej cibuli a špetku soli. Sůl vytáhne vodu a cibule změkne rychleji.
 5. Do zlaté fáze (asi 20–25 minut) opékej na středním ohni a míchej každé 2–3 minuty.
 6. Až je cibule zlatá, stáhni oheň na středně mírný a míchej častěji. Ve tmavě hnědé fázi stáhni na mírný a míchej každou minutu.

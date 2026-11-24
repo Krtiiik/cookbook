@@ -27,8 +27,8 @@ changes:
 ---
 ## Postup
 
-1. Maso nakrájej na kostky asi 4 cm a osuš je papírovou utěrkou. Menší kostky se při dlouhém [[braising|dušení]] rozpadnou.
-2. V [[dutch-oven|litinovém hrnci]] rozpusť sádlo. Cibuli opékej na středním ohni 20–25 minut, až zezlátne a změkne ([[caramelising|karamelizace]]).
+1. Maso nakrájej [[chefs-knife|nožem]] na kostky asi 4 cm a osuš je papírovou utěrkou. Menší kostky se při dlouhém [[braising|dušení]] rozpadnou.
+2. V [[dutch-oven|litinovém hrnci]] rozpusť na středním ohni sádlo, až se lehce tetelí. Přidej cibuli a opékej ji 20–25 minut, až zezlátne a změkne ([[caramelising|karamelizace]]).
 3. Přidej česnek, kmín a protlak a minutu míchej. Hrnec stáhni z ohně a vmíchej papriku jen na pár vteřin: na přímém žáru [[bitter-paprika|zhořkne]].
 4. Přidej maso, vrať hrnec na střední oheň a pořád míchej. Maso a jeho šťáva hrnec zchladí, takže paprika už nezhořkne. Míchej asi 5 minut, až se maso [[browning|na povrchu zatáhne]] a ze všech stran zešedne. Zalij [[hovezi-vyvar|hovězím vývarem]], aby bylo maso skoro ponořené.
 5. Na středním ohni přiveď guláš do [[simmering|mírného varu]].
@@ -49,7 +49,7 @@ Cibule se při pomalém opékání rozpadne a omáčku zahustí. Proto je jí sk
 
 ## Skladování a ohřev
 
-Rozlij do mělkých nádob, ať rychle vychladne, a do 2 hodin dej do lednice. Vydrží 3 dny, v mrazáku zhruba 3 měsíce (podle USDA FSIS). Ohřívej pomalu pod pokličkou, se lžící vody.
+Rozlij do mělkých nádob, ať rychle vychladne, a do 2 hodin dej do lednice. Vydrží 3 dny, v mrazáku zhruba 3 měsíce (podle USDA FSIS). Ohřívej pomalu pod pokličkou, se lžící vody, až se celý prohřeje a začne mírně vařit (aspoň 74 °C, viz [[thermometer|teploměr]]).
 
 ## Poznámky
 
