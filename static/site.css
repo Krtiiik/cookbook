@@ -63,7 +63,7 @@ img { max-width: 100%; }
 :focus-visible { outline: 3px solid var(--cobalt); outline-offset: 2px; }
 
 /* ---------- header */
-.top { display: flex; align-items: center; gap: 20px; padding: 16px 0 12px; border-bottom: 2.5px solid var(--ink); }
+.top { display: flex; align-items: center; gap: 20px; padding: 16px 0 12px; }
 .logo { text-decoration: none; display: flex; align-items: center; gap: 12px; line-height: 1; }
 .logo .mark { width: 44px; height: 44px; border-radius: 50%; background: var(--tomato); border: 2.5px solid var(--ink); display: flex; align-items: center; justify-content: center; color: var(--on-tomato); flex: none; }
 .logo b { font: 400 34px var(--font-hand); display: block; }
@@ -86,13 +86,64 @@ img { max-width: 100%; }
 .theme[data-theme-current="dark"] .theme__icon--dark { display: block; }
 html:not(.js) .theme { display: none; }
 
-.nav { display: flex; flex-wrap: wrap; gap: 4px 24px; padding: 8px 0 10px; align-items: flex-start; border-bottom: 1.5px dashed var(--line); }
-.nav a { text-decoration: none; font: 400 22px var(--font-hand); padding: 2px 0; }
-.nav > a.on::after { content: ""; display: block; height: 6px; border-radius: 3px; background: var(--tomato); margin-top: 1px; transform: rotate(-1.5deg); }
-.nav .sec { margin-left: auto; display: flex; flex-wrap: wrap; gap: 4px 16px; padding-top: 6px; }
-.nav .sec a { font: 15px var(--font-body); color: var(--muted); text-decoration: underline; text-decoration-style: dotted; }
-.nav .sec a.on { color: var(--ink); text-decoration: none; }
-.nav .sec a.on::after { content: ""; display: block; height: 5px; border-radius: 3px; background: var(--tomato); transform: rotate(-1.5deg); }
+/* nav: divider tabs on an ink rule; the current tab joins the page below it */
+.nav { display: flex; align-items: flex-end; gap: 6px; padding: 8px 20px 0; border-bottom: 2.5px solid var(--ink); }
+.tab {
+  position: relative; display: inline-flex; align-items: center; min-height: 44px; padding: 8px 18px 6px;
+  font: 400 22px/1.1 var(--font-hand); text-decoration: none; white-space: nowrap;
+  background: var(--card); border: 2.5px solid var(--ink); border-bottom: 0; border-radius: 12px 14px 0 0;
+  box-shadow: inset 0 6px 0 var(--c, var(--ink));
+}
+.tab:hover { box-shadow: inset 0 9px 0 var(--c, var(--ink)); }
+.tab.on {
+  z-index: 1; margin-bottom: -2.5px; padding: 18px 24px 10px; font-size: 26px;
+  background: var(--paper); border-bottom: 2.5px solid var(--paper); box-shadow: inset 0 10px 0 var(--c, var(--ink));
+}
+.tab--more { --c: var(--pencil); min-height: 40px; padding: 6px 12px 4px; font-size: 18px; color: var(--ink2); }
+.tab--more.on { padding: 14px 18px 8px; font-size: 22px; color: var(--ink); }
+.nav > .tab--more:not(.tab--more ~ .tab--more) { margin-left: auto; }
+
+/* stack: the Rejstřík button, four divider tabs one behind the other (10px right, 9px up each) */
+.stack { display: none; position: relative; flex: none; width: 82px; height: 71px; margin-left: auto; padding: 0; border: 0; background: none; color: var(--ink); cursor: pointer; }
+.stack > span { position: absolute; bottom: 0; width: 52px; border: 2.5px solid var(--ink); border-bottom: 0; border-radius: 11px 13px 0 0; }
+.stack > span:nth-child(1) { left: 30px; height: 71px; background: var(--cobalt); }
+.stack > span:nth-child(2) { left: 20px; height: 62px; background: var(--mint); }
+.stack > span:nth-child(3) { left: 10px; height: 53px; background: var(--mustard); }
+.stack > .stack__front { left: 0; height: 44px; display: flex; align-items: center; justify-content: center; background: var(--card); }
+.stack:hover > .stack__front { box-shadow: inset 0 5px 0 var(--ink); }
+.stack__close { display: none; }
+.stack[aria-expanded="true"] > .stack__front { bottom: -2.5px; height: 46.5px; background: var(--paper); border-bottom: 2.5px solid var(--paper); box-shadow: none; }
+.stack[aria-expanded="true"] .stack__open { display: none; }
+.stack[aria-expanded="true"] .stack__close { display: block; }
+
+/* rejstřík: the full list the stack opens, one index card per page */
+.rejstrik { display: grid; gap: 8px; padding: 18px 0 8px; }
+.rejstrik[hidden] { display: none; }
+.rejstrik__row {
+  display: flex; align-items: center; min-height: 52px; padding: 6px 16px 6px 22px;
+  font: 400 24px var(--font-hand); text-decoration: none;
+  background: var(--card); border: 2.5px solid var(--ink); border-radius: 4px 12px 12px 4px;
+  box-shadow: inset 9px 0 0 var(--c, var(--ink));
+}
+.rejstrik__row.on { transform: translateX(-4px); box-shadow: inset 9px 0 0 var(--c, var(--ink)), 4px 4px 0 var(--ink); }
+.rejstrik__here { margin-left: auto; font: 600 19px var(--font-note); color: var(--accent); }
+.rejstrik__more { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-top: 12px; }
+.rejstrik__row--more { --c: var(--pencil); min-height: 44px; font-size: 20px; color: var(--ink2); box-shadow: inset 6px 0 0 var(--c); }
+.rejstrik__row--more.on { color: var(--ink); box-shadow: inset 6px 0 0 var(--c), 4px 4px 0 var(--ink); }
+
+/* narrower: the secondary tabs move into the rejstřík, then all but the current tab */
+@media (max-width: 1200px) {
+  html.js .tab--more:not(.on) { display: none; }
+  html.js .nav > .tab--more.on { margin-left: 0; }
+  html.js .stack { display: block; }
+}
+@media (max-width: 760px) {
+  .nav { padding: 8px 0 0; }
+  html.js .tab:not(.on) { display: none; }
+  .tab.on { padding: 16px 20px 8px; font-size: 23px; }
+}
+@media (min-width: 1201px) { .rejstrik { display: none !important; } }
+html:not(.js) .nav { flex-wrap: wrap; }
 
 .foot { margin-top: 56px; border-top: 2.5px solid var(--ink); padding: 16px 0 40px; display: flex; flex-wrap: wrap; gap: 8px 24px; font-size: 14px; color: var(--muted); }
 
@@ -348,7 +399,6 @@ html:not(.js) .scaler button { display: none; }
   .search { order: 3; max-width: none; flex-basis: 100%; }
   .theme { margin-left: auto; padding: 0; justify-content: center; }
   .theme__label { display: none; }
-  .nav .sec { margin-left: 0; }
   .grid4, .secs, .groups { grid-template-columns: minmax(0, 1fr); }
   .hero h1 { font-size: 44px; }
   .pt, .rt { font-size: 42px; }
@@ -368,7 +418,7 @@ html:not(.js) .scaler button { display: none; }
   .filters .field { min-width: 100%; }
 }
 @media print {
-  .top .search, .theme, .nav, .foot, .scaler button, .link-preview, .block { display: none !important; }
+  .top .search, .theme, .nav, .rejstrik, .foot, .scaler button, .link-preview, .block { display: none !important; }
   body { background: #fff; color: #000; }
   .polaroid { max-width: 200px; transform: none; box-shadow: none; }
   .polaroid::before, .polaroid::after, .sticky { display: none; }

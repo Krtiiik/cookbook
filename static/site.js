@@ -48,6 +48,22 @@
     });
   })();
 
+  /* ---------- rejstřík: the stacked-tab button opens the full nav list on narrow screens */
+  (function () {
+    var btn = $('button.stack');
+    var box = document.getElementById('rejstrik');
+    if (!btn || !box) return;
+    function set(open) {
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      btn.setAttribute('aria-label', open ? 'Zavři rejstřík' : 'Otevři rejstřík');
+      box.hidden = !open;
+    }
+    btn.addEventListener('click', function () { set(btn.getAttribute('aria-expanded') !== 'true'); });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && !box.hidden) { set(false); btn.focus(); }
+    });
+  })();
+
   /* ---------- search */
   (function () {
     var form = $('.search');

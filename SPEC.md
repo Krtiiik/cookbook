@@ -124,8 +124,9 @@ Plain JavaScript in `static/`. Keep these classes and attributes, or update the 
 | Status | `.is-written`/`.is-planned`/`.is-draft`/`.is-tested` on cards, links and the article |
 | Page kind | `body.page-home|recipes|recipe|section|explainer|groups|group|converter|calendar|about` |
 | Theme switch | `button.theme[data-theme-current=system|light|dark]` with `.theme__icon--<choice>` and `.theme__label`; the choice is kept in `localStorage` under `kk-theme`, and the inline script in `base.html` sets `data-theme` and `html.js` before first paint |
+| Nav | `nav.nav` > `a.tab` (sections also `.c-<colour>`, secondary pages `.tab--more`; the current one `.on[aria-current=page]`) and `button.stack[aria-expanded][aria-controls=rejstrik]`, which shows and hides `#rejstrik.rejstrik` > `a.rejstrik__row` (`.rejstrik__here` on the current one) and `.rejstrik__more` |
 | Current month | the script adds `.now` to `[data-month=N]` cells in `table.season` and `.strip` |
-| No-JS | `html:not(.js)` hides controls that need the script (theme switch, scaler buttons) |
+| No-JS | `html:not(.js)` hides controls that need the script (theme switch, scaler buttons, Rejstřík button); the nav then shows every tab |
 
 ## Constraints
 

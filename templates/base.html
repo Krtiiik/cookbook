@@ -39,17 +39,34 @@
     <span class="theme__label">Auto</span>
   </button>
 </header>
+{% set main_tabs = [('recepty', 'recepty/index.html', 'Recepty', '')] %}
+{% for s in site.sections %}{% set _ = main_tabs.append((s.slug, s.url, s.title, 'c-' ~ s.color)) %}{% endfor %}
+{% set more_tabs = [('skupiny', 'skupiny/index.html', 'Skupiny'), ('prevodnik', 'prevodnik/index.html', 'Převodník'), ('kalendar', 'sezonni-kalendar/index.html', 'Sezónní kalendář'), ('o-webu', 'o-webu/index.html', 'O webu')] %}
 <nav class="nav" aria-label="Hlavní navigace">
-  <a href="{{ root }}recepty/index.html"{% if nav == 'recepty' %} class="on" aria-current="page"{% endif %}>Recepty</a>
-  {% for s in site.sections %}
-  <a href="{{ root }}{{ s.url }}"{% if nav == s.slug %} class="on" aria-current="page"{% endif %}>{{ s.title }}</a>
+  {% for slug, url, text, color in main_tabs %}
+  <a class="tab {{ color }}{% if nav == slug %} on{% endif %}" href="{{ root }}{{ url }}"{% if nav == slug %} aria-current="page"{% endif %}>{{ text }}</a>
   {% endfor %}
-  <span class="sec">
-    {% for slug, url, text in [('skupiny', 'skupiny/index.html', 'Skupiny'), ('prevodnik', 'prevodnik/index.html', 'Převodník'), ('kalendar', 'sezonni-kalendar/index.html', 'Sezónní kalendář'), ('o-webu', 'o-webu/index.html', 'O webu')] %}
-    <a href="{{ root }}{{ url }}"{% if nav == slug %} class="on" aria-current="page"{% endif %}>{{ text }}</a>
-    {% endfor %}
-  </span>
+  {% for slug, url, text in more_tabs %}
+  <a class="tab tab--more{% if nav == slug %} on{% endif %}" href="{{ root }}{{ url }}"{% if nav == slug %} aria-current="page"{% endif %}>{{ text }}</a>
+  {% endfor %}
+  <button class="stack" type="button" aria-expanded="false" aria-controls="rejstrik" aria-label="Otevři rejstřík">
+    <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+    <span class="stack__front" aria-hidden="true">
+      <svg class="stack__open" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      <svg class="stack__close" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </span>
+  </button>
 </nav>
+<div class="rejstrik" id="rejstrik" hidden>
+  {% for slug, url, text, color in main_tabs %}
+  <a class="rejstrik__row {{ color }}{% if nav == slug %} on{% endif %}" href="{{ root }}{{ url }}"{% if nav == slug %} aria-current="page"{% endif %}>{{ text }}{% if nav == slug %}<span class="rejstrik__here">tady jsi</span>{% endif %}</a>
+  {% endfor %}
+  <div class="rejstrik__more">
+    {% for slug, url, text in more_tabs %}
+    <a class="rejstrik__row rejstrik__row--more{% if nav == slug %} on{% endif %}" href="{{ root }}{{ url }}"{% if nav == slug %} aria-current="page"{% endif %}>{{ text }}</a>
+    {% endfor %}
+  </div>
+</div>
 <main>
 {% block main %}{% endblock %}
 </main>

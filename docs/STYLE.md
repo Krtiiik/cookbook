@@ -121,12 +121,14 @@ body {
 
 ### Header and navigation
 
-- **Top row:** logo, search, theme switch, with a 2.5px ink rule under it.
+- **Top row:** logo, search, theme switch. No rule under it: the nav's ink rule closes the header.
   - **Logo:** a 44px tomato circle with a white icon of a chef's hat on a molehill (a nod to "Krtkova") (inline SVG, `aria-hidden`), then "Krtkova Kuchařka" (hand 34px).
   - **Search** `.search`: a pill input with a 2.5px ink border on `--card` and a magnifier icon inside on the left. The placeholder is "Hledej recept, surovinu, postup…". Results (`ol.search__results`) open below it as a card with a 5px mustard shadow.
   - **Theme switch** `button.theme[data-theme-current]`: a cobalt-filled pill (`--on-cobalt` text) with a 3px mustard shadow. It cycles system → light → dark. The icon is a half-filled circle, a sun or a moon. The label is "Auto", "Světlý" or "Tmavý" in Caveat. Its `aria-label` and `title` are "Motiv: podle systému. Přepni." (and the same for the other states).
-- **Nav row:** Recepty, Metody, Suroviny, Vybavení, Řešení problémů (hand 22px). A secondary group (Skupiny, Převodník, Sezónní kalendář, O webu) sits at the right in body 15px, muted, with a dotted underline. A 1.5px dashed rule is under the row.
-  - **Current page:** a 6px tomato bar under the word (`a.on::after`, rounded, rotated −1.5°). Do not use a background or highlight on the word.
+- **Nav row: divider tabs** (`a.tab`) standing on a 2.5px ink rule, like the tabs of a notebook's dividers. Each tab is `--card` with a 2.5px ink border (no bottom), a 12–14px top radius and a 6px stripe of its section colour along the top (Recepty ink, Metody tomato, Suroviny mint, Vybavení mustard, Řešení problémů cobalt). Hand 22px.
+  - **Secondary tabs** (`.tab--more`: Skupiny, Převodník, Sezónní kalendář, O webu) sit at the right: smaller (hand 18px), `--ink2`, with a `--pencil` stripe, because they are pages, not colour-coded sections.
+  - **Current page** (`.tab.on`): taller, hand 26px, a 10px stripe, and a `--paper` fill whose bottom covers the rule, so the tab joins the page below. This replaces the old underline bar. Still no highlight behind the word.
+  - **Rejstřík** (narrow screens): `button.stack` is four divider tabs one behind the other, each 10px right and 9px higher (front `--card` with a menu icon, then mustard, mint, cobalt). It opens `#rejstrik`, a list of index cards: the five sections full width with a 9px colour edge on the left, the current one pushed out with a 4px ink shadow and "tady jsi" in Caveat, then the secondary pages in two columns. When open, the front tab joins the page and shows a cross.
 
 ### Links (`a.site-link`)
 
@@ -232,7 +234,8 @@ The prototypes use container queries only so the phone artboards work. The site 
 
 **At 600px and below:**
 - **Side padding:** 16px.
-- **Header:** wraps. The search drops to its own full-width row (`order: 3`). The secondary nav moves under the main nav and loses its left margin.
+- **Header:** wraps. The search drops to its own full-width row (`order: 3`).
+- **Nav:** at 1200px and below the secondary tabs move into the Rejstřík; at 760px and below only the current tab and the Rejstřík button stay. Without the script all tabs stay and wrap.
 - **Grids:** 1 column.
 - **Titles:** 42–46px. The hero h1 is 44px.
 - **Facts:** 2 columns.
