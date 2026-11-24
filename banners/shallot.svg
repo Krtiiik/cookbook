@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Dvě protáhlé šalotky srostlé u kořínků pod jednou slupkou, vedle podélně rozkrojená šalotka s vrstvami a za ní tečkovaný obrys větší cibule pro srovnání">
+  <rect width="1200" height="400" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M60 362 H1140" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-dasharray: 2 12; stroke-linecap: round; opacity: .45"/>
+  <path d="M952 345 C860 335 850 200 950 168 Q985 158 998 140 Q1011 158 1046 168 C1146 200 1136 335 1044 345 Z" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-dasharray: 14 12; stroke-linecap: round; stroke-linejoin: round; opacity: .45"/>
+  <path d="M998 140 q-4 -20 6 -32" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-dasharray: 14 12; stroke-linecap: round; opacity: .45"/>
+  <path d="M300 342 l-10 14 M314 345 l-4 15 M328 345 l2 15 M342 345 l8 13 M354 342 l12 10" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linecap: round"/>
+  <g transform="translate(316 345) rotate(-15) scale(.82)">
+    <path d="M-16 0 C-72 -8 -82 -110 -52 -170 C-34 -205 -12 -222 -8 -250 L8 -250 C12 -222 34 -205 52 -170 C82 -110 72 -8 16 0 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 7; stroke-linejoin: round"/>
+    <path d="M-4 -240 C-40 -180 -56 -80 -26 -6 M4 -240 C30 -180 44 -80 22 -6" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linecap: round; opacity: .45"/>
+    <path d="M-34 -150 C-44 -110 -42 -60 -30 -30" style="fill: none; stroke: #fff7ea; stroke-width: 6; stroke-linecap: round; opacity: .5"/>
+    <path d="M0 -250 q-6 -26 10 -44" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 7; stroke-linecap: round"/>
+  </g>
+  <g transform="translate(340 345) rotate(13) scale(.86)">
+    <path d="M-16 0 C-72 -8 -82 -110 -52 -170 C-34 -205 -12 -222 -8 -250 L8 -250 C12 -222 34 -205 52 -170 C82 -110 72 -8 16 0 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 7; stroke-linejoin: round"/>
+    <path d="M-4 -240 C-40 -180 -56 -80 -26 -6 M4 -240 C30 -180 44 -80 22 -6" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linecap: round; opacity: .45"/>
+    <path d="M-34 -150 C-44 -110 -42 -60 -30 -30" style="fill: none; stroke: #fff7ea; stroke-width: 6; stroke-linecap: round; opacity: .5"/>
+    <path d="M0 -250 q8 -26 -6 -46" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 7; stroke-linecap: round"/>
+  </g>
+  <path d="M300 345 Q328 330 356 345" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linecap: round"/>
+  <g transform="translate(650 345) scale(.86)">
+    <path d="M-16 0 C-72 -8 -82 -110 -52 -170 C-34 -205 -12 -222 -8 -250 L8 -250 C12 -222 34 -205 52 -170 C82 -110 72 -8 16 0 Z" style="fill: var(--banner-accent, #c8462a)"/>
+    <path d="M-14 -8 C-62 -16 -70 -110 -44 -164 C-28 -196 -10 -212 -6 -236 L6 -236 C10 -212 28 -196 44 -164 C70 -110 62 -16 14 -8 Z" style="fill: #fff7ea"/>
+    <path d="M-14 -8 C-62 -16 -70 -110 -44 -164 C-28 -196 -10 -212 -6 -236 L6 -236 C10 -212 28 -196 44 -164 C70 -110 62 -16 14 -8 Z" style="fill: var(--banner-accent, #c8462a); opacity: .18"/>
+    <g style="fill: none; stroke: var(--banner-accent, #c8462a); stroke-width: 5; stroke-linecap: round; opacity: .55">
+      <path d="M-12 -14 C-50 -24 -54 -110 -34 -152 C-22 -180 -8 -194 -4 -214 M12 -14 C50 -24 54 -110 34 -152 C22 -180 8 -194 4 -214"/>
+      <path d="M-10 -18 C-36 -30 -38 -100 -24 -134 C-14 -156 -6 -166 -2 -186 M10 -18 C36 -30 38 -100 24 -134 C14 -156 6 -166 2 -186"/>
+      <path d="M-6 -22 C-20 -36 -22 -88 -12 -114 C-6 -128 -2 -138 0 -152 M6 -22 C20 -36 22 -88 12 -114 C6 -128 2 -138 0 -152"/>
+    </g>
+    <path d="M-20 -6 Q0 -18 20 -6" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linecap: round; opacity: .6"/>
+    <path d="M-16 0 C-72 -8 -82 -110 -52 -170 C-34 -205 -12 -222 -8 -250 L8 -250 C12 -222 34 -205 52 -170 C82 -110 72 -8 16 0 Z" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 7; stroke-linejoin: round"/>
+  </g>
+  <path d="M640 345 l-8 13 M652 345 l0 15 M664 345 l8 13" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linecap: round"/>
+  <path d="M200 92 q-24 40 30 86" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="60" y="76" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">často dvě pod jednou slupkou</text>
+  <path d="M700 114 q-30 20 -10 70" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="640" y="96" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">jemnější než cibule</text>
+</svg>
