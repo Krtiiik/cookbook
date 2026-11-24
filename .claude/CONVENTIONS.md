@@ -29,6 +29,11 @@ Skip anything tooling already checks. Prefer a rule plus a one-line reason over 
 - Bought frozen berries for food that is not cooked or baked are boiled at least 2 minutes (`strawberry` owns it). Other pages say "kupované mražené" and link it.
 - Water that goes into food is cold from the tap or hot from the kettle, never warm from the tap (`water` owns it); do not write "teplá voda" for food.
 - Any dish with honey that could go to a child says "med nedávej dětem do 1 roku" and links `honey`.
+- A dish with a raw or soft egg (majonéza, holandská, ztracené vejce, tiramisu) names the risk groups or links `egg`. A dish with wine or other alcohol is not for children or pregnant women; wine simmers at least 15 minutes.
+- No alobal for salty or acidic food ("podle BfR"). Acid goes into a milk or cream sauce by lžička, tasting each time.
+- A reheated cream dish follows `cream`: smetana ke šlehání or a flour-thickened sauce may simmer gently; smetana na vaření without flour is only heated to the core target.
+- Burn first aid is one text on `sugar`; other pages give a one-line summary and link it.
+- A recipe that uses vinný, jablečný or balzamikový ocet, dijonská hořčice or sušené ovoce overrides allergens with `sulphites` (the catalog default is the sulphite-free kind).
 - Spice timing: whole spices and bay leaf go in early; ground pepper at the end; ground paprika and ground kmín that build a sauce go in early on the fat (the paprika method on `sweet-paprika`); delicate dried herbs (majoránka) 10–15 minutes before the end, hardy ones (tymián, rozmarýn) earlier.
 - Heat words, only these: mírný, středně mírný, střední, středně vysoký, vysoký oheň; "moc silný oheň" only as a mistake. To lower the heat: "stáhni oheň". Give a heat word wherever a step changes the heat, so pages can agree.
 - Raw meat: cook it within 2 days ("podle bezpecnostpotravin.cz"); at −18 °C it is safe almost without limit, and the freezer months are quality only. Head, tail and organ cuts (líčka, oháňka, jazyk, játra) are variety meats: 1–2 days in the fridge, 3–4 months frozen; that grouping and those numbers stay "podle USDA FSIS", since no Czech or EU source gives them. Numbers per topic in `docs/FOOD-SAFETY.md`.
