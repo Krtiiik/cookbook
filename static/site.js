@@ -198,7 +198,9 @@
   /* ---------- filter box: the whole card opens and shuts like paper folded back and forth.
      Copies of the open card are cut into slices: the head (summary) stays flat, the middle
      is N strips that tilt by acos(p) in a zigzag, and the foot (bottom edge) rides below.
-     A strip tilted by acos(p) is p times its flat height on screen, so the slices stay joined. */
+     The strips are placed in one shared 3D space (one perspective on the layer): even strips
+     run from the screen plane back to depth -s*sin(a), odd strips come forward again, so
+     neighbours share their edge exactly. N is even, so the foot is back on the screen plane. */
   (function () {
     var card = $('details.filters-wrap');
     if (!card) return;
@@ -246,11 +248,13 @@
       card.appendChild(layer);
       card.classList.add('is-folding');
       function frame(p) {
-        var a = Math.acos(p);
-        card.style.height = shut + L * p + 'px';
+        var a = Math.acos(p), depth = s * Math.sin(a);
+        card.style.height = layer.style.height = shut + L * p + 'px';
         strips.forEach(function (st, k) {
           st.style.top = head + k * s * p + 'px';
-          st.style.transform = 'perspective(1800px) rotateX(' + (k % 2 ? a : -a) + 'rad)';
+          st.style.transform = k % 2
+            ? 'translateZ(' + -depth + 'px) rotateX(' + a + 'rad)'
+            : 'rotateX(' + -a + 'rad)';
           st.style.setProperty('--shade', ((1 - p) * (k % 2 ? 0.3 : 0.08)).toFixed(3));
         });
         footSlice.style.top = head + L * p + 'px';
@@ -261,6 +265,7 @@
         if (t0 === null) t0 = now;
         var t = Math.min(1, (now - t0) / MS), p = ease(t);
         frame(opening ? p : 1 - p);
+      layer.style.width = w + 'px';
         if (t < 1) { requestAnimationFrame(step); return; }
         card.removeChild(layer);
         card.classList.remove('is-folding');
