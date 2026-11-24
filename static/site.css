@@ -363,6 +363,12 @@ html:not(.js) .scaler button { display: none; }
 .filters-wrap { --fold: 0; }
 .filters-wrap[open] { --fold: 1; }
 .filters-wrap summary::before { content: ""; display: inline-block; vertical-align: 0.12em; margin-right: 0.4em; border-left: 0.42em solid currentColor; border-top: 0.26em solid transparent; border-bottom: 0.26em solid transparent; transform: rotate(calc(var(--fold) * 90deg)); }
+/* Pleats: two folded edges peek out under the shut card, to show there is more paper
+   folded up. They fade out in the first quarter of opening (opacity clamps below 0). */
+.filters-wrap::before, .filters-wrap::after { content: ""; position: absolute; border: 2.5px solid var(--ink); border-top: 0; border-radius: 0 0 6px 7px; box-shadow: 4px 3px 0 var(--cobalt); background: linear-gradient(rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.04)), var(--card); opacity: calc(1 - var(--fold) * 4); visibility: visible; pointer-events: none; }
+.filters-wrap::before { left: 6px; right: 6px; top: calc(100% + 2.5px); height: 9px; z-index: 1; }
+.filters-wrap::after { left: 13px; right: 13px; top: calc(100% + 11.5px); height: 8px; }
+.fold-layer .filters-wrap::before, .fold-layer .filters-wrap::after { display: none; }
 .filters-wrap .filters { margin-top: 6px; }
 /* Accordion fold while the filters open or close: site.js hides the card and lays slices
    of a copy of it on top; the middle slices tilt back and forth like folded paper. */

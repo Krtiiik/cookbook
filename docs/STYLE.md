@@ -217,7 +217,7 @@ Banners follow SPEC.md (viewBox 1200×400, colours only through `--banner-*`, no
 
 ### Recipe list filters (`form.filters`)
 
-This page is not in the prototype. Use the converter field style: Caveat labels and bordered pill controls, in a card with a cobalt shadow. Put the controls in a wrapping row on desktop. On a phone, collapse the form into a `<details>` with the summary "Filtry". The text for no results is "Nic neodpovídá. Zkus jiný filtr." The whole card opens and shuts with an accordion fold: the summary row stays flat, the part below folds in four strips that tilt back and forth like folded paper, and the bottom edge rides along (about 0.5s).
+This page is not in the prototype. Use the converter field style: Caveat labels and bordered pill controls, in a card with a cobalt shadow. Put the controls in a wrapping row on desktop. On a phone, collapse the form into a `<details>` with the summary "Filtry". The text for no results is "Nic neodpovídá. Zkus jiný filtr." The whole card opens and shuts with an accordion fold: the summary row stays flat, the part below folds in four strips that tilt back and forth like folded paper, and the bottom edge rides along (about 0.5s). A click during the fold turns it back. The arrow turns with the fold. When shut, two folded edges (pleats) peek out under the card; they fade in the first quarter of opening.
 
 ### Footer
 
