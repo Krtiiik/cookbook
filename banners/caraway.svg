@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Malá suchá pánev nad nízkým plamenem s hrstí zahnutých semínek kmínu, ze které stoupá vůně, vedle tři zvětšená štíhlá hnědá semínka kmínu s rýhami">
+  <style>.steam path{animation:steam-rise 3.4s ease-in-out infinite}.steam path:nth-child(2){animation-delay:1.7s}@keyframes steam-rise{0%{opacity:0;transform:translateY(14px)}40%{opacity:1}100%{opacity:0;transform:translateY(-16px)}}</style>
+  <rect width="1200" height="400" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M60 362 H1140" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-dasharray: 2 12; stroke-linecap: round; opacity: .45"/>
+  <path d="M344 360 q10-22 20-2 q10-28 20-2 q10-22 20-2 q10-28 20-2 q10-22 20-2 q10-26 20-2 Z" style="fill: var(--banner-warm, #e9b44c); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+  <path d="M220 258 L84 232" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 24; stroke-linecap: round"/>
+  <circle cx="100" cy="235" r="5" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M212 256 L226 300 Q404 350 582 300 L596 256 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <g style="fill: #fff7ea"><circle cx="300" cy="312" r="6"/><circle cx="404" cy="322" r="6"/><circle cx="508" cy="312" r="6"/></g>
+  <ellipse cx="404" cy="256" rx="192" ry="50" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6"/>
+  <ellipse cx="404" cy="260" rx="172" ry="38" style="fill: var(--banner-bg, #fffaf0); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5"/>
+  <g style="fill: var(--banner-warm, #e9b44c); fill: color-mix(in srgb, var(--banner-warm, #e9b44c) 45%, black); stroke: var(--banner-fg, #1b2a4a); stroke-width: 2; stroke-linejoin: round">
+    <path d="M0 0 C7 -8 19 -8 26 0 C19 -2 7 -2 0 0 Z" transform="translate(268 252) rotate(-10)"/>
+    <path d="M0 0 C7 -8 19 -8 26 0 C19 -2 7 -2 0 0 Z" transform="translate(300 270) rotate(14)"/>
+    <path d="M0 0 C7 -8 19 -8 26 0 C19 -2 7 -2 0 0 Z" transform="translate(326 246) rotate(-24)"/>
+    <path d="M0 0 C7 -8 19 -8 26 0 C19 -2 7 -2 0 0 Z" transform="translate(344 282) rotate(4)"/>
+    <path d="M0 0 C7 -8 19 -8 26 0 C19 -2 7 -2 0 0 Z" transform="translate(360 262) rotate(30)"/>
+    <path d="M0 0 C7 -8 19 -8 26 0 C19 -2 7 -2 0 0 Z" transform="translate(384 244) rotate(-6)"/>
+    <path d="M0 0 C7 -8 19 -8 26 0 C19 -2 7 -2 0 0 Z" transform="translate(398 276) rotate(-16)"/>
+    <path d="M0 0 C7 -8 19 -8 26 0 C19 -2 7 -2 0 0 Z" transform="translate(420 258) rotate(170)"/>
+    <path d="M0 0 C7 -8 19 -8 26 0 C19 -2 7 -2 0 0 Z" transform="translate(440 282) rotate(8)"/>
+    <path d="M0 0 C7 -8 19 -8 26 0 C19 -2 7 -2 0 0 Z" transform="translate(452 242) rotate(-30)"/>
+    <path d="M0 0 C7 -8 19 -8 26 0 C19 -2 7 -2 0 0 Z" transform="translate(474 264) rotate(20)"/>
+    <path d="M0 0 C7 -8 19 -8 26 0 C19 -2 7 -2 0 0 Z" transform="translate(496 284) rotate(-6)"/>
+    <path d="M0 0 C7 -8 19 -8 26 0 C19 -2 7 -2 0 0 Z" transform="translate(504 248) rotate(186)"/>
+    <path d="M0 0 C7 -8 19 -8 26 0 C19 -2 7 -2 0 0 Z" transform="translate(530 266) rotate(-14)"/>
+    <path d="M0 0 C7 -8 19 -8 26 0 C19 -2 7 -2 0 0 Z" transform="translate(286 288) rotate(-4)"/>
+    <path d="M0 0 C7 -8 19 -8 26 0 C19 -2 7 -2 0 0 Z" transform="translate(410 296) rotate(200)"/>
+    <path d="M0 0 C7 -8 19 -8 26 0 C19 -2 7 -2 0 0 Z" transform="translate(320 226) rotate(6)"/>
+    <path d="M0 0 C7 -8 19 -8 26 0 C19 -2 7 -2 0 0 Z" transform="translate(470 230) rotate(-10)"/>
+    <path d="M0 0 C7 -8 19 -8 26 0 C19 -2 7 -2 0 0 Z" transform="translate(546 256) rotate(24)"/>
+    <path d="M0 0 C7 -8 19 -8 26 0 C19 -2 7 -2 0 0 Z" transform="translate(370 300) rotate(10)"/>
+  </g>
+  <g class="steam" style="fill: none; stroke: var(--banner-warm, #e9b44c); stroke-width: 5; stroke-linecap: round">
+    <path d="M380 212 c-26 -16 18 -34 -6 -52 c-22 -16 22 -32 2 -50"/>
+    <path d="M440 214 c-22 -14 16 -30 -4 -46 c-20 -14 18 -28 2 -42"/>
+  </g>
+  <g style="fill: var(--banner-warm, #e9b44c); fill: color-mix(in srgb, var(--banner-warm, #e9b44c) 45%, black); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round">
+    <path d="M0 0 C35 -34 95 -34 130 0 C95 -6 35 -6 0 0 Z" transform="translate(690 286) rotate(-8)"/>
+    <path d="M0 0 C35 -34 95 -34 130 0 C95 -6 35 -6 0 0 Z" transform="translate(878 226) rotate(-14)"/>
+    <path d="M0 0 C35 -34 95 -34 130 0 C95 -6 35 -6 0 0 Z" transform="translate(866 334) rotate(6)"/>
+  </g>
+  <g style="fill: none; stroke: #fff7ea; stroke-width: 2; stroke-linecap: round; opacity: .5">
+    <path d="M10 -3 C38 -27 92 -27 120 -3 M6 -1 C36 -20 94 -20 124 -1 M10 -1 C38 -13 92 -13 120 -1" transform="translate(690 286) rotate(-8)"/>
+    <path d="M10 -3 C38 -27 92 -27 120 -3 M6 -1 C36 -20 94 -20 124 -1 M10 -1 C38 -13 92 -13 120 -1" transform="translate(878 226) rotate(-14)"/>
+    <path d="M10 -3 C38 -27 92 -27 120 -3 M6 -1 C36 -20 94 -20 124 -1 M10 -1 C38 -13 92 -13 120 -1" transform="translate(866 334) rotate(6)"/>
+  </g>
+  <g style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linecap: round">
+    <path d="M131 -1 l12 4" transform="translate(690 286) rotate(-8)"/>
+    <path d="M131 -1 l12 4" transform="translate(878 226) rotate(-14)"/>
+    <path d="M131 -1 l12 4" transform="translate(866 334) rotate(6)"/>
+  </g>
+  <path d="M250 112 q70 -4 118 44" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="60" y="104" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">nasucho, než zavoní</text>
+  <path d="M900 106 q44 18 42 82" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="660" y="92" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">to není římský kmín</text>
+</svg>
