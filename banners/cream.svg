@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Zleva kelímek smetany ke šlehání, uprostřed mísa s našlehanou smetanou s měkkými špičkami a metlou a vpravo hrnec s omáčkou, do které je zamíchaný bílý vír smetany">
+  <style>.steam path{animation:steam-rise 3.4s ease-in-out infinite}.steam path:nth-child(2){animation-delay:1.1s}.steam path:nth-child(3){animation-delay:2.2s}@keyframes steam-rise{0%{opacity:0;transform:translateY(14px)}40%{opacity:1}100%{opacity:0;transform:translateY(-16px)}}</style>
+  <rect width="1200" height="400" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M60 362 H1140" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-dasharray: 2 12; stroke-linecap: round; opacity: .45"/>
+
+  <!-- cup of cream -->
+  <path d="M90 204 L110 350 Q111 356 117 356 L193 356 Q199 356 200 350 L220 204 Z" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M200 204 L220 204 L200 350 Q199 356 193 356 L186 356 Z" style="fill: var(--banner-fg, #1b2a4a); opacity: .12"/>
+  <path d="M97 252 L211 252 L206 306 L102 306 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+  <path d="M155 262 q-17 21 -17 31 a17 17 0 0 0 34 0 q0 -10 -17 -31 Z" style="fill: #fff7ea; stroke: #1b2a4a; stroke-width: 3.5; stroke-linejoin: round"/>
+  <rect x="80" y="178" width="150" height="28" rx="9" style="fill: var(--banner-cool, #1f4fa3); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M102 192 H208" style="fill: none; stroke: #fff7ea; stroke-width: 3.5; stroke-linecap: round; opacity: .55"/>
+
+  <!-- bowl of whipped cream -->
+  <path d="M340 226 Q346 356 480 356 Q614 356 620 226 Z" style="fill: var(--banner-cool, #1f4fa3); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <g style="fill: #fff7ea"><circle cx="404" cy="290" r="10"/><circle cx="476" cy="326" r="10"/><circle cx="548" cy="292" r="10"/></g>
+  <ellipse cx="480" cy="226" rx="140" ry="24" style="fill: var(--banner-cool, #1f4fa3); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6"/>
+  <ellipse cx="480" cy="230" rx="124" ry="15" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4"/>
+  <path d="M366 232 C364 202 394 188 420 186 C430 162 452 148 466 130 C470 118 466 104 470 92 C486 98 496 108 492 122 C490 134 480 142 488 152 C500 150 514 146 524 138 C530 126 534 116 542 108 C552 116 556 132 550 148 C548 156 556 162 566 168 C586 178 596 204 594 232 C560 244 400 244 366 232 Z" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+  <path d="M452 150 q10 -10 22 -14 M410 204 q-4 -8 6 -12 M520 184 q14 2 22 10 M470 108 q8 4 10 12 M532 138 q6 -4 12 -6" style="fill: none; stroke: #1b2a4a; stroke-width: 3; stroke-linecap: round; opacity: .4"/>
+
+  <!-- whisk resting in the cream -->
+  <g transform="translate(556 196) rotate(32)" style="stroke-linecap: round; stroke-linejoin: round">
+    <path d="M0 -20 C-30 0 -30 32 0 46 C30 32 30 0 0 -20 M0 -20 C-14 0 -14 32 0 46 M0 -20 C14 0 14 32 0 46" style="fill: none; stroke: #fff7ea; stroke-width: 8; opacity: .9"/>
+    <path d="M0 -20 C-30 0 -30 32 0 46 C30 32 30 0 0 -20 M0 -20 C-14 0 -14 32 0 46 M0 -20 C14 0 14 32 0 46" style="fill: none; stroke: #1b2a4a; stroke-width: 4"/>
+    <rect x="-8" y="-150" width="16" height="124" rx="7" style="fill: var(--banner-warm, #e9b44c); fill: color-mix(in srgb, var(--banner-warm, #e9b44c) 40%, black); stroke: #1b2a4a; stroke-width: 5"/>
+    <rect x="-11" y="-32" width="22" height="14" rx="4" style="fill: #fff7ea; stroke: #1b2a4a; stroke-width: 4"/>
+  </g>
+
+  <!-- pot of sauce with cream swirl -->
+  <g class="steam" style="fill: none; stroke: var(--banner-cool, #1f4fa3); stroke-width: 5; stroke-linecap: round">
+    <path d="M990 112 q-14 -18 0 -36 q14 -18 0 -32"/>
+    <path d="M1040 116 q-14 -18 0 -36 q14 -18 0 -32"/>
+  </g>
+  <path d="M862 376 q12-30 24-2 q12-38 24-2 q12-30 24-2 q12-38 24-2 Z" style="fill: var(--banner-warm, #e9b44c); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+  <path d="M1034 216 L1124 200" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 20; stroke-linecap: round"/>
+  <circle cx="1120" cy="201" r="5" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M776 190 L790 316 Q792 336 810 336 L1010 336 Q1028 336 1030 316 L1044 190 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <g style="fill: #fff7ea"><circle cx="838" cy="262" r="11"/><circle cx="904" cy="304" r="11"/><circle cx="974" cy="268" r="11"/></g>
+  <ellipse cx="910" cy="190" rx="134" ry="24" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6"/>
+  <ellipse cx="910" cy="194" rx="118" ry="15" style="fill: var(--banner-warm, #e9b44c); stroke: var(--banner-fg, #1b2a4a); stroke-width: 4"/>
+  <path d="M912 194 c6 -3 14 -2 13 2 c-2 5 -15 5 -20 -1 c-4 -6 6 -11 18 -10 c16 1 26 8 22 13 c-8 7 -34 7 -46 0 c-10 -7 -2 -13 14 -15 c20 -2 44 4 54 10" style="fill: none; stroke: #fff7ea; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round"/>
+
+  <!-- notes -->
+  <text x="40" y="126" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">dobře vychlazená</text>
+  <path d="M120 140 q-14 14 6 32" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="296" y="64" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">měkké špičky</text>
+  <path d="M430 78 q32 2 36 20" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="700" y="64" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">vmíchej</text>
+  <text x="700" y="106" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">až na konci</text>
+  <path d="M850 104 q16 8 40 66" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+</svg>
