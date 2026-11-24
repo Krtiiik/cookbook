@@ -7,8 +7,8 @@
 - { slug: oxtail, title: Oháňka, summary: "Hodně kosti a kolagenu, málo masa. Na omáčku a polévku.", category: meat, animal: meat, season: all-year, substitutes: [beef-shank, beef-cheeks, beef-bones] }
 - { slug: beef-bones, title: Hovězí kosti, summary: "Základ vývaru. Morkové dávají chuť, kloubní želatinu.", category: meat, animal: meat, season: all-year, substitutes: [oxtail, beef-shank] }
 - { slug: onion, title: Cibule, summary: "Základ české kuchyně, od cibulky do polévky po guláš. Syrová ostrá, opékaná sladká.", category: vegetables, animal: none, season: [7, 8, 9, 10, 11, 12, 1, 2, 3], substitutes: [shallot, leek] }
-- { slug: shallot, title: Šalotka, summary: "Jemnější a sladší než cibule.", category: vegetables, animal: none, season: all-year, substitutes: [onion, leek] }
-- { slug: leek, title: Pórek, summary: "Mírná cibulová chuť, jíst se dá i zelená část.", category: vegetables, animal: none, season: [7, 8, 9, 10, 11, 12, 1, 2, 3], substitutes: [onion, shallot] }
+- { slug: shallot, title: Šalotka, summary: "Jemnější a sladší než cibule. V české kuchyni doplněk do salátů a jemných omáček, jinak stačí cibule.", category: vegetables, animal: none, season: all-year, substitutes: [onion, leek] }
+- { slug: leek, title: Pórek, summary: "Jemnější než cibule. Bílá a světle zelená část do polévek, tmavě zelené listy do vývaru. Písek vymyj až po nakrájení.", category: vegetables, animal: none, season: [7, 8, 9, 10, 11, 12, 1, 2, 3, 4], substitutes: [onion, shallot] }
 - { slug: garlic, title: Česnek, summary: "Prolisovaný nejostřejší. Na tuku jen chvilku do vůně, do česnečky až na konec.", category: vegetables, animal: none, season: all-year, substitutes: [wild-garlic] }
 - { slug: carrot, title: Mrkev, summary: "Sladká kořenová zelenina do vývarů a omáček.", category: vegetables, animal: none, season: all-year, substitutes: [parsley-root] }
 - { slug: celeriac, title: Celer bulvový, summary: "Kořenová zelenina s výraznou vůní. Alergen (celer).", category: vegetables, animal: none, season: [8, 9, 10, 11, 12, 1, 2, 3, 4], allergens: [celery], substitutes: [parsley-root, carrot] }

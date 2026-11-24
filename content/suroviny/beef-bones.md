@@ -1,8 +1,10 @@
 ## Popis
 
-Hovězí kosti jsou kosti z nohou, kloubů a žeber s málo masem nebo žádným. Jsou základ [[hovezi-vyvar|hovězího vývaru]]: dávají mu chuť, tuk a želatinu. Z vývaru je pak hovězí polévka s nudlemi a játrovými knedlíčky, a podlévá se jím guláš nebo omáčka na svíčkovou.
+Hovězí kosti jsou kosti z nohou, kloubů a žeber s málo masem nebo žádným. Jsou základ [[hovezi-vyvar|hovězího vývaru]]: dávají mu chuť, tuk a želatinu.
 
-U řezníka je najdeš jako „kosti na polévku“. Každý druh dá něco jiného. Morek uvnitř dlouhých kostí dá chuť a tuk. Chrupavky a vazy na kloubech jsou plné kolagenu. Za několik hodin v [[simmering|mírném varu]] se kolagen mění na želatinu (viz [[braising|dušení]]) a vývar dostane plnost. Proto se kosti obvykle míchají.
+Z vývaru je nedělní hovězí polévka s nudlemi a játrovými knedlíčky, polévka s kapáním nebo s rýží. Vývarem se podlévá [[hovezi-gulas|guláš]], svíčková, koprovka i rajská, a omáčka z něj má plnější chuť než z vody. Doma se proto vyplatí uvařit vývar z většího hrnce kostí a zamrazit ho po porcích.
+
+Každý druh kosti dá něco jiného. Morek uvnitř dlouhých kostí dá chuť a tuk. Chrupavky a vazy na kloubech jsou plné kolagenu. Za několik hodin v [[simmering|mírném varu]] se kolagen mění na želatinu (viz [[braising|dušení]]) a vývar dostane plnost. Proto se kosti obvykle míchají.
 
 ## Druhy
 
@@ -13,6 +15,14 @@ U řezníka je najdeš jako „kosti na polévku“. Každý druh dá něco jin�
 Na vývar podle receptu stačí 1,5 kg kostí na 3 l vody, zhruba napůl morkových a kloubních. Samotné kloubní kosti dají želatinu, maso ale chybí. Pro masovou chuť přidej žebro nebo kus [[beef-shank|kližky]].
 
 ## Jak vybrat
+
+**Kde koupit:**
+
+- **U řezníka:** kosti bývají levnější než v supermarketu a stálý zákazník je někdy dostane i zadarmo. Řekni si o ně den dopředu, řezník je nachystá a nařeže. Řekni, že jsou na vývar, a chtěj morkové i kloubní.
+- **V supermarketu:** balíčky „hovězí kosti“, „kosti na polévku“ nebo „kosti na vývar“, čerstvé nebo mražené. Bývá v nich směs různých kusů. Podívej se přes fólii, jestli je tam aspoň jeden kloub.
+- **Polévkové maso:** pro masovou chuť se ke kostem kupuje kus hovězího masa na polévku, třeba hrudí, žebro nebo [[beef-shank|kližka]]. Uvařené maso pak nakrájíš do polévky.
+
+**Na co se dívat:**
 
 - Kosti jsou světlé, morek růžový až krémový. Nepáchnou nakysle a povrch není lepkavý.
 - Požádej řezníka, ať ti kosti nařeže na kusy 5–8 cm. Vejdou se do hrnce a z řezu vyjde víc chuti i želatiny.
@@ -44,7 +54,7 @@ S první vodou odejde trochu chuti. Proto blanšíruj jen tehdy, když na vzhled
 
 ### Tmavý vývar: opéct kosti v troubě
 
-Doma se vaří hlavně světlý vývar na polévku. Tmavý vývar z opečených kostí je kuchařský postup. Má plnější, pečenou chuť ([[browning]]) a hodí se do tmavé omáčky, třeba k pečeni. Blanšírovat kosti pak nemusíš.
+Doma se vaří hlavně světlý vývar na polévku. Tmavý vývar z opečených kostí je kuchařský postup. Má plnější, [[browning|pečenou chuť]] a hodí se do tmavé omáčky, třeba k pečeni. Blanšírovat kosti pak nemusíš.
 
 1. Rozehřej troubu na 220 °C, horní a spodní ohřev.
 2. Kosti rozlož do pekáče nebo na plech v jedné vrstvě, s mezerami.
@@ -65,6 +75,14 @@ Jestli kosti daly dost želatiny, poznáš na studeném vývaru. Vývar rozlij d
 Příště přidej víc kloubních kostí, nebo dej méně vody. Vodu dolévej jen tolik, aby kosti zůstaly ponořené.
 
 Tuk z morku ztuhne na povrchu do bílé vrstvy. Seber ho lžící, dokud je vývar studený.
+
+### V tlakovém hrnci
+
+Hodně lidí vaří kosti na vývar v tlakovém hrnci a ušetří tak hodiny; vodu a čas se řiď návodem k hrnci a zkouška želatiny platí stejně.
+
+### Morek na topinku
+
+Morek z uvařených morkových kostí neodhazuj. Vyklep nebo vydloubni ho nožem, dokud je teplý, a namaž ho na topinku. Osol ho a posyp nasekanou petrželkou, nebo potři topinku [[garlic|česnekem]]. Je to oblíbená pochoutka k nedělní polévce. Z morku se dělají i morkové knedlíčky do vývaru.
 
 ## Náhrady
 

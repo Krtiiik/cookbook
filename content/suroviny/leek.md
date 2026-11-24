@@ -2,7 +2,7 @@
 
 Pórek je příbuzný s [[onion|cibulí]] a [[garlic|česnekem]]. Netvoří cibuli, ale dlouhý stvol z listů, které se navzájem obalují. Chutná jako cibule, jen jemněji a sladčeji. Syrový tolik neštípe.
 
-V české kuchyni je pórek hlavně v polévkách: pórková polévka, bramboračka, zeleninová polévka, a často i ve svazku polévkové zeleniny do vývaru. Dál se dává do pórkového koláče, syrový na jemné kroužky do pomazánek (vajíčková, sýrová, s tvarohem) a do zeleninových a vajíčkových salátů.
+V české kuchyni je pórek hlavně v polévkách: pórková polévka s bramborami, bramboračka, zeleninová polévka. Kus pórku bývá i v balíčku polévkové zeleniny na vývar, vedle mrkve, petržele a celeru (viz [[carrot|mrkev]]). Syrový na jemné kroužky jde do pomazánek (vajíčková, sýrová, tvarohová) a do zeleninových a vajíčkových salátů, místo cibule nebo pažitky. Dál se peče v pórkovém koláči nebo zapéká se sýrem.
 
 Stvol má tři části, které se v kuchyni používají jinak:
 
@@ -15,7 +15,11 @@ Stvol má tři části, které se v kuchyni používají jinak:
 - **Letní pórek:** sklízí se od července. Je tenčí, světlejší a měkčí, chutná jemně. Vydrží kratší dobu.
 - **Podzimní a zimní pórek:** sklízí se od podzimu přes zimu do března, snese mráz. Je silnější, listy má tmavě modrozelené a chuť výraznější. To je pórek, který v zimě najdeš v obchodě.
 
+Na zahrádce se pórek sází od dubna do června jako sazenice, zimní pórek nejpozději. Během léta se k němu přihrnuje hlína, aby byla bílá část delší a světlejší. Proto se mezi listy drží písek. Zimní pórek může zůstat na záhonu přes zimu a vytahuješ ho podle potřeby, když půda nezamrzne.
+
 ## Jak vybrat
+
+V obchodě se pórek prodává na kusy nebo na váhu, celý rok; od jara do léta bývá dovozový. Na podzim ho najdeš na trhu od českých pěstitelů, často silnější a s hlínou mezi listy.
 
 Pevný, rovný stvol s dlouhou bílou částí. Listy mají být svěží, ne žluté, zvadlé ani slizké. Ohebný stvol je starý nebo vysušený. Tenčí pórek bývá křehčí, silný je výraznější a má víc tuhých listů.
 
@@ -46,8 +50,9 @@ Před opékáním nebo zpocením kroužky nech okapat nebo je osuš v utěrce. M
 
 ### Ve vývaru a v polévce
 
-- Do vývaru dej tmavě zelené listy nebo kus stvolu vcelku, spolu s kořenovou zeleninou na poslední hodinu (viz [[carrot|mrkev]]). Vaří se ve vodě v [[simmering|mírném varu]]. Na konci ho vylov nebo sceď.
+- Do vývaru dej tmavě zelené listy nebo kus stvolu vcelku, spolu s kořenovou zeleninou na poslední hodinu (viz [[carrot|mrkev]]). Vaří se ve vodě v [[simmering|mírném varu]]. Na konci je vylov nebo sceď.
 - Do polévky, kde pórek zůstane (pórková polévka, bramboračka), použij bílou a světle zelenou část na kroužky.
+- **Pórková polévka:** kroužky pórku zpoť na másle na mírném ohni, přidej [[potatoes|brambory]] na malé kostky a zalij vodou nebo vývarem. Vař v mírném varu, až brambory změknou, asi 15 minut, a vyzkoušej je vidličkou. Polévku můžeš zjemnit smetanou ke šlehání (obsahuje mléko) nebo část brambor rozmačkat, aby zhoustla. Dochuť solí, pepřem a muškátovým oříškem.
 
 ## Náhrady
 
