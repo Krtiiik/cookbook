@@ -1,29 +1,35 @@
 ## Princip
 
-Zpocení je pomalé změkčení nakrájené zeleniny na tuku, na mírném ohni a bez barvy (doma se říká i zpěnit nebo osmahnout dosklovita). Teplo otevře buňky, zelenina pustí vodu a ta se pomalu odpaří. Zelenina změkne, zprůsvitní a zesládne, ale nezhnědne.
+Zpocení je pomalé změkčení nakrájené zeleniny na tuku, na mírném ohni a bez barvy. České recepty tomu říkají „zpěnit cibulku na másle“ nebo „osmahnout dosklovita“. „Zpěnit“ je od slova pěna: když dáš zeleninu do horkého tuku, voda z ní (a u másla i voda z másla) se odpařuje a tuk pění. Dokud se voda odpařuje, teplota zůstává kolem 100 °C (viz [[butter|máslo]]). Teplo otevře buňky, zelenina pustí vodu a ta se pomalu odpaří. Zelenina změkne, zprůsvitní a zesládne, ale nezhnědne.
 
 Barva tu je chyba, ne cíl. Hnědnutí dá jídlu pečenou, výraznou chuť ([[browning]]). Zpocená zelenina má chuť jemnou a čistou, a ta nepřebije zbytek jídla.
 
-Oproti [[caramelising|karamelizaci]]: tam cibule na tuku zůstává mnohem déle, dokud nezhnědne a nezesládne do hloubky. Zpocení končí dřív, ve chvíli, kdy je zelenina měkká a ještě světlá.
+Oproti [[caramelising|karamelizaci]]: tam cibule na tuku zůstává mnohem déle, dokud nezhnědne a nezesládne do hloubky. Zpocení končí dřív, ve chvíli, kdy je zelenina měkká a ještě světlá. Když recept píše „osmahni cibulku dozlatova“, chce už víc než zpocení: zlatá cibule je první barevná fáze karamelizace.
 
 ## Kdy ano a kdy ne
 
-- **Ano:** základ krémových a zeleninových polévek, kde má být polévka světlá.
-- **Ano:** cibule nebo [[shallot|šalotka]] před přidáním rýže do rizota a podobných jídel.
-- **Ano:** světlé omáčky a zeleninová ragú, kde má vyniknout zelenina nebo smetana.
+- **Ano:** základ polévek: bramboračka, houbová, krémové polévky z květáku, brokolice nebo [[pumpkin|dýně]]. Cibule a kořenová zelenina se zpotí na másle a pak se zalijí vodou nebo vývarem.
+- **Ano:** světlé omáčky, kde má vyniknout smetana, houby nebo zelenina. Často pokračují jíškou: do zpocené cibule se vmíchá mouka.
+- **Ano:** cibule nebo [[shallot|šalotka]] před přidáním rýže do rizota.
 - **Vhodná zelenina:** [[onion|cibule]], šalotka, [[leek|pórek]], [[carrot|mrkev]], [[celeriac|celer]], [[parsley-root|petržel]], [[garlic|česnek]] (ten až na konci).
-- **Ne:** guláš a tmavé omáčky. Tam potřebuješ barvu, takže cibuli opékáš déle ([[caramelising]]).
+- **Ne:** guláš, cibulka na sádle do zelí a tmavé omáčky. Tam potřebuješ barvu, takže cibuli opékáš déle ([[caramelising]]).
 - **Ne:** zelenina do čirého vývaru. Většinou jde do hrnce syrová a vaří se ve vodě ([[simmering]]).
 
 ## Postup
 
 1. Zeleninu nakrájej na stejně velké kousky. Malé kousky změknou dřív než velké a začnou hnědnout.
-2. V hrnci nebo na pánvi s těžkým dnem ohřej tuk na mírném ohni. Stačí asi 1 lžíce [[butter|másla]] nebo [[oil|oleje]] na 1 cibuli, aby dno pokryla tenká vrstva. U velkého množství (500 g a víc) může být zpočátku střední oheň, dokud zelenina pouští vodu.
+2. V kastrolu nebo hrnci se silným dnem ohřej tuk na mírném ohni. Stačí asi 1 lžíce [[butter|másla]], [[lard|sádla]] nebo [[oil|oleje]] na 1 cibuli, aby dno pokryla tenká vrstva. U velkého množství (500 g a víc) může být zpočátku střední oheň, dokud zelenina pouští vodu, pak stáhni oheň na mírný.
 3. Přidej zeleninu a hned ji promíchej, ať je celá v tuku. Tuk má jemně syčet, ne prskat.
 4. Přidej špetku [[salt|soli]]. Sůl vytáhne ze zeleniny vodu a ta ji chrání před připálením.
 5. Míchej každou minutu nebo dvě. Cibule potřebuje asi 8–10 minut, kořenová zelenina o něco déle. Na větší množství nebo tvrdou kořenovou zeleninu přiklop pokličkou (viz níže) a na posledních pár minut ji sundej.
 6. Česnek přidej, až je cibule skoro měkká, a nech ho 1–2 minuty. Hoří rychleji než ostatní zelenina.
-7. Pokračuj podle receptu: zalij tekutinou nebo přidej rýži.
+7. Pokračuj podle receptu: zalij vodou nebo vývarem, nebo udělej jíšku (níže).
+
+### Jíška ze zpocené zeleniny
+
+1. Zpocenou zeleninu zaprás [[flour|hladkou moukou]].
+2. Míchej na mírném ohni. Jak dlouho a do jaké barvy, řekne recept.
+3. Zalévej studenou tekutinou po částech a pořád míchej, ať se nedělají hrudky.
 
 ### Poklička ano, nebo ne?
 
