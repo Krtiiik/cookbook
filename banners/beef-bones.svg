@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Hovězí kosti: vlevo napříč uříznutá morková kost s nažloutlým morkem uprostřed, vedle dlouhá kloubní kost se zakulacenou hlavicí a zbytky masa; vpravo miska vystydlého vývaru ztuhlého v rosol, ve kterém stojí lžíce">
+  <rect width="1200" height="400" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M60 362 H1140" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-dasharray: 2 12; stroke-linecap: round; opacity: .45"/>
+  <path d="M190 204 V262 A110 68 0 0 0 410 262 V204 Z" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M190 204 V262 A110 68 0 0 0 410 262 V204 Z" style="fill: var(--banner-fg, #1b2a4a); opacity: .18"/>
+  <path d="M206 270 q20 30 54 34 q-6 -24 -30 -30 Z M352 300 q30 -8 44 -34 q-30 4 -44 34 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linejoin: round"/>
+  <ellipse cx="300" cy="204" rx="110" ry="68" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6"/>
+  <ellipse cx="300" cy="206" rx="64" ry="38" style="fill: var(--banner-warm, #e9b44c); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5"/>
+  <path d="M274 196 q12 -10 30 -6 M296 220 q14 2 24 -6" style="fill: none; stroke: #fff7ea; stroke-width: 5; stroke-linecap: round; opacity: .85"/>
+  <path d="M212 186 q6 -14 18 -20 M380 232 q-6 12 -18 18" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round; opacity: .5"/>
+  <path d="M560 236 C620 248 680 248 744 236 L744 292 C680 282 620 282 560 292 Z" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M562 276 C620 270 680 270 742 278 L742 292 C680 282 620 282 562 292 Z" style="fill: var(--banner-fg, #1b2a4a); opacity: .18"/>
+  <path d="M570 214 C548 176 486 172 470 206 C446 214 438 262 458 280 C452 322 516 340 548 314 C562 304 568 300 574 294 Z" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M470 206 C490 220 494 262 458 280" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linecap: round"/>
+  <path d="M488 196 q20 -10 40 0 M476 296 q18 18 44 10" style="fill: none; stroke: var(--banner-bg, #fffaf0); stroke-width: 6; stroke-linecap: round"/>
+  <path d="M556 220 q24 -10 40 14 q-14 12 -30 10 q-12 -10 -10 -24 Z M566 286 q20 22 46 4 q-20 -10 -46 -4 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linejoin: round"/>
+  <ellipse cx="744" cy="264" rx="15" ry="28" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 5"/>
+  <ellipse cx="745" cy="265" rx="7" ry="15" style="fill: var(--banner-warm, #e9b44c); stroke: var(--banner-fg, #1b2a4a); stroke-width: 3"/>
+  <path d="M1006 262 L1046 138" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 16; stroke-linecap: round"/>
+  <path d="M1008 256 L1046 138" style="fill: none; stroke: #fff7ea; stroke-width: 7; stroke-linecap: round"/>
+  <path d="M860 272 Q868 350 980 350 Q1092 350 1100 272 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <ellipse cx="980" cy="272" rx="120" ry="22" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6"/>
+  <ellipse cx="980" cy="276" rx="105" ry="13" style="fill: var(--banner-cool, #1f4fa3); stroke: var(--banner-fg, #1b2a4a); stroke-width: 4"/>
+  <path d="M910 276 q14 -5 28 0 M1040 280 q12 -4 22 0" style="fill: none; stroke: var(--banner-bg, #fffaf0); stroke-width: 3; stroke-linecap: round; opacity: .7"/>
+  <path d="M1020 220 L1003 274" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 16; stroke-linecap: round"/>
+  <path d="M1020 220 L1006 264" style="fill: none; stroke: #fff7ea; stroke-width: 7; stroke-linecap: round"/>
+  <ellipse cx="1004" cy="278" rx="16" ry="5" style="fill: var(--banner-cool, #1f4fa3); stroke: var(--banner-fg, #1b2a4a); stroke-width: 3"/>
+  <g style="fill: #fff7ea"><circle cx="910" cy="314" r="10"/><circle cx="990" cy="330" r="10"/><circle cx="1060" cy="308" r="10"/></g>
+  <path d="M180 86 q90 10 110 102" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="60" y="74" style="font: 600 40px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">morek = chuť</text>
+  <path d="M500 100 q-20 40 -6 84" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="440" y="82" style="font: 600 40px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">kloub = želatina</text>
+  <path d="M900 110 q-10 70 30 150" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="820" y="94" style="font: 600 36px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">vystydlý = rosol</text>
+</svg>
