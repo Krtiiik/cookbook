@@ -178,14 +178,14 @@ Adapted from the trading site's pipeline. Agents are in `.claude/agents/`, skill
 - **Agents that write**: **writer** (recipes and explainers, and planned catalog entries for new ingredients), **illustrator** (explainer banners).
 - **Agents that check** (read-only, independent of the writer): **reviewer** (reading, Czech, conventions), **fact-checker** (food safety, cooking science, and the catalog data that drives allergens and diet), **test-cook** (cooks the recipe on paper: ingredients against steps, order, timing, scaling).
 - **Agents for the whole site** (read-only): **auditor** (drift between pages and catalog data), **planner** (what to write or cook next).
-- **variant-researcher** (read-only): summarises 5–10 variants of a dish as ratios, temperatures and times, without text. It uses the corpus script when it exists, the web until then.
+- **variant-researcher** (read-only): summarises 5–10 variants of a dish as ratios, temperatures and times, without text. It searches the corpus with `scripts/corpus.py` and Czech web pages, and saves the Czech sources it used to `corpus/sources/<slug>/`.
 - Recipe drafts:
   1. `variant-researcher` reports the common base and the differences.
   2. `writer` writes a new recipe in the owner's style, metric units, `status: draft`.
-  3. The checkers run until clean. No sentence may be a near-copy of a source; a script will check this once the corpus exists.
+  3. The checkers run until clean. `scripts/nearcopy.py` flags any draft sentence that shares 6 or more consecutive words (ignoring case and diacritics) with a saved Czech source. It cannot compare Czech with English, so the reviewer judges close translations of English sources.
   4. The owner cooks it; `mark-tested` records the photo, the changes and `status: tested`.
 
-**Corpus**: TheMealDB first, loaded into SQLite. It is private reference material, never published. It lives outside the repository or in a git-ignored folder.
+**Corpus**: TheMealDB only (Wikibooks Cookbook was considered and not chosen), downloaded once with `scripts/corpus.py fetch` into `corpus/corpus.sqlite` and searched offline. It uses TheMealDB's free test key, which is meant for non-commercial and learning use; this site is never commercial. `corpus/` is git-ignored: the corpus and the saved sources are private reference material, never published.
 
 ## 9. Guardrails
 
@@ -204,9 +204,8 @@ Adapted from the trading site's pipeline. Agents are in `.claude/agents/`, skill
 
 ## 11. Status and next steps
 
-Done: the build with validation, links and derived data; recipe, explainer, list, group, reference and about pages in the "Smaltovaný sešit" style (`docs/STYLE.md`); search, previews, filters, scaler, converter and season calendar; photo import; tests; the Pages workflow; the authoring agents and skills. Sample content: 3 draft recipes and 3 written explainers.
+Done: the build with validation, links and derived data; recipe, explainer, list, group, reference and about pages in the "Smaltovaný sešit" style (`docs/STYLE.md`); search, previews, filters, scaler, converter and season calendar; photo import; tests; the Pages workflow; the authoring agents and skills; the TheMealDB corpus lookup and the near-copy check. Sample content: 3 draft recipes and 3 written explainers.
 
 Next:
 
-1. Corpus lookup script (TheMealDB into SQLite) and the near-copy check script.
-2. Doneness temperatures and storage times on the reference page, with cited sources.
+1. Doneness temperatures and storage times on the reference page, with cited sources.

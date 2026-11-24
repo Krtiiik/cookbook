@@ -14,7 +14,7 @@ Settle with the user, unless the argument or a planner suggestion already gives 
 
 ## 2. Research
 
-Dispatch `variant-researcher` with the dish and the brief. Keep its source list for step 4.
+Dispatch `variant-researcher` with the dish, the slug and the brief. Keep its source list for step 4.
 
 For a revision of an existing recipe, skip this step unless the user wants new variants.
 
@@ -30,9 +30,9 @@ Dispatch in parallel, each with the slug and the file path:
 - `fact-checker` (also checks the catalog entries the writer added)
 - `test-cook`
 
-The near-copy rule: no sentence may be close to a source. When the corpus lookup script has a near-copy check, run it with the researcher's sources and send hits to the writer as blockers. Until then, give the reviewer the source list and ask it to flag wording that looks borrowed.
+The near-copy rule: no sentence may be close to a source. Run `uv run python scripts/nearcopy.py content/recepty/<slug>.md`; it compares the draft with the Czech sources the researcher saved in `corpus/sources/<slug>/`. Send every hit to the writer as a blocker, and run it again after each writer pass. The script cannot compare Czech with English, so also give the reviewer the researcher's English source list and ask it to flag sentences that read like close translations.
 
-The recipe is **clean** when all three end with `clean`. If not, send the blocker and major findings (minor ones too, if cheap) to `writer`, then check again. After a clean round you may send cheap minor findings in one last pass and skip the re-check, unless the writer changed a fact, a number, an amount or the steps.
+The recipe is **clean** when all three end with `clean` and `nearcopy.py` prints `clean` (or finds no saved sources). If not, send the blocker and major findings (minor ones too, if cheap) to `writer`, then check again. After a clean round you may send cheap minor findings in one last pass and skip the re-check, unless the writer changed a fact, a number, an amount or the steps.
 
 Stop and ask the user when the writer rejects a finding and the next round raises it again: the agents disagree and the user decides.
 

@@ -86,3 +86,63 @@ def test_search_without_a_corpus_asks_for_fetch(tmp_path, monkeypatch, capsys):
     monkeypatch.setattr(corpus, "DB", tmp_path / "missing.sqlite")
     assert corpus.main(["search", "goulash"]) == 1
     assert "corpus.py fetch" in capsys.readouterr().err
+
+
+# ---------------------------------------------------------------- near-copy check
+
+nearcopy = _load("cookbook_nearcopy", "nearcopy.py")
+
+DRAFT = """---
+title: Guláš
+ingredient_groups:
+  - items:
+      - { qty: 500, unit: g, item: onion, note: nakrájená na půlměsíce do hrnce }
+---
+## Postup
+
+1. Cibuli opékej na středním ohni dvacet minut, až zezlátne a změkne.
+2. Přidej [[sweet-paprika|sladkou papriku]] a hned stáhni hrnec z ohně.
+"""
+
+
+def write_source(folder: Path, name: str, text: str, url: str = "https://example.cz/gulas") -> None:
+    folder.mkdir(parents=True, exist_ok=True)
+    (folder / name).write_text(f"{url}\n{text}\n", encoding="utf-8")
+
+
+@pytest.fixture
+def draft(tmp_path: Path) -> Path:
+    path = tmp_path / "gulas.md"
+    path.write_text(DRAFT, encoding="utf-8")
+    return path
+
+
+def test_flags_a_copied_run_across_diacritics(draft, tmp_path):
+    write_source(tmp_path / "src", "1.txt", "Nejdřív cibuli opekej na strednim ohni dvacet minut, az zezlatne.")
+    hits = nearcopy.check(draft, tmp_path / "src")
+    assert len(hits) == 1
+    assert hits[0].words == "cibuli opekej na strednim ohni dvacet minut az zezlatne".split()
+    assert hits[0].url == "https://example.cz/gulas"
+
+
+def test_a_five_word_run_is_not_a_hit(draft, tmp_path):
+    write_source(tmp_path / "src", "1.txt", "Na středním ohni dvacet minut opékáme maso.")
+    assert nearcopy.check(draft, tmp_path / "src") == []
+
+
+def test_link_markup_is_read_as_its_text(draft, tmp_path):
+    write_source(tmp_path / "src", "1.txt", "Potom přidej sladkou papriku a hned stáhni hrnec z ohně.")
+    hits = nearcopy.check(draft, tmp_path / "src")
+    assert [h.words for h in hits] == ["pridej sladkou papriku a hned stahni hrnec z ohne".split()]
+
+
+def test_ingredient_list_in_frontmatter_is_not_compared(draft, tmp_path):
+    write_source(tmp_path / "src", "1.txt", "500 g cibule nakrájená na půlměsíce do hrnce")
+    assert nearcopy.check(draft, tmp_path / "src") == []
+
+
+def test_cli_exits_0_without_sources_and_1_on_a_hit(draft, tmp_path, capsys):
+    assert nearcopy.main([str(draft), str(tmp_path / "none")]) == 0
+    write_source(tmp_path / "src", "1.txt", "cibuli opékej na středním ohni dvacet minut")
+    assert nearcopy.main([str(draft), str(tmp_path / "src")]) == 1
+    assert "1 near-copy hit(s)." in capsys.readouterr().out

@@ -9,7 +9,7 @@ why a design was chosen over the obvious alternative, and the constraints that s
 
 ## Overview
 
-A static Czech cooking site: recipes are the main content, explainers (methods, ingredients, equipment, troubleshooting) support them. A custom Python build turns Markdown, YAML catalogs and data files into HTML plus one JSON index, and deploys to GitHub Pages. The full brief is `docs/BRIEF.md`, the structure/design contract is `SPEC.md`, and the look is `docs/STYLE.md` (ported from the hybrid "Smaltovaný sešit" prototypes on the design canvas). The corpus lookup is not built yet.
+A static Czech cooking site: recipes are the main content, explainers (methods, ingredients, equipment, troubleshooting) support them. A custom Python build turns Markdown, YAML catalogs and data files into HTML plus one JSON index, and deploys to GitHub Pages. The full brief is `docs/BRIEF.md`, the structure/design contract is `SPEC.md`, and the look is `docs/STYLE.md` (ported from the hybrid "Smaltovaný sešit" prototypes on the design canvas). The private corpus (TheMealDB in SQLite) and the saved sources live in the git-ignored `corpus/` folder.
 
 ## Components and flow
 
@@ -57,3 +57,7 @@ A static Czech cooking site: recipes are the main content, explainers (methods, 
 **Test-cook next to the reviewer.** A recipe can read well and still fail at the stove (an ingredient never used, a step out of order). The trading site had no equivalent; recipes need one.
 
 **Catalog data is fact-checked.** Allergens and diet are derived from `catalog/suroviny.yaml`, so a wrong `allergens` or `animal` value is a safety problem, not a typo. The fact-checker checks catalog entries with the page that adds or uses them.
+
+**Near-copy check compares only Czech with Czech.** A word-run check is exact and cheap within one language but meaningless across languages, and machine translation first would make it fuzzy. So the script compares drafts with the Czech pages the researcher saved, and the reviewer judges close translations of English sources. The check runs in the `write-recipe` skill, not in CI, because the sources are private.
+
+**Corpus downloaded once, not queried live.** About 26 API calls fill a local SQLite file with full-text search; lookups are then offline and fast, and agents make no network calls for them.

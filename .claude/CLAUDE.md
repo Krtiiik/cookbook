@@ -88,4 +88,6 @@ The hook checks the literal path in the command, so it can't be tricked and neit
 
 - `uv run pytest`: all tests; they also build the real site.
 - `uv run python scripts/build.py`: build `dist/`; lists every content problem and exits 1 on any.
+- `uv run python scripts/corpus.py fetch` once, then `corpus.py search "<english words>" --ingredients a,b`: private TheMealDB corpus in `corpus/` (git-ignored).
+- `uv run python scripts/nearcopy.py content/recepty/<slug>.md`: near-copy check against `corpus/sources/<slug>/`.
 - Preview: the `site` entry in `.claude/launch.json` serves `dist/` on port 8766 (rebuild first).
