@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Dvě celá podzimní jablka, uprostřed jablko rozříznuté napůl s jádřincem a pecičkami a vpravo na řezu zhnědlý měsíček jablka">
+  <rect width="1200" height="400" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M60 362 H1140" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-dasharray: 2 12; stroke-linecap: round; opacity: .45"/>
+  <g transform="translate(200 276)">
+    <path d="M0 -62 C-30 -90 -102 -78 -102 -10 C-104 60 -56 100 -26 92 C-12 88 -8 84 0 84 C8 84 12 88 26 92 C56 100 104 60 102 -10 C102 -78 30 -90 0 -62 Z" style="fill: var(--banner-accent, #c8462a)"/>
+    <path d="M60 -50 C86 -24 90 22 62 70 C80 40 82 -10 60 -50 Z" style="fill: var(--banner-warm, #e9b44c); opacity: .6"/>
+    <path d="M-74 -14 C-76 -40 -58 -60 -34 -64" style="fill: none; stroke: #fff7ea; stroke-width: 7; stroke-linecap: round; opacity: .8"/>
+    <path d="M0 -62 C-30 -90 -102 -78 -102 -10 C-104 60 -56 100 -26 92 C-12 88 -8 84 0 84 C8 84 12 88 26 92 C56 100 104 60 102 -10 C102 -78 30 -90 0 -62 Z" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+    <path d="M0 -62 Q4 -80 12 -92" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 7; stroke-linecap: round"/>
+    <g transform="translate(8 -80) rotate(205)" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linejoin: round">
+      <path d="M0 0 Q24 -14 50 0 Q24 14 0 0 Z" style="fill: var(--banner-warm, #e9b44c)"/>
+      <path d="M0 0 Q24 -14 50 0 Q24 14 0 0 Z" style="fill: var(--banner-cool, #1f4fa3); opacity: .5; stroke: none"/>
+    </g>
+  </g>
+  <g transform="translate(372 292) scale(.82)">
+    <path d="M0 -62 C-30 -90 -102 -78 -102 -10 C-104 60 -56 100 -26 92 C-12 88 -8 84 0 84 C8 84 12 88 26 92 C56 100 104 60 102 -10 C102 -78 30 -90 0 -62 Z" style="fill: var(--banner-warm, #e9b44c)"/>
+    <g style="fill: none; stroke: var(--banner-accent, #c8462a); stroke-width: 10; stroke-linecap: round; opacity: .75">
+      <path d="M40 -52 Q72 0 50 62"/><path d="M66 -38 Q92 6 78 40"/><path d="M16 -44 Q40 6 22 70"/>
+    </g>
+    <path d="M-74 -14 C-76 -40 -58 -60 -34 -64" style="fill: none; stroke: #fff7ea; stroke-width: 8; stroke-linecap: round; opacity: .8"/>
+    <path d="M0 -62 C-30 -90 -102 -78 -102 -10 C-104 60 -56 100 -26 92 C-12 88 -8 84 0 84 C8 84 12 88 26 92 C56 100 104 60 102 -10 C102 -78 30 -90 0 -62 Z" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 7; stroke-linejoin: round"/>
+    <path d="M0 -62 Q-4 -80 -12 -92" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 8; stroke-linecap: round"/>
+  </g>
+  <g transform="translate(600 258) scale(1.2)">
+    <path d="M0 -62 C-30 -90 -102 -78 -102 -10 C-104 60 -56 100 -26 92 C-12 88 -8 84 0 84 C8 84 12 88 26 92 C56 100 104 60 102 -10 C102 -78 30 -90 0 -62 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+    <g transform="translate(0 4) scale(.88)">
+      <path d="M0 -62 C-30 -90 -102 -78 -102 -10 C-104 60 -56 100 -26 92 C-12 88 -8 84 0 84 C8 84 12 88 26 92 C56 100 104 60 102 -10 C102 -78 30 -90 0 -62 Z" style="fill: var(--banner-bg, #fffaf0); stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linejoin: round"/>
+    </g>
+    <path d="M0 -46 C24 -30 30 -4 22 18 C16 36 6 46 0 50 C-6 46 -16 36 -22 18 C-30 -4 -24 -30 0 -46 Z" style="fill: var(--banner-warm, #e9b44c); opacity: .35"/>
+    <path d="M0 -46 C24 -30 30 -4 22 18 C16 36 6 46 0 50 C-6 46 -16 36 -22 18 C-30 -4 -24 -30 0 -46 Z" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3.5; stroke-linejoin: round"/>
+    <g style="fill: var(--banner-warm, #e9b44c); fill: color-mix(in srgb, var(--banner-warm, #e9b44c) 40%, black); stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linejoin: round">
+      <path d="M0 -11 C7 -3 7 7 0 11 C-7 7 -7 -3 0 -11 Z" transform="translate(-11 -2) rotate(14)"/>
+      <path d="M0 -11 C7 -3 7 7 0 11 C-7 7 -7 -3 0 -11 Z" transform="translate(11 -2) rotate(-14)"/>
+      <path d="M0 -11 C7 -3 7 7 0 11 C-7 7 -7 -3 0 -11 Z" transform="translate(-7 26) rotate(10) scale(.8)"/>
+      <path d="M0 -11 C7 -3 7 7 0 11 C-7 7 -7 -3 0 -11 Z" transform="translate(7 26) rotate(-10) scale(.8)"/>
+    </g>
+    <path d="M-66 -24 C-66 -44 -50 -58 -30 -62" style="fill: none; stroke: #fff7ea; stroke-width: 5; stroke-linecap: round; opacity: .8"/>
+  </g>
+  <g transform="translate(900 318) scale(1.1)">
+    <path d="M-84 -26 L-14 -26 L0 -12 L14 -26 L84 -26 C74 24 40 40 0 40 C-40 40 -74 24 -84 -26 Z" style="fill: var(--banner-bg, #fffaf0)"/>
+    <path d="M-80 -22 L-14 -22 L0 -9 L14 -22 L80 -22 C78 -8 76 0 72 8 C40 -2 -40 -2 -72 8 C-76 0 -78 -8 -80 -22 Z" style="fill: var(--banner-warm, #e9b44c); fill: color-mix(in srgb, var(--banner-warm, #e9b44c) 40%, black); opacity: .5"/>
+    <path d="M-84 -26 C-74 24 -40 40 0 40 C40 40 74 24 84 -26" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 16; stroke-linejoin: round"/>
+    <path d="M-84 -26 C-74 24 -40 40 0 40 C40 40 74 24 84 -26" style="fill: none; stroke: var(--banner-accent, #c8462a); stroke-width: 8; stroke-linejoin: round"/>
+    <path d="M-84 -26 L-14 -26 L0 -12 L14 -26 L84 -26 C74 24 40 40 0 40 C-40 40 -74 24 -84 -26 Z" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+    <g style="fill: var(--banner-fg, #1b2a4a); opacity: .4">
+      <circle cx="-50" cy="-10" r="2.5"/><circle cx="-26" cy="-2" r="2.5"/><circle cx="38" cy="-12" r="2.5"/><circle cx="58" cy="-2" r="2.5"/><circle cx="20" cy="0" r="2.5"/>
+    </g>
+  </g>
+  <text x="50" y="110" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">české, podzimní</text>
+  <path d="M270 124 q20 12 -34 62" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="770" y="110" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">jádřinec pryč</text>
+  <path d="M762 104 q-70 -10 -122 114" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="890" y="200" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">na řezu hnědne</text>
+  <path d="M930 214 q22 18 0 52" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+</svg>
