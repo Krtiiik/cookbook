@@ -96,11 +96,11 @@ html:not(.js) .theme { display: none; }
 }
 .tab:hover { box-shadow: inset 0 9px 0 var(--c, var(--ink)); }
 .tab.on {
-  z-index: 1; margin-bottom: -2.5px; padding: 18px 24px 10px; font-size: 26px;
+  z-index: 1; margin-bottom: -2.5px; min-height: 58px; align-items: flex-end; padding-bottom: 10px;
   background: var(--paper); border-bottom: 2.5px solid var(--paper); box-shadow: inset 0 10px 0 var(--c, var(--ink));
 }
 .tab--more { --c: var(--pencil); min-height: 40px; padding: 6px 12px 4px; font-size: 18px; color: var(--ink2); }
-.tab--more.on { padding: 14px 18px 8px; font-size: 22px; color: var(--ink); }
+.tab--more.on { color: var(--ink); }
 .nav > .tab--more:not(.tab--more ~ .tab--more) { margin-left: auto; }
 
 /* stack: the Rejstřík button, four divider tabs one behind the other (10px right, 9px up each) */
@@ -140,7 +140,6 @@ html:not(.js) .theme { display: none; }
 @media (max-width: 760px) {
   .nav { padding: 8px 0 0; }
   html.js .tab:not(.on) { display: none; }
-  .tab.on { padding: 16px 20px 8px; font-size: 23px; }
 }
 @media (min-width: 1201px) { .rejstrik { display: none !important; } }
 html:not(.js) .nav { flex-wrap: wrap; }
