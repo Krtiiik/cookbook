@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Sklenice bílého vepřového sádla se lžící, vedle sundané modré víčko a miska zlatých škvarků">
+  <rect width="1200" height="400" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M60 362 H1140" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-dasharray: 2 12; stroke-linecap: round; opacity: .45"/>
+  <path d="M440 160 L440 330 A100 20 0 0 0 640 330 L640 160 Z" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M440 226 A100 20 0 0 0 640 226 L640 282 A100 20 0 0 1 440 282 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+  <g style="fill: #fff7ea"><circle cx="500" cy="256" r="8"/><circle cx="540" cy="262" r="8"/><circle cx="580" cy="256" r="8"/></g>
+  <path d="M458 186 L458 214 M458 300 L458 318" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linecap: round; opacity: .35"/>
+  <path d="M640 160 A100 20 0 0 1 440 160" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6"/>
+  <path d="M442 158 C460 118 520 104 548 112 C590 104 626 124 638 158 A100 20 0 0 1 442 158 Z" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M488 140 q30 -18 62 -8 q24 8 50 0" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linecap: round; opacity: .45"/>
+  <path d="M556 132 L682 44" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 20; stroke-linecap: round"/>
+  <path d="M556 132 L682 44" style="fill: none; stroke: var(--banner-bg, #fffaf0); stroke-width: 9; stroke-linecap: round"/>
+  <path d="M530 146 q14 -22 40 -18" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linecap: round"/>
+  <path d="M662 330 L662 342 A60 14 0 0 0 782 342 L782 330 Z" style="fill: var(--banner-cool, #1f4fa3); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <ellipse cx="722" cy="330" rx="60" ry="14" style="fill: var(--banner-cool, #1f4fa3); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6"/>
+  <g style="fill: var(--banner-warm, #e9b44c); stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linejoin: round">
+    <path d="M850 262 L866 238 L896 244 L900 266 Z"/>
+    <path d="M894 256 L912 228 L944 236 L946 262 Z"/>
+    <path d="M940 262 L952 236 L984 240 L990 264 Z"/>
+    <path d="M876 232 L898 214 L924 222 L914 240 Z"/>
+    <path d="M928 226 L950 206 L972 218 L960 238 Z"/>
+  </g>
+  <g style="fill: var(--banner-fg, #1b2a4a); opacity: .3">
+    <path d="M850 262 L866 238 L896 244 L900 266 Z"/>
+    <path d="M940 262 L952 236 L984 240 L990 264 Z"/>
+    <path d="M928 226 L950 206 L972 218 L960 238 Z"/>
+  </g>
+  <path d="M810 266 C820 350 1020 350 1030 266 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <ellipse cx="920" cy="266" rx="110" ry="16" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6"/>
+  <g style="fill: #fff7ea"><circle cx="880" cy="302" r="7"/><circle cx="920" cy="308" r="7"/><circle cx="960" cy="302" r="7"/></g>
+  <path d="M290 112 q90 -6 150 34" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="120" y="122" style="font: 600 40px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">snese žár</text>
+  <path d="M300 262 q70 0 130 -16" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="130" y="276" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">do guláše</text>
+  <path d="M1000 140 q-20 30 -40 64" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="840" y="122" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">škvarky na chleba</text>
+</svg>
