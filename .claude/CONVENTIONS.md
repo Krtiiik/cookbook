@@ -14,7 +14,10 @@ Skip anything tooling already checks. Prefer a rule plus a one-line reason over 
 - Every written page needs at least one incoming link.
 - Write ingredient amounts in metric units from the unit list. Use `text:` (e.g. "podle chuti") only for amounts that must not scale.
 - Never type allergens or diet on a recipe unless the derived value is wrong; then add the override and a note why in Poznámky.
-- Food-safety numbers (temperatures, storage times) need a cited authority. Never invent them.
+- Food-safety numbers (temperatures, storage times) need a cited authority, named in the text ("podle USDA FSIS"). Never invent them.
+- Cooked food into the fridge always gets the same rule: shallow containers, in the fridge within 2 hours, then a day count (USDA FSIS). A loose "vychladlé dej do lednice" invites hours on the counter.
+- Heat words, only these: mírný, středně mírný, střední, středně vysoký, vysoký oheň; "moc silný oheň" only as a mistake. To lower the heat: "stáhni oheň". Give a heat word wherever a step changes the heat, so pages can agree.
+- An explainer's catalog summary uses the body's terms and does not blur states the body separates (it is the link preview).
 - Draft text from the corpus must be new writing. No sentence may be a near-copy of a source.
 - Add a `changes` entry each time a tested recipe changes in substance.
 - Czech past tense shows gender, and the owner's is not recorded. Write about cooking in the present or in neutral forms ("ještě nebyl uvařený", not "ještě jsem ho nevařil").

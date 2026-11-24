@@ -54,3 +54,5 @@ _Avoid_: sub-recipe, component.
 - "Základy" is a **group** (kind `course`), not a section.
 - "Draft" is only a recipe status. A missing explainer is **planned**.
 - "Kategorie" in the catalog is a field inside a section (vegetables, moist-heat), not a group.
+- **Owner page**: the one explainer that explains an idea in full; other pages give one sentence and link it. Maillard reaction and výpek: `browning`. Onion colour stages: `caramelising`. Softening without colour: `sweating`. Liquid states (chvění, mírný var, prudký var): `simmering`. Slow cooking in a little liquid: `braising`.
+- Site words: "zatáhnout" = the meat surface goes grey, no crust. "Opéct" = a brown crust. "Výpek" = the brown layer on the pan bottom, from meat or vegetables. "Mírný oheň" is a heat setting; "mírný var" is what the liquid does.
