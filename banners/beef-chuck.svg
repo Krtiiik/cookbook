@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Široký plochý kus hovězí plece s tukovým okrajem a jemným mramorováním, jen s jednou tenkou šlachou, vedle tři prorostlé kostky masa v řadě">
+  <rect width="1200" height="400" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M60 362 H1140" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-dasharray: 2 12; stroke-linecap: round; opacity: .45"/>
+  <path d="M150 208 C180 148 330 128 470 136 C590 142 660 168 664 218 C668 268 600 308 470 314 C330 320 170 308 150 268 C140 246 140 226 150 208 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M150 208 C180 148 330 128 470 136 C590 142 660 168 664 218 C668 268 600 308 470 314 C330 320 170 308 150 268 C140 246 140 226 150 208 Z" style="fill: var(--banner-fg, #1b2a4a); opacity: .25"/>
+  <path d="M150 180 C180 120 330 100 470 108 C590 114 660 140 664 190 C668 240 600 280 470 286 C330 292 170 280 150 240 C140 218 140 198 150 180 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M176 166 C214 130 340 116 470 122 C570 128 628 146 648 178" style="fill: none; stroke: #fff7ea; stroke-width: 12; stroke-linecap: round"/>
+  <g style="fill: none; stroke: #fff7ea; stroke-width: 3.5; stroke-linecap: round; opacity: .9">
+    <path d="M196 196 q40 10 70 -4 q30 -14 70 2 q36 14 80 0"/>
+    <path d="M206 240 q50 -12 90 4 q40 16 90 -6 q30 -14 70 0"/>
+    <path d="M384 152 q20 30 0 56 q-16 28 10 58"/>
+    <path d="M490 146 q-10 30 14 50 q24 20 10 54"/>
+    <path d="M530 210 q30 10 60 -6 q20 -10 40 4"/>
+    <path d="M250 176 q14 12 6 30"/>
+    <path d="M560 160 q20 6 34 22"/>
+    <path d="M440 222 q16 -10 34 -4"/>
+  </g>
+  <g style="fill: #fff7ea; opacity: .9">
+    <ellipse cx="320" cy="214" rx="8" ry="4"/>
+    <ellipse cx="452" cy="182" rx="7" ry="3.5"/>
+    <ellipse cx="590" cy="234" rx="8" ry="4"/>
+    <ellipse cx="236" cy="216" rx="6" ry="3"/>
+  </g>
+  <path d="M296 262 q40 -12 84 2" style="fill: none; stroke: #fff7ea; stroke-width: 7; stroke-linecap: round"/>
+  <g style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round">
+    <path d="M760 265 L784 243 L864 243 L840 265 Z" style="fill: var(--banner-accent, #c8462a)"/>
+    <path d="M840 265 L864 243 L864 323 L840 345 Z" style="fill: var(--banner-accent, #c8462a)"/>
+    <path d="M840 265 L864 243 L864 323 L840 345 Z" style="fill: var(--banner-fg, #1b2a4a); opacity: .25"/>
+    <rect x="760" y="265" width="80" height="80" style="fill: var(--banner-accent, #c8462a)"/>
+    <path d="M880 265 L904 243 L984 243 L960 265 Z" style="fill: var(--banner-accent, #c8462a)"/>
+    <path d="M960 265 L984 243 L984 323 L960 345 Z" style="fill: var(--banner-accent, #c8462a)"/>
+    <path d="M960 265 L984 243 L984 323 L960 345 Z" style="fill: var(--banner-fg, #1b2a4a); opacity: .25"/>
+    <rect x="880" y="265" width="80" height="80" style="fill: var(--banner-accent, #c8462a)"/>
+    <path d="M1000 265 L1024 243 L1104 243 L1080 265 Z" style="fill: var(--banner-accent, #c8462a)"/>
+    <path d="M1080 265 L1104 243 L1104 323 L1080 345 Z" style="fill: var(--banner-accent, #c8462a)"/>
+    <path d="M1080 265 L1104 243 L1104 323 L1080 345 Z" style="fill: var(--banner-fg, #1b2a4a); opacity: .25"/>
+    <rect x="1000" y="265" width="80" height="80" style="fill: var(--banner-accent, #c8462a)"/>
+  </g>
+  <g style="fill: none; stroke: #fff7ea; stroke-width: 3.5; stroke-linecap: round; opacity: .9">
+    <path d="M768 292 q20 -8 34 4 q14 10 30 2"/>
+    <path d="M790 318 q12 10 30 6"/>
+    <path d="M888 300 q24 10 40 -2 q12 -8 26 0"/>
+    <path d="M912 276 q8 10 0 18"/>
+    <path d="M1008 286 q18 8 30 -2 q16 -10 34 4"/>
+    <path d="M1020 326 q20 -8 40 2"/>
+    <path d="M800 252 q20 -4 40 0"/>
+    <path d="M920 252 q24 -4 44 0"/>
+    <path d="M1040 252 q20 -4 40 0"/>
+  </g>
+  <path d="M196 92 q60 8 84 38" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="60" y="80" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">víc tuku, méně šlach</text>
+  <path d="M940 150 q-4 40 -20 84" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="880" y="134" style="font: 600 36px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">i na guláš</text>
+</svg>
