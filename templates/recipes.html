@@ -5,6 +5,7 @@
 <h1 class="pt">Recepty</h1>
 <p class="lead">Všechny recepty, nejdřív ty naposledy upravené. Recepty se štítkem „netestováno“ ještě nebyly uvařené.</p>
 
+<div class="filters-box">
 <details class="filters-wrap" open>
   <summary>Filtry</summary>
   <form class="filters" aria-label="Filtry receptů">
@@ -27,8 +28,9 @@
   </form>
   <p class="filters__count" aria-live="polite"></p>
 </details>
+</div>
 
-<div class="grid4 recipe-list">
+<div class="grid4 filter-list">
 {% for p in site.recipes %}{{ recipe_card(site, p, root, COLORS[loop.index0 % 4]) }}{% endfor %}
 </div>
 <p class="empty filters__empty" hidden>Nic neodpovídá. Zkus jiný filtr.</p>
