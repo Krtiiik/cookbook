@@ -42,3 +42,13 @@ Stop and ask the user when the writer rejects a finding and the next round raise
 Commit content, banner and any catalog change together, for example `feat: write the braising explainer`.
 
 Report to the user: the page, the number of check rounds, findings the writer rejected and why, and minor findings left open.
+
+## Batches
+
+When the user asks for several explainers, run up to 4 at once through the same steps, in lockstep: all writers and illustrators, then all checkers, then one fix round for the pages that need it.
+
+- **Pick** pages that share a topic (the methods, the meat problems, the spices), so one map covers them. Link count from written pages first: `grep -rohE "\[\[[a-z0-9-]+|item: [a-z0-9-]+" content | sort | uniq -c | sort -rn`.
+- **Topic map** in every writer's brief: which page of the batch owns which idea (the Maillard reaction lives in `browning`; `caramelising` links to it). Writers in one batch cannot see each other's pages, so the map is what keeps them from saying the same thing twice or differently.
+- **Shared files:** writers do not edit `catalog/` in a batch. They report catalog changes they want, and you apply them once, after the writers finish. Illustrators touch only their own `banners/<slug>.svg`.
+- **Auditor** after the batch is clean, on the whole site: it finds drift between the new pages and the old ones. Send its blocker and major findings to the writers of the pages it names.
+- **Commit** one commit per explainer, after the whole batch builds.
