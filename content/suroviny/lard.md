@@ -52,7 +52,7 @@ Ze sklenice ber sádlo vždy čistou a suchou lžící. Drobky jídla a voda v s
 - Na [[browning|opékání masa]] rozehřej pánev naprázdno na středně vysokém ohni a sádlo přidej až do ní. Maso pokládej, až se sádlo leskne a lehce tetelí.
 - Když se ze sádla kouří, je moc horké. Stáhni oheň. Přepálené sádlo hořkne a smrdí.
 - Na [[caramelising|dlouhé opékání cibule]] počítej 2–3 lžíce sádla na 500 g cibule.
-- **Smažení řízků a bramboráků:** sádla dej do pánve tolik, aby ho po rozpuštění bylo na dně asi 1 cm. Teplotu vyzkoušej jako u oleje, strouhankou nebo vařečkou (viz [[oil|olej]]). Tam je i to, kolik tepla sádlo snese. Na sádle mají řízky plnější chuť než na oleji.
+- **Smažení řízků a bramboráků:** sádla dej do pánve tolik, aby ho po rozpuštění bylo na dně asi 1 cm. Teplotu vyzkoušej jako u oleje, strouhankou nebo vařečkou (viz [[oil|olej]]). Tam je i to, kolik tepla sádlo snese. Na sádle mají řízky plnější chuť než na oleji. Celý postup je u [[breading|trojobalu]].
 - **Pečení:** vepřovou pečeni potři sádlem, nebo dej lžíci sádla do pekáče k masu. Z kachny a husy při pečení vyteče vlastní tuk; slij ho do sklenice, je to kachní nebo husí sádlo na příště.
 - **Chleba se sádlem:** sádlo nech změknout při pokojové teplotě, namaž ho na chleba, osol a dej na něj kolečka cibule. Kdo chce, posype ho [[sweet-paprika|sladkou paprikou]] nebo přidá škvarky.
 - **Do těsta:** sádlo dělá těsto křehké. Ve škvarkových plackách a pagáčcích je místo másla. Kde recept chce máslo, sádlem ho nenahrazuj, chuť i struktura budou jiné.

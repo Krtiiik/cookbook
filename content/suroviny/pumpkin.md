@@ -85,11 +85,11 @@ Na 4 porce: 1 hokkaido (asi 1 kg), 1 [[onion|cibule]], 1 lžíce [[butter|másla
 2. Nejdřív ochutnej syrový kousek dýně (viz Hořká dýně). Pak ji nakrájej na kostky asi 2 cm se slupkou, přidej k cibuli a chvíli míchej.
 3. Zalij vodou nebo vývarem jen tolik, aby byla dýně pod hladinou. Přiveď k varu na vysokém ohni, stáhni oheň na středně mírný a vař v [[simmering|mírném varu]] asi 15–20 minut, dokud vidlička nepropíchne kostku bez odporu.
 4. Polévku rozmixuj ponorným mixérem a podle hustoty dolij vodu.
-5. Vmíchej smetanu a jen prohřej, nevař (viz [[milk|mléko]]). Dosol a opepři.
+5. Vmíchej smetanu a jen prohřej, ať nezačne prudce vařit (víc u [[cream|smetany]]). Dosol a opepři.
 
 Do talíře se hodí opražená dýňová semínka, kapka dýňového oleje, krutony (obsahují lepek) nebo lžíce zakysané smetany (obsahuje mléko). Kdo má rád ostřejší, přidá k cibuli kousek zázvoru. S kokosovým mlékem místo smetany a s olejem místo másla je polévka thajská a bez mléka (zeleninový vývar čti na celer).
 
-I polévku se smetanou prohřívej na mírném ohni a míchej, ať se nesrazí; mírný var stačí.
+Polévku se smetanou ohřívej na mírném ohni a míchej, až se celá prohřeje (ve středu aspoň 75 °C, nebo 70 °C po 2 minuty, podle SZÚ a BfR, viz [[thermometer|teploměr]]). Prudce ji nevař, smetana na vaření se bez mouky snadno srazí.
 
 ### Pečená dýně
 

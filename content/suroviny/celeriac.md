@@ -32,9 +32,9 @@ Bulva má být těžká na svou velikost, pevná, bez měkkých míst a plísně
 - Nakrájený nebo nastrouhaný celer na vzduchu hnědne. Když ho nepoužiješ hned, zakap ho citronovou šťávou nebo ho dej do studené vody s trochou citronu.
 - Nať je jedlá a voní ještě víc než bulva. Hodí se do vývaru nebo nasekaná do polévky.
 
-**Smažený celer:** bulvu nakrájej na plátky asi 1 cm silné. Plátky povař v osolené vodě asi 5 minut, až je vidlička propíchne s lehkým odporem. Nech je okapat a osuš je. Osol je, obal v trojobalu (hladká mouka, rozšlehané vejce, strouhanka) a osmaž na středním ohni dozlatova na [[oil|oleji]] nebo [[lard|sádle]] asi 1 cm vysoko, jako řízek. Podává se s bramborovým salátem nebo vařenými brambory a tatarkou. Trojobal obsahuje lepek a vejce.
+**Smažený celer:** bulvu nakrájej na plátky asi 1 cm silné. Plátky povař v osolené vodě asi 5 minut, až je vidlička propíchne s lehkým odporem. Nech je okapat a osuš je. Osol je, obal v [[breading|trojobalu]] (hladká mouka, rozšlehané vejce, strouhanka) a osmaž na středním ohni dozlatova na [[oil|oleji]] nebo [[lard|sádle]] asi 1 cm vysoko, jako řízek. Podává se s bramborovým salátem nebo vařenými brambory a tatarkou. Trojobal obsahuje lepek a vejce.
 
-**Celerový salát:** syrový celer nastrouhej na jemné straně struhadla a hned ho zakap citronem. Smíchej ho s nastrouhaným [[apple|jablkem]] a zakysanou smetanou nebo majonézou, podle chuti s nasekanými vlašskými ořechy. Smetana, majonéza (vejce) i ořechy přidají salátu další alergeny. Nech ho aspoň hodinu odležet v lednici, celer zjemní.
+**Celerový salát:** syrový celer nastrouhej na jemné straně struhadla a hned ho zakap citronem. Smíchej ho s nastrouhaným [[apple|jablkem]] a [[cream|zakysanou smetanou]] nebo majonézou, podle chuti s nasekanými vlašskými ořechy. Smetana, majonéza (vejce, často i hořčice) i ořechy přidají salátu další alergeny. Nech ho aspoň hodinu odležet v lednici, celer zjemní.
 
 ## Náhrady
 

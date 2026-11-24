@@ -74,16 +74,13 @@ Na opékání na vysokém nebo středně vysokém ohni vezmi tuk s kouřovým bo
 
 ### Smažení řízků a smaženého sýra
 
-Řízek, smažený sýr nebo květák v trojobalu se smaží v pánvi v tolika oleji, aby ho na dně bylo asi 1 cm. Obalené jídlo v něm napůl plave a obal se opeče rovnoměrně.
+Řízek, smažený sýr nebo květák v trojobalu se smaží v asi 1 cm oleje na středním až středně vysokém ohni. Než položíš první kus, vyzkoušej teplotu: hoď do oleje špetku strouhanky, nebo ponoř konec dřevěné vařečky.
 
-1. Olej rozehřej na středním až středně vysokém ohni.
-2. Než položíš první kus, vyzkoušej teplotu: hoď do oleje špetku strouhanky, nebo ponoř konec dřevěné vařečky.
-   - **Připravený:** kolem se hned tvoří drobné bublinky a strouhanka vyplave.
-   - **Studený:** neprská vůbec. Obal by nasál olej a zůstal mastný. Počkej.
-   - **Moc horký:** strouhanka hned zhnědne nebo olej kouří. Obal by zhnědl a maso uvnitř zůstalo syrové. Stáhni oheň.
-3. Do pánve dávej jen tolik kusů, aby mezi nimi zůstalo místo. Každý kus olej trochu zchladí.
-4. Mezi dávkami nech olej znovu rozehřát a vyber z něj spadlé drobky strouhanky, jinak se připálí.
-5. Usmažené kusy nech okapat na papírové utěrce nebo na mřížce.
+- **Připravený:** kolem se hned tvoří drobné bublinky a strouhanka vyplave.
+- **Studený:** neprská vůbec. Obal by nasál olej a zůstal mastný. Počkej.
+- **Moc horký:** strouhanka hned zhnědne nebo olej kouří. Obal by zhnědl a maso uvnitř zůstalo syrové. Stáhni oheň.
+
+Celý postup (obalování, dávky, udržení v teple) je u [[breading|trojobalu]].
 
 Zkouška se strouhankou a vařečkou je rychlá, ale nepřesná. Přesně ti teplotu ukáže [[thermometer|teploměr]]: olej na smažení drž zhruba na 160–180 °C, podle receptu.
 

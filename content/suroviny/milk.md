@@ -106,9 +106,9 @@ Sražená omáčka má drobné bílé vločky v řídké tekutině. Chutná norm
 Jak tomu předejít:
 
 1. **Zahušťuj dřív, než přidáš kyselinu.** Škrob z mouky obalí bílkoviny a chrání je. Koprovka i kulajda se proto nejdřív zahustí [[flour|jíškou nebo rozmíchanou moukou]] a ocet přijde až na konci.
-2. **Kyselinu přidávej na konci, po troškách** a na mírném ohni. Po každé lžíci ochutnej.
-3. **Studené mléko ani smetanu nelej do vroucí omáčky.** Nejdřív do nich v misce vmíchej naběračku horké omáčky a teprve pak je vlij do hrnce.
-4. **Nevař ho prudce.** Omáčka s mlékem má jen [[simmering|mírně vařit]]. Omáčka zahuštěná moukou snese i 15 minut mírného varu, který chce [[flour|mouka]]; samotné mléko a smetanu jen prohřej.
+2. **Kyselinu přidávej na konci, po lžičkách** a na mírném ohni. Po každé lžičce ochutnej.
+3. **Studené mléko ani smetanu nelej do vroucí omáčky.** Nejdřív do nich v misce vmíchej naběračku horké omáčky a teprve pak je vlij do hrnce (postup krok za krokem je u [[cream|smetany]]).
+4. **Nevař ho prudce.** Omáčka s mlékem má jen [[simmering|mírně vařit]]. Omáčka zahuštěná moukou snese 15 minut mírného varu, který chce [[flour|mouka]]. Mléko a smetanu na vaření bez mouky jen prohřej. Smetana ke šlehání snese i mírný var, viz [[cream|smetana]].
 5. **Vezmi plnotučné.** Plnotučné se sráží méně snadno než odtučněné.
 6. **Sol až na konci,** po ochutnání (víc u [[salt|soli]]).
 
@@ -118,7 +118,7 @@ Když už se omáčka srazila: stáhni hrnec z ohně a omáčku ihned prošlehej
 
 - **Polotučné mléko:** jde 1:1. Kaše a omáčky budou řidší, přidej kousek másla navíc.
 - **Bezlaktózové mléko:** jde 1:1, chutná o něco sladčeji (obsahuje mléko).
-- **Smetana na vaření (asi 12 %) ředěná vodou:** do kaše a omáček, asi 1 díl smetany na 2 díly vody (obsahuje mléko). Výsledek bude plnější.
+- **[[cream|Smetana na vaření]] (asi 12 %) ředěná vodou:** do kaše a omáček, asi 1 díl smetany na 2 díly vody (obsahuje mléko). Výsledek bude plnější.
 - **Trvanlivé místo čerstvého:** jde 1:1 všude, kde se mléko vaří nebo peče.
 - **Rostlinné nápoje** (v obchodě se nesmějí jmenovat „mléko“): vezmi neslazené a bez příchuti. Do kaše a omáček se nejlépe hodí sójový (obsahuje sóju), v teple se sráží méně než ovesný nebo mandlový, pokud není kyselý. Ovesný je sladší a do omáček zahušťuje (obsahuje oves, tedy lepek, pokud není označený bezlepkový). Mandlový chutná výrazně po mandlích (obsahuje ořechy).
 - **Do bramborové kaše bez mléčného nápoje:** pár lžic vody, ve které se brambory vařily, a víc másla (máslo obsahuje mléko). Při alergii na mléko vezmi místo másla i mléka jen vodu z brambor s lžící neutrálního oleje, nebo neslazený sójový nápoj (obsahuje sóju). Kaše bude méně krémová.

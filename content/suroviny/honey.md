@@ -79,7 +79,7 @@ Med do marinády na začátek nepatří: v troubě se připálí dřív, než je
 1. Na 1 kg kuřecích stehen, křídel nebo vepřových žeber smíchej 3 lžíce [[oil|oleje]], 2 prolisované stroužky [[garlic|česneku]], [[salt|sůl]] a mletý [[peppercorns|pepř]].
 2. Maso v marinádě obal a nech ho v lednici aspoň 1 hodinu.
 3. Peč podle receptu na dané maso, kuřecí stehna třeba při 200 °C asi 40–45 minut.
-4. Zvlášť v čisté misce smíchej glazuru: 2 lžíce medu a 2 lžíce hořčice (obsahuje hořčici).
+4. Zvlášť v čisté misce smíchej glazuru: 2 lžíce medu a 2 lžíce [[mustard|hořčice]] (obsahuje hořčici).
 5. Posledních 15–20 minut maso glazurou potři, klidně dvakrát.
 6. Maso je hotové, když má ve středu aspoň 75 °C, nebo 70 °C po 2 minuty (podle SZÚ a BfR, viz [[thermometer|teploměr]]).
 

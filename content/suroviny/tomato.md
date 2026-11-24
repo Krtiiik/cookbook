@@ -79,11 +79,11 @@ Do omáčky, leča a polévky se slupky hodí oloupat. Ve vařeném jídle se st
 4. Hned je dej do mísy se studenou vodou, ať se dužina nezačne vařit.
 5. Slupku stáhni prsty od křížku ke stopce.
 
-Semínka vyndávat nemusíš. Hladkou polévku nebo omáčku na konci prolisuj sítem, ať v něm zůstanou semínka a zbytky slupek.
+Semínka vyndávat nemusíš. Hladkou polévku nebo omáčku na konci pasíruj přes [[sieve|sítko]], ať v něm zůstanou semínka a zbytky slupek.
 
 ### Rajčatový salát
 
-Rajčata nakrájej na měsíčky nebo plátky, přidej [[onion|cibuli]] na tenké půlkroužky. Zalij je nálevem: 3 díly vody, 1 díl octa, cukr a sůl podle chuti. Nebo salát jen pokapej [[oil|olejem]] a opepři. Na stůl pažitku.
+Rajčata nakrájej na měsíčky nebo plátky, přidej [[onion|cibuli]] na tenké půlkroužky. Zalij je nálevem: 3 díly vody, 1 díl [[vinegar|octa]] 8 %, cukr a sůl podle chuti. Nebo salát jen pokapej [[oil|olejem]] a opepři. Na stůl pažitku.
 
 S nálevem je [[salt|sůl]] už v něm. Bez nálevu salát osol těsně před podáváním: sůl z rajčat vytáhne šťávu a salát osolený hodinu předem plave. Tu šťávu můžeš nechat jako zálivku a namáčet do ní chleba.
 
@@ -96,8 +96,8 @@ S nálevem je [[salt|sůl]] už v něm. Bez nálevu salát osol těsně před po
 Konkrétně:
 
 - **Lečo:** na sádle nebo oleji zpoť na mírném ohni [[onion|cibuli]] (viz [[sweating]]), přidej papriky na proužky a nech je změknout. Pak přidej oloupaná rajčata na kousky, stáhni oheň na středně mírný a vař v [[simmering|mírném varu]] bez pokličky, až se rozpadnou a šťáva zhoustne. Mletá [[sweet-paprika|sladká paprika]] jde do hrnce dřív, než přijdou rajčata; jak, popisuje její stránka.
-- **Rajská omáčka z čerstvých rajčat:** na tuku zpoť [[onion|cibuli]], přidej lžíci [[tomato-paste|protlaku]] a asi minutu ho opékej na středním ohni. Víc protlaku netřeba, omáčku dají rajčata sama; rajskou z protlaku popisuje [[tomato-paste|jeho stránka]]. Přidej oloupaná rajčata, vývar, 1 [[bay-leaf|bobkový list]], 3–4 kuličky [[allspice|nového koření]] a asi 5 kuliček [[peppercorns|pepře]] (na 4 porce). Přiveď k varu, stáhni oheň a vař v mírném varu 20–30 minut. Koření vylov, omáčku prolisuj sítem a zahusti [[flour|jíškou]] (obsahuje lepek); po zahuštění ji nech aspoň 15 minut mírně vařit. Podává se s vařeným hovězím a houskovým knedlíkem nebo s [[rice|rýží]].
-- **Rajčatová polévka:** z čerstvých v sezóně, v zimě z loupaných z plechovky nebo z passaty. Na tuku zpoť cibuli, na konci přidej [[garlic|česnek]]. Přidej rajčata a vývar nebo vodu, přiveď k varu, stáhni oheň a vař 20 minut v mírném varu. Pak polévku rozmixuj a prolisuj sítem. Do talíře se hodí vařená [[rice|rýže]] nebo nudle.
+- **Rajská omáčka z čerstvých rajčat:** na tuku zpoť [[onion|cibuli]], přidej lžíci [[tomato-paste|protlaku]] a asi minutu ho opékej na středním ohni. Víc protlaku netřeba, omáčku dají rajčata sama; rajskou z protlaku popisuje [[tomato-paste|jeho stránka]]. Přidej oloupaná rajčata, vývar, 1 [[bay-leaf|bobkový list]], 3–4 kuličky [[allspice|nového koření]] a asi 5 kuliček [[peppercorns|pepře]] (na 4 porce). Přiveď k varu, stáhni oheň a vař v mírném varu 20–30 minut. Koření vylov, omáčku pasíruj přes [[sieve|sítko]] a zahusti [[flour|jíškou]] (obsahuje lepek); po zahuštění ji nech aspoň 15 minut mírně vařit. Podává se s vařeným hovězím a houskovým knedlíkem nebo s [[rice|rýží]].
+- **Rajčatová polévka:** z čerstvých v sezóně, v zimě z loupaných z plechovky nebo z passaty. Na tuku zpoť cibuli, na konci přidej [[garlic|česnek]]. Přidej rajčata a vývar nebo vodu, přiveď k varu, stáhni oheň a vař 20 minut v mírném varu. Pak polévku rozmixuj a pasíruj přes [[sieve|sítko]]. Do talíře se hodí vařená [[rice|rýže]] nebo nudle.
 
 ### Zelená, nezralá rajčata
 

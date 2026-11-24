@@ -72,7 +72,7 @@ Nakrájené nebo nastrouhané jablko na vzduchu zhnědne za pár minut. Buňky s
 
 Jak tomu předejít:
 
-- **Citron:** nastrouhané jablko hned zakap citronovou šťávou a promíchej. Kyselina a vitamin C enzym zpomalí. Na 2–3 jablka stačí šťáva z půlky citronu.
+- **Citron:** nastrouhané jablko hned zakap [[lemon|citronovou šťávou]] a promíchej. Kyselina a vitamin C enzym zpomalí. Na 2–3 jablka stačí šťáva z půlky citronu.
 - **Voda s citronem:** dílky, které počkají, dej do mísy s 1 l studené vody a lžící citronové šťávy.
 - **Rychlost:** strouhej až nakonec, těsně před mícháním salátu nebo plněním závinu.
 

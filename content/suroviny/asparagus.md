@@ -90,7 +90,7 @@ Zelený chřest je hotový rychleji a nemusí se vařit.
 ### S čím ho podávat
 
 - **S vařenými bramborami a máslem:** klasika. Rané [[potatoes|brambory]] ve slupce, uvařený bílý chřest a rozpuštěné nebo [[butter|oříškové máslo]]. Často se přidá šunka a vejce natvrdo nebo míchaná vejce (obsahuje vejce).
-- **S holandskou omáčkou:** teplá omáčka ze žloutků, másla a citronu. Obsahuje vejce a máslo (mléko). Holandskou omáčku uvař jen tolik, kolik sníš.
+- **S holandskou omáčkou:** teplá omáčka ze žloutků, másla a [[lemon|citronu]]. Obsahuje vejce (syrové žloutky viz [[egg|vejce]]) a máslo (mléko). Holandskou omáčku uvař jen tolik, kolik sníš. Žloutky v ní neztuhnou, proto ji nedávej malým dětem, těhotným a starším lidem (viz [[egg|vejce]]).
 - **Zapečený:** uvařený chřest zabalený do plátku šunky, posypaný sýrem a zapečený v troubě. Obsahuje mléko.
 - **V salátu:** studený uvařený chřest s vejcem (obsahuje vejce), rajčaty a pažitkou, nebo s ranými bramborami a zálivkou z oleje a octa.
 

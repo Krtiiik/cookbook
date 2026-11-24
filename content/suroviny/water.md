@@ -61,9 +61,9 @@ Voda vře při 100 °C jen u moře. Výš vře dřív, v 1000 m asi při 97 °C.
 ### Vodní kámen v konvici a hrnci
 
 - **Kyselina citronová:** 2 lžíce na 1 l vody. Převař ji v konvici, nech 30 minut stát a vylij. Konvici vypláchni a jednou v ní převař čistou vodu.
-- **Ocet:** kvasný ocet s vodou 1 : 1, postup stejný. Funguje taky, ale voní. Konvici pak vypláchni důkladně.
+- **Ocet:** kvasný lihový ocet 8 % s vodou 1 : 1, postup stejný. Funguje taky, ale voní. Konvici pak vypláchni důkladně.
 
-Nerezový hrnec, ve kterém se vaří brambory nebo vývar, odvápníš stejně: kyselinu nebo ocet v něm krátce převař. Do hliníkového, smaltovaného a litinového kyselinu nedávej.
+Nerezový hrnec, ve kterém se vaří brambory nebo vývar, odvápníš stejně: kyselinu nebo ocet v něm krátce převař. Na odvápnění kyselinu do hliníkového, smaltovaného a litinového hrnce nedávej (pár lžic octa v jídle smaltu nevadí). Kyselinu ani ocet nikdy nemíchej s chlorovým čisticím prostředkem, vzniká jedovatý plyn (viz [[vinegar|ocet]]).
 
 ## Náhrady
 

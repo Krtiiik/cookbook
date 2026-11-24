@@ -93,7 +93,7 @@ Proč začít ve [[water|studené vodě]]: brambora se ohřívá z povrchu dovni
 Celé brambory ve slupce vař stejně jako oloupané, od studené vody v mírném varu. Střední kusy jsou hotové za 25–30 minut od začátku varu, zkouška vidličkou stejná. Vyber brambory podobné velikosti, ať změknou zároveň.
 
 - **Na loupačku:** horké brambory dej na stůl v míse a každý si je loupe sám. K nim máslo a sůl, tvaroh s cibulkou, nebo kyselé mléko či podmáslí.
-- **Do bramborového salátu:** brambory typu A uvař ve slupce den předem, v mělké nádobě je nech vychladnout a do 2 hodin dej do lednice (podle KHS). Druhý den je oloupej a nakrájej, nerozpadnou se. Jak do salátu patří vařená mrkev, petržel a celer, najdeš u [[carrot|mrkve]]. Salát s majonézou drž v lednici.
+- **Do bramborového salátu:** brambory typu A uvař ve slupce den předem, v mělké nádobě je nech vychladnout a do 2 hodin dej do lednice (podle KHS). Druhý den je oloupej a nakrájej, nerozpadnou se. Jak do salátu patří vařená mrkev, petržel a celer, najdeš u [[carrot|mrkve]]. Salát s majonézou drž v lednici a sněz ho do 2 dnů. S domácí majonézou ze syrového žloutku platí pravidlo z [[egg|vajec]]. Nálev na salát najdeš u [[vinegar|octa]].
 - **Opékané brambory:** uvařené brambory ve slupce nech vychladnout v mělké nádobě a do 2 hodin je dej do lednice (podle KHS); opékej je druhý den. Oloupej je, nakrájej na plátky nebo kostky a opékej je na sádle nebo oleji na středně vysokém ohni, s cibulí a kmínem. Míchej je jen občas, ať se chytí kůrka.
 
 ### Syrové strouhané: bramboráky a halušky

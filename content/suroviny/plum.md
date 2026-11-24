@@ -53,7 +53,7 @@ Pecku nerozkousávej a nedrť. Jádro uvnitř obsahuje amygdalin a při rozkous�
 
 Ovocné knedlíky jsou sladký oběd, ne dezert. Na 4 porce počítej asi 16–20 knedlíků. Těsto se dělá dvojí:
 
-- **Tvarohové:** 500 g tvarohu (měkkého ve vaničce nebo tvrdého, prolisovaného), 2 vejce, 60 g změklého [[butter|másla]], špetka soli a asi 300 g polohrubé [[flour|mouky]]. Vypracuj ho jen krátce, aby bylo vláčné a nelepilo se. Mouky přidávej po troškách, tvaroh bývá různě vlhký.
+- **Tvarohové:** 500 g [[quark|tvarohu]] (měkkého ve vaničce, nejdřív okapaného, nebo tvrdého, prolisovaného), 2 vejce, 60 g změklého [[butter|másla]], špetka soli a asi 300 g polohrubé [[flour|mouky]]. Vypracuj ho jen krátce, aby bylo vláčné a nelepilo se. Mouky přidávej po troškách, tvaroh bývá různě vlhký.
 - **Bramborové:** 500 g [[potatoes|brambor]] typu C uvařených ve slupce den předem. Vychladlé je do 2 hodin dej do lednice (podle KHS) a vyndej je až před zpracováním. Oloupej je a nastrouhej najemno nebo prolisuj. Přidej 1 vejce, špetku soli a 150–200 g polohrubé mouky. Těsto zpracuj rychle a hned z něj tvoř knedlíky. Když stojí, řídne, a víc mouky z něj udělá tuhé knedlíky.
 
 Obě těsta obsahují lepek a vejce, tvarohové i mléko.
