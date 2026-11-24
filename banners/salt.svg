@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Modrá krabice soli s nálevkou, miska hrubé soli a dva prsty nad ní berou špetku, pár zrnek padá dolů">
+  <rect width="1200" height="400" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M60 362 H1140" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-dasharray: 2 12; stroke-linecap: round; opacity: .45"/>
+  <path d="M330 170 L372 146 L372 320 L330 344 Z" style="fill: var(--banner-cool, #1f4fa3); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M330 170 L372 146 L372 320 L330 344 Z" style="fill: var(--banner-fg, #1b2a4a); opacity: .3"/>
+  <path d="M200 170 L242 146 L372 146 L330 170 Z" style="fill: var(--banner-cool, #1f4fa3); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M300 150 L330 134 L352 150 L322 166 Z" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+  <rect x="200" y="170" width="130" height="174" style="fill: var(--banner-cool, #1f4fa3); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <rect x="200" y="222" width="130" height="64" style="fill: var(--banner-bg, #fffaf0); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5"/>
+  <g style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linejoin: round">
+    <path d="M236 246 l12 -8 l10 10 l-12 8 Z"/><path d="M268 258 l10 -10 l12 6 l-8 12 Z"/><path d="M250 270 l10 -6 l8 10 l-10 6 Z"/>
+  </g>
+  <path d="M530 270 C540 350 740 350 750 270 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <g style="fill: #fff7ea"><circle cx="600" cy="306" r="7"/><circle cx="640" cy="312" r="7"/><circle cx="680" cy="306" r="7"/></g>
+  <path d="M540 270 C566 232 714 228 740 270 Z" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+  <ellipse cx="640" cy="270" rx="110" ry="16" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6"/>
+  <g style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linejoin: round; opacity: .55">
+    <path d="M584 256 l10 -8 l10 8 l-10 8 Z"/><path d="M618 244 l12 -6 l8 10 l-12 6 Z"/><path d="M656 254 l10 -10 l10 8 l-10 10 Z"/><path d="M694 256 l8 -8 l10 6 l-8 8 Z"/><path d="M632 264 l8 -6 l8 6 l-8 6 Z"/>
+  </g>
+  <path d="M900 54 L960 40 L980 108 L916 128 Z" style="fill: var(--banner-cool, #1f4fa3); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M790 44 Q714 78 652 140" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 42; stroke-linecap: round"/>
+  <path d="M790 44 Q714 78 652 140" style="fill: none; stroke: var(--banner-bg, #fffaf0); stroke-width: 30; stroke-linecap: round"/>
+  <path d="M820 140 Q740 160 674 160" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 42; stroke-linecap: round"/>
+  <path d="M820 140 Q740 160 674 160" style="fill: none; stroke: var(--banner-bg, #fffaf0); stroke-width: 30; stroke-linecap: round"/>
+  <path d="M776 48 C820 30 900 40 912 84 C922 132 878 168 826 160 C792 154 770 112 776 48 Z" style="fill: var(--banner-bg, #fffaf0); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M800 112 q14 12 30 10" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linecap: round; opacity: .45"/>
+  <g style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linejoin: round">
+    <path d="M656 186 l8 -6 l8 8 l-8 6 Z"/><path d="M640 212 l8 -8 l8 6 l-8 8 Z"/><path d="M666 228 l6 -6 l8 6 l-6 6 Z"/>
+    <path d="M770 340 l8 -6 l8 8 l-8 6 Z"/><path d="M500 344 l8 -6 l6 8 l-8 4 Z"/>
+  </g>
+  <path d="M864 240 q-70 -10 -150 -70" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="876" y="252" style="font: 600 40px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">špetka</text>
+  <path d="M222 112 q36 4 50 30" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="70" y="124" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">s jódem</text>
+</svg>
