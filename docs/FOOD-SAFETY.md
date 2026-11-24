@@ -219,4 +219,46 @@ Muddy taste (geosmin, MIB) is quality, not safety; sádkování removes it (bezp
 
 ## 25. Dried fruit and kernels
 
-Prunes may carry sulphites up to 2 000 mg/kg (nařízení ES 1333/2008, příloha II, 04.2.1); above 10 mg/kg they must be labelled as an allergen (nařízení EU 1169/2011, příloha II, bod 12). Plum kernels: no Czech or EU source (BfR and EFSA cover apricot kernels only); the plum page cites the US Poison Control center for "do not crush or chew the kernel".
+Prunes may carry sulphites up to 2 000 mg/kg (nařízení ES 1333/2008, příloha II, 04.2.1); above 10 mg/kg they must be labelled as an allergen (nařízení EU 1169/2011, příloha II, bod 12). Plum kernels: no Czech or EU source (BfR and EFSA cover apricot kernels only); the plum page cites the US Poison Control center for "do not crush or chew the kernel". Bottled lemon juice is often sulphited (MENDELU found 10 of 22 samples: https://doi.mendelu.cz/pdfs/doi/9900/06/9900.pdf); wine, wine and balsamic vinegar, dijonská and imported mustard (E224) may carry sulphites. A recipe that uses one of these names the allergen.
+
+## 26. Eggs
+
+| Item | Use on the site | Cite | Source |
+|---|---|---|---|
+| Rules for sale | No washing of class A eggs; not chilled below 5 °C before sale; sizes S < 53 g, M 53–63, L 63–73, XL ≥ 73 g | nařízení EU 2023/2465 (replaces the repealed 589/2008) | https://www.zakonyprolidi.cz/pravoeu/dokument?celex=32023R2465 |
+| Date | Best-before at most 28 days after laying | nařízení ES 853/2004, příloha III, oddíl X, ve znění 2022/2258 | https://eur-lex.europa.eu/eli/reg_del/2022/2258/oj |
+| Risk groups | Small children, pregnant, older and immunocompromised people eat eggs only with white and yolk firm (not naměkko, hniličky, ztracené vejce, volské oko with a runny yolk, holandská, domácí majonéza) | podle BfR | BfR salmonella FAQ (topic 9) |
+| Raw-egg dishes | Prepare just before serving and eat straight away; leftovers in the fridge, same day | podle hygienické stanice hl. m. Prahy; FSA | https://www.hygpraha.cz/salmoneloza-a-moznosti-jeji-prevence/ |
+| Leftover raw yolks, whites, egg wash | Same day, only into food that is cooked | podle britského úřadu FSA | https://www.gov.uk/guidance/advice-on-safe-storage-handling-and-use-of-eggs-for-catering |
+| Past the date | Only a few days, only cooked through | podle BfR | BfR salmonella FAQ |
+| Hard-boiled | Topic 1 (2 h, 2 days); BfR gives 4 weeks only for eggs not quenched in water, USDA 1 week | podle bezpecnostpotravin.cz | https://www.bfr.bund.de/fragen-und-antworten/thema/ausgewaehlte-fragen-und-antworten-zu-ostereiern/ |
+| Duck, goose, quail | Never raw or soft-boiled | podle britského úřadu FSA | FSA catering page above |
+| Vaječný koňak | Alcohol kills salmonella only at ≥ 10 % in the mix and after ≥ 3 days at room temperature; before that it counts as raw egg | podle BfR (2003) | https://www.bfr.bund.de/cm/343/eierlikoer_aus_haeuslicher_und.pdf |
+
+Disagreement: HSHMP gives "above 70 °C for at least 10 minutes" for eggs; the site keeps topic 2 (75 °C, or 70 °C for 2 minutes, SZÚ and BfR), which a boiled or baked core exceeds. The SZPI listeria leaflet still quotes the repealed 75 °C for 5 minutes; do not use it.
+
+## 27. Tvaroh, cream and raw-milk dairy
+
+- Risk groups avoid dairy products from unpasteurised milk, "podle SZPI" (listeria leaflet: https://www.szpi.gov.cz/soubor/informace-a-doporuceni-pro-spotrebitele-ve-vztahu-k-nebezpeci-vyskytu-listeria-monocytogenes-v-potravinach.aspx) and raw-milk soft cheese, "podle BfR" (https://www.bfr.bund.de/presseinformation/listeriose-selten-aber-gefaehrlich-fuer-alte-schwangere-und-personen-mit-verminderter-immunabwehr/). The label need not say the tvaroh is from raw milk. Smažený hermelín for risk groups only heated through, "podle britské NHS" (https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/).
+- Vyhláška 397/2016 Sb. (https://www.zakonyprolidi.cz/cs/2016-397): tvaroh by fat in dry matter (tučný ≥ 38 %, polotučný 15–25 %, nízkotučný ≤ 15 %, odtučněný ≤ 5 %); flavoured tvaroh is still tvaroh with the flavouring named. Smetana ≥ 10 % fat, ke šlehání ≥ 30 %, vysokotučná ≥ 35 %, kysaná ≥ 10 %.
+- Opened tvaroh and cream: no Czech or EU number; follow the label (makers give "ihned" to 48 hours), like milk in topic 15. Baked goods with tvaroh filling, and opened tvaroh with no number on the label (2 days), follow topic 1: the site's own application.
+
+## 28. Hot holding, trips, frying hygiene
+
+- Hot food kept above 60 °C; cooked food at room temperature at most 2 hours, shorter in heat and sun (no number); take food for a trip cold from the fridge in a cool bag, "podle SZÚ" (https://szu.gov.cz/aktuality/proc-byva-v-lete-vice-pripadu-alimentarnich-onemocneni-a-jak-na-prevenci/).
+- Raw-meat hygiene: wash hands and boards, never put fried food back on the raw-meat plate; breading leftovers that touched raw meat go away, "podle BfR" (topic 9 URL).
+- Scalds: as topic 21; take off clothing soaked in hot liquid, leave what sticks (NHS).
+
+## 29. Aluminium, acid, chlorine, alcohol
+
+| Item | Use on the site | Cite | Source |
+|---|---|---|---|
+| Aluminium | No acidic or salty food cooked or stored in uncoated aluminium or wrapped in alobal; coated pots fine while the coating is whole | podle BfR | https://www.bfr.bund.de/fragen-und-antworten/thema/fragen-und-antworten-zu-aluminium-in-lebensmitteln-und-verbrauchernahen-produkten |
+| Chlorine + acid | Never mix chlorine cleaners with vinegar, citric acid or descalers: chlorine gas; TIS as topic 16 | podle gesund.bund.de | https://gesund.bund.de/chemikalien-im-haushalt |
+| Alcohol in cooking | Does not fully evaporate: about 40 % after 15 minutes, 25 % after 1 hour, 5 % after 2,5 hours; dishes with wine or koňak are not for children or pregnant women, even with pasteurised egg | podle USDA (no Czech or EU number) | https://pubmed.ncbi.nlm.nih.gov/1556354/ |
+| Acidifying pickles | Acid alone gives no safety; pH must be measured below 4,6 and varies | podle BfR | topic 7 URL |
+| Octová matka | Bacteria, harmless; mould is dry, hairy, coloured or smells; when unsure throw away | podle Verbraucherzentrale Südtirol | https://www.consumer.bz.it/de/print/pdf/node/1026 |
+| Treated citrus | Post-harvest treatment must be labelled; LGL found lemons and limes sold as "unbehandelt" with residues | podle bavorského úřadu LGL | https://www.lgl.bayern.de/lebensmittel/warengruppen/wc_29_frischobst/ue_2018_zitrusfruechte.htm |
+| Treated citrus, details | Shelf sign names the substance; limes, grapefruit exempt; washing removes little; zest and tea slices only from untreated or bio fruit | podle Saxony-Anhalt LAV a test.de | https://www.test.de/Zitronen-und-Limetten-Wie-belastet-sind-Fruechte-aus-Supermarkt-und-Bioladen-4672703-4672712/ (LAV press PDF 28 Oct 2022 unread) |
+
+Vinegar needs no best-before date (nařízení EU 1169/2011, příloha X). Vyhláška 248/2018 Sb. (replaced 335/1997) sets only a maximum acidity of 25 %; 8 % and 5 % are shop values.
