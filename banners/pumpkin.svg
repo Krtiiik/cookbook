@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Oranžová dýně hokkaido s krátkou stopkou, vedle ní světlá láhvovitá máslová dýně a vpravo vykrojený klín dýně, v jehož dřeni jsou vidět semínka a vlákna">
+  <rect width="1200" height="400" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M60 362 H1140" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-dasharray: 2 12; stroke-linecap: round; opacity: .45"/>
+
+  <!-- hokkaido -->
+  <path d="M240 178 Q236 160 252 144" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 20; stroke-linecap: round"/>
+  <path d="M240 178 Q236 160 252 144" style="fill: none; stroke: var(--banner-warm, #e9b44c); stroke: color-mix(in srgb, var(--banner-warm, #e9b44c) 40%, black); stroke-width: 9; stroke-linecap: round"/>
+  <path d="M240 180 C170 160 112 202 112 262 C112 320 170 344 240 344 C310 344 368 320 368 262 C368 202 310 160 240 180 Z" style="fill: var(--banner-accent, #c8462a)"/>
+  <path d="M240 180 C170 160 112 202 112 262 C112 320 170 344 240 344 C310 344 368 320 368 262 C368 202 310 160 240 180 Z" style="fill: var(--banner-warm, #e9b44c); opacity: .55"/>
+  <g style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round; opacity: .45">
+    <path d="M240 182 C204 222 204 304 240 342"/>
+    <path d="M240 182 C276 222 276 304 240 342"/>
+    <path d="M232 178 C168 206 150 292 190 338"/>
+    <path d="M248 178 C312 206 330 292 290 338"/>
+  </g>
+  <path d="M142 232 C150 206 174 192 198 190" style="fill: none; stroke: #fff7ea; stroke-width: 7; stroke-linecap: round; opacity: .8"/>
+  <path d="M240 180 C170 160 112 202 112 262 C112 320 170 344 240 344 C310 344 368 320 368 262 C368 202 310 160 240 180 Z" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+
+  <!-- máslová dýně -->
+  <path d="M560 118 V92" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 18; stroke-linecap: round"/>
+  <path d="M560 118 V92" style="fill: none; stroke: var(--banner-warm, #e9b44c); stroke: color-mix(in srgb, var(--banner-warm, #e9b44c) 40%, black); stroke-width: 7; stroke-linecap: round"/>
+  <path d="M528 134 C528 116 592 116 592 134 C596 192 598 216 622 242 C662 274 654 342 560 342 C466 342 458 274 498 242 C522 216 524 192 528 134 Z" style="fill: var(--banner-warm, #e9b44c)"/>
+  <path d="M528 134 C528 116 592 116 592 134 C596 192 598 216 622 242 C662 274 654 342 560 342 C466 342 458 274 498 242 C522 216 524 192 528 134 Z" style="fill: var(--banner-bg, #fffaf0); opacity: .45"/>
+  <path d="M592 134 C596 192 598 216 622 242 C662 274 654 342 560 342 C596 316 606 276 590 246 C578 224 588 180 592 134 Z" style="fill: var(--banner-warm, #e9b44c); opacity: .45"/>
+  <path d="M542 150 C540 188 538 214 512 244" style="fill: none; stroke: #fff7ea; stroke-width: 7; stroke-linecap: round; opacity: .8"/>
+  <path d="M526 226 Q560 242 594 226" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round; opacity: .35"/>
+  <path d="M528 134 C528 116 592 116 592 134 C596 192 598 216 622 242 C662 274 654 342 560 342 C466 342 458 274 498 242 C522 216 524 192 528 134 Z" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+
+  <!-- klín se semínky -->
+  <path d="M870 186 Q900 174 930 186 L1035 326 Q900 372 765 326 Z" style="fill: var(--banner-warm, #e9b44c)"/>
+  <path d="M870 186 Q900 174 930 186 L1035 326 Q900 372 765 326 Z" style="fill: var(--banner-accent, #c8462a); opacity: .3"/>
+  <g style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round; opacity: .3">
+    <path d="M830 282 q-10 20 -4 36"/><path d="M968 282 q10 20 4 36"/><path d="M900 288 v38"/>
+  </g>
+  <path d="M765 326 Q900 372 1035 326 L1027 306 Q900 350 773 306 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+  <path d="M870 186 Q900 174 930 186 L1035 326 Q900 372 765 326 Z" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M858 222 C858 196 942 196 942 222 C952 250 932 276 900 278 C868 276 848 250 858 222 Z" style="fill: var(--banner-warm, #e9b44c); stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linejoin: round"/>
+  <path d="M858 222 C858 196 942 196 942 222 C952 250 932 276 900 278 C868 276 848 250 858 222 Z" style="fill: var(--banner-bg, #fffaf0); opacity: .6"/>
+  <g style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 2.5; stroke-linecap: round; opacity: .4">
+    <path d="M870 214 q14 12 6 30"/><path d="M930 212 q-14 14 -4 32"/><path d="M898 204 q8 22 -2 44"/><path d="M884 262 q16 -10 32 0"/>
+  </g>
+  <g style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3.5">
+    <ellipse cx="878" cy="226" rx="10" ry="6" transform="rotate(-30 878 226)"/>
+    <ellipse cx="914" cy="220" rx="10" ry="6" transform="rotate(25 914 220)"/>
+    <ellipse cx="900" cy="242" rx="10" ry="6" transform="rotate(-8 900 242)"/>
+    <ellipse cx="928" cy="246" rx="10" ry="6" transform="rotate(40 928 246)"/>
+    <ellipse cx="874" cy="250" rx="10" ry="6" transform="rotate(20 874 250)"/>
+    <ellipse cx="902" cy="263" rx="10" ry="6" transform="rotate(-25 902 263)"/>
+  </g>
+  <g style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3.5">
+    <ellipse cx="1086" cy="344" rx="10" ry="6" transform="rotate(-15 1086 344)"/>
+    <ellipse cx="1114" cy="350" rx="10" ry="6" transform="rotate(30 1114 350)"/>
+  </g>
+
+  <!-- poznámky -->
+  <text x="50" y="86" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">hokkaido: slupku neloupej</text>
+  <path d="M130 102 q38 8 52 72" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="620" y="62" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">máslová je sladší</text>
+  <path d="M640 76 q-26 18 -44 76" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="800" y="136" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">semínka vyškrábni lžící</text>
+  <path d="M900 150 q16 10 4 38" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+</svg>
