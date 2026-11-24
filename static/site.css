@@ -44,7 +44,7 @@
 
 /* ---------- base */
 * { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; }
+html { -webkit-text-size-adjust: 100%; scrollbar-gutter: stable; } /* short and long pages centre the same */
 body {
   margin: 0; min-height: 100vh; color: var(--ink);
   background-color: var(--paper);
