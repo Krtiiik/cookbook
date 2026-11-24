@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Dva celé citrony, uprostřed citron rozpůlený s jednotlivými měsíčky a pecičkami, před ním měsíček na krájení, a vpravo malé struhadlo s kudrlinkami žluté kůry">
+  <rect width="1200" height="400" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M60 362 H1140" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-dasharray: 2 12; stroke-linecap: round; opacity: .45"/>
+  <g transform="translate(190 284) rotate(-10)">
+    <path d="M-108 0 Q-100 -8 -92 -14 C-80 -56 -40 -70 0 -70 C40 -70 80 -56 92 -14 Q100 -8 108 0 Q100 8 92 14 C80 56 40 70 0 70 C-40 70 -80 56 -92 14 Q-100 8 -108 0 Z" style="fill: var(--banner-warm, #e9b44c)"/>
+    <path d="M92 14 Q100 8 108 0 Q100 -8 92 -14 C100 10 70 56 0 66 C40 62 80 50 92 14 Z" style="fill: var(--banner-fg, #1b2a4a); opacity: .14"/>
+    <g style="fill: var(--banner-fg, #1b2a4a); opacity: .35">
+      <circle cx="-30" cy="-6" r="2.5"/><circle cx="-8" cy="18" r="2.5"/><circle cx="26" cy="2" r="2.5"/><circle cx="48" cy="-22" r="2.5"/><circle cx="-52" cy="26" r="2.5"/><circle cx="12" cy="-30" r="2.5"/>
+    </g>
+    <path d="M-76 -14 C-70 -40 -48 -56 -22 -58" style="fill: none; stroke: #fff7ea; stroke-width: 7; stroke-linecap: round; opacity: .8"/>
+    <path d="M-108 0 Q-100 -8 -92 -14 C-80 -56 -40 -70 0 -70 C40 -70 80 -56 92 -14 Q100 -8 108 0 Q100 8 92 14 C80 56 40 70 0 70 C-40 70 -80 56 -92 14 Q-100 8 -108 0 Z" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  </g>
+  <g transform="translate(374 308) rotate(14) scale(.82)">
+    <path d="M-108 0 Q-100 -8 -92 -14 C-80 -56 -40 -70 0 -70 C40 -70 80 -56 92 -14 Q100 -8 108 0 Q100 8 92 14 C80 56 40 70 0 70 C-40 70 -80 56 -92 14 Q-100 8 -108 0 Z" style="fill: var(--banner-warm, #e9b44c)"/>
+    <path d="M92 14 Q100 8 108 0 Q100 -8 92 -14 C100 10 70 56 0 66 C40 62 80 50 92 14 Z" style="fill: var(--banner-fg, #1b2a4a); opacity: .14"/>
+    <g style="fill: var(--banner-fg, #1b2a4a); opacity: .35">
+      <circle cx="-24" cy="4" r="3"/><circle cx="2" cy="24" r="3"/><circle cx="30" cy="-8" r="3"/><circle cx="-48" cy="-18" r="3"/><circle cx="14" cy="-34" r="3"/>
+    </g>
+    <path d="M-76 -14 C-70 -40 -48 -56 -22 -58" style="fill: none; stroke: #fff7ea; stroke-width: 8; stroke-linecap: round; opacity: .8"/>
+    <path d="M-108 0 Q-100 -8 -92 -14 C-80 -56 -40 -70 0 -70 C40 -70 80 -56 92 -14 Q100 -8 108 0 Q100 8 92 14 C80 56 40 70 0 70 C-40 70 -80 56 -92 14 Q-100 8 -108 0 Z" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 7; stroke-linejoin: round"/>
+    <g transform="translate(-6 -68) rotate(-62)" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4.5; stroke-linejoin: round">
+      <path d="M0 0 Q24 -14 50 0 Q24 14 0 0 Z" style="fill: var(--banner-warm, #e9b44c)"/>
+      <path d="M0 0 Q24 -14 50 0 Q24 14 0 0 Z" style="fill: var(--banner-cool, #1f4fa3); opacity: .5; stroke: none"/>
+    </g>
+  </g>
+  <g transform="translate(620 252) rotate(-8)">
+    <circle r="102" style="fill: var(--banner-warm, #e9b44c); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6"/>
+    <circle r="88" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3"/>
+    <g style="fill: var(--banner-warm, #e9b44c); fill-opacity: .5; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linejoin: round">
+      <path d="M-4 -12 L-26 -68 Q0 -80 26 -68 L4 -12 Z" transform="rotate(22.5)"/>
+      <path d="M-4 -12 L-26 -68 Q0 -80 26 -68 L4 -12 Z" transform="rotate(67.5)"/>
+      <path d="M-4 -12 L-26 -68 Q0 -80 26 -68 L4 -12 Z" transform="rotate(112.5)"/>
+      <path d="M-4 -12 L-26 -68 Q0 -80 26 -68 L4 -12 Z" transform="rotate(157.5)"/>
+      <path d="M-4 -12 L-26 -68 Q0 -80 26 -68 L4 -12 Z" transform="rotate(202.5)"/>
+      <path d="M-4 -12 L-26 -68 Q0 -80 26 -68 L4 -12 Z" transform="rotate(247.5)"/>
+      <path d="M-4 -12 L-26 -68 Q0 -80 26 -68 L4 -12 Z" transform="rotate(292.5)"/>
+      <path d="M-4 -12 L-26 -68 Q0 -80 26 -68 L4 -12 Z" transform="rotate(337.5)"/>
+    </g>
+    <g style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 2.5; stroke-linejoin: round">
+      <path d="M0 -9 C6 -3 6 5 0 9 C-6 5 -6 -3 0 -9 Z" transform="translate(30 -42) rotate(60)"/>
+      <path d="M0 -9 C6 -3 6 5 0 9 C-6 5 -6 -3 0 -9 Z" transform="translate(-34 38) rotate(-120)"/>
+      <path d="M0 -9 C6 -3 6 5 0 9 C-6 5 -6 -3 0 -9 Z" transform="translate(40 30) rotate(20)" />
+    </g>
+    <path d="M-86 -30 C-80 -56 -62 -76 -38 -84" style="fill: none; stroke: #fff7ea; stroke-width: 6; stroke-linecap: round; opacity: .8"/>
+  </g>
+  <g transform="translate(804 308)">
+    <path d="M-72 -26 H72 C64 22 34 42 0 42 C-34 42 -64 22 -72 -26 Z" style="fill: #fff7ea"/>
+    <path d="M-60 -20 H60 C54 14 30 32 0 32 C-30 32 -54 14 -60 -20 Z" style="fill: var(--banner-warm, #e9b44c); opacity: .45"/>
+    <path d="M-20 -20 C-20 8 -10 24 -4 32 M20 -20 C20 8 10 24 4 32" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round; opacity: .55"/>
+    <path d="M-72 -26 C-64 22 -34 42 0 42 C34 42 64 22 72 -26" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 16; stroke-linejoin: round"/>
+    <path d="M-72 -26 C-64 22 -34 42 0 42 C34 42 64 22 72 -26" style="fill: none; stroke: var(--banner-warm, #e9b44c); stroke-width: 8; stroke-linejoin: round"/>
+    <path d="M-72 -26 H72 C64 22 34 42 0 42 C-34 42 -64 22 -72 -26 Z" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+  </g>
+  <g transform="translate(1020 215) rotate(-18)">
+    <rect x="-14" y="-150" width="28" height="60" rx="12" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5"/>
+    <rect x="-38" y="-104" width="76" height="208" rx="10" style="fill: var(--banner-cool, #1f4fa3); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6"/>
+    <path d="M-28 -90 V90" style="fill: none; stroke: #fff7ea; stroke-width: 4; stroke-linecap: round; opacity: .5"/>
+    <g style="fill: none; stroke: #fff7ea; stroke-width: 7; stroke-linecap: round; stroke-dasharray: 0 19; opacity: .85">
+      <path d="M-16 -78 V86"/><path d="M0 -69 V86" /><path d="M16 -78 V86"/>
+    </g>
+  </g>
+  <g style="fill: none; stroke-linecap: round; stroke-linejoin: round">
+    <g style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 11">
+      <path d="M1036 344 C1046 330 1064 338 1058 348 C1054 354 1044 350 1048 344"/>
+      <path d="M1076 346 C1088 332 1106 342 1098 352 C1092 358 1082 352 1088 346"/>
+      <path d="M1112 348 C1122 336 1138 344 1132 354 C1128 358 1118 356 1122 350"/>
+      <path d="M1066 328 C1074 318 1088 322 1084 332"/>
+    </g>
+    <g style="stroke: var(--banner-warm, #e9b44c); stroke-width: 6">
+      <path d="M1036 344 C1046 330 1064 338 1058 348 C1054 354 1044 350 1048 344"/>
+      <path d="M1076 346 C1088 332 1106 342 1098 352 C1092 358 1082 352 1088 346"/>
+      <path d="M1112 348 C1122 336 1138 344 1132 354 C1128 358 1118 356 1122 350"/>
+      <path d="M1066 328 C1074 318 1088 322 1084 332"/>
+    </g>
+  </g>
+  <text x="50" y="100" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">šťáva i kůra</text>
+  <path d="M150 116 q30 16 32 92" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="420" y="96" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">bílé hořkne</text>
+  <path d="M500 108 q-8 40 52 78" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="656" y="116" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">jen žlutá slupka</text>
+  <path d="M820 130 q76 4 138 64" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+</svg>
