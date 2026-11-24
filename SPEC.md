@@ -37,7 +37,8 @@ All URLs are relative. Every template gets `root` and must put it before every i
 | Groups | `skupiny/index.html` | `groups.html` | All groups, sorted by kind |
 | Group | `skupiny/<slug>.html` | `group.html` | Recipes in one group |
 | Basics | `zaklady/index.html` | `group.html` | The page of the group `zaklady` (it has no `skupiny/` page) |
-| Reference | `reference/index.html` | `reference.html` | Unit converter and seasonal calendar |
+| Converter | `prevodnik/index.html` | `converter.html` | Unit converter |
+| Calendar | `sezonni-kalendar/index.html` | `calendar.html` | Seasonal calendar |
 | About | `o-webu/index.html` | `about.html` | Licence, credits, how the site is made |
 
 ### Recipe page
@@ -50,7 +51,7 @@ Banner (full width, the main visual of the page) → section label → title →
 
 Ingredient pages also show catalog data: category, season (as a 12-month strip), substitutes, allergens.
 
-### Reference page
+### Converter and calendar pages
 
 - **Unit converter**: amount + from-unit → to-unit; optional ingredient for spoon/cup to grams.
 - **Seasonal calendar**: a grid. Columns are months 1–12, rows are ingredients. A cell is coloured when the ingredient is in season. A category filter and a text filter hide rows. Row titles link to ingredient pages. It must stay usable at phone width (the grid scrolls inside itself, the first column stays visible).
@@ -75,7 +76,7 @@ Templates are Jinja2 (`StrictUndefined`, autoescape on). Every template receives
 | `site.units` | dict unit slug → unit |
 | `site.allergens` | list of the EU 14: `slug`, `title` |
 | `site.labels`, `site.label(kind, value)` | Czech labels from `data/labels.yaml` |
-| `site.meta` | `data/site.yaml`: `title`, `tagline`, `url`, `licence`, `licence_url` |
+| `site.meta` | `data/site.yaml`: `title`, `url`, `licence`, `licence_url` |
 | `site.related(page)`, `site.used_in(page)`, `site.linked_explainers(page)`, `site.recent_changes(n)` | ready-made lists for the side boxes, backlinks and the home log |
 | `root` | relative prefix to the site root |
 | `current` | this page's URL relative to the root |
@@ -121,7 +122,7 @@ Plain JavaScript in `static/`. Keep these classes and attributes, or update the 
 | Converter | `.converter` with `input.converter__amount`, `select.converter__from`, `select.converter__to`, `select.converter__item`, `output.converter__result` |
 | Calendar | `table.season` with `tr[data-slug][data-category]`, `td.is-in-season`; filter controls `input.season__search`, `select.season__category` |
 | Status | `.is-written`/`.is-planned`/`.is-draft`/`.is-tested` on cards, links and the article |
-| Page kind | `body.page-home|recipes|recipe|section|explainer|groups|group|reference|about` |
+| Page kind | `body.page-home|recipes|recipe|section|explainer|groups|group|converter|calendar|about` |
 | Theme switch | `button.theme[data-theme-current=system|light|dark]` with `.theme__icon--<choice>` and `.theme__label`; the choice is kept in `localStorage` under `kk-theme`, and the inline script in `base.html` sets `data-theme` and `html.js` before first paint |
 | Current month | the script adds `.now` to `[data-month=N]` cells in `table.season` and `.strip` |
 | No-JS | `html:not(.js)` hides controls that need the script (theme switch, scaler buttons) |

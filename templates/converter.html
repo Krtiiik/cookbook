@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block kind %}converter{% endblock %}
+{% block main %}
+<h1 class="pt">Převodník</h1>
+<p class="lead">Hrnky, lžíce, unce a °F z amerických receptů převedeš na gramy, mililitry a °C.</p>
+
+<section class="box tool converter c-tomato" aria-label="Převodník jednotek">
+  <div class="row2">
+    <div class="field"><label for="c-amt">Množství</label><input id="c-amt" class="converter__amount" type="text" inputmode="decimal" value="2"></div>
+    <div class="field"><label for="c-from">Z jednotky</label>
+      <select id="c-from" class="converter__from">
+        {% for u in converter['from'] %}<option value="{{ u.slug }}" data-ml="{{ u.ml or '' }}" data-g="{{ u.g or '' }}"{% if u.slug == 'cup' %} selected{% endif %}>{{ u.title }}</option>{% endfor %}
+        <option value="F">°F</option>
+      </select></div>
+  </div>
+  <div class="row2">
+    <div class="field"><label for="c-to">Na jednotku</label>
+      <select id="c-to" class="converter__to"><option value="g">gramy</option><option value="ml">mililitry</option><option value="C">°C</option></select></div>
+    <div class="field"><label for="c-item">Surovina</label>
+      <select id="c-item" class="converter__item">
+        {% for p in converter['items'] %}<option value="{{ p.slug }}" data-density="{{ p.data.density }}"{% if p.slug == 'flour' %} selected{% endif %}>{{ default_link_text(p.title) }}</option>{% endfor %}
+      </select></div>
+  </div>
+  <output class="converter__result" for="c-amt c-from c-to c-item">Zadej číslo</output>
+  <p class="hint">Surovinu potřebuješ jen pro převod objemu na hmotnost. Hustoty jsou orientační.</p>
+</section>
+{% endblock %}

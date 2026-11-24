@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% if title %}{{ title }} · {% endif %}{{ site.meta.title }}</title>
-{% block meta %}<meta name="description" content="{{ site.meta.tagline }}">{% endblock %}
+{% block meta %}{% endblock %}
 <script>
   /* Theme before first paint: kk-theme is system (missing), light or dark. */
   (function () {
@@ -45,7 +45,7 @@
   <a href="{{ root }}{{ s.url }}"{% if nav == s.slug %} class="on" aria-current="page"{% endif %}>{{ s.title }}</a>
   {% endfor %}
   <span class="sec">
-    {% for slug, url, text in [('skupiny', 'skupiny/index.html', 'Skupiny'), ('zaklady', 'zaklady/index.html', 'Základy'), ('reference', 'reference/index.html', 'Reference'), ('o-webu', 'o-webu/index.html', 'O webu')] %}
+    {% for slug, url, text in [('skupiny', 'skupiny/index.html', 'Skupiny'), ('prevodnik', 'prevodnik/index.html', 'Převodník'), ('kalendar', 'sezonni-kalendar/index.html', 'Sezónní kalendář'), ('o-webu', 'o-webu/index.html', 'O webu')] %}
     <a href="{{ root }}{{ url }}"{% if nav == slug %} class="on" aria-current="page"{% endif %}>{{ text }}</a>
     {% endfor %}
   </span>
@@ -55,9 +55,9 @@
 </main>
 <footer class="foot">
   <span>© {{ site.meta.title }} · obsah pod licencí <a href="{{ site.meta.licence_url }}">{{ site.meta.licence }}</a></span>
-  <a href="{{ root }}reference/index.html">Reference</a>
+  <a href="{{ root }}prevodnik/index.html">Převodník</a>
+  <a href="{{ root }}sezonni-kalendar/index.html">Sezónní kalendář</a>
   <a href="{{ root }}o-webu/index.html">O webu</a>
-  <a href="{{ root }}o-webu/index.html#jak-web-vznika">Jak web vzniká</a>
 </footer>
 </div>
 <div class="link-preview" role="tooltip" hidden></div>

@@ -25,7 +25,8 @@ All parts link to each other. A recipe links to the explainers it uses. Each exp
 | Equipment | `vybaveni/` | Knives, pans, thermometer: purpose, choice, care, substitutes. |
 | Troubleshooting | `reseni-problemu/` | "Proč se mi srazila omáčka?" Symptom, causes, fix, prevention. |
 | Groups | `skupiny/<slug>/` | Recipe groups, generated. `zaklady/` is the page of the group `zaklady`. |
-| Reference | `reference/` | Special page with tools: unit converter, seasonal calendar. |
+| Converter | `prevodnik/` | Tool page: unit converter. |
+| Calendar | `sezonni-kalendar/` | Tool page: seasonal calendar. |
 | About | `o-webu/` | Special page: licence, credits, how the site is made. |
 
 Removed from the first draft: the cooking log (`denik`), `kolekce` as a section (now groups), `zaklady` as a content type (now a group), `reference` as a content section (now one tools page).
@@ -148,7 +149,7 @@ Kinds: `course` (what the dish is) and `occasion` (when you make it). The build 
 | `data/units.yaml` | Units: slug, Czech forms (1 / 2–4 / 5+ / decimals), `scalable`, `round` steps, `ml` or `g` per unit for the converter; US units are converter-only (`in_recipes: false`) |
 | `data/allergens.yaml` | The EU 14 allergens with Czech names |
 | `data/labels.yaml` | Czech labels for difficulty, season, diet, cuisine and catalog categories; the build rejects a value missing here |
-| `data/site.yaml` | Site name, tagline, public URL (for JSON-LD), licence |
+| `data/site.yaml` | Site name, public URL (for JSON-LD), licence |
 
 Not in the first phase: USDA nutrition values, Wikidata ids, Open Food Facts.
 
@@ -204,8 +205,8 @@ Adapted from the trading site's pipeline. Agents are in `.claude/agents/`, skill
 
 ## 11. Status and next steps
 
-Done: the build with validation, links and derived data; recipe, explainer, list, group, reference and about pages in the "Smaltovaný sešit" style (`docs/STYLE.md`); search, previews, filters, scaler, converter and season calendar; photo import; tests; the Pages workflow; the authoring agents and skills; the TheMealDB corpus lookup and the near-copy check. Sample content: 3 draft recipes and 3 written explainers.
+Done: the build with validation, links and derived data; recipe, explainer, list, group, converter, calendar and about pages in the "Smaltovaný sešit" style (`docs/STYLE.md`); search, previews, filters, scaler, converter and season calendar; photo import; tests; the Pages workflow; the authoring agents and skills; the TheMealDB corpus lookup and the near-copy check. Sample content: 3 draft recipes and 3 written explainers.
 
 Next:
 
-1. Doneness temperatures and storage times on the reference page, with cited sources.
+1. Doneness temperatures and storage times on a tool page, with cited sources.

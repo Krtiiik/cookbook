@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% from "_macros.html" import link %}
+{% block kind %}calendar{% endblock %}
+{% block main %}
+<h1 class="pt">Sezónní kalendář</h1>
+<p class="lead">Kdy je surovina u nás nejlepší.</p>
+
+<section class="box tool c-mint" aria-label="Kalendář sezónních surovin">
+  {% set cats = [] %}{% for r in seasons if r.category not in cats %}{% set _ = cats.append(r.category) %}{% endfor %}
+  <div class="filters">
+    <div class="field"><label for="s-q">Hledej surovinu</label><input id="s-q" class="season__search" type="search" placeholder="např. dýně"></div>
+    <div class="field"><label for="s-cat">Kategorie</label>
+      <select id="s-cat" class="season__category"><option value="">všechny</option>{% for c in cats %}<option value="{{ c }}">{{ site.label('categories', c) }}</option>{% endfor %}</select></div>
+  </div>
+  <div class="legend"><span><i class="sw"></i>v sezóně</span><span><i class="sw now"></i>tento měsíc</span><span class="season__count">{{ seasons|length }} z {{ seasons|length }} surovin</span></div>
+  <div class="scroll">
+    <table class="season">
+      <caption class="sr">Sezónnost surovin podle měsíců</caption>
+      <thead><tr><th scope="col" class="season__name">Surovina</th>{% for m in range(12) %}<th scope="col" data-month="{{ m + 1 }}"><abbr title="{{ MONTHS[m] }}">{{ MONTHS_SHORT[m] }}</abbr></th>{% endfor %}</tr></thead>
+      <tbody>
+      {% for r in seasons %}
+        <tr data-slug="{{ r.page.slug }}" data-category="{{ r.category }}" data-fold="{{ r.page.title|lower }}">
+          <th scope="row">{{ link(r.page, root) }}<small>{{ site.label('categories', r.category) }}</small></th>
+          {% for m in range(1, 13) %}<td data-month="{{ m }}"{% if m in r.months %} class="is-in-season"{% endif %} title="{{ r.page.title }}, {{ MONTHS[m - 1] }}{% if m in r.months %}: v sezóně{% endif %}"><span class="sr">{% if m in r.months %}ano{% endif %}</span></td>{% endfor %}
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    <p class="empty season__empty" hidden>Nic nenalezeno. Zkus jiné slovo.</p>
+  </div>
+  <p class="hint">Suroviny dostupné celý rok v kalendáři nejsou.</p>
+</section>
+{% endblock %}

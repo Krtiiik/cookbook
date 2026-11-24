@@ -294,3 +294,17 @@ def test_index_holds_previews_and_filters(real_site):
     braising = next(p for p in data["pages"] if p["slug"] == "braising")
     assert data["banners"][braising["banner"]].startswith("<svg")
     assert data["units"]["lzice"]["forms"] == ["lžíce", "lžíce", "lžic", "lžíce"]
+
+
+def test_converter_and_calendar_have_own_pages(real_site):
+    _, out = real_site
+    converter = (out / "prevodnik" / "index.html").read_text(encoding="utf-8")
+    calendar = (out / "sezonni-kalendar" / "index.html").read_text(encoding="utf-8")
+    assert 'class="converter__result"' in converter and "table class=\"season\"" not in converter
+    assert 'table class="season"' in calendar and "converter__result" not in calendar
+    assert not (out / "reference").exists()
+
+
+def test_home_has_no_meta_description(real_site):
+    _, out = real_site
+    assert 'name="description"' not in (out / "index.html").read_text(encoding="utf-8")

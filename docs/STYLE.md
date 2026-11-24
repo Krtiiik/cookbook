@@ -96,7 +96,7 @@ body {
 | Role | Font | Size |
 |---|---|---|
 | Home hero h1 | hand | 62px / 44px, line-height 1.02 |
-| Page title (recipe, explainer, reference) | hand | 60–66px / 42–46px, line-height 1 |
+| Page title (recipe, explainer, tool pages) | hand | 60–66px / 42–46px, line-height 1 |
 | Section h2 (`.h2`, prose h2) | hand | 34px |
 | Box h2 (ingredients, side boxes) | hand | 26–32px |
 | Card title | hand | 22–23px |
@@ -122,10 +122,10 @@ body {
 ### Header and navigation
 
 - **Top row:** logo, search, theme switch, with a 2.5px ink rule under it.
-  - **Logo:** a 44px tomato circle with a white icon of a chef's hat on a molehill (a nod to "Krtkova") (inline SVG, `aria-hidden`), then "Krtkova Kuchařka" (hand 34px). The tagline from `data/site.yaml` is only the meta description, not shown in the header.
+  - **Logo:** a 44px tomato circle with a white icon of a chef's hat on a molehill (a nod to "Krtkova") (inline SVG, `aria-hidden`), then "Krtkova Kuchařka" (hand 34px).
   - **Search** `.search`: a pill input with a 2.5px ink border on `--card` and a magnifier icon inside on the left. The placeholder is "Hledej recept, surovinu, postup…". Results (`ol.search__results`) open below it as a card with a 5px mustard shadow.
   - **Theme switch** `button.theme[data-theme-current]`: a cobalt-filled pill (`--on-cobalt` text) with a 3px mustard shadow. It cycles system → light → dark. The icon is a half-filled circle, a sun or a moon. The label is "Auto", "Světlý" or "Tmavý" in Caveat. Its `aria-label` and `title` are "Motiv: podle systému. Přepni." (and the same for the other states).
-- **Nav row:** Recepty, Metody, Suroviny, Vybavení, Řešení problémů (hand 22px). A secondary group (Skupiny, Základy, Reference, O webu) sits at the right in body 15px, muted, with a dotted underline. A 1.5px dashed rule is under the row.
+- **Nav row:** Recepty, Metody, Suroviny, Vybavení, Řešení problémů (hand 22px). A secondary group (Skupiny, Převodník, Sezónní kalendář, O webu) sits at the right in body 15px, muted, with a dotted underline. A 1.5px dashed rule is under the row.
   - **Current page:** a 6px tomato bar under the word (`a.on::after`, rounded, rotated −1.5°). Do not use a background or highlight on the word.
 
 ### Links (`a.site-link`)
@@ -200,9 +200,9 @@ Banners follow SPEC.md (viewBox 1200×400, colours only through `--banner-*`, no
 - **Animation:** only gentle steam (opacity and translateY, 3.4s, staggered). It stops under `prefers-reduced-motion: reduce`.
 - **`_planned.svg`:** a dashed rounded frame at 35% opacity, a few faded dots and a faded pencil outline.
 
-### Reference page
+### Converter and calendar pages
 
-- **Layout:** 2 columns (350px / 1fr). The converter is a tomato box and the calendar a mint box. Each box is a card with tape and a shadow.
+- **Layout:** each tool has its own page: the page title, a short lead, then one box. The converter is a tomato box, at most 460px wide; the calendar is a mint box at full width. Each box is a card with tape and a shadow.
 - **Fields:** a Caveat label above, then an input or select with a 2.5px ink border, a paper background and an uneven radius of about 12px. Minimum height 44px.
 - **Converter result** (`output.converter__result`): a mustard sticker with `--fill-ink` text in Caveat 36px, a 2.5px ink border and a `4px 4px 0 var(--tomato)` shadow, rotated −1°. Messages: "Zadej číslo", "Zvol °C", "Zvol g nebo ml". The hint is "Surovinu potřebuješ jen pro převod objemu na hmotnost."
 - **Season grid** (`table.season`):
@@ -215,18 +215,18 @@ Banners follow SPEC.md (viewBox 1200×400, colours only through `--banner-*`, no
 
 ### Recipe list filters (`form.filters`)
 
-This page is not in the prototype. Use the reference field style: Caveat labels and bordered pill controls, in a card with a cobalt shadow. Put the controls in a wrapping row on desktop. On a phone, collapse the form into a `<details>` with the summary "Filtry". The text for no results is "Nic neodpovídá. Zkus jiný filtr."
+This page is not in the prototype. Use the converter field style: Caveat labels and bordered pill controls, in a card with a cobalt shadow. Put the controls in a wrapping row on desktop. On a phone, collapse the form into a `<details>` with the summary "Filtry". The text for no results is "Nic neodpovídá. Zkus jiný filtr."
 
 ### Footer
 
-A 2.5px ink rule on top, 14px muted text: "© Krtkova Kuchařka · obsah pod licencí CC BY-NC-SA 4.0", then links to Reference, O webu and Jak web vzniká.
+A 2.5px ink rule on top, 14px muted text: "© Krtkova Kuchařka · obsah pod licencí CC BY-NC-SA 4.0", then links to Převodník, Sezónní kalendář and O webu.
 
 ## Phone width (≤ 600px)
 
 The prototypes use container queries only so the phone artboards work. The site should use the same breakpoints as media queries: 980px and 600px.
 
 **At 980px and below:**
-- Hero, recipe top, recipe body, explainer body and reference grid become 1 column.
+- Hero, recipe top, recipe body and explainer body become 1 column.
 - The ingredients box stops being sticky.
 - Grids of 4 become 2 columns.
 

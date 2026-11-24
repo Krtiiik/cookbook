@@ -3,7 +3,7 @@
 Usage: uv run python scripts/build.py [--out DIR]
 
 Sources (all under the repository root):
-  data/site.yaml                       site name, tagline, public URL
+  data/site.yaml                       site name, public URL
   data/units.yaml                      units: Czech forms, scaling, conversion factors
   data/allergens.yaml                  the EU 14 allergens
   data/labels.yaml                     Czech labels for difficulty, season, diet, cuisine, categories
@@ -835,10 +835,11 @@ def render_site(site: Site, out: Path, templates: Path, static: Path, cache: Pat
         emit(section.url, "section.html", title=section.title, nav=section.slug, section=section)
     emit("skupiny/index.html", "groups.html", title="Skupiny", nav="skupiny")
     for group in site.groups:
-        emit(group.url, "group.html", title=group.title,
-             nav=BASIC_GROUP if group.slug == BASIC_GROUP else "skupiny", group=group)
-    emit("reference/index.html", "reference.html", title="Reference", nav="reference",
-         seasons=season_rows(site), converter=converter_data(site))
+        emit(group.url, "group.html", title=group.title, nav="skupiny", group=group)
+    emit("prevodnik/index.html", "converter.html", title="Převodník", nav="prevodnik",
+         converter=converter_data(site))
+    emit("sezonni-kalendar/index.html", "calendar.html", title="Sezónní kalendář", nav="kalendar",
+         seasons=season_rows(site))
     emit("o-webu/index.html", "about.html", title="O webu", nav="o-webu")
     for page in site.pages.values():
         prefix = "../" * page.url.count("/")
