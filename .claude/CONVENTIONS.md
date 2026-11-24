@@ -17,6 +17,11 @@ Skip anything tooling already checks. Prefer a rule plus a one-line reason over 
 - Food-safety numbers (temperatures, storage times) need a cited authority, named in the text ("podle USDA FSIS"). Never invent them.
 - Cooked food into the fridge always gets the same rule: shallow containers, in the fridge within 2 hours, then a day count (USDA FSIS). A loose "vychladlé dej do lednice" invites hours on the counter.
 - Heat words, only these: mírný, středně mírný, střední, středně vysoký, vysoký oheň; "moc silný oheň" only as a mistake. To lower the heat: "stáhni oheň". Give a heat word wherever a step changes the heat, so pages can agree.
+- Raw-meat storage follows USDA FSIS by cut: fridge days, freezer months for quality ("bezpečné neomezeně"). Quality-only times (spices) need no source but must not read as safety claims.
+- A recipe step that cooks until soft gives the fork test with the time, not the time alone.
+- Troubleshooting pages use exactly these headings: Příznak, Možné příčiny, Jak to zachránit, Jak tomu předejít. A cause may end with "(→ …)" naming the symptom it gives.
+- Ingredient pages have a body "Náhrady" section (bold bullets). Catalog `substitutes` lists only existing slugs; substitutes without a slug stay plain text there.
+- `[[slug]]` without text renders the title in the nominative. Where the sentence needs another case, write `[[slug|text]]`.
 - An explainer's catalog summary uses the body's terms and does not blur states the body separates (it is the link preview).
 - Draft text from the corpus must be new writing. No sentence may be a near-copy of a source.
 - Add a `changes` entry each time a tested recipe changes in substance.
