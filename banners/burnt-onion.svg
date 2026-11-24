@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Pánev na velkém plameni s plátky cibule, které mají černé okraje; z pánve stoupá tmavý kouř">
+  <style>.smoke path{animation:smoke-rise 3.4s ease-in-out infinite}.smoke path:nth-child(2){animation-delay:1.1s}.smoke path:nth-child(3){animation-delay:2.2s}@keyframes smoke-rise{0%{opacity:0;transform:translateY(12px)}40%{opacity:.6}100%{opacity:0;transform:translateY(-16px)}}</style>
+  <rect width="1200" height="400" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M60 362 H1140" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-dasharray: 2 12; stroke-linecap: round; opacity: .45"/>
+  <path d="M413 376 q17-150 34 0 q17-180 34 0 q17-160 34 0 q17-190 34 0 q17-165 34 0 q17-200 34 0 q17-165 34 0 q17-190 34 0 q17-160 34 0 q17-180 34 0 q17-150 34 0 Z" style="fill: var(--banner-warm, #e9b44c); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+  <g transform="translate(0 -26)">
+  <path d="M818 222 L1010 186" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 20; stroke-linecap: round"/>
+  <path d="M380 214 L400 280 Q404 296 424 296 L776 296 Q796 296 800 280 L820 214 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <ellipse cx="600" cy="214" rx="220" ry="42" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6"/>
+  <ellipse cx="600" cy="220" rx="198" ry="30" style="fill: var(--banner-warm, #e9b44c); fill: color-mix(in srgb, var(--banner-warm, #e9b44c) 52%, black); stroke: var(--banner-fg, #1b2a4a); stroke-width: 4"/>
+  <g style="fill: #fff7ea"><circle cx="450" cy="262" r="11"/><circle cx="600" cy="278" r="11"/><circle cx="750" cy="262" r="11"/></g>
+  <g style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke: color-mix(in srgb, var(--banner-fg, #1b2a4a) 35%, black); stroke-width: 16; stroke-linecap: round">
+    <path d="M452 226 q30 -26 62 -4"/>
+    <path d="M524 240 q34 -24 70 -2"/>
+    <path d="M566 206 q30 -20 60 -2"/>
+    <path d="M630 238 q34 -26 68 -4"/>
+    <path d="M680 208 q28 -18 58 0"/>
+    <path d="M716 236 q22 -14 42 -2"/>
+  </g>
+  <g style="fill: none; stroke: var(--banner-warm, #e9b44c); stroke-width: 9; stroke-linecap: round; stroke-dasharray: 0 22 56 22">
+    <path pathLength="100" d="M452 226 q30 -26 62 -4"/>
+    <path pathLength="100" d="M524 240 q34 -24 70 -2"/>
+    <path pathLength="100" d="M566 206 q30 -20 60 -2"/>
+    <path pathLength="100" d="M630 238 q34 -26 68 -4"/>
+    <path pathLength="100" d="M680 208 q28 -18 58 0"/>
+    <path pathLength="100" d="M716 236 q22 -14 42 -2"/>
+  </g>
+  <g class="smoke" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke: color-mix(in srgb, var(--banner-fg, #1b2a4a) 50%, black); stroke-width: 10; stroke-linecap: round; opacity: .6">
+    <path d="M544 186 q-18 -22 0 -44 q18 -22 0 -42 q-16 -18 0 -36"/>
+    <path d="M604 182 q18 -22 0 -44 q-18 -22 0 -42 q16 -18 0 -40"/>
+    <path d="M666 186 q-16 -20 0 -40 q16 -20 0 -40 q-14 -16 0 -32"/>
+  </g>
+  </g>
+  <circle cx="880" cy="86" r="26" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5"/>
+  <path d="M880 70 V92" style="stroke: var(--banner-bg, #fffaf0); stroke-width: 6; stroke-linecap: round"/>
+  <circle cx="880" cy="104" r="4" style="fill: var(--banner-bg, #fffaf0)"/>
+  <text x="918" y="100" style="font: 600 40px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">hořká!</text>
+  <path d="M930 120 q-40 50 -180 74" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <path d="M300 296 q80 -4 132 36" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="80" y="306" style="font: 600 36px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">moc silný oheň</text>
+</svg>
