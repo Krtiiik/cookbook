@@ -1,13 +1,13 @@
 - slug: dutch-oven
   title: Litinový hrnec
-  summary: "Těžký hrnec, který drží teplo. Na dušení a pečení chleba."
+  summary: "Těžký hrnec, který drží teplo. Na dušení na plotně i v troubě; srovnání s kastrolem, pekáčem a tlakovým hrncem."
   category: pots
   related: [braising, browning, caramelising, simmering]
 - slug: chefs-knife
   title: Kuchařský nůž
-  summary: "Jeden dobrý nůž na většinu práce."
+  summary: "Velký nůž na krájení na prkénku: jak ho vybrat, jak s ním krájet nadrobno, na kostičky a na plátky a jak ho nabrousit."
   category: tools
-  related: [onion]
+  related: [onion, garlic, carrot, sweating]
 - slug: thermometer
   title: Teploměr
   summary: "Teploměr na maso, cukr a olej na smažení: vpichovací, se sondou nebo se sponou."
