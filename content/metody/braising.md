@@ -36,5 +36,5 @@ Kolagen v tuhých kusech se při tom mění na želatinu. Proto se dusí kusy, k
 |---|---|---|
 | Prudký var | Vlákna se stáhnou, maso je suché, i když je měkké. | Jen mírný var, případně trouba. |
 | Moc tekutiny | Maso se vaří, místo aby se dusilo. Omáčka je řídká. | Podlévej po troškách, nebo nejvýš do poloviny masa (kostky v omáčce: skoro zakryté). |
-| Vyschlé dno | Při podlévání po troškách se šťáva odpaří a výpek na dně zčerná. Omáčka zhořkne. | Kontroluj kastrol každých 20–30 minut a dolij horkou vodu nebo vývar, dokud je dno hnědé, ne černé. |
+| Vyschlé dno | Při podlévání po troškách se šťáva odpaří a výpek na dně zčerná. Omáčka zhořkne. | Kontroluj kastrol každých 20–30 minut a dolij [[water|horkou vodu]] nebo vývar, dokud je dno hnědé, ne černé. |
 | Kus s málo kolagenem | Maso vyschne a zůstane tuhé. | Vyber kus s kolagenem. Viz [[tough-stew|proč je dušené maso tuhé]]. |

@@ -42,7 +42,7 @@ Vývar se vaří 5 hodin. Uvař ho den předem, nebo použij vodu s bujónem (vi
 5. Přidej česnek, mletý kmín a protlak a minutu míchej, až protlak ztmavne a česnek zavoní.
 6. Stáhni hrnec z ohně (z litinové nebo elektrické plotny ho sundej) a vmíchej papriku, jen na pár vteřin. Na přímém žáru by [[bitter-paprika|zhořkla]].
 7. Maso osol a hned ho přidej, vrať hrnec na střední oheň a pořád míchej. Maso a jeho šťáva hrnec zchladí, takže paprika už nezhořkne. Asi po 5 minutách je maso [[browning|na povrchu zatažené]], ze všech stran šedé.
-8. Zalij celým [[hovezi-vyvar|hovězím vývarem]]. Když maso není skoro ponořené, dolij horkou vodu.
+8. Zalij celým [[hovezi-vyvar|hovězím vývarem]]. Když maso není skoro ponořené, dolij [[water|horkou vodu]].
 9. Na středním ohni přiveď guláš do [[simmering|mírného varu]].
 10. Přikryj pokličkou a stáhni oheň na mírný.
 11. Po 5 minutách zkontroluj hladinu: má jen mírně vařit, občas bublinka.

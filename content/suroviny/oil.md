@@ -21,7 +21,7 @@ Běžné oleje v českém obchodě:
 - **Extra panenský olivový:** nejvyšší třída olivového oleje, lisovaný mechanicky, bez rafinace. Ovocná, někdy pálivá nebo hořká chuť. Hlavně za studena a na mírný až střední oheň.
 - **Olivový olej (bez přívlastku):** směs rafinovaného a panenského olivového oleje. Méně chuti, snese víc tepla.
 - **Olivový olej z pokrutin:** rafinovaný olej z pokrutin (drti, která zbude po lisování) smíchaný s trochou panenského. Levný, neutrální, na smažení.
-- **Řepkový lisovaný za studena, lněný, dýňový, ořechový, sezamový:** jen za studena, na dochucení. Nejznámější dýňový olej je štýrský z Rakouska (a ze slovinského Štýrska), kape se na saláty a polévky. Lněný a dýňový nikdy nezahřívej.
+- **Řepkový lisovaný za studena, lněný, dýňový, ořechový, sezamový:** jen za studena, na dochucení. Nejznámější [[pumpkin|dýňový]] olej je štýrský z Rakouska (a ze slovinského Štýrska), kape se na saláty a polévky. Lněný a dýňový nikdy nezahřívej.
 
 Sezamový olej nese alergen sezam, ořechové oleje alergen ořechy. Když vaříš pro někoho s alergií, ověř si druh oleje na etiketě.
 

@@ -39,7 +39,7 @@ Stejné riziko má nakládaný hermelín: sýr s česnekem v oleji. Platí pro n
 
 ### Loupání a krájení
 
-- **Loupání:** stroužek přimáčkni plochou stranou čepele [[chefs-knife|nože]], slupka pak sama odpadne. Hodně česneku najednou oloupeš, když stroužky na pár minut namočíš do vlažné vody.
+- **Loupání:** stroužek přimáčkni plochou stranou čepele [[chefs-knife|nože]], slupka pak sama odpadne. Hodně česneku najednou oloupeš, když stroužky na pár minut namočíš do studené vody.
 - **Lis na česnek:** nejrychlejší a nejběžnější. Stroužek nemusíš loupat, slupka zůstane v lisu. Prolisovaný česnek je nejostřejší a rozejde se v jídle úplně. Hodí se tam, kde ho chceš syrový a výrazný: do česnečky, do pomazánek, do těsta na bramboráky, do špenátu. Lis hned po použití vypláchni, zaschlý česnek se z dírek špatně dostává.
 - **Nasekat nožem:** jemnější chuť a kousky, které v jídle zůstanou. Na tuk je lepší nasekaný než prolisovaný (viz níž). Jak sekat, najdeš u [[chefs-knife|kuchařského nože]].
 - **Utřít se solí:** nasekaný stroužek posyp špetkou [[salt|soli]] a plochou stranou nože ho roztírej po prkénku, až z něj je hladká kaše. Sůl funguje jako smirkový papír. Vznikne pasta bez kousků, ostrá skoro jako z lisu. Hodí se do pomazánek, na vepřovou pečeni a tam, kde lis nemáš. Pak už jídlo soli méně.

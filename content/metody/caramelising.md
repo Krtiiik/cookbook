@@ -65,4 +65,4 @@ Rozlož ji do mělkých nádob a do 2 hodin ji dej do lednice (podle SZÚ). Spot
 | Malá pánev, moc cibule | Cibule se vaří ve vlastní šťávě a dlouho nezhnědne. | Široká pánev, nebo opékej na dvakrát. |
 | Málo míchání ke konci | Cibule se připálí ke dnu. | Ve tmavé fázi míchej každou minutu. |
 | Připálené dno | Černá vrstva dá hořkou chuť celému jídlu. | Hnědý výpek včas rozpusť lžící vody. Černé už neseškrabuj. |
-| Cukr na urychlení | Cibule zhnědne jen o pár minut dřív, ale je sladší a chuť je plošší. | Cukr nepřidávej, cibule má vlastního dost. |
+| Cukr na urychlení | Cibule zhnědne jen o pár minut dřív, ale je sladší a chuť je plošší. | Cukr nepřidávej, cibule má vlastního dost (cukr do zelí viz [[sugar|cukr]]). |

@@ -30,7 +30,7 @@ changes:
 2. Na středním ohni pomalu přiveď k varu. Pěnu, která vystoupí na povrch, sbírej děrovanou lžící nebo naběračkou; nejvíc jí je v první půlhodině.
 3. Jakmile se objeví první bubliny, stáhni oheň na mírný, aby vývar jen [[simmering|mírně vařil]]. Pokličku nech pootevřenou, na škvíru.
 4. Pěnu sbírej, dokud se tvoří. Až sebereš pěnu a hladina zůstane čistá, přidej celý pepř, nové koření a bobkový list.
-5. Nech 3 hodiny táhnout. Nemíchej, jen každých 20–30 minut zkontroluj hladinu a dolij horkou vodu, aby kosti zůstaly ponořené.
+5. Nech 3 hodiny táhnout. Nemíchej, jen každých 20–30 minut zkontroluj hladinu a dolij [[water|horkou vodu]], aby kosti zůstaly ponořené.
 6. Přidej mrkev, petržel, celer a cibuli, počkej, až vývar znovu mírně vaří, a nech ještě hodinu.
 7. Kosti a zeleninu vyndej děrovanou lžící. Vývar sceď přes jemné síto do druhého hrnce nebo mísy (aspoň 3 l); když ho chceš úplně čirý, vylož síto plátýnkem. Spočítej bobkové listy, ať žádný nezůstal ve vývaru. Vyjde asi 2–2,5 l.
 8. Osol až teď, podle toho, na co ho použiješ. Na polévku asi 1 lžičku soli na litr, ochutnej. Na guláš nebo omáčku, která se bude dál vařit, ho nesol.

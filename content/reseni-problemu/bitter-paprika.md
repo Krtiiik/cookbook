@@ -27,7 +27,7 @@ Hořkost z připálené papriky se z omáčky dostat nedá. Dá se jen trochu za
 1. **Když paprika jen začíná tmavnout:** hned přidej maso nebo tekutinu a míchej. Hrnec se zchladí a paprika dál nehnědne. Ochutnej až po pár minutách.
 2. **Když je tuk hnědý a je cítit spálenina:** stáhni hrnec z ohně (z litinové nebo elektrické plotny ho sundej). Kapku tuku nech na lžičce vychladnout a ochutnej ji. Je-li hořký, začni znovu. Ztratíš cibuli a tuk, ale ne maso a celé odpoledne vaření. Není-li hořký, hned přidej maso, vrať hrnec na střední oheň a pokračuj podle receptu.
 3. **Když je hořká jíška:** vylij ji a udělej novou. Je to pár minut práce a lžíce mouky.
-4. **Když hořkost poznáš až v hotové omáčce:** zjemni ji. Pomůže víc cibule [[caramelising|opečené zvlášť do zlaté fáze]], lžíce [[tomato-paste|protlaku]] rozmíchaná v trošce horké omáčky (pár minut provař), špetka cukru nebo lžíce zakysané smetany do porce na talíři. Paprikáš a segedín mají smetanu už v receptu, a ta v nich hořkost trochu zakryje. Hořkost zůstane, jen je méně výrazná.
+4. **Když hořkost poznáš až v hotové omáčce:** zjemni ji. Pomůže víc cibule [[caramelising|opečené zvlášť do zlaté fáze]], lžíce [[tomato-paste|protlaku]] rozmíchaná v trošce horké omáčky (pár minut provař), špetka [[sugar|cukru]] nebo lžíce zakysané smetany do porce na talíři. Paprikáš a segedín mají smetanu už v receptu, a ta v nich hořkost trochu zakryje. Hořkost zůstane, jen je méně výrazná.
 
 Do hořké omáčky nepřidávej další papriku. Dá barvu, ale hořkost nespraví.
 

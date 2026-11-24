@@ -2,7 +2,7 @@
 
 Brambory jsou hlízy, tedy zásobní ztlustělé části podzemních stonků. Hlavní částí dužiny je škrob a voda. Na poměru škrobu a vody záleží, jak se brambora chová v hrnci: s víc škrobem je po uvaření sušší a moučná a snadno se rozpadne, s méně škrobem zůstane pevná a vlhká.
 
-V české kuchyni jsou brambory vedle knedlíků hlavní příloha a základ celé řady jídel: bramboračka, bramborový salát k vánočnímu kaprovi a k řízku, bramboráky, bramborové knedlíky, škubánky, halušky, šťouchané brambory, opékané brambory s vejcem nebo s cibulkou. Doma se nejčastěji vaří oloupané v osolené vodě s kmínem, nebo celé ve slupce na loupačku.
+V české kuchyni jsou brambory vedle knedlíků hlavní příloha a základ celé řady jídel: bramboračka, bramborový salát k vánočnímu [[carp|kaprovi]] a k řízku, bramboráky, bramborové knedlíky, škubánky, halušky, šťouchané brambory, opékané brambory s vejcem nebo s cibulkou. Doma se nejčastěji vaří oloupané v osolené vodě s kmínem, nebo celé ve slupce na loupačku.
 
 Proto se v Česku brambory prodávají podle **varného typu**. Je to písmeno na obalu nebo na cenovce a říká, k čemu se brambory hodí. Než koupíš brambory na konkrétní jídlo, podívej se na varný typ.
 
@@ -14,7 +14,7 @@ Proto se v Česku brambory prodávají podle **varného typu**. Je to písmeno n
 |---|---|---|---|
 | **A** | pevné, salátové | pevné, vlhké, nerozvaří se, při krájení se nedrolí | bramborový salát (i vánoční), brambory na loupačku, francouzské brambory a jiné zapékané, opékané brambory z uvařených ve slupce |
 | **B** | přílohové, převážně pevné | drží tvar, jen lehce moučné | vařené brambory jako příloha (s máslem a petrželkou nebo s kmínem), šťouchané brambory, americké brambory (měsíčky ve slupce pečené s olejem a kořením), do bramboračky a guláše |
-| **C** | moučné | suché, sypké, snadno se rozpadnou | [[bramborova-kase|bramborová kaše]], bramboráky, halušky, bramborové knedlíky a škubánky, bramborové těsto na šišky a plněné knedlíky, pečené brambory vcelku |
+| **C** | moučné | suché, sypké, snadno se rozpadnou | [[bramborova-kase|bramborová kaše]], bramboráky, halušky, bramborové knedlíky a škubánky, bramborové těsto na šišky a [[plum|plněné knedlíky]], pečené brambory vcelku |
 
 Na obalu najdeš i mezistupně **AB** a **BC**. Leží mezi dvěma typy a hodí se na jídla obou.
 
@@ -86,15 +86,15 @@ Vařením solaninu ubude jen část, hlavně do vody (podle EFSA a BfR). Vodu, v
 5. Od začátku varu jsou kusy 4–5 cm hotové asi za 15–20 minut. Na začátku tohoto času udělej **zkoušku vidličkou**: zapíchni ji do největšího kusu. Uvařená brambora vidličku pustí až do středu bez odporu a sama se z ní sveze. Když v ní vidlička uvázne nebo ji ve středu cítíš tvrdou, vař dál a zkoušej každé 3 minuty.
 6. Brambory sceď a nech je minutu v hrnci odpařit. Na kaši nebo šťouchané je mačkej hned, dokud jsou horké.
 
-Proč začít ve studené vodě: brambora se ohřívá z povrchu dovnitř. Ve vroucí vodě se povrch rozvaří dřív, než se uvaří střed. Ze studené vody se kus prohřívá postupně a změkne stejnoměrně. U moučných brambor na tom záleží nejvíc.
+Proč začít ve [[water|studené vodě]]: brambora se ohřívá z povrchu dovnitř. Ve vroucí vodě se povrch rozvaří dřív, než se uvaří střed. Ze studené vody se kus prohřívá postupně a změkne stejnoměrně. U moučných brambor na tom záleží nejvíc.
 
 ### Ve slupce: na loupačku, do salátu, na opékání
 
 Celé brambory ve slupce vař stejně jako oloupané, od studené vody v mírném varu. Střední kusy jsou hotové za 25–30 minut od začátku varu, zkouška vidličkou stejná. Vyber brambory podobné velikosti, ať změknou zároveň.
 
 - **Na loupačku:** horké brambory dej na stůl v míse a každý si je loupe sám. K nim máslo a sůl, tvaroh s cibulkou, nebo kyselé mléko či podmáslí.
-- **Do bramborového salátu:** brambory typu A uvař ve slupce den předem. Vychladlé je oloupej a nakrájej, nerozpadnou se. Jak do salátu patří vařená mrkev, petržel a celer, najdeš u [[carrot|mrkve]]. Salát s majonézou drž v lednici.
-- **Opékané brambory:** uvařené brambory ve slupce nech vychladnout, nejlépe přes noc. Oloupej je, nakrájej na plátky nebo kostky a opékej je na sádle nebo oleji na středně vysokém ohni, s cibulí a kmínem. Míchej je jen občas, ať se chytí kůrka.
+- **Do bramborového salátu:** brambory typu A uvař ve slupce den předem, v mělké nádobě je nech vychladnout a do 2 hodin dej do lednice (podle KHS). Druhý den je oloupej a nakrájej, nerozpadnou se. Jak do salátu patří vařená mrkev, petržel a celer, najdeš u [[carrot|mrkve]]. Salát s majonézou drž v lednici.
+- **Opékané brambory:** uvařené brambory ve slupce nech vychladnout v mělké nádobě a do 2 hodin je dej do lednice (podle KHS); opékej je druhý den. Oloupej je, nakrájej na plátky nebo kostky a opékej je na sádle nebo oleji na středně vysokém ohni, s cibulí a kmínem. Míchej je jen občas, ať se chytí kůrka.
 
 ### Syrové strouhané: bramboráky a halušky
 

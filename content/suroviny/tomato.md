@@ -53,13 +53,13 @@ Na plechovce čti složení: rajčata, rajčatová šťáva, případně sůl a 
 - **Nezralá a polozralá:** nech je na lince mimo přímé slunce, nebo v papírovém sáčku. Za pár dní zčervenají a změknou. Chuti ale přibude jen trochu; rajče utržené zelené nikdy nechutná jako to, které uzrálo na keři.
 - **Zralá:** nech je na lince a sněz je do 2–3 dnů.
 - **Přezrálá, která nestihneš:** ta už do lednice dát můžeš, do zásuvky na zeleninu, při 4–8 °C na 2–3 dny (podle bezpecnostpotravin.cz). Vyndej je aspoň hodinu před jídlem, ať se ohřejí a znovu zavoní. Nebo je rovnou uvař.
-- **Ne vedle okurek a listového salátu:** rajčata pouštějí etylen, plyn, který urychluje zrání. Okurka vedle nich žloutne a salát hnědne.
+- **Ne vedle okurek a listového salátu:** rajčata pouštějí etylen (víc o něm u [[apple|jablek]]), plyn, který urychluje zrání. Okurka vedle nich žloutne a salát hnědne.
 
 Časy pro celá rajčata jsou odhad kvality, ne bezpečnostní lhůta.
 
 **Nakrájená rajčata** patří do lednice v uzavřené nádobě a spotřebuj je do druhého dne.
 
-**Mrazák:** celá umytá rajčata dej do sáčku a zamraz je syrová. Když zmrzlé rajče podržíš pod teplou vodou, slupka sama sjede. Po rozmražení je rajče kašovité, proto jen na vaření: do omáčky, polévky a leča. Kvalitu si udrží několik měsíců (odhad kvality).
+**Mrazák:** celá umytá rajčata dej do sáčku a zamraz je syrová. Když zmrzlé rajče podržíš pod vodou z konvice přiředěnou studenou, slupka sama sjede. Po rozmražení je rajče kašovité, proto jen na vaření: do omáčky, polévky a leča. Kvalitu si udrží několik měsíců (odhad kvality).
 
 **Otevřená plechovka:** rajčata v ní nenechávej. Přendej je do čisté nekovové nádoby s víčkem, dej do lednice a spotřebuj do 2 dnů (podle bezpecnostpotravin.cz). Co nestihneš, zmraz.
 

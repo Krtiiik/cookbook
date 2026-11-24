@@ -13,7 +13,7 @@ Loupák si nech dál na loupání a drobnou práci, na chleba a pečivo patří 
 - **Délka:** 20 cm je dobrý začátek. Kratší je obratnější, delší lépe krájí velké kusy.
 - **Ocel:** nerezová je bez práce. Uhlíková se brousí snáz a obvykle drží ostří déle, ale bez osušení rezaví.
 - **Keramika:** zůstane dlouho ostrá, ale na kosti nebo při pádu se vyštípe a doma se brousí špatně. Jako jediný nůž se nehodí.
-- **Evropský nůž:** silnější čepel, snese i chrupavku a tvrdou dýni. Do české kuchyně, kde se krájí hodně masa a kořenové zeleniny, je to bezpečná volba.
+- **Evropský nůž:** silnější čepel, snese i chrupavku a tvrdou [[pumpkin|dýni]]. Do české kuchyně, kde se krájí hodně masa a kořenové zeleniny, je to bezpečná volba.
 - **Japonský nůž:** tenčí a tvrdší čepel, krájí přesněji, ale snáz se vyštípe. Na kosti a zmrzlé maso ho nepoužívej.
 - **Váha a rukojeť:** vezmi nůž do ruky. Má ležet vyváženě, rukojeť nesmí klouzat ani tlačit.
 - **Prkénko:** kup ho spolu s nožem. Velká, aspoň 30 × 40 cm, ze dřeva nebo plastu. Malé prkénko na snídani stačí na jednu cibuli, ne na guláš.

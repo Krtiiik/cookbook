@@ -2,7 +2,7 @@
   title: Dušení
   summary: "Pomalé vaření v malém množství tekutiny pod pokličkou."
   category: moist-heat
-  related: [browning, simmering, dutch-oven, tough-stew]
+  related: [browning, simmering, dutch-oven, tough-stew, water]
 - slug: browning
   title: Hnědnutí masa
   summary: "Proč opečené maso voní a jak docílit kůrky."
@@ -12,7 +12,7 @@
   title: Zpocení zeleniny
   summary: "Zelenina změkne na tuku bez barvy."
   category: prep
-  related: [caramelising, browning]
+  related: [caramelising, browning, pumpkin, porcini]
 - slug: caramelising
   title: Karamelizace cibule
   summary: "Pomalé opékání, při kterém cibule zesládne a zhnědne."
@@ -22,4 +22,4 @@
   title: Mírný var
   summary: "Hladina je skoro klidná, jen občas vystoupí bublinka."
   category: moist-heat
-  related: [braising, thermometer]
+  related: [braising, thermometer, water]

@@ -8,7 +8,7 @@ Oproti [[caramelising|karamelizaci]]: tam cibule na tuku zůstává mnohem déle
 
 ## Kdy ano a kdy ne
 
-- **Ano:** základ polévek: bramboračka, houbová, krémové polévky z květáku, brokolice nebo [[pumpkin|dýně]]. Cibule a kořenová zelenina se zpotí na másle a pak se zalijí vodou nebo vývarem.
+- **Ano:** základ polévek: bramboračka, [[porcini|houbová]], krémové polévky z květáku, brokolice nebo [[pumpkin|dýně]]. Cibule a kořenová zelenina se zpotí na másle a pak se zalijí vodou nebo vývarem.
 - **Ano:** světlé omáčky, kde má vyniknout smetana, houby nebo zelenina. Často pokračují jíškou: do zpocené cibule se vmíchá mouka.
 - **Ano:** cibule nebo [[shallot|šalotka]] před přidáním [[rice|rýže]] do rizota.
 - **Vhodná zelenina:** [[onion|cibule]], šalotka, [[leek|pórek]], [[carrot|mrkev]], [[celeriac|celer]], [[parsley-root|petržel]], [[garlic|česnek]] (ten až na konci).

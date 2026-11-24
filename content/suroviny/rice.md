@@ -2,7 +2,7 @@
 
 Rýže je zrno trávy, které se pěstuje hlavně v Asii a v jižní Evropě. V obchodě je skoro vždy **loupaná**: bez slupky, otrub a klíčku, bílá. Hlavní částí zrna je škrob. Na tom, jaký škrob a kolik ho je, záleží, jestli rýže po uvaření zůstane sypká, nebo se slepí.
 
-V české kuchyni je rýže hlavně **příloha**, vedle [[potatoes|brambor]] a knedlíků. Hodí se k jídlům s omáčkou: kuře na paprice, rajská omáčka, houbová omáčka, vepřové na kmíně, plněné papriky, lečo. Dál se z ní dělá domácí rizoto s masem a hráškem, mléčná rýže se skořicí a cukrem, rýžový nákyp s jablky a polévka s rýží. Rýže neobsahuje lepek, proto ji jedí i lidé, kteří nesmějí pšenici.
+V české kuchyni je rýže hlavně **příloha**, vedle [[potatoes|brambor]] a knedlíků. Hodí se k jídlům s omáčkou: kuře na paprice, rajská omáčka, [[porcini|houbová omáčka]], vepřové na kmíně, plněné papriky, lečo. Dál se z ní dělá domácí rizoto s masem a hráškem, mléčná rýže se skořicí a cukrem, rýžový nákyp s jablky a polévka s rýží. Rýže neobsahuje lepek, proto ji jedí i lidé, kteří nesmějí pšenici.
 
 ## Druhy
 

@@ -10,7 +10,7 @@ Vpichový teploměr se vyplatí tam, kde povrch vypadá hotově dřív, než se 
 - **Pečená kachna a husa:** silná stehna se propečou nejpozději.
 - **Ohřívání:** guláš z lednice nebo porce v mikrovlnce. Okraje bublají a střed je ještě vlažný.
 
-Teploměr poslouží i u cukru (karamel, cukrový sirup na polevu) a při smažení v hlubokém tuku, kde udržíš [[oil|olej]] na teplotě z receptu. Teplotu vody a vývaru poznáš i okem. Když ji chceš ověřit, ponoř hrot doprostřed tekutiny, ne ke dnu: mírný var má zhruba 85–95 °C.
+Teploměr poslouží i u [[sugar|cukru]] (karamel, cukrový sirup na polevu) a při smažení v hlubokém tuku, kde udržíš [[oil|olej]] na teplotě z receptu. Teplotu vody a vývaru poznáš i okem. Když ji chceš ověřit, ponoř hrot doprostřed tekutiny, ne ke dnu: mírný var má zhruba 85–95 °C.
 
 ## Jak vybrat
 
@@ -49,6 +49,7 @@ Podle SZÚ (Státní zdravotní ústav) má jídlo uvnitř dosáhnout aspoň **7
 | Sekaná, karbanátky, burgery | střed bochníku nebo kousku, z boku |
 | Vepřová, hovězí, telecí a jehněčí pečeně | nejsilnější místo uprostřed kusu |
 | Plněná pečeně nebo kuře s nádivkou | maso i střed nádivky, každé zvlášť |
+| Ryba ([[carp|kapr]], filet i podkova) | nejsilnější místo u páteře, ne na kosti |
 | Ohřáté zbytky (guláš, svíčková, kaše) | střed hrnce nebo porce, po promíchání |
 
 Barva masa ani šťávy podle USDA FSIS spolehlivě neukáže (u mletého masa to říká i britský úřad FSA), jestli je maso propečené. Rozhoduje teplota.
@@ -73,7 +74,7 @@ Teploměrem zkontroluješ i lednici. Dej sklenici vody na nejnižší polici nad
 Občas zkontroluj, jestli teploměr měří přesně:
 
 1. **Ledová voda:** naplň sklenici drceným ledem a dolij studenou vodou. Zamíchej a počkej 2 minuty. Hrot dej doprostřed, nesmí sahat na dno ani na stěnu. Teploměr má ukázat 0 °C.
-2. **Vroucí voda:** hrot dej do vody, která prudce vře. Výš nad mořem se voda vaří při nižší teplotě, zhruba o 1 °C méně na každých 300 m. Ve většině Česka (200–500 m) teploměr ukáže asi 98–99 °C, u hladiny moře 100 °C, na horách v 1 000 m asi 97 °C.
+2. **Vroucí voda:** hrot dej do vody, která prudce vře. Výš nad mořem se [[water|voda]] vaří při nižší teplotě, zhruba o 1 °C méně na každých 300 m. Ve většině Česka (200–500 m) teploměr ukáže asi 98–99 °C, u hladiny moře 100 °C, na horách v 1 000 m asi 97 °C.
 
 Když se teploměr liší o víc než 1 °C, nastav ho podle návodu (digitální tlačítkem, ručičkový matičkou pod ciferníkem, pokud ji má). Když to nejde, zapamatuj si odchylku a při měření s ní počítej.
 

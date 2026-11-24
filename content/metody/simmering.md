@@ -38,7 +38,7 @@ Proč na rozdílu záleží:
 3. Počkej minutu a podívej se na hladinu. Hladina by měla být klidná a občas pustit bublinku.
 4. Bublá pořád moc? Přesuň hrnec na menší plotýnku nebo hořák. Litinová plotýnka chladne pomalu: hrnec z ní na chvíli stáhni, než teplo opadne.
 5. Poklička: úplně zavřená drží víc tepla a var se pod ní snadno rozjede. U vývaru a polévky ji nech pootevřenou, na škvíru. Když vaříš pod zavřenou pokličkou, třeba při dušení, stáhni oheň ještě níž.
-6. Hrnec kontroluj každých 20–30 minut. Plotýnka i množství tekutiny se mění. Když tekutiny ubude, dolij trochu horké vody.
+6. Hrnec kontroluj každých 20–30 minut. Plotýnka i množství tekutiny se mění. Když tekutiny ubude, dolij trochu [[water|horké vody]].
 
 Nejstálejší mírný var udrží trouba: přikrytý [[dutch-oven|litinový hrnec]] nebo pekáč s víkem, teplo jde ze všech stran. Teplotu a postup najdeš u [[braising|dušení]].
 

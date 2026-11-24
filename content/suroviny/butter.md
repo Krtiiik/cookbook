@@ -8,7 +8,7 @@ V české kuchyni je máslo hlavně na chuť:
 - vařené brambory s máslem a petrželkou, nové brambory s máslem a koprem,
 - [[bramborova-kase|bramborová kaše]], kam patří hodně másla,
 - cibulka zpěněná na másle jako základ polévek a světlých omáček,
-- rozpuštěné máslo na ovocné knedlíky, na květák se strouhankou, na kapra,
+- rozpuštěné máslo na [[plum|ovocné knedlíky]], na květák se strouhankou, na [[carp|kapra]],
 - pečení: bábovka, buchty, vánoční cukroví (linecké, vanilkové rohlíčky).
 
 Právě voda a mléčná sušina rozhodují, co máslo snese. Dávají mu chuť, ale na vysoké teplotě se sušina připálí. Proto je máslo tuk na chuť a na nižší teploty. Na opékání do kůrky se hodí [[lard|sádlo]], rafinovaný [[oil|olej]] nebo přepuštěné máslo.
@@ -73,7 +73,7 @@ Přepuštěné máslo ulož do čisté suché sklenice s víčkem, v lednici. Vo
 4. Teď ho sleduj a pořád krouž pánví. Kousky na dně zezlátnou a pak zhnědnou do barvy lískových oříšků.
 5. Hned máslo přelij do studené misky i s hnědými kousky. V horké pánvi by hnědlo dál a spálilo by se.
 
-Oříškové máslo se hodí na ovocné knedlíky, na květák nebo chřest, na kapra a na bramborovou kaši. Do těsta na cukroví dá oříškovou chuť.
+Oříškové máslo se hodí na ovocné knedlíky, na květák nebo [[asparagus|chřest]], na kapra a na bramborovou kaši. Do těsta na cukroví dá oříškovou chuť.
 
 ### Přepuštěné máslo a ghí
 
