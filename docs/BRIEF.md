@@ -12,7 +12,7 @@ A public website, built for the owner first:
 All parts link to each other. A recipe links to the explainers it uses. Each explainer lists the recipes that use it. The build generates the reverse links from the recipe data and body links; nobody keeps manual lists.
 
 - Site content: **Czech** only, no i18n, written from the **Czech home kitchen**: Czech habits, tools, shop products and dishes come first, never a translated foreign cookbook (see "Czech kitchen first" in `.claude/CONVENTIONS.md`). The site addresses the reader informally (**tykání**, never vykání), in content and UI text alike.
-- Code, slugs, file names, data keys and comments: **English**.
+- Code, data keys and comments: **English**. Page slugs (the public URLs, and the names of their content, banner and photo files): **Czech without diacritics**.
 - Never commercial. Content licence: **CC BY-NC-SA 4.0**.
 
 ## 2. Site structure
@@ -91,7 +91,7 @@ Catalog entries (one file per section in `catalog/`):
 
 ```yaml
 # catalog/suroviny.yaml
-- slug: onion
+- slug: cibule
   title: Cibule
   summary: "One line."
   category: vegetables
@@ -102,7 +102,7 @@ Catalog entries (one file per section in `catalog/`):
   density: 1.0                 # optional, g/ml, only for the unit converter
 
 # catalog/metody.yaml
-- slug: braising
+- slug: duseni
   title: Dušení
   summary: "One line."
   category: moist-heat
