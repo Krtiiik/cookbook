@@ -4,5 +4,19 @@
 {% block main %}
 <h1 class="pt">{{ section.title }}</h1>
 <p class="lead">Napsáno {{ section.written_count }} z {{ section.pages|length }}. Stránky v plánu už mají odkazy a ukazují recepty, které je používají.</p>
-<div class="grid4">{% for p in section.pages %}{{ explainer_card(p, root) }}{% endfor %}</div>
+{% if section.slug == 'suroviny' %}
+
+<details class="filters-wrap" open>
+  <summary>Filtry</summary>
+  <form class="filters" aria-label="Filtry surovin">
+    <div class="field"><label for="f-category">Kategorie</label>
+      <select id="f-category" name="category"><option value="">všechny</option>{% for c in site.categories(section) %}<option value="{{ c }}">{{ site.label('categories', c) }}</option>{% endfor %}</select></div>
+    <div class="field"><label for="f-month">Sezóna</label>
+      <select id="f-month" name="month"><option value="">kdykoli</option><option value="all-year">celý rok</option>{% for m in range(12) %}<option value="{{ m + 1 }}">{{ MONTHS[m] }}</option>{% endfor %}</select></div>
+  </form>
+  <p class="filters__count" aria-live="polite"></p>
+</details>
+{% endif %}
+<div class="grid4 filter-list">{% for p in section.pages %}{{ explainer_card(p, root) }}{% endfor %}</div>
+{% if section.slug == 'suroviny' %}<p class="empty filters__empty" hidden>Nic neodpovídá. Zkus jiný filtr.</p>{% endif %}
 {% endblock %}

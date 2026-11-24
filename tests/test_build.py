@@ -296,6 +296,31 @@ def test_index_holds_previews_and_filters(real_site):
     assert data["units"]["lzice"]["forms"] == ["lžíce", "lžíce", "lžic", "lžíce"]
 
 
+def test_filtered_out_cards_are_not_shown():
+    # .card sets display: flex, which beats the hidden attribute unless a rule restores it.
+    assert ".card[hidden] { display: none; }" in (ROOT / "static" / "site.css").read_text(encoding="utf-8")
+
+
+def test_ingredient_section_has_category_and_season_filters(real_site):
+    site, out = real_site
+    text = (out / "static" / "index.js").read_text(encoding="utf-8")
+    data = json.loads(text.removeprefix("window.SITE_INDEX = ").rstrip().rstrip(";"))
+    by_slug = {p["slug"]: p for p in data["pages"]}
+    assert by_slug["pumpkin"]["category"] == "vegetables" and by_slug["pumpkin"]["season"] == [9, 10, 11]
+    assert by_slug["salt"]["season"] == "all-year"
+    assert "season" not in by_slug["braising"]
+
+    html = (out / "suroviny" / "index.html").read_text(encoding="utf-8")
+    assert 'class="filters"' in html and 'class="grid4 filter-list"' in html
+    assert 'name="category"' in html and 'name="month"' in html
+    assert '<option value="vegetables">zelenina</option>' in html
+    assert '<option value="moist-heat">' not in html  # only categories this section uses
+    assert '<option value="all-year">celý rok</option>' in html
+    assert '<option value="11">listopad</option>' in html
+    assert site.categories(next(s for s in site.sections if s.slug == "suroviny"))[0] == "vegetables"
+    assert 'class="filters"' not in (out / "metody" / "index.html").read_text(encoding="utf-8")
+
+
 def test_converter_and_calendar_have_own_pages(real_site):
     _, out = real_site
     converter = (out / "prevodnik" / "index.html").read_text(encoding="utf-8")

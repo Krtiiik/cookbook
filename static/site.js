@@ -171,10 +171,10 @@
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape') hide(); });
   })();
 
-  /* ---------- recipe list filters */
+  /* ---------- list filters: recipes, and ingredients on their section page */
   (function () {
     var form = $('form.filters');
-    var cards = $$('.recipe-list .card[data-slug]');
+    var cards = $$('.filter-list .card[data-slug]');
     if (!form || !cards.length) return;
     var count = $('.filters__count');
     var empty = $('.filters__empty');
@@ -190,6 +190,10 @@
       if (f.difficulty && p.difficulty !== f.difficulty) return false;
       if (f.time && p.time_total_min > +f.time) return false;
       if (f.cuisine && p.cuisine !== f.cuisine) return false;
+      if (f.category && p.category !== f.category) return false;
+      // An ingredient's season is "all-year" or its best months; a month shows only seasonal ones.
+      if (f.month === 'all-year' && p.season !== 'all-year') return false;
+      if (f.month && f.month !== 'all-year' && (p.season === 'all-year' || p.season.indexOf(+f.month) < 0)) return false;
       return true;
     }
     function apply() {

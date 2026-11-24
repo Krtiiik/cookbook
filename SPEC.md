@@ -32,7 +32,7 @@ All URLs are relative. Every template gets `root` and must put it before every i
 | Home | `index.html` | `home.html` | Intro, newest recipes, groups, sections |
 | Recipe list | `recepty/index.html` | `recipes.html` | All recipes, with search and filters |
 | Recipe | `recepty/<slug>.html` | `recipe.html` | One recipe |
-| Section | `<section>/index.html` | `section.html` | All explainers of one section, in catalog order, written first |
+| Section | `<section>/index.html` | `section.html` | All explainers of one section, in catalog order, written first; `suroviny` also has category and season filters |
 | Explainer | `<section>/<slug>.html` | `explainer.html` | One explainer, written or planned |
 | Groups | `skupiny/index.html` | `groups.html` | All groups, sorted by kind |
 | Group | `skupiny/<slug>.html` | `group.html` | Recipes in one group |
@@ -112,12 +112,12 @@ Plain JavaScript in `static/`. Keep these classes and attributes, or update the 
 
 | Feature | Hook |
 |---|---|
-| Data | `static/index.js` (generated) sets `window.SITE_INDEX = {pages, groups, sections, units, banners}`. Each page entry has `slug, kind, title, summary, url, status, fold` (title and summary without diacritics, for search), `section` (Czech label), and for recipes `groups, season, diet, allergens, difficulty, time_total_min, cuisine, photo?`, for explainers `banner`. `units` holds the recipe units with `forms`, `scalable` and `round`. Load it before the other scripts. |
+| Data | `static/index.js` (generated) sets `window.SITE_INDEX = {pages, groups, sections, units, banners}`. Each page entry has `slug, kind, title, summary, url, status, fold` (title and summary without diacritics, for search), `section` (Czech label), and for recipes `groups, season, diet, allergens, difficulty, time_total_min, cuisine, photo?`, for explainers `banner`, and for ingredients also `category, season` (`all-year` or a list of months). `units` holds the recipe units with `forms`, `scalable` and `round`. Load it before the other scripts. |
 | Root | `<html data-root="{{ root }}">` |
 | Internal links | `a.site-link[data-slug]` with `is-written`/`is-planned`/`is-draft`/`is-tested`. Body links come from the build, so these class names are fixed. |
 | Hover preview | one hidden `.link-preview` that the script fills with `.link-preview__media` (banner or photo) and `.link-preview__text` (`__section`, `__title`, `__summary`, `__status`) |
 | Search | `.search` with `input.search__input` and `ol.search__results` > `li.search__result` > `a.search__link` > `.search__title` + `.search__meta`, or `li.search__empty` |
-| Filters | `form.filters` on the recipe list; each control has `name` = a filter key (`group`, `season`, `diet`, `allergen`, `difficulty`, `time`, `cuisine`). Recipe cards in the list carry `data-slug`; the script hides the ones that do not match with `hidden`. |
+| Filters | `form.filters` on the recipe list and the `suroviny` section page; each control has `name` = a filter key (recipes: `group`, `season`, `diet`, `allergen`, `difficulty`, `time`, `cuisine`; ingredients: `category`, `month` = a month number or `all-year`). Cards in `.filter-list` carry `data-slug`; the script hides the ones that do not match with `hidden`. A month shows only ingredients in season then, not all-year ones. |
 | Scaler | `.scaler` with `input.scaler__servings[data-base]`; each ingredient amount is `.ing__amount[data-qty][data-unit]`, which the script rewrites with Czech unit forms |
 | Converter | `.converter` with `input.converter__amount`, `select.converter__from`, `select.converter__to`, `select.converter__item`, `output.converter__result` |
 | Calendar | `table.season` with `tr[data-slug][data-category]`, `td.is-in-season`; filter controls `input.season__search`, `select.season__category` |

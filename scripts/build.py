@@ -246,6 +246,11 @@ class Site:
         rows = [(c["date"], p, c["note"]) for p in self.recipes for c in p.changes]
         return sorted(rows, key=lambda r: (r[0], r[1].slug), reverse=True)[:n]
 
+    def categories(self, section: Section) -> list[str]:
+        """Category keys the section's pages use, in labels.yaml order, for its filter."""
+        used = {p.category for p in section.pages}
+        return [c for c in self.labels.get("categories", {}) if c in used]
+
     def label(self, kind: str, value: str) -> str:
         return self.labels.get(kind, {}).get(value, value)
 
@@ -773,6 +778,8 @@ def site_index(site: Site) -> dict:
         if p.kind == "explainer":
             d["section"] = SECTIONS[p.section]["label"]
             d["banner"] = banners.setdefault(_compact_svg(p.banner_svg), len(banners))
+            if p.section == "suroviny":
+                d.update(category=p.category, season=p.data["season"])
         else:
             d.update(section="recept · základ" if p.is_basic else "recept", groups=p.groups,
                      season=p.season, diet=p.diet, allergens=p.allergens, difficulty=p.difficulty,
