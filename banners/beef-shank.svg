@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Plátek hovězí kližky s kostí uprostřed a světlými šlachami mezi svaly, vedle tři kostky masa na guláš">
+  <rect width="1200" height="400" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M60 362 H1140" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-dasharray: 2 12; stroke-linecap: round; opacity: .45"/>
+  <path d="M300 162 C340 102 470 82 560 106 C640 128 660 212 632 272 C600 338 480 360 380 344 C290 330 252 236 300 162 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M300 162 C340 102 470 82 560 106 C640 128 660 212 632 272 C600 338 480 360 380 344 C290 330 252 236 300 162 Z" style="fill: var(--banner-fg, #1b2a4a); opacity: .25"/>
+  <path d="M300 140 C340 80 470 60 560 84 C640 106 660 190 632 250 C600 316 480 338 380 322 C290 308 252 214 300 140 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M316 146 C352 96 470 78 552 100 C622 120 640 192 616 246 C588 302 480 322 386 308 C306 294 274 212 316 146 Z" style="fill: none; stroke: #fff7ea; stroke-width: 5; opacity: .8"/>
+  <g style="fill: none; stroke: #fff7ea; stroke-width: 7; stroke-linecap: round">
+    <path d="M436 178 C400 152 362 140 332 150"/>
+    <path d="M498 166 C526 134 538 114 532 98"/>
+    <path d="M508 214 C556 232 592 238 614 230"/>
+    <path d="M448 226 C428 262 402 284 376 296"/>
+    <path d="M482 234 C494 262 500 286 506 312"/>
+    <path d="M376 210 C400 222 418 218 432 208"/>
+  </g>
+  <circle cx="470" cy="198" r="38" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 5"/>
+  <circle cx="470" cy="198" r="19" style="fill: var(--banner-warm, #e9b44c); stroke: var(--banner-fg, #1b2a4a); stroke-width: 4"/>
+  <g style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round">
+    <path d="M760 265 L784 243 L864 243 L840 265 Z" style="fill: var(--banner-accent, #c8462a)"/>
+    <path d="M840 265 L864 243 L864 323 L840 345 Z" style="fill: var(--banner-accent, #c8462a)"/>
+    <path d="M840 265 L864 243 L864 323 L840 345 Z" style="fill: var(--banner-fg, #1b2a4a); opacity: .25"/>
+    <rect x="760" y="265" width="80" height="80" style="fill: var(--banner-accent, #c8462a)"/>
+    <path d="M890 265 L914 243 L994 243 L970 265 Z" style="fill: var(--banner-accent, #c8462a)"/>
+    <path d="M970 265 L994 243 L994 323 L970 345 Z" style="fill: var(--banner-accent, #c8462a)"/>
+    <path d="M970 265 L994 243 L994 323 L970 345 Z" style="fill: var(--banner-fg, #1b2a4a); opacity: .25"/>
+    <rect x="890" y="265" width="80" height="80" style="fill: var(--banner-accent, #c8462a)"/>
+    <path d="M825 185 L849 163 L929 163 L905 185 Z" style="fill: var(--banner-accent, #c8462a)"/>
+    <path d="M905 185 L929 163 L929 243 L905 265 Z" style="fill: var(--banner-accent, #c8462a)"/>
+    <path d="M905 185 L929 163 L929 243 L905 265 Z" style="fill: var(--banner-fg, #1b2a4a); opacity: .25"/>
+    <rect x="825" y="185" width="80" height="80" style="fill: var(--banner-accent, #c8462a)"/>
+  </g>
+  <g style="fill: none; stroke: #fff7ea; stroke-width: 6; stroke-linecap: round">
+    <path d="M772 290 C792 300 808 296 828 312"/>
+    <path d="M904 322 C920 302 940 300 958 286"/>
+    <path d="M838 210 C856 224 872 220 892 240"/>
+  </g>
+  <path d="M212 98 q70 6 124 52" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="60" y="84" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">šlachy = želatina</text>
+  <path d="M1000 150 q-30 10 -60 30" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="960" y="132" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">kostky 4 cm</text>
+  <path d="M680 84 q-30 14 -50 56" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="670" y="74" style="font: 600 36px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">na dušení</text>
+</svg>
