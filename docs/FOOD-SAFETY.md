@@ -141,4 +141,82 @@ Disagreement: no Czech or EU number for rice; bezpecnostpotravin.cz advises agai
 | Poisoning | Toxikologické informační středisko 224 919 293 or 224 915 402; ambulance 155 | podle TIS | https://www.vfn.cz/en/?p=5427 |
 | Pesto, leaves in oil | Topic 7 (BfR covers fresh herbs in oil; pesto is not named). Freezing has no BfR source. | podle BfR pro bylinky v oleji | topic 7 |
 
-Picking law: zákon 114/1992 Sb. bans collecting plants in národní parky (§ 16), NPR (§ 29) and PR (§ 34); it has no such ban for CHKO zone I (§ 26). Allium ursinum is not specially protected (vyhláška 395/1992 Sb.). Lesní zákon 289/1995 § 19 names only "lesní plody" for own use. Fox tapeworm: washing does not remove all eggs, they survive −18 °C, and heating to about 60 °C kills them, "podle AGES" (same AGES page). The ocún capsule note on the page rests on Naturschutzbund Österreich, not AGES.
+Picking law: zákon 114/1992 Sb. bans collecting plants in národní parky (§ 16), NPR (§ 29) and PR (§ 34); it has no such ban for CHKO zone I (§ 26). Allium ursinum is not specially protected (vyhláška 395/1992 Sb.). Lesní zákon 289/1995 § 19 names only "lesní plody" for own use. Fox tapeworm: washing does not remove all eggs, they survive −18 °C, and heating to about 60 °C kills them, "podle AGES" (same AGES page). The strawberry page applies this to lesní jahody from picking (boil them, or eat raw only from a place foxes do not reach); AGES names wild plants in general, so this is the site's own application. The ocún capsule note on the page rests on Naturschutzbund Österreich, not AGES.
+
+## 17. Bitter pumpkin, cuketa, okurka (cucurbitacins)
+
+| Item | Use on the site | Cite | Source |
+|---|---|---|---|
+| Bitter taste | Taste a small piece of raw flesh and spit it out; bitter means throw the whole fruit away; cooking and freezing do not remove cucurbitacins. The same for cuketa, okurka and meloun. | podle SZÚ | SZÚ, "Kukurbitaciny" (31 Jul 2025): https://szu.gov.cz/aktuality/letni-zeleninova-uroda-chutne-a-bezpecne-aneb-nastala-sezona-s-tradicnim-dotazem-nechces-cuketu/ (PDF read from excerpts only) |
+| Warning sign | An unusually bitter taste means the vegetable is unfit to eat | podle BfR | BfR Mitteilung 027/2015: https://www.bfr.bund.de/mitteilung/vorsicht-beim-verzehr-von-bitteren-zucchini |
+| Garden | Do not sow seeds from own pumpkins; keep edible and ornamental ones apart | podle SZÚ a bavorského úřadu LGL | https://www.lgl.bayern.de/lebensmittel/warengruppen/wc_25_frischgemuese/et_zucchini_vergiftungsfaelle.htm |
+| Symptoms | Nausea, vomiting, diarrhoea, cramps within hours; symptoms last at most several days, risk of dehydration; doctor for severe pain, blood, long vomiting, fever; TIS as topic 16 | podle SZÚ ("Příznaky přetrvávají max. několik dní"; PDF read from excerpts) | as above |
+
+Pickling in vinegar does not remove the bitterness (a claim on garden sites, unsupported).
+
+## 18. Frozen berries (norovirus, hepatitis A)
+
+| Use on the site | Cite | Source |
+|---|---|---|
+| Bought frozen berries for food that is not cooked or baked: bring to the boil and boil at least 2 minutes, stirring, so the whole volume is over 90 °C. A short scald or the microwave is not enough; freezing does not kill the viruses. Knedlíky: use fresh or pre-boiled berries. | podle BfR (over 90 °C); 2 minutes podle finského úřadu Ruokavirasto | BfR 05/2013: https://www.bfr.bund.de/presseinformation/tiefkuehlbeeren-vor-dem-verzehr-besser-gut-durchkochen/; BfR norovirus Q&A: https://www.bfr.bund.de/de/noroviren___infektionsquellen_erkennen_und_vermeiden-8749.html; Ruokavirasto: https://www.ruokavirasto.fi/en/foodstuffs/instructions-for-consumers/ruokamyrkytykset/ruokamyrkytyksia-aiheuttavia-viruksia/norovirus/frequently-asked-questions-regarding-norovirus/ |
+
+No Czech number (SZPI names strawberries as the top hepatitis A risk: https://www.szpi.gov.cz/clanek/nezpracovane-ovoce-a-zelenina-riziko-sireni-noroviru-a-viru-hepatitidy-a.aspx). Looser numbers: FSAI boil 1 minute, NZ MPI 85 °C for 1 minute. The 2012 German outbreak (about 11 000 ill) came from one batch sent to large kitchens; BfR and RKI do not name the origin country.
+
+## 19. Mould on fruit, jam and povidla; patulin
+
+Extends topic 8. BfR names Kompott, Fruchtsaft, Konfitüre, Gelee and Obst as especially prone; mycotoxins are heat- and acid-stable, so throw the whole fruit or jar away and never cook kompot or mošt from rotten apples, "podle BfR" (topic 8 URL) and EU Recommendation 2003/598/EC (https://eur-lex.europa.eu/eli/reco/2003/598/oj/eng). Only a firm bruise may be cut out of an apple. Birch-pollen allergy: cooked apple is usually tolerated, not by everyone, "podle britské NHS" (https://guysandstthomas.nhs.uk/health-information/pollen-food-syndrome). Verbraucherzentrale allows trimming small spots; the site keeps the stricter rule. Opened jam goes in the fridge (no day count exists), reduced-sugar 2:1 and 3:1 jam especially. Cooked povidla follow topic 1.
+
+## 20. Tap and well water
+
+| Item | Use on the site | Cite | Source |
+|---|---|---|---|
+| Public tap water | Pitná and checked; usually no need to boil; when a boil notice is issued, boil to a full boil and let stand at least 10 minutes | podle SZÚ; zákon 258/2000 Sb., vyhláška 252/2004 Sb. | https://szu.gov.cz/wp-content/uploads/2023/02/prevarovani_vody_verejnost.pdf |
+| Hot water from the bojler | Not drinking water; take cold water for cooking | podle SZÚ (not pitná), podle Umweltbundesamtu (metals from pipes, depending on material) | SZÚ Q&A (snippet only); https://www.umweltbundesamt.de/themen/trinkwasser-installation-auf-die-letzten-meter |
+| Stagnation | After 4 hours or more, let it run until noticeably colder | podle KHS a Umweltbundesamtu | https://www.khsova.cz/docs/01_aktuality/files/stagnace_vody_v_rozvodech.pdf; https://www.umweltbundesamt.de/umwelttipps-fuer-den-alltag/essen-trinken/trinkwasser |
+| Own well | The owner is responsible; test now and then (microbiology, dusičnany, dusitany, amonné ionty, CHSK) | podle SZÚ | https://szu.gov.cz/wp-content/uploads/2023/02/1vla_stu.pdf |
+| Hardness | Not harmful; Ca + Mg 2–3,5 mmol/l recommended | podle SZÚ; vyhláška 252/2004 Sb. | as above |
+| Kojenecká voda | Boil before making infant milk unless the label says it is heat-treated | podle BfR | https://www.bfr.bund.de/de/hygienischer_umgang_mit_mineral___quell__und_tafel__sowie_trinkwasser_im_haushalt-293211.html |
+
+## 21. Burns (karamel)
+
+Cool under running cold, not iced, water for at least 20 minutes and until the pain eases, "podle britské NHS" (https://www.nhs.uk/conditions/burns-and-scalds/treatment/); Český červený kříž gives at least 10 minutes (via VZP: https://www.vzp.cz/o-nas/aktuality/vazne-popaleniny-hrozi-i-u-bezneho-grilovani-casteji-skonci-v-nemocnici-muzi-nez-zeny; the ČČK PDF was unread). No ice; do not tear off what sticks; for large burns, the face, the palms or small children call 155. Solid sugar needs no best-before date (nařízení EU 1169/2011, příloha X).
+
+## 22. Honey
+
+| Item | Use on the site | Cite | Source |
+|---|---|---|---|
+| Infants | No honey under 1 year, not in kaše, tea or baked goods; spores are destroyed only above 100 °C | podle BfR a bezpecnostpotravin.cz | https://www.bfr.bund.de/de/fragen_und_antworten_zu_botulismus-70355.html; https://bezpecnostpotravin.cz/med-a-kojenecky-botulismus/ |
+| Symptoms | Ochablost, netečnost, poor feeding, zácpa: see a doctor at once | podle SZÚ | https://szu.gov.cz/temata-zdravi-a-bezpecnosti/a-z-infekce/b/botulismus/botulismus-zakladni-informace-o-onemocneni/ |
+| Labelling (legal, not safety) | HMF at most 40 mg/kg; from 14 Jun 2026 blends list every country with percentages | směrnice 2001/110/ES ve znění 2024/1438; vyhláška 490/2025 Sb. | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024L1438; https://www.zakonyprolidi.cz/cs/2025-490 |
+
+Vyhláška 76/2003 Sb. is repealed; do not cite it. The 40 °C for melting honey is a quality tip with no authority.
+
+## 23. Wild mushrooms (hřiby)
+
+| Item | Use on the site | Cite | Source |
+|---|---|---|---|
+| Cooking | Wild mushrooms never raw; cook at least 20 minutes (pan 20–30 minutes) | podle bezpecnostpotravin.cz a České mykologické společnosti | https://bezpecnostpotravin.cz/pozor-na-riziko-otravy-pri-sberu-a-konzumaci-volne-rostoucich-hub/; https://www.myko.cz/houby/jedovate-houby/ |
+| Fresh | Process the same day, at the latest the next day; at most 2 days from picking | podle bezpecnostpotravin.cz | as above |
+| Cooked dishes | Into the fridge within 2 hours, eat **within 24 hours** (not topic 1's 2 days), reheat once to topic 2's core target | podle BZfE | https://www.bzfe.de/kueche-und-alltag/kochen/how-to-obst-und-gemuese/how-to-pilze |
+| Amount | Wild mushrooms at most 200–250 g a week (cadmium, mercury) | podle BfR | via BMUV: https://www.bundesumweltministerium.de/en/topics/health/overview-health/overview-food-safety/consumer-tips |
+| Poisoning | TIS as topic 16; keep scraps and leftovers, warn the others; do not induce vomiting, no milk; do not rely on mobile apps (BfR). Muchomůrka zelená causes most fatal mushroom poisonings (ČMS: up to 90 % worldwide). Muchomůrka zelená: symptoms mostly after 8–12 hours (4–48), false improvement; amanitin survives cooking, drying and freezing | podle BfR; ČMS; bezpecnostpotravin.cz | https://www.bfr.bund.de/presseinformation/pilze-verwechslungen-koennen-toedlich-enden-2026/; https://bezpecnostpotravin.cz/termin/muchomurka-zelena/ |
+| Selling | The seller needs an osvědčení o znalosti hub from the KHS | zákon 110/1997 Sb. § 3 | https://www.zakonyprolidi.cz/cs/1997-110 |
+
+Disagreement: BfR and DGfM give 15 minutes of cooking; the Czech sources give 20, which the site uses. The freezer 2–3 months is quality only.
+
+## 24. Fish (kapr)
+
+| Item | Use on the site | Cite | Source |
+|---|---|---|---|
+| Raw fish | Cook the same day, at the latest the next; fridge 0–4 °C | podle Verbraucherzentrale (no Czech or EU number) | https://www.verbraucherzentrale.de/wissen/lebensmittel/auswaehlen-zubereiten-aufbewahren/fisch-haltbarkeit-und-lagerung-58927 |
+| Doneness | Core as topic 2; flesh opaque and flakes with a fork | podle SZÚ a BfR; FSA for the visual cue | https://www.gov.uk/government/publications/cooking-your-food/cooking-your-food |
+| Killing | Strong blow with a blunt object to the top of the head, then cut the gill arches | zákon 246/1992 Sb. § 5i | https://www.zakonyprolidi.cz/cs/1992-246; SVS: https://svs.gov.cz/public/app/formulare/Pouceni_-_tyrani_ryb.pdf |
+| Live carp | Not in a bag or with little water; wrapped in a wet cloth, killed soon; best killed at the stall | podle Ústřední komise pro ochranu zvířat | https://mze.gov.cz/public/portal/mze/-q324621---e656jr9d/prodej-zivych-ryb |
+| Cold fried carp | Risk groups (pregnant, older, weak immunity) reheat it: fish is a listeria risk food | podle SZPI | SZPI listeria leaflet (2007); do not use its 75 °C for 5 minutes |
+| Allergen | The fish allergen is heat-stable | podle bezpecnostpotravin.cz | https://bezpecnostpotravin.cz/az/termin/92098.aspx |
+
+Muddy taste (geosmin, MIB) is quality, not safety; sádkování removes it (bezpecnostpotravin.cz: https://bezpecnostpotravin.cz/termin/vanocni-kapr/). The freezer 2–3 months is quality (BfR gives fish up to 6 months). SZÚ's Yersinia sheet gives 63 °C for fillets; the site keeps topic 2.
+
+## 25. Dried fruit and kernels
+
+Prunes may carry sulphites up to 2 000 mg/kg (nařízení ES 1333/2008, příloha II, 04.2.1); above 10 mg/kg they must be labelled as an allergen (nařízení EU 1169/2011, příloha II, bod 12). Plum kernels: no Czech or EU source (BfR and EFSA cover apricot kernels only); the plum page cites the US Poison Control center for "do not crush or chew the kernel".
