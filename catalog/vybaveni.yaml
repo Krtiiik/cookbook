@@ -12,7 +12,7 @@
   title: Teploměr
   summary: "Kdy se vyplatí a jak s ním změřit maso, ohřáté jídlo, cukr a olej: vpichový, do trouby s kabelem, cukrářský."
   category: tools
-  related: [simmering, oil, sugar]
+  related: [simmering, oil, sugar, breading]
 - slug: oven
   title: Trouba a pekáč
   summary: "Horní a spodní ohřev, horkovzduch, pekáč a plech. Proč trouba nepeče, jak ukazuje."
@@ -25,9 +25,9 @@
   related: [browning, breading, oil, butter]
 - slug: sieve
   title: Sítko, cedník a plátýnko
-  summary: "Na scezení, prolisování a čistý vývar."
+  summary: "Cedník na brambory a těstoviny, sítko na vývar, pasírovanou omáčku a prosetou mouku, plátýnko na úplně čirý vývar."
   category: tools
-  related: [simmering, bay-leaf, flour]
+  related: [simmering, bay-leaf, flour, potatoes, quark]
 - slug: blender
   title: Tyčový mixér
   summary: "Na krémové polévky a omáčky v hrnci. Jak mixovat horké, aby nestříkalo."
