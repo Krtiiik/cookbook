@@ -1,7 +1,10 @@
 # season: all-year, or a list of month numbers (1-12) when the ingredient is at its best here.
 # animal: none | dairy | egg | honey | fish | meat (drives vegetarian and vegan).
 # density: grams per millilitre, approximate; only for the converter.
-- { slug: beef-shank, title: Hovězí kližka, summary: "Maso z nohy, hodně kolagenu a málo tuku. Dlouhým dušením změkne.", category: meat, animal: meat, season: all-year }
+- { slug: beef-shank, title: Hovězí kližka, summary: "Maso z nohy, hodně kolagenu a málo tuku. Dlouhým dušením změkne.", category: meat, animal: meat, season: all-year, substitutes: [beef-chuck, beef-cheeks] }
+- { slug: beef-chuck, title: Hovězí plec, summary: "Z lopatky, víc tuku a méně šlach než kližka. Na dušení i guláš.", category: meat, animal: meat, season: all-year, substitutes: [beef-shank] }
+- { slug: beef-cheeks, title: Hovězí líčka, summary: "Hodně kolagenu, po dlouhém dušení skoro rosolovitá.", category: meat, animal: meat, season: all-year, substitutes: [beef-shank] }
+- { slug: oxtail, title: Oháňka, summary: "Hodně kosti a kolagenu, málo masa. Na omáčku a polévku.", category: meat, animal: meat, season: all-year }
 - { slug: beef-bones, title: Hovězí kosti, summary: "Základ vývaru. Morkové dávají chuť, kloubní želatinu.", category: meat, animal: meat, season: all-year }
 - { slug: onion, title: Cibule, summary: "Základ většiny omáček. Syrová ostrá, opékaná sladká.", category: vegetables, animal: none, season: all-year, substitutes: [shallot, leek] }
 - { slug: shallot, title: Šalotka, summary: "Jemnější a sladší než cibule.", category: vegetables, animal: none, season: all-year, substitutes: [onion] }
@@ -19,7 +22,9 @@
 - { slug: plum, title: Švestky, summary: "Na knedlíky, koláče a povidla.", category: fruit, animal: none, season: [8, 9] }
 - { slug: porcini, title: Hřiby, summary: "Čerstvé v létě a na podzim, sušené celý rok.", category: mushrooms, animal: none, season: [7, 8, 9, 10] }
 - { slug: carp, title: Kapr, summary: "Vánoční ryba z českých rybníků.", category: fish, animal: fish, season: [10, 11, 12], allergens: [fish] }
-- { slug: sweet-paprika, title: Sladká paprika, summary: "Mletá paprika. Na přímém žáru rychle zhořkne.", category: spices, animal: none, season: all-year }
+- { slug: sweet-paprika, title: Sladká paprika, summary: "Mletá paprika. Na přímém žáru rychle zhořkne.", category: spices, animal: none, season: all-year, substitutes: [smoked-paprika, hot-paprika] }
+- { slug: smoked-paprika, title: Uzená paprika, summary: "Paprika sušená nad kouřem, typicky španělská. Silná, dávkuj opatrně.", category: spices, animal: none, season: all-year, substitutes: [sweet-paprika] }
+- { slug: hot-paprika, title: Pálivá paprika, summary: "Mletá paprika z pálivých odrůd. Na ostrost, ne na barvu.", category: spices, animal: none, season: all-year, substitutes: [sweet-paprika] }
 - { slug: caraway, title: Kmín, summary: "Celý nebo mletý, do guláše, zelí a chleba.", category: spices, animal: none, season: all-year }
 - { slug: marjoram, title: Majoránka, summary: "Sušená do guláše a bramboračky.", category: herbs, animal: none, season: all-year }
 - { slug: bay-leaf, title: Bobkový list, summary: "Do vývarů a omáček, před podáváním vyndej.", category: spices, animal: none, season: all-year }

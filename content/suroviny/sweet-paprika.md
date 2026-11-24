@@ -5,8 +5,8 @@ Sladká paprika je prášek z usušených a jemně umletých plodů nepálivých
 ## Druhy
 
 - **Sladká:** mírná, hodně barvy. Na guláš a paprikáš.
-- **Pálivá:** z pálivějších odrůd, často i s žilkami a semínky. Na ostrost, ne na barvu, takže jí dej méně.
-- **Uzená:** typicky ze Španělska (pimentón de la Vera, sušený nad dubovým kouřem). Má výraznou chuť kouře. Kolik jí dát, najdeš níž v Náhradách.
+- **[[hot-paprika|Pálivá]]:** z pálivějších odrůd, často i s žilkami a semínky. Na ostrost, ne na barvu, takže jí dej méně.
+- **[[smoked-paprika|Uzená]]:** typicky ze Španělska (pimentón de la Vera, sušený nad dubovým kouřem). Má výraznou chuť kouře. Kolik jí dát, najdeš níž v Náhradách.
 
 Maďarská paprika se prodává v několika třídách. Nejlepší (különleges) je jasně červená, jemně mletá a nejsladší. Nižší třídy jsou hruběji mleté, bývají ostřejší a mají slabší barvu i vůni.
 
@@ -34,6 +34,6 @@ Paprika obsahuje cukry a na přímém žáru se rychle připálí. Pak [[bitter-
 
 ## Náhrady
 
-- **Uzená paprika:** jen sladká uzená (dulce), ne pálivá. Nahraď nejvýš čtvrtinu sladké papriky uzenou.
-- **Pálivá paprika:** jen malá část, barvu doplň [[tomato-paste|rajčatovým protlakem]].
+- **[[smoked-paprika|Uzená paprika]]:** jen sladká uzená (dulce), ne pálivá. Nahraď nejvýš čtvrtinu sladké papriky uzenou.
+- **[[hot-paprika|Pálivá paprika]]:** jen malá část, barvu doplň [[tomato-paste|rajčatovým protlakem]].
 - **Ne:** chilli ani kajenský pepř, dají ostrost bez barvy a sladkosti.

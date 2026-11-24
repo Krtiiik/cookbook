@@ -33,7 +33,7 @@ V mrazáku je maso bezpečné neomezeně dlouho. Nejlepší je kus vcelku do 4�
 
 ## Náhrady
 
-- **Hovězí plec:** víc tuku, méně šlach. Doba je podobná, vidličkou zkoušej dřív.
-- **Hovězí líčka:** také hodně kolagenu, šťáva je skoro rosolovitá. Potřebují stejně dlouho nebo déle.
-- **Oháňka:** hodně kosti, málo masa. Na omáčku nebo polévku, ne na kostky do guláše. Dusí se 3–4 hodiny, v troubě při nízké teplotě i déle.
+- **[[beef-chuck|Hovězí plec]]:** víc tuku, méně šlach. Doba je podobná, vidličkou zkoušej dřív.
+- **[[beef-cheeks|Hovězí líčka]]:** také hodně kolagenu, šťáva je skoro rosolovitá. Potřebují stejně dlouho nebo déle.
+- **[[oxtail|Oháňka]]:** hodně kosti, málo masa. Na omáčku nebo polévku, ne na kostky do guláše. Dusí se 3–4 hodiny, v troubě při nízké teplotě i déle.
 - **Ne:** měkké kusy s málo kolagenem, jako svíčková. Rozhoduje kolagen, ne tuk: svíčková nemá co změnit na želatinu a při dušení jen vyschne.

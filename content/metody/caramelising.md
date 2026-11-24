@@ -53,7 +53,7 @@ Rozlož ji do mělkých nádob, ať rychle vychladne, a do 2 hodin ji dej do led
 
 | Chyba | Co se stane | Jak tomu předejít |
 |---|---|---|
-| Moc silný oheň | Okraje zčernají, střed zůstane tuhý. Cibule zhořkne. | Do zlaté fáze střední oheň, potom ho stáhni. Když je cibule zlatá za 10 minut, stáhni oheň hned. |
+| Moc silný oheň | Okraje zčernají, střed zůstane tuhý. Cibule [[burnt-onion|zhořkne]]. | Do zlaté fáze střední oheň, potom ho stáhni. Když je cibule zlatá za 10 minut, stáhni oheň hned. |
 | Malá pánev, moc cibule | Cibule se dusí ve vlastní šťávě a dlouho nezhnědne. | Široká pánev, nebo opékej na dvakrát. |
 | Málo míchání ke konci | Cibule se připálí ke dnu. | Ve tmavé fázi míchej každou minutu. |
 | Připálené dno | Černá vrstva dá hořkou chuť celému jídlu. | Hnědý výpek včas rozpusť lžící vody. Černé už neseškrabuj. |
