@@ -172,15 +172,18 @@ Not in the first phase: USDA nutrition values, Wikidata ids, Open Food Facts.
 
 ## 8. Authoring workflow
 
-Adapted from the trading site's pipeline:
+Adapted from the trading site's pipeline. Agents are in `.claude/agents/`, skills in `.claude/skills/`.
 
-- Skills `write-recipe` and `write-explainer` run the agents, build, check the page in the browser and commit.
-- Agents: **writer**, **illustrator** (banners), **reviewer** (read-only, conventions and links), **fact-checker** (read-only, food-safety numbers and technical claims).
+- **Skills**: `write-recipe` (research, write, check, build, look, commit), `write-explainer` (write and draw, check, build, look, commit), `mark-tested` (after the owner cooks: photo, owner's changes, `changes` entry, `status: tested`).
+- **Agents that write**: **writer** (recipes and explainers, and planned catalog entries for new ingredients), **illustrator** (explainer banners).
+- **Agents that check** (read-only, independent of the writer): **reviewer** (reading, Czech, conventions), **fact-checker** (food safety, cooking science, and the catalog data that drives allergens and diet), **test-cook** (cooks the recipe on paper: ingredients against steps, order, timing, scaling).
+- **Agents for the whole site** (read-only): **auditor** (drift between pages and catalog data), **planner** (what to write or cook next).
+- **variant-researcher** (read-only): summarises 5–10 variants of a dish as ratios, temperatures and times, without text. It uses the corpus script when it exists, the web until then.
 - Recipe drafts:
-  1. The corpus-lookup script returns 5–10 variants of the dish from the private corpus.
-  2. The writer compares them (ratios, temperatures, times) and writes a new recipe in the owner's style, metric units, `status: draft`.
-  3. A near-copy check compares the draft text with the variants. No sentence may be a near-copy.
-  4. The owner cooks it, edits it, adds a photo and a `changes` entry, and sets `status: tested`.
+  1. `variant-researcher` reports the common base and the differences.
+  2. `writer` writes a new recipe in the owner's style, metric units, `status: draft`.
+  3. The checkers run until clean. No sentence may be a near-copy of a source; a script will check this once the corpus exists.
+  4. The owner cooks it; `mark-tested` records the photo, the changes and `status: tested`.
 
 **Corpus**: TheMealDB first, loaded into SQLite. It is private reference material, never published. It lives outside the repository or in a git-ignored folder.
 
@@ -201,10 +204,9 @@ Adapted from the trading site's pipeline:
 
 ## 11. Status and next steps
 
-Done: the build with validation, links and derived data; recipe, explainer, list, group, reference and about pages in the "Smaltovaný sešit" style (`docs/STYLE.md`); search, previews, filters, scaler, converter and season calendar; photo import; tests; the Pages workflow. Sample content: 3 draft recipes and 3 written explainers.
+Done: the build with validation, links and derived data; recipe, explainer, list, group, reference and about pages in the "Smaltovaný sešit" style (`docs/STYLE.md`); search, previews, filters, scaler, converter and season calendar; photo import; tests; the Pages workflow; the authoring agents and skills. Sample content: 3 draft recipes and 3 written explainers.
 
 Next:
 
-1. Corpus lookup script (TheMealDB into SQLite) and the near-copy check.
-2. Authoring skills and agents (`write-recipe`, `write-explainer`; writer, illustrator, reviewer, fact-checker).
-3. Doneness temperatures and storage times on the reference page, with cited sources.
+1. Corpus lookup script (TheMealDB into SQLite) and the near-copy check script.
+2. Doneness temperatures and storage times on the reference page, with cited sources.

@@ -9,14 +9,14 @@ why a design was chosen over the obvious alternative, and the constraints that s
 
 ## Overview
 
-A static Czech cooking site: recipes are the main content, explainers (methods, ingredients, equipment, troubleshooting) support them. A custom Python build turns Markdown, YAML catalogs and data files into HTML plus one JSON index, and deploys to GitHub Pages. The full brief is `docs/BRIEF.md`, the structure/design contract is `SPEC.md`, and the look is `docs/STYLE.md` (ported from the hybrid "Smaltovaný sešit" prototypes on the design canvas). The authoring skills, agents and the corpus lookup are not built yet.
+A static Czech cooking site: recipes are the main content, explainers (methods, ingredients, equipment, troubleshooting) support them. A custom Python build turns Markdown, YAML catalogs and data files into HTML plus one JSON index, and deploys to GitHub Pages. The full brief is `docs/BRIEF.md`, the structure/design contract is `SPEC.md`, and the look is `docs/STYLE.md` (ported from the hybrid "Smaltovaný sešit" prototypes on the design canvas). The corpus lookup is not built yet.
 
 ## Components and flow
 
 - **Content**: recipe files (frontmatter + body), explainer body files (no frontmatter), catalogs (explainer entries, groups), data (units, allergens), banners, photos.
 - **Build**: loads everything, validates it, resolves `[[slug]]` links, derives allergens, diet and backlinks, renders templates, writes the index and resized photos. It is also the linter.
 - **Client scripts**: read the generated index for search, filters and hover previews; the scaler, converter and seasonal calendar work on page data.
-- **Authoring**: skills and agents (writer, illustrator, reviewer, fact-checker) plus a corpus-lookup script feed new content into the repository.
+- **Authoring**: skills dispatch agents. Two write (writer, illustrator); the others only read and report (reviewer, fact-checker, test-cook, auditor, planner, variant-researcher). The main session builds, looks at the page and commits.
 
 ## Design notes
 
@@ -51,3 +51,9 @@ A static Czech cooking site: recipes are the main content, explainers (methods, 
 **Private corpus.** Recipe datasets are used only for comparing variants when drafting. They never enter the published site; a near-copy check runs on each draft.
 
 **Never commercial, CC BY-NC-SA 4.0.** This allows non-commercial corpora as private reference.
+
+**Checkers are read-only and separate from the writer.** A writer that checks its own page finds what it meant, not what it wrote. Each checker has one job (reading, facts, the kitchen), so findings do not overlap, and the writer may reject a finding with a reason; a repeated disagreement goes to the user.
+
+**Test-cook next to the reviewer.** A recipe can read well and still fail at the stove (an ingredient never used, a step out of order). The trading site had no equivalent; recipes need one.
+
+**Catalog data is fact-checked.** Allergens and diet are derived from `catalog/suroviny.yaml`, so a wrong `allergens` or `animal` value is a safety problem, not a typo. The fact-checker checks catalog entries with the page that adds or uses them.
