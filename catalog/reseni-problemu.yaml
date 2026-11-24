@@ -7,9 +7,9 @@
   title: Proč paprika zhořkla?
   summary: "Mletá paprika se na přímém žáru rychle připálí."
   category: sauces
-  related: [sweet-paprika, browning, caramelising]
+  related: [sweet-paprika, browning, caramelising, burnt-onion]
 - slug: burnt-onion
   title: Proč cibule zhořkla?
-  summary: "Moc silný oheň nebo černý výpek. Připálenou cibuli nezachráníš."
+  summary: "Moc silný oheň nebo černý výpek. Černou cibuli nezachráníš, světlou kolem ní ano."
   category: vegetable-problems
-  related: [caramelising, sweating]
+  related: [caramelising, sweating, bitter-paprika, browning]

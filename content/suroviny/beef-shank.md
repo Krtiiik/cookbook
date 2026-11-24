@@ -21,7 +21,7 @@ Na pánvi zůstane tuhá. Při dlouhém [[braising|dušení]] v [[simmering|mír
 
 Syrové maso dej do lednice hned po nákupu. Ulož ho na nejnižší polici, v uzavřené nádobě nebo na talíři, aby šťáva nekapala na jiná jídla. Kus vcelku vydrží v lednici 3–5 dní, nakrájené kostky jen 1–2 dny (podle USDA FSIS).
 
-V mrazáku je maso bezpečné neomezeně dlouho. Nejlepší je kus vcelku do 4–12 měsíců, kostky do 3–4 měsíců (podle USDA FSIS). Zmraz ho v sáčku, ze kterého vymačkáš vzduch. Rozmrazuj v lednici, ne na lince.
+Při −18 °C je maso v mrazáku bezpečné neomezeně dlouho. Nejlepší je kus vcelku do 4–12 měsíců, kostky do 3–4 měsíců (podle USDA FSIS). Zmraz ho v sáčku, ze kterého vymačkáš vzduch. Rozmrazuj v lednici, ne na lince.
 
 ## Jak připravit
 
@@ -34,6 +34,6 @@ V mrazáku je maso bezpečné neomezeně dlouho. Nejlepší je kus vcelku do 4�
 ## Náhrady
 
 - **[[beef-chuck|Hovězí plec]]:** víc tuku, méně šlach. Doba je podobná, vidličkou zkoušej dřív.
-- **[[beef-cheeks|Hovězí líčka]]:** také hodně kolagenu, šťáva je skoro rosolovitá. Potřebují stejně dlouho nebo déle.
-- **[[oxtail|Oháňka]]:** hodně kosti, málo masa. Na omáčku nebo polévku, ne na kostky do guláše. Dusí se 3–4 hodiny, v troubě při nízké teplotě i déle.
+- **[[beef-cheeks|Hovězí líčka]]:** také hodně kolagenu, šťáva je skoro rosolovitá. Potřebují kolem 3 hodin, často déle.
+- **[[oxtail|Oháňka]]:** hodně kosti, málo masa. Na omáčku nebo polévku, ne na kostky do guláše. Dusí se déle, 3–4 hodiny.
 - **Ne:** měkké kusy s málo kolagenem, jako svíčková. Rozhoduje kolagen, ne tuk: svíčková nemá co změnit na želatinu a při dušení jen vyschne.

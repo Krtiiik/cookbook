@@ -20,6 +20,7 @@ V suchu, temnu a chladu, ne v lednici a ne vedle brambor. Nakrájenou cibuli dej
 
 - Na sladkou, hnědou chuť: [[caramelising]].
 - Na jemný základ bez barvy: [[sweating]].
+- Zhořkla? Viz [[burnt-onion|proč cibule zhořkla]].
 - Do omáčky a guláše ji krájej [[chefs-knife|nožem]] nadrobno nebo na půlměsíce, při vaření se rozpadne. Do salátu ji krájej na tenké kroužky.
 
 ## Náhrady

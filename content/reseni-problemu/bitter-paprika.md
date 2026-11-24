@@ -14,7 +14,7 @@ Mletá [[sweet-paprika|paprika]] je jemný prášek a obsahuje cukry. V horkém 
 - **Dlouhá pauza bez tekutiny.** Paprika leží v tuku a nic ji nechladí. Dokud v hrnci není maso, šťáva nebo voda, teplota tuku neklesne.
 - **Málo míchání.** Paprika se usadí na dně a připálí se tam, i když zbytek hrnce vypadá v pořádku.
 - **Připálené dno na konci.** Hustá omáčka s paprikou se při zahušťování přichytí ke dnu. Proto se v [[hovezi-gulas|guláši]] na konci často míchá.
-- **Hořkost odjinud.** Černý [[browning|výpek]] po opékání masa nebo cibule [[caramelising|zčernalá na okrajích]] dají hořkou chuť stejně. Paprika za to pak jen vypadá vinná.
+- **Hořkost odjinud.** Černý [[browning|výpek]] po opékání masa nebo cibule [[burnt-onion|zčernalá na okrajích]] dají hořkou chuť stejně. Paprika za to pak jen vypadá vinná.
 - **Stará nebo levná paprika** chutná ploše a skoro nevoní; barvu dá, chuť ne. Víc na [[sweet-paprika|stránce o sladké paprice]].
 
 ## Jak to zachránit

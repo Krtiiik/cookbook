@@ -25,7 +25,7 @@ Při [[braising|dušení]] se kolagen v mase pomalu mění na želatinu a maso m
 
 **Tuhé a gumové maso:** dus dál.
 
-Platí pro kusy s kolagenem (kližka, plec, líčka). Kus s málo kolagenem delším dušením nezměkne, jen víc vyschne. Zachraň ho jako suché maso níž.
+Platí pro kusy s kolagenem ([[beef-shank|kližka]], [[beef-chuck|plec]], [[beef-cheeks|líčka]], [[oxtail|oháňka]]). Kus s málo kolagenem delším dušením nezměkne, jen víc vyschne. Zachraň ho jako suché maso níž.
 
 1. Zkontroluj tekutinu. Když jí ubylo, dolij trochu horké vody nebo vývaru.
 2. Přiveď na středním ohni zpátky k mírnému varu, pak stáhni oheň na mírný a přikryj, nebo dej do trouby vyhřáté na 140–150 °C. Tekutina má jen [[simmering|mírně vařit]]: občas vystoupí bublinka, nikdy bubliny po celé ploše.

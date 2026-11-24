@@ -6,7 +6,7 @@ Kolagen v tuhých kusech se při tom mění na želatinu. Proto se dusí kusy, k
 
 ## Kdy ano a kdy ne
 
-- **Ano:** kusy s hodně kolagenem: [[beef-shank]], plec, líčka.
+- **Ano:** kusy s hodně kolagenem: [[beef-shank|kližka]], [[beef-chuck|plec]], [[beef-cheeks|líčka]], [[oxtail|oháňka]].
 - **Ano:** zelí, kořenová zelenina, luštěniny.
 - **Ne:** kusy s málo kolagenem (svíčková, kuřecí prsa). Rozhoduje kolagen, ne tuk: libová kližka je na dušení ideální.
 

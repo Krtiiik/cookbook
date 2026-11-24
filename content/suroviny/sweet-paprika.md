@@ -6,7 +6,7 @@ Sladká paprika je prášek z usušených a jemně umletých plodů nepálivých
 
 - **Sladká:** mírná, hodně barvy. Na guláš a paprikáš.
 - **[[hot-paprika|Pálivá]]:** z pálivějších odrůd, často i s žilkami a semínky. Na ostrost, ne na barvu, takže jí dej méně.
-- **[[smoked-paprika|Uzená]]:** typicky ze Španělska (pimentón de la Vera, sušený nad dubovým kouřem). Má výraznou chuť kouře. Kolik jí dát, najdeš níž v Náhradách.
+- **[[smoked-paprika|Uzená]]:** typicky ze Španělska (pimentón de la Vera, sušený nad dubovým kouřem). Má výraznou chuť kouře. Kolik jí dát, viz [[smoked-paprika|uzená paprika]].
 
 Maďarská paprika se prodává v několika třídách. Nejlepší (különleges) je jasně červená, jemně mletá a nejsladší. Nižší třídy jsou hruběji mleté, bývají ostřejší a mají slabší barvu i vůni.
 
@@ -16,7 +16,7 @@ Jasně červená barva, ne hnědá. Po otevření silně voní. Dívej se na dat
 
 ## Jak skladovat
 
-V uzavřené nádobě, ve tmě a chladu, ne nad sporákem. Neotevřená a dobře uložená vydrží s plnou chutí zhruba rok. Otevřenou spotřebuj do pár měsíců. Na světle a v teple ztratí barvu i vůni za několik týdnů až měsíců.
+V uzavřené nádobě, ve tmě a chladu, ne nad sporákem. Neotevřená a dobře uložená vydrží s plnou chutí zhruba rok. Otevřenou spotřebuj do pár měsíců. To je odhad kvality, ne bezpečnostní lhůta. Na světle a v teple ztratí barvu i vůni za několik týdnů až měsíců.
 
 Bledá paprika bez vůně není nebezpečná, jen do jídla už nic nedá. Když je vlhká, slepená nebo plesnivá, vyhoď ji.
 

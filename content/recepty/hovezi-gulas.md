@@ -43,7 +43,7 @@ Cibule se při pomalém opékání rozpadne a omáčku zahustí. Proto je jí sk
 
 ## Varianty a náhrady
 
-- Místo kližky hovězí líčka nebo plec. Doba vaření se změní, zkoušej vidličkou.
+- Místo kližky [[beef-cheeks|hovězí líčka]] (dus je celá a na konci je rozděl lžící na kousky) nebo [[beef-chuck|plec]]. Líčka potřebují kolem 3 hodin, často déle; plec podobně jako kližka, vidličkou zkoušej dřív.
 - Část vývaru nahraď tmavým pivem.
 - Bez vývaru: voda a lžíce protlaku navíc. Chuť bude lehčí.
 
