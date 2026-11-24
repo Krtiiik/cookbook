@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Dvě oblá, hutná hovězí líčka se světlými pruhy kolagenu, vedle malý litinový hrnec s lesklou tmavou omáčkou, ze které vykukuje kousek líčka">
+  <style>.steam path{animation:steam-rise 3.4s ease-in-out infinite}.steam path:nth-child(2){animation-delay:1.7s}@keyframes steam-rise{0%{opacity:0;transform:translateY(14px)}40%{opacity:1}100%{opacity:0;transform:translateY(-16px)}}</style>
+  <rect width="1200" height="400" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M60 362 H1140" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-dasharray: 2 12; stroke-linecap: round; opacity: .45"/>
+  <path d="M180 244 C180 174 260 144 330 152 C410 160 440 214 430 264 C420 320 360 344 290 340 C220 336 180 304 180 244 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M180 244 C180 174 260 144 330 152 C410 160 440 214 430 264 C420 320 360 344 290 340 C220 336 180 304 180 244 Z" style="fill: var(--banner-fg, #1b2a4a); opacity: .25"/>
+  <path d="M180 220 C180 150 260 120 330 128 C410 136 440 190 430 240 C420 296 360 320 290 316 C220 312 180 280 180 220 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M474 258 C478 198 544 172 604 182 C664 192 694 242 680 292 C666 338 604 358 552 350 C494 342 470 312 474 258 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M474 258 C478 198 544 172 604 182 C664 192 694 242 680 292 C666 338 604 358 552 350 C494 342 470 312 474 258 Z" style="fill: var(--banner-fg, #1b2a4a); opacity: .25"/>
+  <path d="M474 236 C478 176 544 150 604 160 C664 170 694 220 680 270 C666 316 604 336 552 328 C494 320 470 290 474 236 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <g style="fill: none; stroke: #fff7ea; stroke-width: 6; stroke-linecap: round">
+    <path d="M216 196 C256 176 316 198 366 176"/>
+    <path d="M206 254 C256 232 330 264 404 234"/>
+    <path d="M270 296 C300 286 340 296 370 284"/>
+    <path d="M508 214 C548 198 600 220 646 198"/>
+    <path d="M500 270 C550 252 612 282 660 254"/>
+  </g>
+  <path d="M200 196 C206 158 262 136 322 140" style="fill: none; stroke: #fff7ea; stroke-width: 4; stroke-linecap: round; opacity: .8"/>
+  <path d="M492 212 C502 182 548 164 596 170" style="fill: none; stroke: #fff7ea; stroke-width: 4; stroke-linecap: round; opacity: .8"/>
+  <path d="M790 238 h-36 M1070 238 h36" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 18; stroke-linecap: round"/>
+  <path d="M800 224 L808 322 Q810 345 832 345 L1038 345 Q1060 345 1062 322 L1070 224 Z" style="fill: var(--banner-fg, #1b2a4a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M826 256 L832 316" style="stroke: var(--banner-bg, #fffaf0); stroke-width: 5; stroke-linecap: round; opacity: .35"/>
+  <ellipse cx="935" cy="224" rx="135" ry="22" style="fill: var(--banner-fg, #1b2a4a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6"/>
+  <ellipse cx="935" cy="228" rx="118" ry="14" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 4"/>
+  <ellipse cx="935" cy="228" rx="118" ry="14" style="fill: var(--banner-fg, #1b2a4a); opacity: .35"/>
+  <path d="M948 230 q34 -40 72 -2 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linejoin: round"/>
+  <path d="M966 216 q14 -8 30 0" style="fill: none; stroke: #fff7ea; stroke-width: 4; stroke-linecap: round"/>
+  <path d="M846 226 q18 -6 36 0 M890 232 q10 -3 20 0" style="fill: none; stroke: var(--banner-bg, #fffaf0); stroke-width: 4; stroke-linecap: round; opacity: .85"/>
+  <g class="steam" style="fill: none; stroke: var(--banner-cool, #1f4fa3); stroke-width: 5; stroke-linecap: round">
+    <path d="M880 186 q-14 -18 0 -36 q14 -18 0 -32"/>
+    <path d="M940 176 q-14 -18 0 -36 q14 -18 0 -32"/>
+  </g>
+  <path d="M190 96 q56 22 70 76" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="60" y="80" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">hodně kolagenu</text>
+  <path d="M1080 132 q10 40 -40 82" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="990" y="116" style="font: 600 36px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">skoro rosol</text>
+</svg>
