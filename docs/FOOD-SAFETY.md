@@ -57,7 +57,7 @@ Freeze on the day you buy them, or keep 1–2 days in the fridge (as topic 4). S
 | Better not to make garlic in oil for storage. If you make it: fridge at once and **eat it at the latest the day after you make it**, or freeze it. Never at room temperature. | podle BfR (bezpecnostpotravin.cz) | BfR, botulism Q&A (12 Nov 2025): keep in the fridge, eat "spätestens am Tag nach der Herstellung"; BfR advises against home stocks. https://www.bfr.bund.de/de/fragen_und_antworten_zu_botulismus-70355.html (Czech translation on the MZe portal, 25 Nov 2025: https://bezpecnostpotravin.cz/bfr-otazky-a-odpovedi-o-botulismu/) |
 
 Disagreement: NCHFP gives ≤4 °C and 4 days. BfR is stricter: 1 day. Ministerstvo zdravotnictví names garlic in oil as a typical source of botulinum toxin (2026 pâté warning, https://mzd.gov.cz/varovani-pred-konzumaci-potraviny-pastika-s-nazvem-hotel-litovel-srdce-luhacovic/). The ≤4 °C fridge number can stay (KHS, topic 10).
-## 8. Opened tomato paste
+## 8. Opened tins and tomato paste (tomato paste, canned tomatoes)
 
 | Item | Use on the site | Cite | Source |
 |---|---|---|---|
@@ -101,3 +101,44 @@ Disagreement: FSA (UK) changed its advice: the fridge is acceptable at home, as 
 | Fry hranolky and krokety at **at most 175 °C**, to golden, not brown, even when the packet says more | podle nařízení EU 2017/2158 | Annex I, French fries: frying temperature below 175 °C. https://eur-lex.europa.eu/eli/reg/2017/2158/oj. Consumer advice with the same limit: https://www.verbraucherzentrale.de/acrylamid-1 |
 
 Breaded meat and cheese (řízky, smažený sýr) are not covered; 160–180 °C stays a cooking range there, not a safety number.
+
+## 13. Raw flour and raw dough (flour page, jíška)
+
+| Use on the site | Cite | Source |
+|---|---|---|
+| Do not eat unbaked dough. Flour is a raw material that can carry STEC, and dry heating (oven, roasting) does not reliably kill it, so flour must simmer in liquid or bake through. Wash hands and utensils after handling flour; keep it away from food that will not be cooked. Small children and people with weak immunity avoid raw dough entirely. | podle BfR | BfR FAQ "Escherichia coli in Mehl und Teig" (15 Jan 2024): https://www.bfr.bund.de/fragen-und-antworten/thema/escherichia-coli-in-mehl-und-teig-was-ist-wichtig-fuer-einen-genuss-ohne-reue |
+
+No Czech or EU source on raw flour found. The 15 minutes of simmering after thickening is a cooking figure, not a safety number. Stored jíška: the storage numbers are topic 1's (2 hours, 2 days), but it is flour that has not simmered yet, so after it goes into a liquid it must still simmer; no jíška-specific number exists.
+
+## 14. Cooked rice (rice page; milk page for mléčná rýže and rýžový nákyp)
+
+| Item | Use on the site | Cite | Source |
+|---|---|---|---|
+| Cooling | Shallow containers, into the fridge **within 1 hour** of cooking | podle britského úřadu FSA | FSA student guide: https://www.gov.uk/government/publications/student-guide-to-food-safety-and-hygiene/student-guide-to-food-safety-and-hygiene; Food Standards Scotland: https://www.foodstandards.gov.scot/consumers/food-safety/at-home/rice; NHS Start4Life |
+| Fridge | Eat **within 24 hours** (not the 2 days of topic 1) | podle britského úřadu FSA | Same sources |
+| Reheating | Once only, core as topic 2 | podle britského úřadu FSA a SZÚ | Same sources; topic 2 |
+| Freezer | Freeze within 1 hour of cooking; thaw in the fridge, reheat once, eat at once | podle britského úřadu FSA | 1 hour: FSA student guide and FSS rice page (as above). Thawing in the fridge and 24 hours after thawing: the general FSA page, which does not name rice: https://www.gov.uk/government/publications/how-to-chill-freeze-and-defrost-food-safely/how-to-chill-freeze-and-defrost-food-safely |
+| Arsenic | Rice holds more inorganic arsenic than other plant foods, brown more than white; cooking in plenty of water and pouring it off removes part of it | podle BfR | https://bfr.bund.de/fragen-und-antworten/thema/fragen-und-antworten-zu-arsengehalten-in-reis-und-reisprodukten |
+| Why | Bacillus cereus spores survive cooking; the emetic toxin is heat-stable | podle bezpecnostpotravin.cz | https://bezpecnostpotravin.cz/termin/bacillus-cereus/ |
+
+Disagreement: no Czech or EU number for rice; bezpecnostpotravin.cz advises against pre-cooking and storing rice at all, BfR gives only general advice. FSA, FSS and NHS (1 hour, 24 hours) are the stricter numbers.
+
+## 15. Milk
+
+| Item | Use on the site | Cite | Source |
+|---|---|---|---|
+| Opened milk | No number; follow the label "po otevření spotřebujte do…", fridge at most 5 °C | podle britského úřadu FSA (follow the pack) | https://www.food.gov.uk/safety-hygiene/chilling. No Czech or EU number found. |
+| Raw milk (farm, mlékomat) | Heat before use ("tepelně opracovat nebo pasterovat" on the label); at home boil it; a risk for children, pregnant women, older and immunocompromised people | podle BfR (risk groups); vyhláška 289/2007 Sb. § 13 (label) | https://www.bfr.bund.de/fragen-und-antworten/thema/infektionen-vermeiden-was-ist-beim-verzehr-von-rohmilch-zu-beachten/; https://www.zakonyprolidi.cz/cs/2007-289 |
+| Frozen milk | About 3 months, quality only, no source; after thawing use within 24 hours | podle britského úřadu FSA (24 h) | topic 1 FSA page |
+| Fat grades | Plnotučné at least 3,5 %, polotučné 1,5–1,8 %, odtučněné at most 0,5 % | podle nařízení EU 1308/2013 | https://www.legislation.gov.uk/eur/2013/1308/annex/VII/part/IV |
+
+## 16. Wild garlic (medvědí česnek)
+
+| Item | Use on the site | Cite | Source |
+|---|---|---|---|
+| Smell test | Rub a piece of leaf; no garlic smell means leave the plant; smell on the hands misleads, so wash them or test a fresh piece each time | podle BfR | https://www.bfr.bund.de/presseinformation/baerlauch-vorsicht-vor-verwechslungen/ |
+| Leaf features | Each leaf alone on a thin three-edged stalk, parallel veins, matt underside; konvalinka: two leaves in a sheath, shiny underside; ocún: fleshy leaves in tufts without stalk; árón: arrow-shaped leaf with net veins. Pick leaf by leaf. | podle rakouského úřadu AGES | https://www.ages.at/themen/lebensmittelsicherheit/pflanzliche-lebensmittel/baerlauch/ |
+| Poisoning | Toxikologické informační středisko 224 919 293 or 224 915 402; ambulance 155 | podle TIS | https://www.vfn.cz/en/?p=5427 |
+| Pesto, leaves in oil | Topic 7 (BfR covers fresh herbs in oil; pesto is not named). Freezing has no BfR source. | podle BfR pro bylinky v oleji | topic 7 |
+
+Picking law: zákon 114/1992 Sb. bans collecting plants in národní parky (§ 16), NPR (§ 29) and PR (§ 34); it has no such ban for CHKO zone I (§ 26). Allium ursinum is not specially protected (vyhláška 395/1992 Sb.). Lesní zákon 289/1995 § 19 names only "lesní plody" for own use. Fox tapeworm: washing does not remove all eggs, they survive −18 °C, and heating to about 60 °C kills them, "podle AGES" (same AGES page). The ocún capsule note on the page rests on Naturschutzbund Österreich, not AGES.
