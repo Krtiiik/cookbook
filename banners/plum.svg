@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Dvě celé tmavě modrofialové švestky s bělavým ojíněním na slupce, vedle jedné rozpůlené švestky s vyndanou peckou a samotná pecka, a hrnec s povidly, ve kterých se míchá dřevěnou vařečkou">
+  <style>.steam path{animation:steam-rise 3.4s ease-in-out infinite}.steam path:nth-child(2){animation-delay:1.7s}@keyframes steam-rise{0%{opacity:0;transform:translateY(14px)}40%{opacity:1}100%{opacity:0;transform:translateY(-16px)}}</style>
+  <rect width="1200" height="400" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M60 362 H1140" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-dasharray: 2 12; stroke-linecap: round; opacity: .45"/>
+  <!-- small plum behind -->
+  <g transform="translate(408 298) rotate(14) scale(.62)">
+    <path d="M0 -102 C70 -102 92 -22 84 38 C76 86 40 102 0 102 C-40 102 -76 86 -84 38 C-92 -22 -70 -102 0 -102 Z" style="fill: var(--banner-cool, #1f4fa3)"/>
+    <path d="M0 -102 C70 -102 92 -22 84 38 C76 86 40 102 0 102 C-40 102 -76 86 -84 38 C-92 -22 -70 -102 0 -102 Z" style="fill: var(--banner-accent, #c8462a); opacity: .4"/>
+    <path d="M-58 -34 C-52 -66 -30 -82 -8 -86" style="fill: none; stroke: #fff7ea; stroke-width: 12; stroke-linecap: round; opacity: .6"/>
+    <path d="M0 -96 C22 -40 22 40 0 98" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; opacity: .5"/>
+    <path d="M0 -102 C70 -102 92 -22 84 38 C76 86 40 102 0 102 C-40 102 -76 86 -84 38 C-92 -22 -70 -102 0 -102 Z" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 9; stroke-linejoin: round"/>
+    <path d="M2 -100 Q4 -122 16 -138" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 11; stroke-linecap: round"/>
+  </g>
+  <!-- whole plum -->
+  <g transform="translate(270 252)">
+    <path d="M0 -102 C70 -102 92 -22 84 38 C76 86 40 102 0 102 C-40 102 -76 86 -84 38 C-92 -22 -70 -102 0 -102 Z" style="fill: var(--banner-cool, #1f4fa3)"/>
+    <path d="M0 -102 C70 -102 92 -22 84 38 C76 86 40 102 0 102 C-40 102 -76 86 -84 38 C-92 -22 -70 -102 0 -102 Z" style="fill: var(--banner-accent, #c8462a); opacity: .4"/>
+    <path d="M-58 -34 C-52 -66 -30 -82 -8 -86" style="fill: none; stroke: #fff7ea; stroke-width: 9; stroke-linecap: round; opacity: .6"/>
+    <path d="M-66 -4 C-68 8 -66 18 -62 28" style="fill: none; stroke: #fff7ea; stroke-width: 6; stroke-linecap: round; opacity: .4"/>
+    <g style="fill: #fff7ea; opacity: .35"><circle cx="40" cy="-40" r="5"/><circle cx="58" cy="-6" r="4"/><circle cx="30" cy="30" r="5"/><circle cx="-24" cy="56" r="4"/><circle cx="46" cy="58" r="4"/><circle cx="-40" cy="18" r="3"/></g>
+    <path d="M0 -96 C22 -40 22 40 0 98" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; opacity: .5; stroke-linecap: round"/>
+    <path d="M0 -102 C70 -102 92 -22 84 38 C76 86 40 102 0 102 C-40 102 -76 86 -84 38 C-92 -22 -70 -102 0 -102 Z" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+    <path d="M2 -100 Q4 -118 14 -132" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 7; stroke-linecap: round"/>
+  </g>
+  <!-- halved plum, stone out -->
+  <g transform="translate(570 252)">
+    <path d="M0 -102 C70 -102 92 -22 84 38 C76 86 40 102 0 102 C-40 102 -76 86 -84 38 C-92 -22 -70 -102 0 -102 Z" style="fill: var(--banner-cool, #1f4fa3)"/>
+    <path d="M0 -102 C70 -102 92 -22 84 38 C76 86 40 102 0 102 C-40 102 -76 86 -84 38 C-92 -22 -70 -102 0 -102 Z" style="fill: var(--banner-accent, #c8462a); opacity: .4"/>
+    <g transform="scale(.86)">
+      <path d="M0 -102 C70 -102 92 -22 84 38 C76 86 40 102 0 102 C-40 102 -76 86 -84 38 C-92 -22 -70 -102 0 -102 Z" style="fill: var(--banner-warm, #e9b44c); stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linejoin: round"/>
+    </g>
+    <path d="M0 -60 C34 -50 44 -2 28 30 C18 52 -18 52 -28 30 C-44 -2 -34 -50 0 -60 Z" style="fill: var(--banner-warm, #e9b44c); fill: color-mix(in srgb, var(--banner-warm, #e9b44c) 55%, black); stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linejoin: round"/>
+    <g style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round; opacity: .3">
+      <path d="M-46 -30 q-14 4 -20 16"/><path d="M46 -30 q14 4 20 16"/><path d="M-40 52 q-8 14 -20 18"/><path d="M40 52 q8 14 20 18"/>
+    </g>
+    <path d="M-62 -40 C-56 -64 -38 -78 -18 -82" style="fill: none; stroke: #fff7ea; stroke-width: 6; stroke-linecap: round; opacity: .55"/>
+    <path d="M0 -102 C70 -102 92 -22 84 38 C76 86 40 102 0 102 C-40 102 -76 86 -84 38 C-92 -22 -70 -102 0 -102 Z" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  </g>
+  <!-- the stone -->
+  <g transform="translate(704 334) rotate(-22)">
+    <path d="M-34 0 C-26 -24 24 -26 36 0 C24 24 -26 24 -34 0 Z" style="fill: var(--banner-warm, #e9b44c); fill: color-mix(in srgb, var(--banner-warm, #e9b44c) 40%, black); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+    <path d="M-22 -2 Q0 -12 24 -2" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round; opacity: .5"/>
+    <path d="M-20 8 Q0 14 20 6" style="fill: none; stroke: #fff7ea; stroke-width: 3; stroke-linecap: round; opacity: .55"/>
+  </g>
+  <!-- pot of povidla -->
+  <path d="M822 232 q-34 2 -32 24 q2 16 36 12" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 8; stroke-linecap: round"/>
+  <path d="M978 232 q34 2 32 24 q-2 16 -36 12" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 8; stroke-linecap: round"/>
+  <path d="M820 210 L834 322 Q836 340 854 340 L946 340 Q964 340 966 322 L980 210 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <g style="fill: #fff7ea"><circle cx="846" cy="236" r="8"/><circle cx="954" cy="240" r="8"/></g>
+  <text x="900" y="298" text-anchor="middle" style="font: 600 38px Caveat, cursive; fill: #fff7ea">povidla</text>
+  <ellipse cx="900" cy="210" rx="80" ry="20" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6"/>
+  <ellipse cx="900" cy="213" rx="66" ry="13" style="fill: var(--banner-warm, #e9b44c); fill: color-mix(in srgb, var(--banner-warm, #e9b44c) 40%, black); stroke: var(--banner-fg, #1b2a4a); stroke-width: 4"/>
+  <path d="M866 214 q12 -5 24 0" style="fill: none; stroke: #fff7ea; stroke-width: 3; stroke-linecap: round; opacity: .5"/>
+  <path d="M924 216 L992 148" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 14; stroke-linecap: round"/>
+  <path d="M924 216 L992 148" style="fill: none; stroke: var(--banner-warm, #e9b44c); stroke-width: 6; stroke-linecap: round"/>
+  <g class="steam" style="fill: none; stroke: var(--banner-cool, #1f4fa3); stroke-width: 5; stroke-linecap: round">
+    <path d="M862 176 q-16 -20 0 -40 q16 -20 0 -36"/>
+    <path d="M916 170 q-16 -20 0 -40 q16 -20 0 -36"/>
+  </g>
+  <!-- notes -->
+  <text x="50" y="100" style="font: 600 40px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">modrá s ojínkem</text>
+  <path d="M276 108 q44 6 38 56" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="640" y="96" style="font: 600 40px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">pecka ven</text>
+  <path d="M652 112 q-34 10 -52 68" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="1030" y="116" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">dlouho</text>
+  <text x="1030" y="158" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">míchej</text>
+  <path d="M1022 168 q-8 24 -26 36" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+</svg>
