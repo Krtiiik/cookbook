@@ -92,3 +92,11 @@ Disagreement: KHS and the bezpecnostpotravin.cz "Nebezpečný interval teplot" p
 | EU rule for food businesses: store potatoes above 6 °C | podle nařízení EU 2017/2158 | Annex I, potato storage: "above 6 °C". https://www.legislation.gov.uk/eur/2017/2158/annex/I/adopted (EUR-Lex: https://eur-lex.europa.eu/eli/reg/2017/2158/oj) |
 
 Disagreement: FSA (UK) changed its advice: the fridge is acceptable at home, as a study reviewed by COT found no material rise in acrylamide potential (https://www.gov.uk/government/publications/acrylamide/acrylamide). FDA (US) still advises against the fridge. Stricter: not in the fridge; the Czech and EU sources now support this, so the page can cite them in place of FDA. EFSA (2015) is the basis for the acrylamide cancer risk; it gives no storage number.
+
+## 12. Frying potato products (acrylamide)
+
+| Use on the site | Cite | Source |
+|---|---|---|
+| Fry hranolky and krokety at **at most 175 °C**, to golden, not brown, even when the packet says more | podle nařízení EU 2017/2158 | Annex I, French fries: frying temperature below 175 °C. https://eur-lex.europa.eu/eli/reg/2017/2158/oj. Consumer advice with the same limit: https://www.verbraucherzentrale.de/acrylamid-1 |
+
+Breaded meat and cheese (řízky, smažený sýr) are not covered; 160–180 °C stays a cooking range there, not a safety number.
