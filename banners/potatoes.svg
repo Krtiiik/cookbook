@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Kulatá moučná brambora s rozkrojenou půlkou s drobivou dužinou, vedle podlouhlá pevná brambora s červenou slupkou a tři úhledná kolečka">
+  <rect width="1200" height="400" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M60 362 H1140" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-dasharray: 2 12; stroke-linecap: round; opacity: .45"/>
+  <path d="M180 270 Q176 220 236 206 Q290 192 340 208 Q392 222 396 270 Q400 318 350 336 Q290 352 230 340 Q182 326 180 270 Z" style="fill: var(--banner-warm, #e9b44c)"/>
+  <path d="M180 270 Q176 220 236 206 Q290 192 340 208 Q392 222 396 270 Q400 318 350 336 Q290 352 230 340 Q182 326 180 270 Z" style="fill: var(--banner-fg, #1b2a4a); opacity: .28"/>
+  <g style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linecap: round; opacity: .55"><path d="M226 252 q10 -8 20 0"/><path d="M314 230 q10 6 20 -2"/><path d="M350 298 q10 -8 20 0"/><path d="M252 318 q10 -7 20 0"/></g>
+  <g style="fill: var(--banner-fg, #1b2a4a); opacity: .45"><circle cx="290" cy="262" r="3"/><circle cx="214" cy="292" r="3"/><circle cx="372" cy="252" r="3"/><circle cx="306" cy="308" r="3"/></g>
+  <path d="M220 228 q30 -16 64 -18" style="fill: none; stroke: #fff7ea; stroke-width: 6; stroke-linecap: round; opacity: .8"/>
+  <path d="M180 270 Q176 220 236 206 Q290 192 340 208 Q392 222 396 270 Q400 318 350 336 Q290 352 230 340 Q182 326 180 270 Z" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M398 306 Q402 350 470 352 Q538 350 542 306 Z" style="fill: var(--banner-warm, #e9b44c)"/>
+  <path d="M398 306 Q402 350 470 352 Q538 350 542 306 Z" style="fill: var(--banner-fg, #1b2a4a); opacity: .28"/>
+  <path d="M398 306 Q402 350 470 352 Q538 350 542 306" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <ellipse cx="470" cy="306" rx="72" ry="24" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 5"/>
+  <ellipse cx="470" cy="306" rx="72" ry="24" style="fill: var(--banner-warm, #e9b44c); opacity: .18"/>
+  <g style="fill: var(--banner-fg, #1b2a4a); opacity: .35"><circle cx="438" cy="300" r="3"/><circle cx="458" cy="312" r="2.5"/><circle cx="482" cy="298" r="3"/><circle cx="504" cy="310" r="2.5"/><circle cx="470" cy="304" r="2"/><circle cx="424" cy="310" r="2"/><circle cx="516" cy="300" r="2"/></g>
+  <g style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round; opacity: .4"><path d="M446 296 l8 6 l-4 6"/><path d="M490 306 l8 -4 l6 6"/></g>
+  <g transform="translate(790 296) rotate(-6)">
+    <path d="M-150 0 C-150 -40 -60 -52 20 -48 C100 -44 150 -30 152 4 C154 40 80 52 0 50 C-90 48 -150 36 -150 0 Z" style="fill: var(--banner-accent, #c8462a)"/>
+    <path d="M-150 0 C-150 -40 -60 -52 20 -48 C100 -44 150 -30 152 4 C154 40 80 52 0 50 C-90 48 -150 36 -150 0 Z" style="fill: var(--banner-warm, #e9b44c); opacity: .35"/>
+    <g style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linecap: round; opacity: .55"><path d="M-90 -14 q8 -6 16 0"/><path d="M40 16 q8 -6 16 0"/><path d="M110 -14 q6 -6 12 0"/></g>
+    <path d="M-110 -26 C-60 -40 0 -40 60 -34" style="fill: none; stroke: #fff7ea; stroke-width: 6; stroke-linecap: round; opacity: .8"/>
+    <path d="M-150 0 C-150 -40 -60 -52 20 -48 C100 -44 150 -30 152 4 C154 40 80 52 0 50 C-90 48 -150 36 -150 0 Z" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  </g>
+  <g>
+    <circle cx="1000" cy="322" r="32" style="fill: var(--banner-accent, #c8462a)"/><circle cx="1000" cy="322" r="25" style="fill: #fff7ea"/><circle cx="1000" cy="322" r="25" style="fill: var(--banner-warm, #e9b44c); opacity: .55"/><path d="M986 310 q10 -6 22 -2" style="fill: none; stroke: #fff7ea; stroke-width: 4; stroke-linecap: round; opacity: .9"/><circle cx="1000" cy="322" r="32" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 5"/>
+    <circle cx="1064" cy="324" r="31" style="fill: var(--banner-accent, #c8462a)"/><circle cx="1064" cy="324" r="24" style="fill: #fff7ea"/><circle cx="1064" cy="324" r="24" style="fill: var(--banner-warm, #e9b44c); opacity: .55"/><path d="M1050 312 q10 -6 22 -2" style="fill: none; stroke: #fff7ea; stroke-width: 4; stroke-linecap: round; opacity: .9"/><circle cx="1064" cy="324" r="31" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 5"/>
+    <circle cx="1126" cy="326" r="30" style="fill: var(--banner-accent, #c8462a)"/><circle cx="1126" cy="326" r="23" style="fill: #fff7ea"/><circle cx="1126" cy="326" r="23" style="fill: var(--banner-warm, #e9b44c); opacity: .55"/><path d="M1112 314 q10 -6 22 -2" style="fill: none; stroke: #fff7ea; stroke-width: 4; stroke-linecap: round; opacity: .9"/><circle cx="1126" cy="326" r="30" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 5"/>
+  </g>
+  <path d="M488 134 q26 70 -6 144" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="396" y="116" style="font: 600 40px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">typ C na kaši</text>
+  <path d="M1000 134 q60 66 60 152" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="870" y="116" style="font: 600 40px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">typ A do salátu</text>
+</svg>
