@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Dvě skleněné zavařovací sklenice s víčkem, jedna s řídkým čirým medem a druhá s medem světlým a zkrystalizovaným, a vpravo dřevěná naběračka na med, ze které stéká tenká nitka a kapka">
+  <rect width="1200" height="400" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M60 362 H1140" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-dasharray: 2 12; stroke-linecap: round; opacity: .45"/>
+
+  <!-- jar 1: runny, clear honey -->
+  <path d="M160 158 H300 V174 Q330 182 330 210 V328 Q330 350 308 350 H152 Q130 350 130 328 V210 Q130 182 160 174 Z" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M139 216 H321 V328 Q321 341 308 341 H152 Q139 341 139 328 Z" style="fill: var(--banner-warm, #e9b44c)"/>
+  <path d="M139 216 H321" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; opacity: .5"/>
+  <g style="fill: none; stroke: #fff7ea; stroke-width: 3; opacity: .85">
+    <circle cx="190" cy="270" r="7"/><circle cx="262" cy="304" r="5"/><circle cx="236" cy="246" r="4"/><circle cx="288" cy="256" r="6"/>
+  </g>
+  <path d="M152 232 V320" style="fill: none; stroke: #fff7ea; stroke-width: 7; stroke-linecap: round; opacity: .8"/>
+  <path d="M160 158 H300 V174 Q330 182 330 210 V328 Q330 350 308 350 H152 Q130 350 130 328 V210 Q130 182 160 174 Z" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <rect x="148" y="118" width="164" height="42" rx="9" style="fill: var(--banner-cool, #1f4fa3); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M176 130 V148 M204 130 V148 M232 130 V148 M260 130 V148 M288 130 V148" style="fill: none; stroke: #fff7ea; stroke-width: 4; stroke-linecap: round; opacity: .55"/>
+
+  <!-- jar 2: pale, crystallised honey -->
+  <g transform="translate(240 0)">
+    <path d="M160 158 H300 V174 Q330 182 330 210 V328 Q330 350 308 350 H152 Q130 350 130 328 V210 Q130 182 160 174 Z" style="fill: var(--banner-bg, #fffaf0)"/>
+    <path d="M139 216 H321 V328 Q321 341 308 341 H152 Q139 341 139 328 Z" style="fill: var(--banner-warm, #e9b44c)"/>
+    <path d="M139 216 H321 V328 Q321 341 308 341 H152 Q139 341 139 328 Z" style="fill: #fff7ea; opacity: .65"/>
+    <path d="M139 216 H321" style="fill: none; stroke: var(--banner-warm, #e9b44c); stroke: color-mix(in srgb, var(--banner-warm, #e9b44c) 40%, black); stroke-width: 3; opacity: .6"/>
+    <g style="fill: var(--banner-warm, #e9b44c); fill: color-mix(in srgb, var(--banner-warm, #e9b44c) 40%, black); opacity: .5">
+      <circle cx="170" cy="240" r="2.5"/><circle cx="196" cy="262" r="2.5"/><circle cx="222" cy="236" r="2.5"/><circle cx="250" cy="270" r="2.5"/><circle cx="286" cy="244" r="2.5"/>
+      <circle cx="176" cy="296" r="2.5"/><circle cx="212" cy="312" r="2.5"/><circle cx="244" cy="300" r="2.5"/><circle cx="280" cy="318" r="2.5"/><circle cx="304" cy="286" r="2.5"/>
+      <circle cx="160" cy="268" r="2"/><circle cx="268" cy="228" r="2"/><circle cx="232" cy="276" r="2"/><circle cx="196" cy="326" r="2"/>
+    </g>
+    <g style="fill: #fff7ea; stroke: var(--banner-warm, #e9b44c); stroke: color-mix(in srgb, var(--banner-warm, #e9b44c) 40%, black); stroke-width: 2.5; stroke-linejoin: round; opacity: .75">
+      <path d="M184 252 l12 -8 l10 8 l-8 10 Z"/>
+      <path d="M254 292 l14 -6 l8 10 l-12 8 Z"/>
+      <path d="M206 288 l8 -8 l9 6 l-5 10 Z"/>
+      <path d="M278 252 l10 -6 l8 8 l-10 6 Z"/>
+      <path d="M170 316 l10 -6 l8 8 l-10 6 Z"/>
+    </g>
+    <path d="M152 232 V320" style="fill: none; stroke: #fff7ea; stroke-width: 7; stroke-linecap: round; opacity: .8"/>
+    <path d="M160 158 H300 V174 Q330 182 330 210 V328 Q330 350 308 350 H152 Q130 350 130 328 V210 Q130 182 160 174 Z" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+    <rect x="148" y="118" width="164" height="42" rx="9" style="fill: var(--banner-cool, #1f4fa3); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+    <path d="M176 130 V148 M204 130 V148 M232 130 V148 M260 130 V148 M288 130 V148" style="fill: none; stroke: #fff7ea; stroke-width: 4; stroke-linecap: round; opacity: .55"/>
+  </g>
+
+  <!-- puddle on the table -->
+  <ellipse cx="960" cy="360" rx="54" ry="9" style="fill: var(--banner-warm, #e9b44c); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5"/>
+  <path d="M938 357 q10 -4 22 -3" style="fill: none; stroke: #fff7ea; stroke-width: 3; stroke-linecap: round; opacity: .8"/>
+
+  <!-- wooden dipper -->
+  <g transform="translate(960 240) rotate(40)" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round; stroke-linecap: round">
+    <path d="M-7 -30 L-7 -236 Q0 -246 7 -236 L7 -30 Z" style="fill: var(--banner-warm, #e9b44c); fill: color-mix(in srgb, var(--banner-warm, #e9b44c) 40%, black)"/>
+    <circle r="36" style="fill: var(--banner-warm, #e9b44c); fill: color-mix(in srgb, var(--banner-warm, #e9b44c) 40%, black)"/>
+    <g style="fill: none; stroke-width: 4; opacity: .75">
+      <path d="M-33 -14 Q0 -6 33 -14"/><path d="M-36 2 Q0 10 36 2"/><path d="M-31 18 Q0 26 31 18"/>
+    </g>
+    <path d="M-1 -226 V-170" style="fill: none; stroke: #fff7ea; stroke-width: 3; opacity: .55"/>
+  </g>
+
+  <!-- honey on the dipper, thread and drop -->
+  <path d="M931 262 Q948 284 955 290 L955 312 C943 318 942 340 960 342 C978 340 977 318 965 312 L965 290 Q972 284 989 262 Z" style="fill: var(--banner-warm, #e9b44c)"/>
+  <path d="M931 262 Q948 284 955 290 L955 312 C943 318 942 340 960 342 C978 340 977 318 965 312 L965 290 Q972 284 989 262" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linecap: round; stroke-linejoin: round"/>
+  <path d="M956 326 q-2 8 2 12" style="fill: none; stroke: #fff7ea; stroke-width: 3; stroke-linecap: round; opacity: .85"/>
+
+  <!-- notes -->
+  <text x="50" y="84" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">řídký a čirý</text>
+  <path d="M240 92 q70 -2 96 112" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="400" y="84" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">zkrystalizoval? nevadí</text>
+  <path d="M610 98 q2 60 -32 108" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="650" y="300" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">pomalu stéká</text>
+  <path d="M820 290 q60 -2 112 30" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+</svg>
