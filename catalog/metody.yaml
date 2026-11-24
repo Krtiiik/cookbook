@@ -1,35 +1,35 @@
-- slug: braising
+- slug: duseni
   title: Dušení
   summary: "Pomalé vaření v malém množství tekutiny pod pokličkou."
   category: moist-heat
-  related: [browning, simmering, dutch-oven, tough-stew, water]
-- slug: browning
+  related: [hnednuti-masa, mirny-var, litinovy-hrnec, tuhe-dusene-maso, voda]
+- slug: hnednuti-masa
   title: Hnědnutí masa
   summary: "Proč opečené maso voní a jak docílit kůrky."
   category: dry-heat
-  related: [braising, caramelising, dutch-oven, oil]
-- slug: sweating
+  related: [duseni, karamelizace-cibule, litinovy-hrnec, olej]
+- slug: zpoceni-zeleniny
   title: Zpocení zeleniny
   summary: "Zelenina změkne na tuku bez barvy."
   category: prep
-  related: [caramelising, browning, pumpkin, porcini]
-- slug: caramelising
+  related: [karamelizace-cibule, hnednuti-masa, dyne, hriby]
+- slug: karamelizace-cibule
   title: Karamelizace cibule
   summary: "Pomalé opékání, při kterém cibule zesládne a zhnědne."
   category: dry-heat
-  related: [onion, sweating, browning, burnt-onion]
-- slug: simmering
+  related: [cibule, zpoceni-zeleniny, hnednuti-masa, zhorkla-cibule]
+- slug: mirny-var
   title: Mírný var
   summary: "Hladina je skoro klidná, jen občas vystoupí bublinka."
   category: moist-heat
-  related: [braising, thermometer, water]
-- slug: breading
+  related: [duseni, teplomer, voda]
+- slug: trojobal
   title: Trojobal a smažení
   summary: "Mouka, vejce, strouhanka a tuk na správnou teplotu: řízek, kapr, smažený sýr."
   category: dry-heat
-  related: [flour, egg, oil, lard, thermometer, frying-pan, carp, salt]
-- slug: roasting
+  related: [mouka, vejce, olej, sadlo, teplomer, panev, kapr, sul]
+- slug: peceni-masa
   title: Pečení masa v troubě
   summary: "Teplota, podlévání a odpočinek: pečeně, krkovice a kachna."
   category: dry-heat
-  related: [browning, oven, thermometer, braising]
+  related: [hnednuti-masa, trouba, teplomer, duseni]

@@ -18,7 +18,7 @@
       <select id="c-to" class="converter__to"><option value="g">gramy</option><option value="ml">mililitry</option><option value="C">°C</option></select></div>
     <div class="field"><label for="c-item">Surovina</label>
       <select id="c-item" class="converter__item">
-        {% for p in converter['items'] %}<option value="{{ p.slug }}" data-density="{{ p.data.density }}"{% if p.slug == 'flour' %} selected{% endif %}>{{ default_link_text(p.title) }}</option>{% endfor %}
+        {% for p in converter['items'] %}<option value="{{ p.slug }}" data-density="{{ p.data.density }}"{% if p.slug == 'mouka' %} selected{% endif %}>{{ default_link_text(p.title) }}</option>{% endfor %}
       </select></div>
   </div>
   <output class="converter__result" for="c-amt c-from c-to c-item">Zadej číslo</output>

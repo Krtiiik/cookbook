@@ -1,30 +1,30 @@
-- slug: tough-stew
+- slug: tuhe-dusene-maso
   title: Proč je dušené maso tuhé?
   summary: "Málo času, prudký var nebo kus s málo kolagenem."
   category: meat-problems
-  related: [braising, simmering, beef-shank]
-- slug: bitter-paprika
+  related: [duseni, mirny-var, hovezi-klizka]
+- slug: zhorkla-paprika
   title: Proč paprika zhořkla?
   summary: "Mletá paprika se na přímém žáru rychle připálí."
   category: sauces
-  related: [sweet-paprika, browning, caramelising, burnt-onion]
-- slug: burnt-onion
+  related: [sladka-paprika, hnednuti-masa, karamelizace-cibule, zhorkla-cibule]
+- slug: zhorkla-cibule
   title: Proč cibule zhořkla?
   summary: "Moc silný oheň nebo černý výpek. Černou cibuli nezachráníš, světlou kolem ní ano."
   category: vegetable-problems
-  related: [caramelising, sweating, bitter-paprika, browning]
-- slug: breading-falls-off
+  related: [karamelizace-cibule, zpoceni-zeleniny, zhorkla-paprika, hnednuti-masa]
+- slug: odpadajici-trojobal
   title: Proč trojobal odpadá?
   summary: "Mokré maso, slabá vrstva mouky nebo moc studený tuk."
   category: frying
-  related: [breading, oil, egg]
-- slug: dumplings-fall-apart
+  related: [trojobal, olej, vejce]
+- slug: rozpadle-knedliky
   title: Proč se knedlíky rozpadají?
   summary: "Řídké těsto, prudký var nebo moc vody."
   category: dough-problems
-  related: [simmering, flour, potatoes, plum]
-- slug: cookies-spread
+  related: [mirny-var, mouka, brambory, svestky]
+- slug: roztekle-cukrovi
   title: Proč se cukroví rozteklo?
   summary: "Teplé máslo, moc cukru nebo studená trouba."
   category: dough-problems
-  related: [butter, sugar, oven]
+  related: [maslo, cukr, trouba]

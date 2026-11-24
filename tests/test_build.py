@@ -43,7 +43,7 @@ changes:
 ---
 ## Postup
 
-1. Uvař [[stock|vývar]] a [[braising]].
+1. Uvař [[stock|vývar]] a [[duseni]].
 2. Osol.
 
 ## Poznámky
@@ -59,7 +59,7 @@ def write(root: Path, rel: str, text: str) -> None:
 
 
 def add_recipe(root, slug="polevka", status="draft", groups="polevky",
-               items="      - { qty: 2, unit: lzice, item: onion }\n      - { qty: 500, unit: ml, item: stock }"):
+               items="      - { qty: 2, unit: lzice, item: cibule }\n      - { qty: 500, unit: ml, item: stock }"):
     write(root, f"content/recepty/{slug}.md", RECIPE.format(status=status, groups=groups, items=items))
 
 
@@ -67,14 +67,14 @@ def add_recipe(root, slug="polevka", status="draft", groups="polevky",
 def site_root(tmp_path: Path) -> Path:
     shutil.copytree(ROOT / "data", tmp_path / "data")
     write(tmp_path, "catalog/metody.yaml", """
-        - { slug: braising, title: Dušení, summary: Pomalu., category: moist-heat }
-        - { slug: browning, title: Hnědnutí, summary: Kůrka., category: dry-heat }
+        - { slug: duseni, title: Dušení, summary: Pomalu., category: moist-heat }
+        - { slug: hnednuti-masa, title: Hnědnutí, summary: Kůrka., category: dry-heat }
     """)
     write(tmp_path, "catalog/suroviny.yaml", """
-        - { slug: onion, title: Cibule, summary: Ostrá., category: vegetables, animal: none, season: all-year }
-        - { slug: butter, title: Máslo, summary: Tuk., category: fats, animal: dairy, season: all-year, allergens: [milk] }
+        - { slug: cibule, title: Cibule, summary: Ostrá., category: vegetables, animal: none, season: all-year }
+        - { slug: maslo, title: Máslo, summary: Tuk., category: fats, animal: dairy, season: all-year, allergens: [milk] }
         - { slug: bones, title: Kosti, summary: Na vývar., category: meat, animal: meat, season: [10, 11] }
-        - { slug: celeriac, title: Celer, summary: Vůně., category: vegetables, animal: none, season: [9, 10], allergens: [celery] }
+        - { slug: celer, title: Celer, summary: Vůně., category: vegetables, animal: none, season: [9, 10], allergens: [celery] }
     """)
     write(tmp_path, "catalog/vybaveni.yaml", "[]\n")
     write(tmp_path, "catalog/reseni-problemu.yaml", "[]\n")
@@ -83,11 +83,11 @@ def site_root(tmp_path: Path) -> Path:
         - { slug: polevky, kind: course, title: Polévky }
     """)
     write(tmp_path, "banners/_planned.svg", SVG)
-    write(tmp_path, "banners/braising.svg", SVG)
-    write(tmp_path, "content/metody/braising.md", "Dusí se [[browning|po opečení]].\n")
+    write(tmp_path, "banners/duseni.svg", SVG)
+    write(tmp_path, "content/metody/duseni.md", "Dusí se [[hnednuti-masa|po opečení]].\n")
     write(tmp_path, "content/recepty/stock.md", RECIPE.format(
         status="draft", groups="zaklady",
-        items="      - { qty: 1, unit: kg, item: bones }\n      - { qty: 100, unit: g, item: celeriac }",
+        items="      - { qty: 1, unit: kg, item: bones }\n      - { qty: 100, unit: g, item: celer }",
     ).replace("[[stock|vývar]] a ", ""))
     return tmp_path
 
@@ -103,14 +103,14 @@ def problems(root: Path) -> str:
 
 def test_explainer_is_written_only_when_its_file_exists(site_root):
     site = build.load_site(site_root)
-    assert site.pages["braising"].written
-    assert not site.pages["browning"].written
-    assert [p.slug for p in site.sections[0].pages] == ["braising", "browning"]
+    assert site.pages["duseni"].written
+    assert not site.pages["hnednuti-masa"].written
+    assert [p.slug for p in site.sections[0].pages] == ["duseni", "hnednuti-masa"]
 
 
 def test_the_build_lists_every_problem_at_once(site_root):
-    add_recipe(site_root, items="      - { qty: 2, unit: cup, item: onion }\n      - { qty: 1, unit: g, item: ghost }")
-    write(site_root, "content/metody/braising.md", "See [[nowhere]].\n")
+    add_recipe(site_root, items="      - { qty: 2, unit: cup, item: cibule }\n      - { qty: 1, unit: g, item: ghost }")
+    write(site_root, "content/metody/duseni.md", "See [[nowhere]].\n")
     text = problems(site_root)
     assert "unknown unit cup" in text  # US units are for the converter only
     assert "links to unknown [[nowhere]]" in text
@@ -129,8 +129,8 @@ def test_a_tested_recipe_needs_a_photo(site_root):
 
 
 def test_slugs_are_unique_across_recipes_and_explainers(site_root):
-    add_recipe(site_root, slug="onion")
-    assert "slug onion is already used" in problems(site_root)
+    add_recipe(site_root, slug="cibule")
+    assert "slug cibule is already used" in problems(site_root)
 
 
 def test_explainer_file_must_be_in_its_catalog(site_root):
@@ -139,8 +139,8 @@ def test_explainer_file_must_be_in_its_catalog(site_root):
 
 
 def test_written_explainer_needs_a_banner(site_root):
-    (site_root / "banners" / "braising.svg").unlink()
-    assert "braising: written explainer has no banner" in problems(site_root)
+    (site_root / "banners" / "duseni.svg").unlink()
+    assert "duseni: written explainer has no banner" in problems(site_root)
 
 
 # ---------------------------------------------------------------- derived data
@@ -153,12 +153,12 @@ def test_allergens_and_diet_pass_through_a_basic(site_root):
     assert stock.is_basic and stock.allergens == ["celery"] and stock.diet == []
     assert soup.allergens == ["celery"] and soup.diet == []
     assert site.pages["stock"].backlinks == ["polevka"]  # used as an ingredient
-    assert site.pages["onion"].backlinks == ["polevka"]
+    assert site.pages["cibule"].backlinks == ["polevka"]
 
 
 def test_diet_is_vegetarian_with_dairy_and_vegan_without(site_root):
-    add_recipe(site_root, slug="maslova", items="      - { qty: 50, unit: g, item: butter }")
-    add_recipe(site_root, slug="cibulova", items="      - { qty: 50, unit: g, item: onion }")
+    add_recipe(site_root, slug="maslova", items="      - { qty: 50, unit: g, item: maslo }")
+    add_recipe(site_root, slug="cibulova", items="      - { qty: 50, unit: g, item: cibule }")
     site = build.load_site(site_root)
     assert site.pages["maslova"].diet == ["vegetarian"]
     assert site.pages["maslova"].allergens == ["milk"]
@@ -212,7 +212,7 @@ def test_body_rendering_adds_design_hooks(site_root):
     html = build.render_body(site, site.pages["polevka"], "../")
     assert '<h2 class="c-tomato">Postup</h2>\n<ol class="steps">' in html
     assert '<a class="site-link is-draft" data-slug="stock" href="../recepty/stock.html">vývar</a>' in html
-    assert '<a class="site-link is-written" data-slug="braising" href="../metody/braising.html">dušení</a>' in html
+    assert '<a class="site-link is-written" data-slug="duseni" href="../metody/duseni.html">dušení</a>' in html
     assert '<p class="handnote">Poznámka.</p>' in html
 
 
@@ -221,7 +221,7 @@ def test_recipe_jsonld_lists_steps_and_ingredients(site_root):
     site = build.load_site(site_root)
     data = json.loads(build.recipe_jsonld(site, site.pages["polevka"]))
     assert data["@type"] == "Recipe"
-    assert [s["text"] for s in data["recipeInstructions"]] == ["Uvař vývar a braising.", "Osol."]
+    assert [s["text"] for s in data["recipeInstructions"]] == ["Uvař vývar a duseni.", "Osol."]
     assert data["recipeIngredient"] == ["2 lžíce cibule", "500 ml polévka"]
     assert data["totalTime"] == "PT40M"
 
@@ -291,8 +291,8 @@ def test_index_holds_previews_and_filters(real_site):
     data = json.loads(text.removeprefix("window.SITE_INDEX = ").rstrip().rstrip(";"))
     gulas = next(p for p in data["pages"] if p["slug"] == "hovezi-gulas")
     assert gulas["status"] == "draft" and "celery" in gulas["allergens"]
-    braising = next(p for p in data["pages"] if p["slug"] == "braising")
-    assert data["banners"][braising["banner"]].startswith("<svg")
+    duseni = next(p for p in data["pages"] if p["slug"] == "duseni")
+    assert data["banners"][duseni["banner"]].startswith("<svg")
     assert data["units"]["lzice"]["forms"] == ["lžíce", "lžíce", "lžic", "lžíce"]
 
 
@@ -306,9 +306,9 @@ def test_ingredient_section_has_category_and_season_filters(real_site):
     text = (out / "static" / "index.js").read_text(encoding="utf-8")
     data = json.loads(text.removeprefix("window.SITE_INDEX = ").rstrip().rstrip(";"))
     by_slug = {p["slug"]: p for p in data["pages"]}
-    assert by_slug["pumpkin"]["category"] == "vegetables" and by_slug["pumpkin"]["season"] == [9, 10, 11]
-    assert by_slug["salt"]["season"] == "all-year"
-    assert "season" not in by_slug["braising"]
+    assert by_slug["dyne"]["category"] == "vegetables" and by_slug["dyne"]["season"] == [9, 10, 11]
+    assert by_slug["sul"]["season"] == "all-year"
+    assert "season" not in by_slug["duseni"]
 
     html = (out / "suroviny" / "index.html").read_text(encoding="utf-8")
     assert 'class="filters"' in html and 'class="grid4 filter-list"' in html
