@@ -5,10 +5,7 @@
 <section class="hero">
   <div>
     <h1>Co dnes uvaříme?</h1>
-    <p>Recepty, které vařím doma, a vysvětlení, proč fungují. Každý recept začíná jako koncept. Až ho uvařím a vyfotím, je otestovaný.</p>
-    <p>K receptům patří stránky o metodách, surovinách, vybavení a o tom, co se může pokazit.</p>
     <div class="dots" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
-    <span class="aside">↓ nejdřív to nejnovější</span>
   </div>
   <aside class="log" aria-labelledby="log-h">
     <h2 id="log-h">Poslední úpravy</h2>
@@ -21,7 +18,7 @@
 </section>
 
 <section class="c-tomato" aria-labelledby="new-h">
-  <h2 class="h2" id="new-h">Nejnovější recepty <small>{{ [8, site.recipes|length]|min }} z {{ site.recipes|length }}</small><a href="{{ root }}recepty/index.html">Všechny recepty →</a></h2>
+  <h2 class="h2" id="new-h">Nejnovější recepty<a href="{{ root }}recepty/index.html">Všechny recepty →</a></h2>
   {{ cards(site, site.recipes[:8], root) }}
 </section>
 

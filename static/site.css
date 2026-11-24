@@ -67,7 +67,6 @@ img { max-width: 100%; }
 .logo { text-decoration: none; display: flex; align-items: center; gap: 12px; line-height: 1; }
 .logo .mark { width: 44px; height: 44px; border-radius: 50%; background: var(--tomato); border: 2.5px solid var(--ink); display: flex; align-items: center; justify-content: center; color: var(--on-tomato); flex: none; }
 .logo b { font: 400 34px var(--font-hand); display: block; }
-.logo i { font: 600 19px var(--font-note); color: var(--accent); display: block; margin-top: 2px; font-style: normal; }
 .search { flex: 1; max-width: 420px; margin-left: auto; position: relative; }
 .search > svg { position: absolute; left: 13px; top: 13px; pointer-events: none; }
 .search__input { width: 100%; font: inherit; color: var(--ink); background: var(--card); border: 2.5px solid var(--ink); border-radius: 22px 18px 24px 20px; padding: 8px 14px 8px 38px; min-height: 44px; }
@@ -150,12 +149,10 @@ html:not(.js) .theme { display: none; }
 /* ---------- home */
 .hero { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: 40px; padding: 32px 0 36px; align-items: start; }
 .hero h1 { font: 400 62px/1.02 var(--font-hand); margin: 0 0 16px; }
-.hero p { margin: 0 0 10px; max-width: 56ch; color: var(--ink2); }
 .dots { display: flex; gap: 8px; margin: 14px 0 0; }
 .dots i { width: 18px; height: 18px; border-radius: 50%; border: 2.5px solid var(--ink); }
 .dots i:nth-child(1) { background: var(--tomato); } .dots i:nth-child(2) { background: var(--mint); }
 .dots i:nth-child(3) { background: var(--mustard); } .dots i:nth-child(4) { background: var(--cobalt); }
-.aside { font: 600 22px var(--font-note); color: var(--accent); transform: rotate(-1.5deg); display: inline-block; margin-top: 10px; }
 .log { --c: var(--tomato); position: relative; border: 2.5px solid var(--ink); background: var(--card); padding: 14px 16px 8px; border-radius: 6px 4px 7px 5px; box-shadow: 5px 5px 0 var(--mustard); }
 .log h2 { font: 400 25px var(--font-hand); margin: 0 0 4px; }
 .log ol { list-style: none; margin: 0; padding: 0; }
@@ -344,7 +341,6 @@ html:not(.js) .scaler button { display: none; }
   .wrap { padding: 0 16px; }
   .top { flex-wrap: wrap; gap: 12px; }
   .logo b { font-size: 27px; }
-  .logo i { font-size: 17px; }
   .search { order: 3; max-width: none; flex-basis: 100%; }
   .theme { margin-left: auto; padding: 0; justify-content: center; }
   .theme__label { display: none; }

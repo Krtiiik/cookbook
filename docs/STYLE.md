@@ -101,7 +101,7 @@ body {
 | Box h2 (ingredients, side boxes) | hand | 26–32px |
 | Card title | hand | 22–23px |
 | Nav item | hand | 22px |
-| Logo | hand 34px + note 19px tagline |
+| Logo | hand 34px |
 | Labels, dates, fact names | note 600 | 17–21px |
 | Body | body | 16px / 1.5; prose 17px / 1.6 |
 | Lead (summary under title) | body | 18–19px, `--ink2` |
@@ -122,7 +122,7 @@ body {
 ### Header and navigation
 
 - **Top row:** logo, search, theme switch, with a 2.5px ink rule under it.
-  - **Logo:** a 44px tomato circle with a white icon of a chef's hat on a molehill (a nod to "Krtkova") (inline SVG, `aria-hidden`), then "Krtkova Kuchařka" (hand 34px) and the tagline "sešit receptů a poznámek" (note 19px, `--accent`).
+  - **Logo:** a 44px tomato circle with a white icon of a chef's hat on a molehill (a nod to "Krtkova") (inline SVG, `aria-hidden`), then "Krtkova Kuchařka" (hand 34px). The tagline from `data/site.yaml` is only the meta description, not shown in the header.
   - **Search** `.search`: a pill input with a 2.5px ink border on `--card` and a magnifier icon inside on the left. The placeholder is "Hledej recept, surovinu, postup…". Results (`ol.search__results`) open below it as a card with a 5px mustard shadow.
   - **Theme switch** `button.theme[data-theme-current]`: a cobalt-filled pill (`--on-cobalt` text) with a 3px mustard shadow. It cycles system → light → dark. The icon is a half-filled circle, a sun or a moon. The label is "Auto", "Světlý" or "Tmavý" in Caveat. Its `aria-label` and `title` are "Motiv: podle systému. Přepni." (and the same for the other states).
 - **Nav row:** Recepty, Metody, Suroviny, Vybavení, Řešení problémů (hand 22px). A secondary group (Skupiny, Základy, Reference, O webu) sits at the right in body 15px, muted, with a dotted underline. A 1.5px dashed rule is under the row.
@@ -148,8 +148,8 @@ body {
 
 ### Home
 
-- **Hero:** h1 "Co dnes uvaříme?", 2 short paragraphs and a row of 4 colour dots (tomato, mint, mustard, cobalt) as decoration. On the right is "Poslední úpravy", a card with a tomato tape strip and a mustard shadow, listing the latest `changes` (date in Caveat `--accent`, title link, note).
-- **"Nejnovější recepty":** a grid of 4 columns (8 cards).
+- **Hero:** h1 "Co dnes uvaříme?" and a row of 4 colour dots (tomato, mint, mustard, cobalt) as decoration. On the right is "Poslední úpravy", a card with a tomato tape strip and a mustard shadow, listing the latest `changes` (date in Caveat `--accent`, title link, note).
+- **"Nejnovější recepty":** a grid of 4 columns (8 cards), with no count next to the heading.
 - **"Jak a proč":** 4 section boxes, each in its section colour (tape, shadow, progress bar fill). Each box has the title, a bar "napsáno N z M" (10px, 2px ink border, paper background), and 4 explainer links. Planned links get "zatím nenapsáno" in Caveat.
 - **"Skupiny":** 2 columns, "Druh jídla" (course) and "Příležitost" (occasion). Chips are 44px pills with a colour dot.
 
