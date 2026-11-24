@@ -13,3 +13,23 @@
   summary: "Kdy se vyplatí a jak s ním změřit maso, ohřáté jídlo, cukr a olej: vpichový, do trouby s kabelem, cukrářský."
   category: tools
   related: [simmering, oil, sugar]
+- slug: oven
+  title: Trouba a pekáč
+  summary: "Horní a spodní ohřev, horkovzduch, pekáč a plech. Proč trouba nepeče, jak ukazuje."
+  category: pots
+  related: [roasting, thermometer, dutch-oven]
+- slug: frying-pan
+  title: Pánev
+  summary: "Nerezová, litinová, ocelová a nepřilnavá: která na co a jak se o ni starat."
+  category: pots
+  related: [browning, breading, oil, butter]
+- slug: sieve
+  title: Sítko, cedník a plátýnko
+  summary: "Na scezení, prolisování a čistý vývar."
+  category: tools
+  related: [simmering, bay-leaf, flour]
+- slug: blender
+  title: Tyčový mixér
+  summary: "Na krémové polévky a omáčky v hrnci. Jak mixovat horké, aby nestříkalo."
+  category: tools
+  related: [pumpkin, sweating]

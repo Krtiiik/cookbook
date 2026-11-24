@@ -23,3 +23,13 @@
   summary: "Hladina je skoro klidná, jen občas vystoupí bublinka."
   category: moist-heat
   related: [braising, thermometer, water]
+- slug: breading
+  title: Trojobal a smažení
+  summary: "Mouka, vejce, strouhanka a tuk na správnou teplotu: řízek, kapr, smažený sýr."
+  category: dry-heat
+  related: [flour, egg, oil, lard, thermometer]
+- slug: roasting
+  title: Pečení masa v troubě
+  summary: "Teplota, podlévání a odpočinek: pečeně, krkovice a kachna."
+  category: dry-heat
+  related: [browning, oven, thermometer, braising]

@@ -6,6 +6,7 @@
 - { slug: beef-cheeks, title: Hovězí líčka, summary: "Hodně kolagenu. Po dlouhém dušení se dají rozdělit lžící, šťáva je skoro rosolovitá.", category: meat, animal: meat, season: all-year, substitutes: [beef-shank, oxtail, beef-chuck] }
 - { slug: oxtail, title: Oháňka, summary: "Hodně kosti a kolagenu, málo masa. Na omáčku a polévku.", category: meat, animal: meat, season: all-year, substitutes: [beef-shank, beef-cheeks, beef-bones] }
 - { slug: beef-bones, title: Hovězí kosti, summary: "Základ vývaru. Morkové dávají chuť, kloubní želatinu.", category: meat, animal: meat, season: all-year, substitutes: [oxtail, beef-shank] }
+- { slug: pork-neck, title: Vepřová krkovice, summary: "Prorostlé maso z krku, nevysychá. Na pečeni, plátky na gril a do guláše.", category: meat, animal: meat, season: all-year }
 - { slug: onion, title: Cibule, summary: "Základ české kuchyně, od cibulky do polévky po guláš. Syrová ostrá, opékaná sladká.", category: vegetables, animal: none, season: [7, 8, 9, 10, 11, 12, 1, 2, 3], substitutes: [shallot, leek] }
 - { slug: shallot, title: Šalotka, summary: "Jemnější a sladší než cibule. V české kuchyni doplněk do salátů a jemných omáček, jinak stačí cibule.", category: vegetables, animal: none, season: all-year, substitutes: [onion, leek] }
 - { slug: leek, title: Pórek, summary: "Jemnější než cibule. Bílá a světle zelená část do polévek, tmavě zelené listy do vývaru. Písek vymyj až po nakrájení.", category: vegetables, animal: none, season: [7, 8, 9, 10, 11, 12, 1, 2, 3, 4], substitutes: [onion, shallot] }
@@ -13,15 +14,19 @@
 - { slug: carrot, title: Mrkev, summary: "Sladká kořenová zelenina do vývarů a omáček.", category: vegetables, animal: none, season: all-year, substitutes: [parsley-root] }
 - { slug: celeriac, title: Celer bulvový, summary: "Kořenová zelenina s výraznou vůní. Alergen (celer).", category: vegetables, animal: none, season: [8, 9, 10, 11, 12, 1, 2, 3, 4], allergens: [celery], substitutes: [parsley-root, carrot] }
 - { slug: parsley-root, title: Petržel kořenová, summary: "Bílý kořen s vůní petrželky, kořenitější než mrkev.", category: vegetables, animal: none, season: [8, 9, 10, 11, 12, 1, 2, 3, 4], substitutes: [carrot, celeriac] }
+- { slug: sauerkraut, title: Kysané zelí, summary: "Zelí kvašené se solí, ke knedlíku a do zelňačky. Propláchnout, nebo ne.", category: vegetables, animal: none, season: all-year }
 - { slug: pumpkin, title: Dýně, summary: "Hokkaido se nemusí loupat. Hořkou dýni nejez, vyhoď celou.", category: vegetables, animal: none, season: [9, 10, 11], substitutes: [carrot] }
 - { slug: tomato, title: Rajčata, summary: "Nejlepší v létě. V zimě raději z plechovky.", category: vegetables, animal: none, season: [7, 8, 9], substitutes: [tomato-paste] }
 - { slug: asparagus, title: Chřest, summary: "Jarní zelenina z Polabí a jižní Moravy. Bílý se loupe celý, zelený jen dole.", category: vegetables, animal: none, season: [4, 5, 6] }
 - { slug: wild-garlic, title: Medvědí česnek, summary: "Jarní bylina s česnekovou vůní. Má jedovaté dvojníky: konvalinku, ocún a árón.", category: herbs, animal: none, season: [3, 4], substitutes: [garlic] }
 - { slug: strawberry, title: Jahody, summary: "Domácí jen několik týdnů v roce.", category: fruit, animal: none, season: [5, 6, 7], substitutes: [plum] }
 - { slug: apple, title: Jablka, summary: "Zimní odrůdy vydrží ve sklepě do jara. Kyselá na pečení, sladká syrová.", category: fruit, animal: none, season: [8, 9, 10, 11], substitutes: [plum] }
-- { slug: plum, title: Švestky, summary: "Švestka domácí na knedlíky, koláč a povidla. Povidla se vaří bez cukru.", category: fruit, animal: none, season: [8, 9, 10], substitutes: [strawberry, apple] }
+- { slug: plum, title: Švestky, summary: "Švestka domácí na knedlíky, koláč a povidla. Povidla se vaří bez cukru.", category: fruit, animal: none, season: [8, 9, 10], substitutes: [apple, strawberry] }
+- { slug: lemon, title: Citron, summary: "Šťáva na kyselost a proti hnědnutí, kůra na vůni. K rybě a do čaje.", category: fruit, animal: none, season: all-year, substitutes: [vinegar] }
+- { slug: cranberries, title: Brusinky, summary: "Zavařené ke svíčkové a ke zvěřině, sušené do pečiva.", category: fruit, animal: none, season: all-year }
 - { slug: porcini, title: Hřiby, summary: "Čerstvé od června do října, sušené a mražené celý rok. Sbírej jen to, co poznáš na 100 %.", category: mushrooms, animal: none, season: [6, 7, 8, 9, 10] }
 - { slug: carp, title: Kapr, summary: "Vánoční ryba z českých rybníků.", category: fish, animal: fish, season: [10, 11, 12], allergens: [fish] }
+- { slug: dill, title: Kopr, summary: "Čerstvý do koprovky, kulajdy a k bramborům. Sušený voní méně.", category: herbs, animal: none, season: [5, 6, 7, 8, 9] }
 - { slug: sweet-paprika, title: Sladká paprika, summary: "Mletá paprika z nepálivých odrůd, na barvu a chuť. Na přímém žáru rychle zhořkne.", category: spices, animal: none, season: all-year, substitutes: [smoked-paprika, hot-paprika] }
 - { slug: smoked-paprika, title: Uzená paprika, summary: "Paprika sušená nad kouřem, typicky španělská. Silná, dávkuj opatrně.", category: spices, animal: none, season: all-year, substitutes: [sweet-paprika, hot-paprika] }
 - { slug: hot-paprika, title: Pálivá paprika, summary: "Mletá paprika z pálivých odrůd. Na ostrost, ne na barvu.", category: spices, animal: none, season: all-year, substitutes: [sweet-paprika, smoked-paprika] }
@@ -30,15 +35,25 @@
 - { slug: bay-leaf, title: Bobkový list, summary: "Do vývarů a omáček, před podáváním vyndej.", category: spices, animal: none, season: all-year }
 - { slug: peppercorns, title: Černý pepř, summary: "Celý do vývaru, svíčkové a nálevů, mletý na dochucení. Jak skladovat koření a kdy celé, kdy mleté.", category: spices, animal: none, season: all-year }
 - { slug: allspice, title: Nové koření, summary: "Celé kuličky do vývaru, svíčkové a nálevů. Voní po hřebíčku, nepálí jako pepř.", category: spices, animal: none, season: all-year }
+- { slug: vanilla, title: Vanilka, summary: "Pravá vanilka, vanilkový a vanilinový cukr. Do cukroví, krémů a mléčné rýže.", category: spices, animal: none, season: all-year }
 - { slug: salt, title: Sůl, summary: "Dochutí jídlo a vytáhne vodu. Kdy solit, záleží na jídle; vývar až na konci.", category: pantry, animal: none, season: all-year, density: 1.2 }
 - { slug: water, title: Voda, summary: "Pitná voda z kohoutku. Studenou zalij vývar a brambory, horkou dolévej.", category: pantry, animal: none, season: all-year, density: 1 }
 - { slug: tomato-paste, title: Rajčatový protlak, summary: "Zahuštěná rajčata. Krátce opeč, ztmavne a ztratí syrovou chuť.", category: pantry, animal: none, season: all-year, substitutes: [tomato] }
+- { slug: vinegar, title: Ocet, summary: "Kvasný lihový do nálevů a salátů, vinný a jablečný jemnější.", category: pantry, animal: none, season: all-year, density: 1, substitutes: [lemon] }
+- { slug: mustard, title: Hořčice, summary: "Plnotučná do omáček, k uzeninám a do majonézy. Alergen (hořčice).", category: pantry, animal: none, season: all-year, allergens: [mustard] }
 - { slug: lard, title: Sádlo, summary: "Vepřový tuk, tradiční v české kuchyni. Snese střední až vysoký oheň.", category: fats, animal: meat, season: all-year, substitutes: [oil, butter] }
 - { slug: oil, title: Olej, summary: "Rafinovaný snese vysokou teplotu, panenský raději za studena.", category: fats, animal: none, season: all-year, density: 0.92, substitutes: [lard, butter] }
 - { slug: butter, title: Máslo, summary: "Obyčejné na chuť a na mírný až střední oheň. Přepuštěné snese vysokou teplotu.", category: fats, animal: dairy, season: all-year, allergens: [milk], density: 0.96, substitutes: [oil, lard] }
 - { slug: milk, title: Mléko, summary: "Plnotučné do kaše a omáček. Ohřívej pomalu, kyselinu přidej až na konci.", category: dairy, animal: dairy, season: all-year, allergens: [milk], density: 1.03 }
+- { slug: cream, title: Smetana, summary: "Ke šlehání, na vaření a zakysaná: která do omáčky, aby se nesrazila.", category: dairy, animal: dairy, season: all-year, allergens: [milk], density: 1, substitutes: [milk] }
+- { slug: quark, title: Tvaroh, summary: "Měkký ve vaničce, tvrdý na strouhání. Do pomazánek, knedlíků a koláčů.", category: dairy, animal: dairy, season: all-year, allergens: [milk] }
+- { slug: egg, title: Vejce, summary: "Velikosti, čerstvost, syrová vejce a vajíčka do těsta. Alergen (vejce).", category: eggs, animal: egg, season: all-year, allergens: [eggs] }
 - { slug: potatoes, title: Brambory, summary: "Moučné (typ C) na kaši, pevné (typ A) do salátu.", category: vegetables, animal: none, season: all-year, substitutes: [celeriac, rice] }
-- { slug: flour, title: Hladká mouka, summary: "Pšeničná mouka na jíšku, zahuštění polévek a omáček, trojobal a těsto.", category: flour, animal: none, season: all-year, allergens: [gluten], density: 0.53 }
+- { slug: flour, title: Mouka, summary: "Hladká, polohrubá a hrubá: na jíšku, zahuštění, trojobal a těsto.", category: flour, animal: none, season: all-year, allergens: [gluten], density: 0.53 }
+- { slug: yeast, title: Droždí, summary: "Čerstvé a sušené. Kvásek, teplota a proč těsto nekyne.", category: flour, animal: none, season: all-year }
+- { slug: bread, title: Chléb a pečivo, summary: "Chléb, housky a rohlíky. Starší pečivo do knedlíků, na topinky a strouhanku.", category: flour, animal: none, season: all-year, allergens: [gluten] }
 - { slug: sugar, title: Cukr krupice, summary: "Jemný bílý cukr, v českých receptech prostě „cukr“. Na pečení, dochucení kyselých jídel, karamel a džem.", category: pantry, animal: none, season: all-year, density: 0.85, substitutes: [honey] }
 - { slug: rice, title: Rýže, summary: "Dlouhozrnná jako příloha a do domácího rizota, kulatozrnná do mléčné rýže a nákypu.", category: flour, animal: none, season: all-year, density: 0.78, substitutes: [potatoes] }
 - { slug: honey, title: Med, summary: "Květový, lesní i pastovaný. Krystalizace je normální, dětem do 1 roku med nedávej.", category: pantry, animal: honey, season: all-year, density: 1.42, substitutes: [sugar] }
+- { slug: nuts, title: Ořechy, summary: "Vlašské, lískové a mandle. Pražení, mletí a skladování. Alergen (skořápkové plody).", category: nuts, animal: none, season: all-year, allergens: [nuts] }
+- { slug: poppy-seed, title: Mák, summary: "Modrý mák mletý do buchet a koláčů. Mlít až těsně před použitím.", category: nuts, animal: none, season: all-year }

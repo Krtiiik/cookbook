@@ -13,3 +13,18 @@
   summary: "Moc silný oheň nebo černý výpek. Černou cibuli nezachráníš, světlou kolem ní ano."
   category: vegetable-problems
   related: [caramelising, sweating, bitter-paprika, browning]
+- slug: breading-falls-off
+  title: Proč trojobal odpadá?
+  summary: "Mokré maso, slabá vrstva mouky nebo moc studený tuk."
+  category: frying
+  related: [breading, oil, egg]
+- slug: dumplings-fall-apart
+  title: Proč se knedlíky rozpadají?
+  summary: "Řídké těsto, prudký var nebo moc vody."
+  category: dough-problems
+  related: [simmering, flour, potatoes, plum]
+- slug: cookies-spread
+  title: Proč se cukroví rozteklo?
+  summary: "Teplé máslo, moc cukru nebo studená trouba."
+  category: dough-problems
+  related: [butter, sugar, oven]

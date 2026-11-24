@@ -17,6 +17,8 @@ categories:
   fish: ryby
   meat: maso
   dairy: mléčné výrobky
+  eggs: vejce
+  nuts: ořechy a semínka
   spices: koření
   flour: mouka a obiloviny
   fats: tuky
@@ -32,3 +34,5 @@ categories:
   sauces: omáčky
   meat-problems: maso
   vegetable-problems: zelenina
+  frying: smažení
+  dough-problems: těsto a pečivo
