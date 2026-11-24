@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Kuchyňský kohoutek, ze kterého teče studená voda tenkým proudem do hrnce, na hladině se kroužkují vlnky">
+  <style>.ripple{animation:ripple-pulse 2.6s ease-in-out infinite}.ripple:nth-of-type(2){animation-delay:1.3s}.drop{animation:drop-fall 2.6s ease-in infinite}@keyframes ripple-pulse{0%{opacity:0}40%{opacity:1}100%{opacity:0}}@keyframes drop-fall{0%{opacity:0;transform:translateY(-6px)}30%{opacity:1}100%{opacity:0;transform:translateY(14px)}}</style>
+  <rect width="1200" height="400" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M60 362 H1140" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-dasharray: 2 12; stroke-linecap: round; opacity: .45"/>
+  <path d="M526 240 q-40 2 -38 24 q2 18 42 14" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 8; stroke-linecap: round"/>
+  <path d="M754 240 q40 2 38 24 q-2 18 -42 14" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 8; stroke-linecap: round"/>
+  <path d="M520 214 L536 316 Q538 334 556 334 L724 334 Q742 334 744 316 L760 214 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <g style="fill: #fff7ea"><circle cx="590" cy="276" r="11"/><circle cx="660" cy="305" r="11"/><circle cx="706" cy="262" r="11"/></g>
+  <ellipse cx="640" cy="214" rx="120" ry="22" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6"/>
+  <ellipse cx="640" cy="219" rx="104" ry="13" style="fill: var(--banner-cool, #1f4fa3); stroke: var(--banner-fg, #1b2a4a); stroke-width: 4"/>
+  <path d="M556 220 q12 -4 24 0 M702 222 q12 -4 24 0" style="fill: none; stroke: var(--banner-bg, #fffaf0); stroke-width: 3; stroke-linecap: round; opacity: .7"/>
+  <path d="M330 352 V170 Q330 112 392 112 H590 Q640 112 640 140" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 28; stroke-linecap: round; stroke-linejoin: round"/>
+  <path d="M330 352 V170 Q330 112 392 112 H590 Q640 112 640 140" style="fill: none; stroke: var(--banner-bg, #fffaf0); stroke-width: 16; stroke-linecap: round; stroke-linejoin: round"/>
+  <path d="M344 200 V150 Q344 126 372 126" style="fill: none; stroke: #fff7ea; stroke-width: 4; stroke-linecap: round; opacity: .8"/>
+  <path d="M330 222 H268" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 26; stroke-linecap: round"/>
+  <path d="M330 222 H268" style="fill: none; stroke: var(--banner-cool, #1f4fa3); stroke-width: 14; stroke-linecap: round"/>
+  <rect x="298" y="322" width="64" height="40" rx="8" style="fill: var(--banner-bg, #fffaf0); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+  <rect x="622" y="136" width="36" height="24" rx="6" style="fill: var(--banner-bg, #fffaf0); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+  <rect x="632" y="160" width="16" height="58" style="fill: var(--banner-cool, #1f4fa3)"/>
+  <path d="M632 160 V218 M648 160 V218" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linecap: round"/>
+  <path d="M638 168 V204" style="fill: none; stroke: var(--banner-bg, #fffaf0); stroke-width: 3; stroke-linecap: round; opacity: .7"/>
+  <ellipse class="ripple" cx="640" cy="221" rx="30" ry="7" style="fill: none; stroke: var(--banner-bg, #fffaf0); stroke-width: 3"/>
+  <ellipse class="ripple" cx="640" cy="221" rx="56" ry="10" style="fill: none; stroke: var(--banner-bg, #fffaf0); stroke-width: 3"/>
+  <g class="drop" style="fill: var(--banner-cool, #1f4fa3); stroke: var(--banner-fg, #1b2a4a); stroke-width: 3">
+    <path d="M668 176 q-7 11 0 14 q7 -3 0 -14 Z"/>
+  </g>
+  <path d="M128 112 q6 74 122 96" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="50" y="96" style="font: 600 40px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">pusť studenou</text>
+  <path d="M846 150 q-50 8 -98 54" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="830" y="128" style="font: 600 40px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">z kohoutku stačí</text>
+</svg>
