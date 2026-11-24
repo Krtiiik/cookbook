@@ -99,7 +99,7 @@ Markdown rendered to HTML: `h2`/`h3`, paragraphs, `ul`/`ol`, `table`, `strong`/`
 - Every written explainer has its own hand-drawn SVG, inlined into the page. Planned explainers share `banners/_planned.svg`.
 - Canvas: `viewBox="0 0 1200 400"` (3:1). Full width at that ratio on explainer pages; cards show the same SVG scaled down.
 - Colours only through CSS custom properties that the design defines for light and dark themes: `--banner-bg`, `--banner-fg`, `--banner-accent`, `--banner-warm` (heat, browning), `--banner-cool` (cold, fresh). Each with a light fallback: `style="fill: var(--banner-bg, #f6f3ee)"`. The design may ask for other variables; the banners follow.
-- Animation is allowed (CSS in the SVG). It must stop under `@media (prefers-reduced-motion: reduce)`.
+- Animation is allowed (CSS in the SVG). It keeps running under `prefers-reduced-motion`.
 - No `id` attributes in banners: many are inlined on one page.
 
 ## Photos

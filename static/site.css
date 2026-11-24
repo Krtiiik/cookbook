@@ -367,9 +367,6 @@ html:not(.js) .scaler button { display: none; }
   .row2 { grid-template-columns: minmax(0, 1fr); }
   .filters .field { min-width: 100%; }
 }
-@media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after { animation: none !important; transition: none !important; }
-}
 @media print {
   .top .search, .theme, .nav, .foot, .scaler button, .link-preview, .block { display: none !important; }
   body { background: #fff; color: #000; }

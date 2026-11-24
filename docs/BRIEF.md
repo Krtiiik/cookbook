@@ -168,7 +168,7 @@ Not in the first phase: USDA nutrition values, Wikidata ids, Open Food Facts.
 
 ## 7. Images
 
-- **Explainers**: every written explainer needs a hand-drawn SVG banner `banners/<slug>.svg`, 3:1, colours only through CSS variables. Animation is allowed and must stop under `prefers-reduced-motion`. Planned pages share one placeholder banner.
+- **Explainers**: every written explainer needs a hand-drawn SVG banner `banners/<slug>.svg`, 3:1, colours only through CSS variables. Animation is allowed and keeps running under `prefers-reduced-motion`. Planned pages share one placeholder banner.
 - **Recipes**: own photos only. Required for `tested`. An import script shrinks the original (about 2000 px long side, WebP) before commit; the build makes smaller sizes. Originals stay outside the repository.
 
 ## 8. Authoring workflow

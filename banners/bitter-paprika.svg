@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Lžíce sype mletou papriku do rozpáleného tuku v hrnci na velkém plameni; paprika na hladině zčerná a stoupá z ní tmavý kouř">
-  <style>.smoke path{animation:smoke-rise 3.4s ease-in-out infinite}.smoke path:nth-child(2){animation-delay:1.1s}.smoke path:nth-child(3){animation-delay:2.2s}@keyframes smoke-rise{0%{opacity:0;transform:translateY(12px)}40%{opacity:.6}100%{opacity:0;transform:translateY(-16px)}}@media (prefers-reduced-motion:reduce){.smoke path{animation:none;opacity:.5}}</style>
+  <style>.smoke path{animation:smoke-rise 3.4s ease-in-out infinite}.smoke path:nth-child(2){animation-delay:1.1s}.smoke path:nth-child(3){animation-delay:2.2s}@keyframes smoke-rise{0%{opacity:0;transform:translateY(12px)}40%{opacity:.6}100%{opacity:0;transform:translateY(-16px)}}</style>
   <rect width="1200" height="400" style="fill: var(--banner-bg, #fffaf0)"/>
   <path d="M60 362 H1140" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-dasharray: 2 12; stroke-linecap: round; opacity: .45"/>
   <path d="M465 376 q15-96 30 0 q15-118 30 0 q15-100 30 0 q15-124 30 0 q15-102 30 0 q15-120 30 0 q15-98 30 0 q15-116 30 0 q15-94 30 0 Z" style="fill: var(--banner-warm, #e9b44c); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>

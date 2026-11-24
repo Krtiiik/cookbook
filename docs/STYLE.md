@@ -197,7 +197,7 @@ A card 340px wide: 2.5px ink border, mustard shadow, uneven radius. A grid with 
 
 Banners follow SPEC.md (viewBox 1200×400, colours only through `--banner-*`, no `id`).
 - **Drawing:** ink outlines (`--banner-fg`, stroke 5–6) with flat enamel fills (`--banner-accent` body, `--banner-cool` lid, `--banner-warm` flame). Add white enamel dots on the pot and Caveat annotations with thin curved leader lines.
-- **Animation:** only gentle steam (opacity and translateY, 3.4s, staggered). It stops under `prefers-reduced-motion: reduce`.
+- **Animation:** only gentle steam (opacity and translateY, 3.4s, staggered). It keeps running under `prefers-reduced-motion: reduce`.
 - **`_planned.svg`:** a dashed rounded frame at 35% opacity, a few faded dots and a faded pencil outline.
 
 ### Converter and calendar pages
@@ -215,7 +215,7 @@ Banners follow SPEC.md (viewBox 1200×400, colours only through `--banner-*`, no
 
 ### Recipe list filters (`form.filters`)
 
-This page is not in the prototype. Use the converter field style: Caveat labels and bordered pill controls, in a card with a cobalt shadow. Put the controls in a wrapping row on desktop. On a phone, collapse the form into a `<details>` with the summary "Filtry". The text for no results is "Nic neodpovídá. Zkus jiný filtr." The box opens and shuts with an accordion fold: four strips tilt back and forth like folded paper (about 0.5s). It runs also under `prefers-reduced-motion: reduce`.
+This page is not in the prototype. Use the converter field style: Caveat labels and bordered pill controls, in a card with a cobalt shadow. Put the controls in a wrapping row on desktop. On a phone, collapse the form into a `<details>` with the summary "Filtry". The text for no results is "Nic neodpovídá. Zkus jiný filtr." The box opens and shuts with an accordion fold: four strips tilt back and forth like folded paper (about 0.5s).
 
 ### Footer
 

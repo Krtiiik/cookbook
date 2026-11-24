@@ -44,13 +44,12 @@ Skip anything tooling already checks. Prefer a rule plus a one-line reason over 
 
 - The build collects problems into a list and raises once at the end; never stop at the first problem.
 - Rounding of scaled amounts must match in `build.py` and `site.js` (half up, step from `units.yaml`).
-- Site UI animation (such as the filter fold) ignores `prefers-reduced-motion`. The owner turns that setting on only to quiet Windows animations, not for a health need. Banners keep their own rule below.
+- Animation and transitions ignore `prefers-reduced-motion`, on the site and in banners. The owner turns that setting on only to quiet Windows animations, not for a health need. Do not add `prefers-reduced-motion` rules.
 - The look follows `docs/STYLE.md`; the classes and data attributes in `SPEC.md` are the contract between templates, CSS and JS.
 
 ## Banners
 
 - 3:1 SVG, colours only through the banner CSS variables in `SPEC.md`, no `id` attributes.
-- Animation must stop under `prefers-reduced-motion`.
 
 ## Testing
 

@@ -17,7 +17,7 @@ You draw banners for Krtkova Kuchařka. A banner is the picture at the top of a 
 - Draw the one idea of the page, as a cook would sketch it in a notebook: one pot on a low flame for braising, one onion and its cut half-moons for onion. Not a whole kitchen.
 - Ink outlines in `--banner-fg` (stroke 5–6), flat enamel fills: `--banner-accent` for the main object, `--banner-cool` for lids, water and cold, `--banner-warm` for flame, heat and browning, `--banner-bg` for the paper. Write every colour as `style="fill: var(--banner-x, <fallback>)"` with the fallback the other banners use.
 - One to three short Czech notes in Caveat (`font: 600 36–40px Caveat, cursive`) with thin curved leader lines, in the owner's voice and in tykání ("jen do půlky masa"). Keep them readable at card size.
-- Animation only as gentle steam or a small flicker, in a `<style>` inside the SVG, and it must stop under `@media (prefers-reduced-motion: reduce)`.
+- Animation only as gentle steam or a small flicker, in a `<style>` inside the SVG. Do not add a `prefers-reduced-motion` rule (see CONVENTIONS.md).
 - Inside the 1200x400 frame with a margin of about 30. No `id` attributes, no external images or fonts.
 - The root `<svg>` has `role="img"` and a Czech `aria-label` that says what the picture shows.
 - A troubleshooting banner shows the problem and its cause, not a disaster: a split sauce next to a too-hot flame.
