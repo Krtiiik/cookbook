@@ -25,10 +25,10 @@
 - { slug: sweet-paprika, title: Sladká paprika, summary: "Mletá paprika z nepálivých odrůd, na barvu a chuť. Na přímém žáru rychle zhořkne.", category: spices, animal: none, season: all-year, substitutes: [smoked-paprika, hot-paprika] }
 - { slug: smoked-paprika, title: Uzená paprika, summary: "Paprika sušená nad kouřem, typicky španělská. Silná, dávkuj opatrně.", category: spices, animal: none, season: all-year, substitutes: [sweet-paprika, hot-paprika] }
 - { slug: hot-paprika, title: Pálivá paprika, summary: "Mletá paprika z pálivých odrůd. Na ostrost, ne na barvu.", category: spices, animal: none, season: all-year, substitutes: [sweet-paprika, smoked-paprika] }
-- { slug: caraway, title: Kmín, summary: "Celý nebo mletý, do guláše, zelí a chleba.", category: spices, animal: none, season: all-year }
-- { slug: marjoram, title: Majoránka, summary: "Sušená do guláše a bramboračky.", category: spices, animal: none, season: all-year }
+- { slug: caraway, title: Kmín, summary: "Celý nebo mletý, do guláše, zelí a chleba. Není to římský kmín. Celý se dá krátce opražit.", category: spices, animal: none, season: all-year }
+- { slug: marjoram, title: Majoránka, summary: "Sušená do guláše, bramboračky a bramboráků. Do polévky 10–15 minut před koncem, promnutá v dlaních.", category: spices, animal: none, season: all-year }
 - { slug: bay-leaf, title: Bobkový list, summary: "Do vývarů a omáček, před podáváním vyndej.", category: spices, animal: none, season: all-year }
-- { slug: peppercorns, title: Černý pepř, summary: "Celý do vývarů, čerstvě mletý na dochucení.", category: spices, animal: none, season: all-year }
+- { slug: peppercorns, title: Černý pepř, summary: "Celý do vývaru, svíčkové a nálevů, mletý na dochucení. Jak skladovat koření a kdy celé, kdy mleté.", category: spices, animal: none, season: all-year }
 - { slug: allspice, title: Nové koření, summary: "Celé kuličky do vývaru, svíčkové a nálevů. Voní mírně po hřebíčku.", category: spices, animal: none, season: all-year }
 - { slug: salt, title: Sůl, summary: "Dochutí jídlo a vytáhne vodu. Kdy solit, záleží na jídle; vývar až na konci.", category: pantry, animal: none, season: all-year, density: 1.2 }
 - { slug: water, title: Voda, summary: "Do vývarů a na podlévání.", category: pantry, animal: none, season: all-year, density: 1 }

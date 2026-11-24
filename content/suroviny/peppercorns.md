@@ -2,7 +2,13 @@
 
 Kuličky černého pepře jsou usušené plody pepřovníku černého, tropické popínavé rostliny. Plody rostou v hroznech jako malé bobule. Ostrost dává látka piperin, vůni éterické oleje ve slupce a v semeni.
 
-Pepř se kupuje celý (kuličky) nebo mletý. V české kuchyni jde celý do vývaru, do svíčkové a do nálevu na okurky, mletý do sekané, bramboráků a skoro každé polévky.
+Pepř se kupuje celý (kuličky) nebo mletý. Česká kuchyně potřebuje obojí:
+
+- **celý** do [[hovezi-vyvar|vývaru]], do svíčkové, do rajské a do zelňačky, do nálevu na okurky a na utopence,
+- **mletý** do sekané, karbanátků, bramboráků a tataráku, na řízky před obalením, do pomazánek a skoro do každé polévky,
+- **na stole** v pepřence vedle solničky: na vejce, na rajčata, na chleba se sádlem, do talíře polévky.
+
+Celý pepř, [[allspice|nové koření]] a [[bay-leaf|bobkový list]] jsou česká trojice do vývaru, svíčkové a nálevů. Jdou do hrnce spolu, celé a na začátku vaření.
 
 ## Druhy
 
@@ -16,6 +22,14 @@ Pepř se kupuje celý (kuličky) nebo mletý. V české kuchyni jde celý do vý
 Směs pepřů obvykle obsahuje černý, bílý, zelený a růžový. Kvůli růžovému se v mlýnku může lepit. Kdo nesmí růžový pepř, nesmí ani tuhle směs.
 
 ## Jak vybrat
+
+V obchodě najdeš pepř v regálu s kořením ve třech podobách:
+
+- **Sáček celého pepře:** nejlevnější, obvykle 20–50 g. Na vývar, svíčkovou a nálevy, a na doplňování mlýnku.
+- **Sáček mletého pepře:** na plnění pepřenky a do směsi na sekanou.
+- **Mlýnek s pepřem:** sklenička nebo plastová dóza s mlecím víčkem, naplněná celým pepřem. Hrubost mletí se u většiny nastavuje otočením víčka. Některé jdou doplnit ze sáčku, jiné jsou na jedno použití. Levné plastové mlýnky často melou nerovnoměrně. Vyplatí se jeden pořádný mlýnek, který doplňuješ ze sáčku celého pepře.
+
+Na co se dívat:
 
 - **Celý pepř:** kuličky stejně velké, tmavé, bez prachu a úlomků na dně balení. Rozdrť jednu kuličku: má hned ostře zavonět.
 - **Mletý pepř:** kupuj malé balení, které spotřebuješ do půl roku, a dívej se na datum. Šedý prach bez vůně už do jídla nic nedá.
@@ -40,18 +54,22 @@ Staré koření bez vůně není nebezpečné, jen slabé. Rozdrť trochu mezi p
 Tohle platí pro každé suché koření, nejen pro pepř:
 
 - **Celé koření** má vůni uzavřenou uvnitř. Drží ji dlouho a pouští ji pomalu, takže se hodí do dlouhého vaření.
-- **Mleté koření** má velký povrch. Vůni pustí hned, ale stejně rychle ji ztrácí na vzduchu, na světle a v teple. Když jím jen dochucuješ, jako pepřem, přidej ho na konci vaření. Výjimka: mletá [[sweet-paprika|paprika]] a mletý [[caraway|kmín]] v guláši jdou do hrnce hned na začátku na tuk, protože tvoří základ omáčky.
+- **Mleté koření** má velký povrch. Vůni pustí hned, ale stejně rychle ji ztrácí na vzduchu, na světle a v teple. Když jím jen dochucuješ, jako pepřem, přidej ho na konci vaření. Výjimka: mletá paprika a mletý [[caraway|kmín]] v guláši jdou do hrnce brzy, na tuk s osmahnutou cibulí, protože tvoří základ omáčky (jak přidat papriku, viz [[sweet-paprika|sladká paprika]]).
 - **Čerstvě namleté** voní nejvíc. Proto si koření, které používáš často, kupuj celé a mel ho až těsně před použitím, v mlýnku na pepř nebo v hmoždíři.
 
 ### Pepř
 
-**Celý pepř na začátku dlouhého vaření.** Do [[hovezi-vyvar|hovězího vývaru]] jde 10 kuliček, jakmile sebereš pěnu a stáhneš oheň. Pak se vaří celé 4 hodiny. Na konci je sceď spolu s ostatním. Do jídla, které nescezuješ, dej kuličky do čajového sítka nebo do plátýnka, ať je pak snadno vyndáš (viz [[bay-leaf|bobkový list]]). Kousnout do celé kuličky není příjemné. Stejně jde celý pepř do svíčkové, kde se peče se zeleninou a masem, a do nálevu na okurky.
+**Celý pepř na začátku dlouhého vaření.** Do [[hovezi-vyvar|hovězího vývaru]] jde 10 kuliček, jakmile sebereš pěnu a stáhneš oheň. Pak se vaří celé 4 hodiny. Na konci je sceď spolu s ostatním. Do jídla, které nescezuješ, dej kuličky do čajového sítka nebo do plátýnka, ať je pak snadno vyndáš (viz [[bay-leaf|bobkový list]]). Kousnout do celé kuličky není příjemné.
 
-Ve vývaru a ve svíčkové bývá vedle pepře i pár kuliček [[allspice|nového koření]]. Přidává se stejně, celé a na začátku, a dává jídlu teplou, mírně hřebíčkovou vůni.
+**Svíčková.** Na svíčkovou dej asi 10 kuliček pepře spolu s pár kuličkami [[allspice|nového koření]] a 2 [[bay-leaf|bobkovými listy]] ke kořenové zelenině a masu, ať už maso nejdřív marinuješ, nebo ho rovnou dusíš. Koření se dusí s masem celou dobu. Než omáčku rozmixuješ, kuličky i listy vylov: rozmixované kuličky by omáčku zbytečně zostřily a zůstaly by v ní tvrdé kousky. Kdo nechce lovit, dá koření do plátýnka.
+
+**Nálevy.** Do nálevu na okurky a na utopence jde celý pepř, nové koření a bobkový list, k tomu cibule, u okurek kopr a hořčičné semínko. Kuličky dej rovnou do sklenice, nebo je svař s nálevem. Vůni pouštějí pomalu, celé dny ve sklenici. Mletý pepř se sem nehodí, zakalil by nálev.
 
 **Rozdrcený pepř na kratší vaření.** Na 30–60 minut vaření nebo do marinády kuličky nejdřív rozdrť: přitlač je plochou stranou [[chefs-knife|nože]] nebo dnem pánve. Pustí vůni rychleji.
 
-**Mletý pepř na konci.** Při delším vaření z něj zůstane jen ostrost. Namel ho do jídla až na konci, nebo až na talíř. Začni málo, promíchej, ochutnej a případně přidej. Spolu s ním dochuť i [[salt|solí]]. Výjimka je syrová směs na sekanou, karbanátky nebo bramboráky: tam mletý pepř přimíchej rovnou, uvnitř směsi se nevyvaří.
+**Mletý pepř na konci.** Při delším vaření z něj zůstane jen ostrost. Namel ho do jídla až na konci, nebo až na talíř. Začni málo, promíchej, ochutnej a případně přidej. Spolu s ním dochuť i [[salt|solí]]. Výjimka je syrová směs na sekanou, karbanátky nebo bramboráky: tam mletý pepř přimíchej rovnou, uvnitř směsi se nevyvaří. Stejně tak řízky: maso osol a opepři, až pak ho obal.
+
+**Pepř na stole.** Pepřenka vedle solničky je česká samozřejmost. Mletý pepř v ní ale zvětrá rychle, protože ji málokdy vyprázdníš celou. Plň ji po malých dávkách, nebo dej na stůl rovnou mlýnek.
 
 **Pepř a opékání masa.** Jemně mletý pepř se na středně vysokém ohni snadno připálí a zhořkne. Maso na [[browning|opékání]] opepři až po opečení, nebo ho opepři před opékáním jen hrubě namletým pepřem a počítej s tím, že trochu ztmavne.
 
