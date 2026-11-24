@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Zleva blok tvrdého tvarohu na papíru, uprostřed kelímek měkkého tvarohu s dřevěnou lžící zapíchnutou do hladké kupky a vpravo miska tvarohové pomazánky posypané nasekanou pažitkou, vedle ní položená stébla pažitky">
+  <rect width="1200" height="400" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M60 362 H1140" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-dasharray: 2 12; stroke-linecap: round; opacity: .45"/>
+
+  <!-- sheet of paper under the block -->
+  <path d="M84 368 L300 368 L356 312 L140 312 Z" style="fill: var(--banner-bg, #fffaf0); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+  <path d="M300 368 L318 350 L338 352 L356 312" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linejoin: round; opacity: .35"/>
+
+  <!-- block of hard quark -->
+  <path d="M280 240 L316 212 L316 322 L280 350 Z" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M280 240 L316 212 L316 322 L280 350 Z" style="fill: var(--banner-warm, #e9b44c); fill: color-mix(in srgb, var(--banner-warm, #e9b44c) 40%, black); opacity: .22"/>
+  <path d="M120 240 L156 212 L316 212 L280 240 Z" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <rect x="120" y="240" width="160" height="110" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <g style="fill: var(--banner-warm, #e9b44c); fill: color-mix(in srgb, var(--banner-warm, #e9b44c) 40%, black); opacity: .5">
+    <circle cx="146" cy="268" r="3"/><circle cx="182" cy="262" r="2.5"/><circle cx="220" cy="272" r="3"/><circle cx="256" cy="262" r="2.5"/>
+    <circle cx="160" cy="298" r="2.5"/><circle cx="198" cy="304" r="3"/><circle cx="236" cy="296" r="2.5"/><circle cx="262" cy="310" r="3"/>
+    <circle cx="144" cy="326" r="3"/><circle cx="182" cy="332" r="2.5"/><circle cx="220" cy="328" r="3"/><circle cx="252" cy="336" r="2.5"/>
+    <circle cx="206" cy="226" r="2.5"/><circle cx="244" cy="224" r="3"/><circle cx="172" cy="226" r="2.5"/><circle cx="288" cy="226" r="2.5"/>
+  </g>
+  <path d="M130 288 q12 -6 22 2 q10 6 20 -2" style="fill: none; stroke: var(--banner-warm, #e9b44c); stroke: color-mix(in srgb, var(--banner-warm, #e9b44c) 40%, black); stroke-width: 3; stroke-linecap: round; opacity: .35"/>
+
+  <!-- tub of soft quark -->
+  <path d="M446 224 L466 340 Q468 352 482 352 L608 352 Q622 352 624 340 L644 224 Z" style="fill: var(--banner-cool, #1f4fa3); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M470 270 L620 270 L616 318 L474 318 Z" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linejoin: round"/>
+  <path d="M492 296 q14 -16 28 0 q14 16 28 0 q14 -16 28 0" style="fill: none; stroke: var(--banner-warm, #e9b44c); stroke: color-mix(in srgb, var(--banner-warm, #e9b44c) 40%, black); stroke-width: 4; stroke-linecap: round"/>
+  <ellipse cx="545" cy="224" rx="100" ry="17" style="fill: var(--banner-cool, #1f4fa3); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6"/>
+  <ellipse cx="545" cy="226" rx="86" ry="10" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4"/>
+  <path d="M476 226 Q480 186 522 178 Q548 156 586 176 Q620 184 616 226 Q545 240 476 226 Z" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+  <path d="M510 196 q14 -10 30 -6 M566 200 q10 -4 20 2" style="fill: none; stroke: var(--banner-warm, #e9b44c); stroke: color-mix(in srgb, var(--banner-warm, #e9b44c) 40%, black); stroke-width: 3; stroke-linecap: round; opacity: .4"/>
+
+  <!-- wooden spoon stuck in the quark -->
+  <g transform="translate(580 206) rotate(34)" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round; stroke-linecap: round">
+    <path d="M-6 -16 L-6 -150 Q0 -158 6 -150 L6 -16 Z" style="fill: var(--banner-warm, #e9b44c); fill: color-mix(in srgb, var(--banner-warm, #e9b44c) 40%, black)"/>
+    <ellipse cx="0" cy="-4" rx="19" ry="27" style="fill: var(--banner-warm, #e9b44c); fill: color-mix(in srgb, var(--banner-warm, #e9b44c) 40%, black)"/>
+    <path d="M-14 -12 Q0 -34 14 -12 Q0 -2 -14 -12 Z" style="fill: #fff7ea; stroke-width: 4"/>
+  </g>
+
+  <!-- bowl of spread with chives -->
+  <g transform="translate(80 0)">
+    <path d="M770 258 H990 Q984 350 880 352 Q776 350 770 258 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+    <g style="fill: #fff7ea"><circle cx="824" cy="296" r="9"/><circle cx="880" cy="326" r="9"/><circle cx="936" cy="298" r="9"/></g>
+    <ellipse cx="880" cy="258" rx="110" ry="17" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6"/>
+    <ellipse cx="880" cy="260" rx="96" ry="10" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4"/>
+    <path d="M798 260 Q818 218 880 220 Q944 218 962 260 Q880 274 798 260 Z" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+    <g style="fill: none; stroke: var(--banner-warm, #e9b44c); stroke: color-mix(in srgb, var(--banner-warm, #e9b44c) 40%, black); stroke-width: 2.5">
+      <circle cx="842" cy="244" r="4.5"/><circle cx="864" cy="234" r="4"/><circle cx="890" cy="240" r="4.5"/><circle cx="916" cy="236" r="4"/>
+      <circle cx="936" cy="252" r="4.5"/><circle cx="826" cy="256" r="4"/><circle cx="878" cy="256" r="4"/><circle cx="906" cy="258" r="4.5"/>
+      <circle cx="852" cy="262" r="4"/><circle cx="928" cy="262" r="4"/>
+    </g>
+    <path d="M866 226 q6 -4 10 0 M820 250 l6 -2 M948 246 l6 2" style="fill: none; stroke: var(--banner-warm, #e9b44c); stroke: color-mix(in srgb, var(--banner-warm, #e9b44c) 40%, black); stroke-width: 3; stroke-linecap: round"/>
+  </g>
+
+  <!-- whole chives beside the bowl -->
+  <g style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linecap: round">
+    <path d="M1076 356 Q1110 340 1150 330"/>
+    <path d="M1074 348 Q1106 326 1142 312"/>
+    <path d="M1078 340 Q1104 318 1130 296"/>
+  </g>
+
+  <!-- notes -->
+  <text x="60" y="76" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">tvrdý se drobí</text>
+  <path d="M170 92 q44 40 40 114" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="700" y="76" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">měkký je krémový</text>
+  <path d="M740 94 q-60 40 -96 114" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="910" y="160" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">přidej pažitku</text>
+  <path d="M960 176 q-4 22 -24 42" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+</svg>
