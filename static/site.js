@@ -195,50 +195,65 @@
     apply();
   })();
 
-  /* ---------- filter box: opens and shuts like a strip of paper folded back and forth.
-     Copies of the body sit in N strips; each tilts by acos(p), so its height on screen
-     is p times its flat height and the strips stay joined in a zigzag. */
+  /* ---------- filter box: the whole card opens and shuts like paper folded back and forth.
+     Copies of the open card are cut into slices: the head (summary) stays flat, the middle
+     is N strips that tilt by acos(p) in a zigzag, and the foot (bottom edge) rides below.
+     A strip tilted by acos(p) is p times its flat height on screen, so the slices stay joined. */
   (function () {
-    var details = $('details.filters-wrap');
-    var body = details && $('.filters__body', details);
-    if (!body) return;
-    var N = 4, MS = 480, busy = false;
+    var card = $('details.filters-wrap');
+    if (!card) return;
+    var N = 4, MS = 480, SHADOW = 8, busy = false;
     function ease(t) { return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(2 - 2 * t, 3) / 2; }
-    function page(i, s, w) {
-      var copy = el('div', 'fold__page');
-      copy.style.width = w + 'px';
-      copy.style.marginTop = -i * s + 'px';
-      Array.prototype.forEach.call(body.children, function (c) { copy.appendChild(c.cloneNode(true)); });
-      var from = $$('select', body), to = $$('select', copy);
+    function copy(w) {
+      var c = card.cloneNode(true);
+      c.open = true;
+      c.style.cssText = 'margin:0;width:' + w + 'px';
+      var from = $$('select', card), to = $$('select', c);
       to.forEach(function (s, k) { s.selectedIndex = from[k].selectedIndex; });
-      $$('[id]', copy).forEach(function (e) { e.removeAttribute('id'); });
-      $$('[aria-live]', copy).forEach(function (e) { e.removeAttribute('aria-live'); });
-      return copy;
+      $$('[id]', c).forEach(function (e) { e.removeAttribute('id'); });
+      $$('[aria-live]', c).forEach(function (e) { e.removeAttribute('aria-live'); });
+      return c;
     }
-    details.querySelector('summary').addEventListener('click', function (e) {
+    function slice(top, h, w) {
+      var s = el('div', 'fold');
+      s.style.height = h + 'px';
+      s.style.width = w + SHADOW + 'px';
+      var c = copy(w);
+      c.style.marginTop = -top + 'px';
+      s.appendChild(c);
+      return s;
+    }
+    card.querySelector('summary').addEventListener('click', function (e) {
       e.preventDefault();
       if (busy) return;
       busy = true;
-      var opening = !details.open;
-      details.open = true;
-      var h = body.offsetHeight, s = h / N, w = body.clientWidth, strips = [];
-      for (var i = 0; i < N; i++) {
-        var strip = el('div', 'fold');
-        strip.setAttribute('aria-hidden', 'true');
-        strip.style.height = s + 'px';
-        strip.appendChild(page(i, s, w));
-        strips.push(strip);
-      }
-      strips.forEach(function (st) { body.appendChild(st); });
-      body.classList.add('is-folding');
+      var opening = !card.open;
+      card.open = false;
+      var shut = card.offsetHeight;
+      card.open = true;
+      var full = card.offsetHeight, w = card.offsetWidth;
+      var cs = getComputedStyle(card);
+      var foot = parseFloat(cs.paddingBottom) + parseFloat(cs.borderBottomWidth);
+      var head = shut - foot, L = full - shut, s = L / N;
+      var layer = el('div', 'fold-layer');
+      layer.setAttribute('aria-hidden', 'true');
+      layer.style.top = -card.clientTop + 'px';
+      layer.style.left = -card.clientLeft + 'px';
+      var strips = [];
+      for (var i = 0; i < N; i++) strips.push(slice(head + i * s, s, w));
+      var footSlice = slice(head + L, foot + SHADOW, w);
+      [slice(0, head, w)].concat(strips, [footSlice]).forEach(function (x) { layer.appendChild(x); });
+      card.appendChild(layer);
+      card.classList.add('is-folding');
       function frame(p) {
         var a = Math.acos(p);
-        body.style.height = h * p + 'px';
+        card.style.height = shut + L * p + 'px';
         strips.forEach(function (st, k) {
-          st.style.top = k * s * p + 'px';
-          st.style.transform = 'perspective(1800px) rotateX(' + (k % 2 ? -a : a) + 'rad)';
+          st.style.top = head + k * s * p + 'px';
+          st.style.transform = 'perspective(1800px) rotateX(' + (k % 2 ? a : -a) + 'rad)';
           st.style.setProperty('--shade', ((1 - p) * (k % 2 ? 0.3 : 0.08)).toFixed(3));
         });
+        footSlice.style.top = head + L * p + 'px';
       }
       frame(opening ? 0 : 1);
       var t0 = null;
@@ -247,10 +262,10 @@
         var t = Math.min(1, (now - t0) / MS), p = ease(t);
         frame(opening ? p : 1 - p);
         if (t < 1) { requestAnimationFrame(step); return; }
-        strips.forEach(function (st) { st.remove(); });
-        body.classList.remove('is-folding');
-        body.style.height = '';
-        if (!opening) details.open = false;
+        card.removeChild(layer);
+        card.classList.remove('is-folding');
+        card.style.height = '';
+        if (!opening) card.open = false;
         busy = false;
       });
     });
