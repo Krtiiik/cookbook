@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Pórek s bílou a zelenou částí, zelený konec je podélně rozříznutý a mezi listy je písek a kapky vody, pod ním tři kolečka, dvě bílá a jedno zelené">
+  <rect width="1200" height="400" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M60 362 H1140" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-dasharray: 2 12; stroke-linecap: round; opacity: .45"/>
+  <path d="M164 170 q-24 -8 -40 -26 M162 182 q-30 -2 -56 -12 M162 194 q-32 4 -60 2 M162 206 q-28 10 -52 20 M164 216 q-20 14 -34 32" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linecap: round"/>
+  <path d="M172 152 L590 152 L590 228 L172 228 Q152 190 172 152 Z" style="fill: #fff7ea"/>
+  <path d="M400 152 Q420 190 400 228 L470 228 L470 152 Z" style="fill: var(--banner-warm, #e9b44c); opacity: .2"/>
+  <path d="M400 152 Q420 190 400 228 L470 228 L470 152 Z" style="fill: var(--banner-cool, #1f4fa3); opacity: .12"/>
+  <path d="M470 152 Q486 190 470 228 L590 228 L590 152 Z" style="fill: var(--banner-warm, #e9b44c)"/>
+  <path d="M470 152 Q486 190 470 228 L590 228 L590 152 Z" style="fill: var(--banner-cool, #1f4fa3); opacity: .4"/>
+  <path d="M220 172 H380 M240 208 H360" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round; opacity: .35"/>
+  <path d="M592 152 L172 152 Q152 190 172 228 L592 228" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round; stroke-linecap: round"/>
+  <g>
+    <path d="M588 152 C700 140 860 100 1020 64 C1032 80 1024 96 1008 104 C860 140 720 172 588 190 Z" style="fill: var(--banner-warm, #e9b44c)"/>
+    <path d="M588 152 C700 140 860 100 1020 64 C1032 80 1024 96 1008 104 C860 140 720 172 588 190 Z" style="fill: var(--banner-cool, #1f4fa3); opacity: .4"/>
+    <path d="M596 163 C720 150 860 112 1008 79 M596 175 C720 162 860 124 1010 92" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round; opacity: .5"/>
+    <path d="M588 152 C700 140 860 100 1020 64 C1032 80 1024 96 1008 104 C860 140 720 172 588 190" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round; stroke-linecap: round"/>
+  </g>
+  <g transform="translate(0 380) scale(1 -1)">
+    <path d="M588 152 C700 140 860 100 1020 64 C1032 80 1024 96 1008 104 C860 140 720 172 588 190 Z" style="fill: var(--banner-warm, #e9b44c)"/>
+    <path d="M588 152 C700 140 860 100 1020 64 C1032 80 1024 96 1008 104 C860 140 720 172 588 190 Z" style="fill: var(--banner-cool, #1f4fa3); opacity: .4"/>
+    <path d="M596 163 C720 150 860 112 1008 79 M596 175 C720 162 860 124 1010 92" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round; opacity: .5"/>
+    <path d="M588 152 C700 140 860 100 1020 64 C1032 80 1024 96 1008 104 C860 140 720 172 588 190" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round; stroke-linecap: round"/>
+  </g>
+  <g style="fill: var(--banner-fg, #1b2a4a)">
+    <circle cx="640" cy="164" r="3.5"/><circle cx="668" cy="158" r="3"/><circle cx="700" cy="167" r="3.5"/><circle cx="736" cy="148" r="3"/><circle cx="770" cy="155" r="3.5"/>
+    <circle cx="646" cy="216" r="3"/><circle cx="684" cy="224" r="3.5"/><circle cx="720" cy="214" r="3"/><circle cx="758" cy="232" r="3.5"/>
+  </g>
+  <g style="fill: var(--banner-cool, #1f4fa3); stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linejoin: round">
+    <path d="M700 182 q-10 14 0 20 q10 -6 0 -20 Z"/>
+    <path d="M790 176 q-12 17 0 24 q12 -7 0 -24 Z"/>
+    <path d="M880 186 q-10 14 0 20 q10 -6 0 -20 Z"/>
+  </g>
+  <g style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 6">
+    <circle cx="236" cy="310" r="34" style="fill: #fff7ea"/>
+    <circle cx="324" cy="310" r="34" style="fill: #fff7ea"/>
+    <circle cx="412" cy="310" r="34" style="fill: var(--banner-warm, #e9b44c)"/>
+  </g>
+  <circle cx="412" cy="310" r="31" style="fill: var(--banner-cool, #1f4fa3); opacity: .4"/>
+  <g style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; opacity: .5">
+    <circle cx="236" cy="310" r="22"/><circle cx="236" cy="310" r="11"/>
+    <circle cx="324" cy="310" r="22"/><circle cx="324" cy="310" r="11"/>
+    <circle cx="412" cy="310" r="22"/><circle cx="412" cy="310" r="11"/>
+  </g>
+  <path d="M566 96 q66 6 90 58" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="246" y="104" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">písek je mezi listy</text>
+  <path d="M1000 322 q22 -8 22 -36" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="630" y="346" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">zelená část do vývaru</text>
+</svg>
