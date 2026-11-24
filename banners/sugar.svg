@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Miska s hromádkou bílého krupicového cukru a lžící, vedle hromádka cukrových kostek a malá pánev s jantarovým karamelem na malém plameni">
+  <style>.steam path{animation:steam-rise 3.4s ease-in-out infinite}.steam path:nth-child(2){animation-delay:1.7s}@keyframes steam-rise{0%{opacity:0;transform:translateY(14px)}40%{opacity:1}100%{opacity:0;transform:translateY(-16px)}}</style>
+  <rect width="1200" height="400" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M60 366 H1140" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-dasharray: 2 12; stroke-linecap: round; opacity: .45"/>
+
+  <path d="M120 252 L146 336 Q152 358 174 358 L326 358 Q348 358 354 336 L380 252 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <g style="fill: #fff7ea"><circle cx="190" cy="312" r="10"/><circle cx="250" cy="334" r="10"/><circle cx="312" cy="310" r="10"/></g>
+  <ellipse cx="250" cy="252" rx="130" ry="24" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6"/>
+  <ellipse cx="250" cy="254" rx="114" ry="16" style="fill: #fff7ea; stroke: #1b2a4a; stroke-width: 4"/>
+  <path d="M150 254 C176 248 214 196 250 172 C286 196 326 248 350 254 C310 272 190 272 150 254 Z" style="fill: #fff7ea; stroke: #1b2a4a; stroke-width: 5; stroke-linejoin: round"/>
+  <g style="fill: #1b2a4a; opacity: .4">
+    <circle cx="232" cy="212" r="2.5"/><circle cx="262" cy="200" r="2.5"/><circle cx="250" cy="232" r="2.5"/><circle cx="214" cy="240" r="2.5"/><circle cx="286" cy="226" r="2.5"/><circle cx="190" cy="252" r="2.5"/><circle cx="244" cy="256" r="2.5"/><circle cx="300" cy="248" r="2.5"/><circle cx="270" cy="250" r="2.5"/><circle cx="170" cy="258" r="2.5"/>
+  </g>
+  <path d="M218 214 q14 -22 30 -30" style="fill: none; stroke: #1b2a4a; stroke-width: 3; stroke-linecap: round; opacity: .3"/>
+  <path d="M340 216 L432 150" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 18; stroke-linecap: round"/>
+  <path d="M340 216 L432 150" style="fill: none; stroke: var(--banner-cool, #1f4fa3); stroke-width: 8; stroke-linecap: round"/>
+  <g transform="translate(318 232) rotate(-35)">
+    <ellipse rx="34" ry="20" style="fill: var(--banner-cool, #1f4fa3); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5"/>
+    <path d="M-26 0 Q-8 -20 10 -14 Q26 -10 28 0 Q0 10 -26 0 Z" style="fill: #fff7ea; stroke: #1b2a4a; stroke-width: 4; stroke-linejoin: round"/>
+  </g>
+
+  <g style="stroke: #1b2a4a; stroke-width: 5; stroke-linejoin: round">
+    <g style="fill: #fff7ea">
+      <rect x="470" y="298" width="64" height="64"/><path d="M470 298 L488 280 L552 280 L534 298 Z"/><path d="M534 298 L552 280 L552 344 L534 362 Z"/>
+      <rect x="574" y="298" width="64" height="64"/><path d="M574 298 L592 280 L656 280 L638 298 Z"/><path d="M638 298 L656 280 L656 344 L638 362 Z"/>
+    </g>
+    <g style="fill: #1b2a4a; opacity: .14; stroke: none">
+      <path d="M534 298 L552 280 L552 344 L534 362 Z"/><path d="M638 298 L656 280 L656 344 L638 362 Z"/>
+    </g>
+    <g transform="rotate(-5 556 266)">
+      <g style="fill: #fff7ea">
+        <rect x="524" y="234" width="64" height="64"/><path d="M524 234 L542 216 L606 216 L588 234 Z"/><path d="M588 234 L606 216 L606 280 L588 298 Z"/>
+      </g>
+      <path d="M588 234 L606 216 L606 280 L588 298 Z" style="fill: #1b2a4a; opacity: .14; stroke: none"/>
+    </g>
+  </g>
+  <g style="fill: #1b2a4a; opacity: .4">
+    <circle cx="490" cy="320" r="2.5"/><circle cx="512" cy="344" r="2.5"/><circle cx="598" cy="324" r="2.5"/><circle cx="620" cy="346" r="2.5"/><circle cx="546" cy="262" r="2.5"/><circle cx="568" cy="280" r="2.5"/>
+  </g>
+
+  <path d="M820 366 q16-38 32-2 q16-48 32-2 q16-38 32-2 q16-48 32-2 Z" style="fill: var(--banner-warm, #e9b44c); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+  <path d="M1000 224 Q1058 222 1108 196" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 20; stroke-linecap: round"/>
+  <path d="M1000 224 Q1058 222 1108 196" style="fill: none; stroke: var(--banner-accent, #c8462a); stroke-width: 9; stroke-linecap: round"/>
+  <path d="M795 214 L805 300 Q807 322 827 322 L973 322 Q993 322 995 300 L1005 214 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <g style="fill: #fff7ea"><circle cx="850" cy="274" r="9"/><circle cx="900" cy="296" r="9"/><circle cx="950" cy="272" r="9"/></g>
+  <ellipse cx="900" cy="214" rx="105" ry="22" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6"/>
+  <ellipse cx="900" cy="218" rx="90" ry="15" style="fill: var(--banner-warm, #e9b44c); fill: color-mix(in srgb, var(--banner-warm, #e9b44c) 55%, #8a3b10); stroke: var(--banner-fg, #1b2a4a); stroke-width: 4"/>
+  <path d="M836 214 q16 -8 34 -8" style="fill: none; stroke: #fff7ea; stroke-width: 4; stroke-linecap: round; opacity: .7"/>
+  <g style="fill: var(--banner-warm, #e9b44c); stroke: var(--banner-fg, #1b2a4a); stroke-width: 3"><circle cx="918" cy="216" r="7"/><circle cx="944" cy="222" r="5"/><circle cx="890" cy="224" r="4"/></g>
+  <g class="steam" style="fill: none; stroke: var(--banner-cool, #1f4fa3); stroke-width: 5; stroke-linecap: round">
+    <path d="M860 182 q-16 -18 0 -36 q16 -18 0 -32"/>
+    <path d="M936 180 q-16 -18 0 -36 q16 -18 0 -32"/>
+  </g>
+
+  <text x="50" y="92" style="font: 600 40px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">bílý a sypký</text>
+  <path d="M190 106 q34 8 48 56" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="462" y="118" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">kostky do čaje</text>
+  <path d="M556 132 q14 30 2 70" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="790" y="66" style="font: 600 40px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">karamel jen do zlatova</text>
+  <path d="M1052 82 q30 40 -64 114" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+</svg>
