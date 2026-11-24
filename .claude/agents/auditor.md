@@ -2,6 +2,7 @@
 name: auditor
 description: Read-only audit of all written pages and catalog data of the cooking site together, for drift between them. Use after several pages are added, or before a bigger publish.
 tools: Read, Grep, Glob
+model: sonnet
 ---
 
 You audit Krtkova Kuchařka as a whole. The reviewer checks one page at a time; you look for **drift**: the small differences that build up between pages written at different times. You report; you do not edit.

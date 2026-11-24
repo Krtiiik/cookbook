@@ -54,6 +54,8 @@ A static Czech cooking site: recipes are the main content, explainers (methods, 
 
 **Checkers are read-only and separate from the writer.** A writer that checks its own page finds what it meant, not what it wrote. Each checker has one job (reading, facts, the kitchen), so findings do not overlap, and the writer may reject a finding with a reason; a repeated disagreement goes to the user.
 
+**Only the writer runs on Opus.** Each page goes through several check rounds, so agent runs use most of the subscription. The page text is the product, so the writer is pinned to `opus`; the checkers, researcher, illustrator, auditor and planner follow written rules and are pinned to `sonnet`. The main session can then run on Sonnet too.
+
 **Test-cook next to the reviewer.** A recipe can read well and still fail at the stove (an ingredient never used, a step out of order). The trading site had no equivalent; recipes need one.
 
 **Catalog data is fact-checked.** Allergens and diet are derived from `catalog/suroviny.yaml`, so a wrong `allergens` or `animal` value is a safety problem, not a typo. The fact-checker checks catalog entries with the page that adds or uses them.
