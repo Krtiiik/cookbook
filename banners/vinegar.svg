@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Vlevo vysoká čirá láhev kvasného octa, vedle ní menší tmavá láhev vinného octa a vpravo miska okurkového salátu v nálevu s plátky okurky a snítkou kopru">
+  <rect width="1200" height="400" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M60 362 H1140" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-dasharray: 2 12; stroke-linecap: round; opacity: .45"/>
+
+  <!-- tall clear bottle: kvasný ocet -->
+  <path d="M118 348 Q104 348 104 334 L104 164 Q104 130 134 114 L134 74 L166 74 L166 114 Q196 130 196 164 L196 334 Q196 348 182 348 Z" style="fill: #fff7ea"/>
+  <path d="M107 168 L193 168 L193 334 Q193 345 182 345 L118 345 Q107 345 107 334 Z" style="fill: var(--banner-cool, #1f4fa3); opacity: .22"/>
+  <path d="M107 168 L193 168" style="fill: none; stroke: var(--banner-cool, #1f4fa3); stroke: color-mix(in srgb, var(--banner-cool, #1f4fa3) 45%, black); stroke-width: 3; opacity: .55"/>
+  <rect x="113" y="214" width="74" height="74" rx="8" style="fill: #fff7ea; stroke: var(--banner-cool, #1f4fa3); stroke: color-mix(in srgb, var(--banner-cool, #1f4fa3) 45%, black); stroke-width: 4"/>
+  <path d="M150 230 C140 246 136 254 136 262 C136 270 142 276 150 276 C158 276 164 270 164 262 C164 254 160 246 150 230 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-cool, #1f4fa3); stroke: color-mix(in srgb, var(--banner-cool, #1f4fa3) 45%, black); stroke-width: 3; stroke-linejoin: round"/>
+  <path d="M126 284 H174" style="fill: none; stroke: var(--banner-cool, #1f4fa3); stroke: color-mix(in srgb, var(--banner-cool, #1f4fa3) 45%, black); stroke-width: 3; stroke-linecap: round; opacity: .6"/>
+  <path d="M120 186 L120 200 M120 296 L120 330" style="fill: none; stroke: #fff7ea; stroke-width: 7; stroke-linecap: round; opacity: .9"/>
+  <path d="M118 348 Q104 348 104 334 L104 164 Q104 130 134 114 L134 74 L166 74 L166 114 Q196 130 196 164 L196 334 Q196 348 182 348 Z" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <rect x="128" y="46" width="44" height="32" rx="5" style="fill: var(--banner-cool, #1f4fa3); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M142 54 V70 M150 54 V70 M158 54 V70" style="fill: none; stroke: #fff7ea; stroke-width: 3; stroke-linecap: round; opacity: .55"/>
+
+  <!-- smaller dark bottle: vinný / balsamico -->
+  <path d="M302 348 Q290 348 290 336 L290 214 Q290 184 316 172 L318 128 L342 128 L344 172 Q370 184 370 214 L370 336 Q370 348 358 348 Z" style="fill: var(--banner-accent, #c8462a); fill: color-mix(in srgb, var(--banner-accent, #c8462a) 30%, black)"/>
+  <rect x="297" y="240" width="66" height="62" rx="7" style="fill: #fff7ea; stroke: var(--banner-cool, #1f4fa3); stroke: color-mix(in srgb, var(--banner-cool, #1f4fa3) 45%, black); stroke-width: 4"/>
+  <g style="fill: var(--banner-accent, #c8462a); fill: color-mix(in srgb, var(--banner-accent, #c8462a) 30%, black); stroke: var(--banner-cool, #1f4fa3); stroke: color-mix(in srgb, var(--banner-cool, #1f4fa3) 45%, black); stroke-width: 3">
+    <circle cx="322" cy="272" r="8"/><circle cx="338" cy="272" r="8"/><circle cx="330" cy="285" r="8"/>
+  </g>
+  <path d="M330 262 q4 -10 14 -12" style="fill: none; stroke: var(--banner-cool, #1f4fa3); stroke: color-mix(in srgb, var(--banner-cool, #1f4fa3) 45%, black); stroke-width: 3; stroke-linecap: round"/>
+  <path d="M300 226 L300 328" style="fill: none; stroke: #fff7ea; stroke-width: 7; stroke-linecap: round; opacity: .7"/>
+  <path d="M302 348 Q290 348 290 336 L290 214 Q290 184 316 172 L318 128 L342 128 L344 172 Q370 184 370 214 L370 336 Q370 348 358 348 Z" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <rect x="314" y="104" width="32" height="28" rx="5" style="fill: var(--banner-warm, #e9b44c); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+
+  <!-- bowl of cucumber salad in brine -->
+  <rect x="916" y="336" width="88" height="14" rx="5" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5"/>
+  <path d="M810 232 Q812 340 960 340 Q1108 340 1110 232 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <g style="fill: #fff7ea">
+    <circle cx="858" cy="288" r="6"/><circle cx="914" cy="314" r="6"/><circle cx="978" cy="296" r="6"/><circle cx="1040" cy="316" r="6"/><circle cx="1068" cy="276" r="6"/><circle cx="944" cy="272" r="5"/>
+  </g>
+  <path d="M832 262 Q840 300 872 322" style="fill: none; stroke: #fff7ea; stroke-width: 7; stroke-linecap: round; opacity: .55"/>
+  <ellipse cx="960" cy="232" rx="150" ry="26" style="fill: #fff7ea"/>
+  <ellipse cx="960" cy="232" rx="150" ry="26" style="fill: var(--banner-cool, #1f4fa3); opacity: .3"/>
+  <ellipse cx="960" cy="232" rx="150" ry="26" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6"/>
+  <g style="stroke: var(--banner-cool, #1f4fa3); stroke: color-mix(in srgb, var(--banner-cool, #1f4fa3) 45%, black); stroke-width: 4">
+    <ellipse cx="882" cy="236" rx="26" ry="13" transform="rotate(-8 882 236)" style="fill: #fff7ea"/>
+    <ellipse cx="935" cy="242" rx="26" ry="13" transform="rotate(6 935 242)" style="fill: #fff7ea"/>
+    <ellipse cx="1040" cy="236" rx="26" ry="13" transform="rotate(8 1040 236)" style="fill: #fff7ea"/>
+    <ellipse cx="910" cy="224" rx="26" ry="13" transform="rotate(10 910 224)" style="fill: #fff7ea"/>
+    <ellipse cx="1004" cy="224" rx="26" ry="13" transform="rotate(-6 1004 224)" style="fill: #fff7ea"/>
+    <ellipse cx="964" cy="224" rx="26" ry="13" transform="rotate(-4 964 224)" style="fill: #fff7ea"/>
+  </g>
+  <g style="fill: none; stroke: var(--banner-cool, #1f4fa3); stroke: color-mix(in srgb, var(--banner-cool, #1f4fa3) 45%, black); stroke-width: 2.5; opacity: .65">
+    <ellipse cx="964" cy="224" rx="17" ry="7.5" transform="rotate(-4 964 224)"/>
+    <ellipse cx="910" cy="224" rx="17" ry="7.5" transform="rotate(10 910 224)"/>
+    <ellipse cx="1004" cy="224" rx="17" ry="7.5" transform="rotate(-6 1004 224)"/>
+    <ellipse cx="935" cy="242" rx="17" ry="7.5" transform="rotate(6 935 242)"/>
+    <ellipse cx="1040" cy="236" rx="17" ry="7.5" transform="rotate(8 1040 236)"/>
+    <ellipse cx="882" cy="236" rx="17" ry="7.5" transform="rotate(-8 882 236)"/>
+  </g>
+  <g style="fill: var(--banner-cool, #1f4fa3); fill: color-mix(in srgb, var(--banner-cool, #1f4fa3) 45%, black)">
+    <circle cx="960" cy="224" r="2"/><circle cx="968" cy="226" r="2"/><circle cx="906" cy="223" r="2"/><circle cx="914" cy="226" r="2"/><circle cx="1000" cy="223" r="2"/><circle cx="1008" cy="225" r="2"/>
+  </g>
+
+  <!-- dill sprig -->
+  <g style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linecap: round">
+    <path d="M1066 226 Q1076 196 1094 176"/>
+    <path d="M1072 212 q-14 -6 -20 -18 M1078 200 q14 -2 22 -14 M1084 188 q-12 -8 -14 -22 M1090 180 q14 4 24 -4"/>
+  </g>
+
+  <!-- notes -->
+  <text x="222" y="86" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">kvasný: na nálevy</text>
+  <path d="M236 98 q-20 22 -36 52" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="404" y="212" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">vinný: jemnější</text>
+  <path d="M398 202 q-14 2 -24 22" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="640" y="112" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">okurky v nálevu</text>
+  <path d="M850 124 q40 8 62 80" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+</svg>
