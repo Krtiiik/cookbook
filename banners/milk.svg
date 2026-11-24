@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Malý kastrol s mlékem na nízkém plameni, bílá pěna stoupá nad okraj a stéká po boku hrnce, vedle stojí krabice plnotučného mléka">
+  <style>.steam path{animation:steam-rise 3.4s ease-in-out infinite}.steam path:nth-child(2){animation-delay:1.1s}.steam path:nth-child(3){animation-delay:2.2s}@keyframes steam-rise{0%{opacity:0;transform:translateY(14px)}40%{opacity:1}100%{opacity:0;transform:translateY(-16px)}}</style>
+  <rect width="1200" height="400" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M60 362 H1140" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-dasharray: 2 12; stroke-linecap: round; opacity: .45"/>
+  <path d="M416 376 q12-30 24-2 q12-38 24-2 q12-30 24-2 q12-38 24-2 Z" style="fill: var(--banner-warm, #e9b44c); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+  <path d="M340 214 L222 196" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 20; stroke-linecap: round"/>
+  <circle cx="226" cy="197" r="5" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M330 190 L344 316 Q346 336 364 336 L576 336 Q594 336 596 316 L610 190 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <g style="fill: #fff7ea"><circle cx="395" cy="262" r="11"/><circle cx="465" cy="304" r="11"/><circle cx="530" cy="268" r="11"/></g>
+  <ellipse cx="470" cy="190" rx="140" ry="24" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6"/>
+  <ellipse cx="470" cy="194" rx="124" ry="15" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4"/>
+  <path d="M556 204 Q586 206 588 230 L590 254 Q590 270 577 270 Q564 270 564 254 L563 228 Q562 212 556 204 Z" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linejoin: round"/>
+  <g style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4">
+    <circle cx="398" cy="184" r="20"/>
+    <circle cx="548" cy="182" r="20"/>
+    <circle cx="436" cy="164" r="26"/>
+    <circle cx="512" cy="162" r="25"/>
+    <circle cx="474" cy="150" r="29"/>
+    <circle cx="428" cy="132" r="13"/>
+    <circle cx="520" cy="124" r="11"/>
+    <circle cx="486" cy="114" r="8"/>
+  </g>
+  <path d="M452 142 q8 -8 18 -8 M410 172 q4 -6 11 -8" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round; opacity: .4"/>
+  <g class="steam" style="fill: none; stroke: var(--banner-cool, #1f4fa3); stroke-width: 5; stroke-linecap: round">
+    <path d="M440 100 q-14 -18 0 -36 q14 -18 0 -32"/>
+    <path d="M570 104 q-14 -18 0 -36 q14 -18 0 -32"/>
+  </g>
+  <path d="M900 170 L946 146 L946 330 L900 358 Z" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M900 170 L946 146 L946 330 L900 358 Z" style="fill: var(--banner-fg, #1b2a4a); opacity: .2"/>
+  <path d="M880 130 L900 170 L946 146 L918 112 Z" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M880 130 L900 170 L946 146 L918 112 Z" style="fill: var(--banner-fg, #1b2a4a); opacity: .12"/>
+  <path d="M800 130 L880 130 L918 112 L838 112 Z" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M780 170 L800 130 L880 130 L900 170 Z" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <rect x="780" y="170" width="120" height="188" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <rect x="780" y="208" width="120" height="96" style="fill: var(--banner-cool, #1f4fa3); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5"/>
+  <path d="M840 220 q-22 28 -22 42 a22 22 0 0 0 44 0 q0 -14 -22 -42 Z" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linejoin: round"/>
+  <text x="60" y="76" style="font: 600 40px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">nenech ho utéct</text>
+  <path d="M236 92 q110 4 168 46" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="60" y="290" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">mírný oheň,</text>
+  <text x="60" y="332" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">míchej</text>
+  <path d="M170 346 q120 30 240 22" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="978" y="250" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">plnotučné</text>
+  <text x="978" y="292" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">do kaše</text>
+  <path d="M1020 214 q-22 -30 -68 -34" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+</svg>
