@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Dva sušené červené lusky papriky, plechovka s modrým víčkem a hromádka jasně červené mleté papriky">
+  <rect width="1200" height="400" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M60 362 H1140" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-dasharray: 2 12; stroke-linecap: round; opacity: .45"/>
+  <g style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round">
+    <path d="M150 232 C230 200 350 238 430 318 C340 292 240 280 156 266 Q138 250 150 232 Z"/>
+    <path d="M172 300 C250 280 360 296 450 344 C350 342 260 336 178 330 Q160 316 172 300 Z"/>
+  </g>
+  <g style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linecap: round; opacity: .6">
+    <path d="M200 244 q60 -6 120 20 q40 18 70 38"/>
+    <path d="M220 312 q70 -6 140 12"/>
+  </g>
+  <g style="fill: var(--banner-fg, #1b2a4a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linecap: round; stroke-linejoin: round">
+    <path d="M150 232 q-12 16 6 34 l-16 -4 q-10 -14 2 -28 Z"/>
+    <path d="M144 248 q-26 -6 -40 -30" style="fill: none"/>
+    <path d="M172 300 q-12 14 6 30 l-16 -4 q-10 -12 2 -24 Z"/>
+    <path d="M166 314 q-28 2 -44 22" style="fill: none"/>
+  </g>
+  <path d="M520 190 L520 330 A80 18 0 0 0 680 330 L680 190 Z" style="fill: var(--banner-bg, #fffaf0); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M520 240 A80 18 0 0 0 680 240 L680 296 A80 18 0 0 1 520 296 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+  <g style="fill: #fff7ea"><circle cx="560" cy="270" r="8"/><circle cx="600" cy="276" r="8"/><circle cx="640" cy="270" r="8"/></g>
+  <path d="M512 172 L512 190 A88 20 0 0 0 688 190 L688 172 Z" style="fill: var(--banner-cool, #1f4fa3); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <ellipse cx="600" cy="172" rx="88" ry="20" style="fill: var(--banner-cool, #1f4fa3); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6"/>
+  <path d="M740 345 C772 298 822 242 868 232 Q884 228 900 234 C950 252 990 300 1022 345 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <g style="fill: var(--banner-fg, #1b2a4a); opacity: .5">
+    <circle cx="840" cy="290" r="4"/><circle cx="880" cy="262" r="4"/><circle cx="920" cy="300" r="4"/><circle cx="960" cy="320" r="4"/><circle cx="810" cy="324" r="4"/>
+  </g>
+  <g style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 3">
+    <circle cx="726" cy="344" r="5"/><circle cx="1040" cy="340" r="5"/><circle cx="1060" cy="346" r="4"/>
+  </g>
+  <path d="M420 104 q80 6 112 58" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="176" y="112" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">v temnu a suchu</text>
+  <path d="M900 132 q-30 40 -14 90" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="770" y="112" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">sladká · pálivá · uzená</text>
+</svg>
