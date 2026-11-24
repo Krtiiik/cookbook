@@ -7,6 +7,7 @@
 
 <details class="filters-wrap" open>
   <summary>Filtry</summary>
+  <div class="filters__body">
   <form class="filters" aria-label="Filtry receptů">
     <div class="field"><label for="f-group">Skupina</label>
       <select id="f-group" name="group"><option value="">všechny</option>
@@ -26,6 +27,7 @@
       <select id="f-cuisine" name="cuisine"><option value="">jakákoli</option>{% for k, v in site.labels.cuisine.items() if site.recipes|selectattr('cuisine', 'equalto', k)|list %}<option value="{{ k }}">{{ v }}</option>{% endfor %}</select></div>
   </form>
   <p class="filters__count" aria-live="polite"></p>
+  </div>
 </details>
 
 <div class="grid4 recipe-list">

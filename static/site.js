@@ -195,6 +195,68 @@
     apply();
   })();
 
+  /* ---------- filter box: opens and shuts like a strip of paper folded back and forth.
+     Copies of the body sit in N strips; each tilts by acos(p), so its height on screen
+     is p times its flat height and the strips stay joined in a zigzag. */
+  (function () {
+    var details = $('details.filters-wrap');
+    var body = details && $('.filters__body', details);
+    if (!body) return;
+    var N = 4, MS = 480, busy = false;
+    function ease(t) { return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(2 - 2 * t, 3) / 2; }
+    function page(i, s, w) {
+      var copy = el('div', 'fold__page');
+      copy.style.width = w + 'px';
+      copy.style.marginTop = -i * s + 'px';
+      Array.prototype.forEach.call(body.children, function (c) { copy.appendChild(c.cloneNode(true)); });
+      var from = $$('select', body), to = $$('select', copy);
+      to.forEach(function (s, k) { s.selectedIndex = from[k].selectedIndex; });
+      $$('[id]', copy).forEach(function (e) { e.removeAttribute('id'); });
+      $$('[aria-live]', copy).forEach(function (e) { e.removeAttribute('aria-live'); });
+      return copy;
+    }
+    details.querySelector('summary').addEventListener('click', function (e) {
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      e.preventDefault();
+      if (busy) return;
+      busy = true;
+      var opening = !details.open;
+      details.open = true;
+      var h = body.offsetHeight, s = h / N, w = body.clientWidth, strips = [];
+      for (var i = 0; i < N; i++) {
+        var strip = el('div', 'fold');
+        strip.setAttribute('aria-hidden', 'true');
+        strip.style.height = s + 'px';
+        strip.appendChild(page(i, s, w));
+        strips.push(strip);
+      }
+      strips.forEach(function (st) { body.appendChild(st); });
+      body.classList.add('is-folding');
+      function frame(p) {
+        var a = Math.acos(p);
+        body.style.height = h * p + 'px';
+        strips.forEach(function (st, k) {
+          st.style.top = k * s * p + 'px';
+          st.style.transform = 'perspective(1800px) rotateX(' + (k % 2 ? -a : a) + 'rad)';
+          st.style.setProperty('--shade', ((1 - p) * (k % 2 ? 0.3 : 0.08)).toFixed(3));
+        });
+      }
+      frame(opening ? 0 : 1);
+      var t0 = null;
+      requestAnimationFrame(function step(now) {
+        if (t0 === null) t0 = now;
+        var t = Math.min(1, (now - t0) / MS), p = ease(t);
+        frame(opening ? p : 1 - p);
+        if (t < 1) { requestAnimationFrame(step); return; }
+        strips.forEach(function (st) { st.remove(); });
+        body.classList.remove('is-folding');
+        body.style.height = '';
+        if (!opening) details.open = false;
+        busy = false;
+      });
+    });
+  })();
+
   /* ---------- serving scaler */
   (function () {
     var scaler = $('.scaler');

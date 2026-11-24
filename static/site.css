@@ -309,6 +309,12 @@ html:not(.js) .scaler button { display: none; }
 .filters-wrap { position: relative; background: var(--card); border: 2.5px solid var(--ink); box-shadow: 5px 5px 0 var(--cobalt); border-radius: 5px 8px 6px 9px; padding: 12px 16px 6px; margin: 0 0 34px; }
 .filters-wrap summary { font: 400 24px var(--font-hand); cursor: pointer; min-height: 32px; }
 .filters-wrap .filters { margin-top: 6px; }
+/* Accordion fold while the filters open or close: site.js lays copies of the body
+   in strips that tilt back and forth like folded paper. */
+.filters__body, .fold__page { position: relative; display: flow-root; }
+.filters__body.is-folding > :not(.fold) { visibility: hidden; }
+.fold { position: absolute; left: 0; right: 0; overflow: hidden; transform-origin: 50% 0; backface-visibility: hidden; pointer-events: none; }
+.fold::after { content: ""; position: absolute; inset: 0; background: #000; opacity: var(--shade, 0); }
 .filters__count { margin: 0 0 6px; font: 600 18px var(--font-note); color: var(--accent); }
 .legend { display: flex; gap: 18px; font-size: 13px; color: var(--muted); margin: 6px 0 10px; flex-wrap: wrap; align-items: center; }
 .sw { display: inline-block; width: 22px; height: 14px; border-radius: 7px; margin-right: 6px; vertical-align: -2px; border: 2px solid var(--ink); background: var(--season); }
