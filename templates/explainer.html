@@ -20,7 +20,7 @@
     <h2 id="data-h" class="sr">Údaje o surovině</h2>
     <dl class="ingdata">
       <div><dt>kategorie</dt><dd>{{ site.label('categories', page.category) }}</dd></div>
-      <div><dt>alergeny</dt><dd>{% for a in site.allergens if a.slug in (page.data.allergens or []) %}{{ a.title }}{% if not loop.last %}, {% endif %}{% else %}žádné z EU 14{% endfor %}</dd></div>
+      <div><dt>alergeny</dt><dd>{% for a in site.allergens if a.slug in (page.data.allergens or []) %}{{ a.title }}{% if not loop.last %}, {% endif %}{% else %}žádné{% endfor %}</dd></div>
       {% if page.data.substitutes %}<div><dt>náhrady</dt><dd>{% for s in page.data.substitutes %}{{ link(site.pages[s], root) }}{% if not loop.last %}, {% endif %}{% endfor %}</dd></div>{% endif %}
       <div class="wide"><dt>sezóna</dt><dd>
         {% if page.data.season == 'all-year' %}celý rok{% else %}

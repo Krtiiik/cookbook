@@ -28,7 +28,7 @@
         <div><dt>kuchyně</dt><dd>{{ site.label('cuisine', page.cuisine) }}</dd></div>
         <div><dt>sezóna</dt><dd>{% for s in page.season %}{{ site.label('season', s) }}{% if not loop.last %}, {% endif %}{% else %}celý rok{% endfor %}</dd></div>
         <div><dt>dieta</dt><dd>{% for d in page.diet %}{{ site.label('diet', d) }}{% if not loop.last %}, {% endif %}{% else %}—{% endfor %}</dd></div>
-        <div class="wide"><dt>alergeny</dt><dd>{% for a in site.allergens if a.slug in page.allergens %}{{ a.title }}{% if not loop.last %}, {% endif %}{% else %}žádné z EU 14{% endfor %}</dd></div>
+        <div class="wide"><dt>alergeny</dt><dd>{% for a in site.allergens if a.slug in page.allergens %}{{ a.title }}{% if not loop.last %}, {% endif %}{% else %}žádné{% endfor %}</dd></div>
       </dl>
       {% if page.status == 'tested' %}
       <span class="status-line"><i></i>otestováno, {{ cz_plural(page.changes|length, 'úprava', 'úpravy', 'úprav') }}</span>
