@@ -3,8 +3,8 @@
 # density: grams per millilitre, approximate; only for the converter.
 - { slug: beef-shank, title: Hovězí kližka, summary: "Libové maso z nohy s hodně kolagenu. Na dušení.", category: meat, animal: meat, season: all-year }
 - { slug: beef-bones, title: Hovězí kosti, summary: "Základ vývaru. Morkové dávají chuť, kloubní želatinu.", category: meat, animal: meat, season: all-year }
-- { slug: onion, title: Cibule, summary: "Základ většiny omáček. Syrová ostrá, pečená sladká.", category: vegetables, animal: none, season: all-year, substitutes: [shallot, leek] }
-- { slug: shallot, title: Šalotka, summary: "Jemnější a sladší než cibule.", category: vegetables, animal: none, season: all-year }
+- { slug: onion, title: Cibule, summary: "Základ většiny omáček. Syrová ostrá, opékaná sladká.", category: vegetables, animal: none, season: all-year, substitutes: [shallot, leek] }
+- { slug: shallot, title: Šalotka, summary: "Jemnější a sladší než cibule.", category: vegetables, animal: none, season: all-year, substitutes: [onion] }
 - { slug: leek, title: Pórek, summary: "Mírná cibulová chuť, jíst se dá i zelená část.", category: vegetables, animal: none, season: [9, 10, 11, 12, 1, 2, 3], substitutes: [onion] }
 - { slug: garlic, title: Česnek, summary: "Syrový ostrý, pomalu pečený sladký a jemný.", category: vegetables, animal: none, season: all-year }
 - { slug: carrot, title: Mrkev, summary: "Sladká kořenová zelenina do vývarů a omáček.", category: vegetables, animal: none, season: all-year }
@@ -28,6 +28,7 @@
 - { slug: water, title: Voda, summary: "Do vývarů a na podlévání.", category: pantry, animal: none, season: all-year, density: 1 }
 - { slug: tomato-paste, title: Rajčatový protlak, summary: "Zahuštěná rajčata. Krátce opeč, chuť zesílí.", category: pantry, animal: none, season: all-year }
 - { slug: lard, title: Sádlo, summary: "Vepřový tuk. Snese vysokou teplotu.", category: fats, animal: meat, season: all-year }
+- { slug: oil, title: Olej, summary: "Rafinovaný snese vysokou teplotu, panenský raději za studena.", category: fats, animal: none, season: all-year, density: 0.92 }
 - { slug: butter, title: Máslo, summary: "Na chuť a na nižší teploty.", category: fats, animal: dairy, season: all-year, allergens: [milk], density: 0.96 }
 - { slug: milk, title: Mléko, summary: "Plnotučné do kaše a omáček.", category: dairy, animal: dairy, season: all-year, allergens: [milk], density: 1.03 }
 - { slug: potatoes, title: Brambory, summary: "Moučné na kaši, pevné do salátu.", category: vegetables, animal: none, season: all-year }

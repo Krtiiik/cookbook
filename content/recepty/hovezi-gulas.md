@@ -3,8 +3,8 @@ title: Hovězí guláš
 summary: "Hodně cibule, sladká paprika a kližka dušená do měkka. Omáčku zahustí jen cibule, bez mouky."
 status: draft
 servings: 4
-time_active_min: 30
-time_total_min: 180
+time_active_min: 45
+time_total_min: 210
 difficulty: medium
 cuisine: czech
 season: [autumn, winter]
@@ -30,9 +30,9 @@ changes:
 1. Maso osuš a nakrájej na kostky asi 4 cm. Menší kostky se při dlouhém [[braising|dušení]] rozpadnou.
 2. V [[dutch-oven|litinovém hrnci]] rozpusť sádlo. Cibuli opékej na středním ohni 20–25 minut, až zezlátne a změkne ([[caramelising|karamelizace]]).
 3. Přidej česnek, kmín a protlak a minutu míchej. Hrnec stáhni z ohně a vmíchej papriku: na přímém žáru [[bitter-paprika|zhořkne]].
-4. Vrať hrnec na oheň, přidej maso a nech ho [[browning|na povrchu zatáhnout]]. Zalij [[hovezi-vyvar|hovězím vývarem]], aby bylo maso skoro ponořené.
-5. Přikryj a nech jen [[simmering|lehce probublávat]] 2–2,5 hodiny. Občas promíchej a podle potřeby dolij trochu vody.
-6. Odkryj, přidej majoránku a nech 15 minut zhoustnout. Osol podle chuti.
+4. Vrať hrnec na střední oheň a přidej maso. Maso a jeho šťáva hrnec zchladí a ty pořád mícháš, takže paprika už nezhořkne. Míchej asi 5 minut, až se maso [[browning|na povrchu zatáhne]] a ze všech stran zešedne. Zalij [[hovezi-vyvar|hovězím vývarem]], aby bylo maso skoro ponořené.
+5. Přikryj a nech jen [[simmering|mírně vařit]] 2–2,5 hodiny. Občas promíchej a podle potřeby dolij trochu horké vody.
+6. Odkryj, přidej majoránku a nech 15 minut zhoustnout na středním ohni. Často míchej, ať se omáčka nepřichytí ke dnu. Osol podle chuti.
 
 ## Proč to funguje
 
@@ -48,7 +48,7 @@ Cibule se při pomalém opékání rozpadne a omáčku zahustí. Proto je jí sk
 
 ## Skladování a ohřev
 
-Vychladlý guláš dej do lednice v uzavřené nádobě. Ohřívej pomalu pod pokličkou, se lžící vody.
+Rozlij do mělkých nádob, ať rychle vychladne, a do 2 hodin dej do lednice. Vydrží 3 dny, v mrazáku zhruba 3 měsíce (podle USDA FSIS). Ohřívej pomalu pod pokličkou, se lžící vody.
 
 ## Poznámky
 

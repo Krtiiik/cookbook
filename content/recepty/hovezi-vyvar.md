@@ -36,11 +36,11 @@ Ve studené vodě se bílkoviny z kostí uvolňují pomalu a srazí se v pěnu, 
 
 ## Varianty a náhrady
 
-- Kosti nejdřív opeč v troubě do hněda. Vývar bude tmavší a plnější.
+- Kosti nejdřív opeč v troubě do hněda ([[browning]]). Vývar bude tmavší a plnější.
 
 ## Skladování a ohřev
 
-Vychladlý vývar dej do lednice nebo zmraz po porcích.
+Rozlij do mělkých nádob, ať rychle vychladne, a do 2 hodin dej do lednice. Vydrží 3 dny (podle USDA FSIS). Můžeš ho i zmrazit po porcích.
 
 ## Poznámky
 
