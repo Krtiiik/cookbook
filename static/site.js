@@ -220,7 +220,8 @@
   (function () {
     var card = $('details.filters-wrap');
     if (!card) return;
-    var N = 4, MS = 480, SHADOW = 8, busy = false;
+    // dir: +1 while opening, -1 while shutting, 0 when still. A click during a fold turns it back.
+    var N = 4, MS = 480, SHADOW = 8, dir = 0;
     function ease(t) { return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(2 - 2 * t, 3) / 2; }
     function copy(w) {
       var c = card.cloneNode(true);
@@ -243,9 +244,9 @@
     }
     card.querySelector('summary').addEventListener('click', function (e) {
       e.preventDefault();
-      if (busy) return;
-      busy = true;
+      if (dir) { dir = -dir; return; }
       var opening = !card.open;
+      dir = opening ? 1 : -1;
       card.open = false;
       var shut = card.offsetHeight;
       card.open = true;
@@ -263,6 +264,7 @@
       [slice(0, head, w)].concat(strips, [footSlice]).forEach(function (x) { layer.appendChild(x); });
       card.appendChild(layer);
       card.classList.add('is-folding');
+      layer.style.width = w + 'px';
       function frame(p) {
         var a = Math.acos(p), depth = s * Math.sin(a);
         card.style.height = layer.style.height = shut + L * p + 'px';
@@ -275,19 +277,20 @@
         });
         footSlice.style.top = head + L * p + 'px';
       }
-      frame(opening ? 0 : 1);
-      var t0 = null;
+      // t runs 0 (shut) to 1 (open) in either direction; ease() is symmetric, so turning
+      // back mid-way keeps the same position and speed.
+      var t = opening ? 0 : 1, last = null;
+      frame(t);
       requestAnimationFrame(function step(now) {
-        if (t0 === null) t0 = now;
-        var t = Math.min(1, (now - t0) / MS), p = ease(t);
-        frame(opening ? p : 1 - p);
-      layer.style.width = w + 'px';
-        if (t < 1) { requestAnimationFrame(step); return; }
+        if (last !== null) t = Math.min(1, Math.max(0, t + dir * (now - last) / MS));
+        last = now;
+        frame(ease(t));
+        if (t !== (dir > 0 ? 1 : 0)) { requestAnimationFrame(step); return; }
         card.removeChild(layer);
         card.classList.remove('is-folding');
         card.style.height = '';
-        if (!opening) card.open = false;
-        busy = false;
+        card.open = t === 1;
+        dir = 0;
       });
     });
   })();
