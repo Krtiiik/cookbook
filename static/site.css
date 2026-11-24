@@ -370,17 +370,11 @@ html:not(.js) .scaler button { display: none; }
    of a copy of it on top; the middle slices tilt back and forth like folded paper. */
 .filters-wrap.is-folding { visibility: hidden; }
 .fold-layer { position: absolute; top: 0; left: 0; pointer-events: none; perspective: 1800px; }
-/* Shut and still: the card shows, the folded strips hang STACK px under it (site.js). */
-.filters-wrap.is-shut { margin-bottom: 12px; }
-.filters-wrap.is-shut ~ .fold-layer .fold--head { visibility: hidden; }
 .fold { position: absolute; left: 0; overflow: hidden; transform-origin: 50% 0; }
 .fold--head { pointer-events: auto; cursor: pointer; }
 .fold-layer .filters-wrap[open] { --fold: inherit; }
-.fold::after { content: ""; position: absolute; inset: 0; background: #000; opacity: var(--shade, 0); }
-/* Grey bar over the folded strips when shut: from the left border to the card's right edge,
-   so the right border and shadow are not drawn there. site.js fades it (--grey) as it opens. */
-.fold::before { content: ""; position: absolute; z-index: 1; top: 0; bottom: 0; left: var(--bar-left, 0); width: var(--bar-w, 100%); background: color-mix(in srgb, var(--ink) 22%, var(--card)); opacity: var(--grey, 0); }
-.fold--head::before, .fold--foot::before { content: none; }
+/* Fold shading, only over the card (not the shadow room beside it). */
+.fold::after { content: ""; position: absolute; top: 0; bottom: 0; left: 0; width: var(--card-w, 100%); background: #000; opacity: var(--shade, 0); }
 .filters__count { margin: 0 0 6px; font: 600 18px var(--font-note); color: var(--accent); }
 .legend { display: flex; gap: 18px; font-size: 13px; color: var(--muted); margin: 6px 0 10px; flex-wrap: wrap; align-items: center; }
 .sw { display: inline-block; width: 22px; height: 14px; border-radius: 7px; margin-right: 6px; vertical-align: -2px; border: 2px solid var(--ink); background: var(--season); }

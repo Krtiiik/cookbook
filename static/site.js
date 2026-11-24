@@ -216,20 +216,20 @@
   })();
 
   /* ---------- filter box: the whole card opens and shuts like paper folded back and forth.
-     Copies of the open card are cut into slices: the head (summary) stays flat, the middle
-     is N strips that tilt by acos(p) in a zigzag, and the foot (bottom edge) rides below.
+     While it moves, the real card is hidden and copies of the open card are cut into slices:
+     the head (summary) stays flat, the middle is N strips that tilt by acos(p) in a zigzag,
+     and the foot (bottom edge) rides below, so it lands under the summary when shut.
      The strips are placed in one shared 3D space (one perspective on the layer): even strips
      run from the screen plane back to depth -s*sin(a), odd strips come forward again, so
      neighbours share their edge exactly. N is even, so the foot is back on the screen plane.
-     The paper never folds quite flat: when shut, p stays at P0, so the folded stack (STACK px)
-     hangs under the card as pleats, and opening unfolds those same strips. */
+     When still, shut or open, the real card shows and there is no layer. */
   (function () {
     var card = $('details.filters-wrap');
     var box = card && card.parentNode;
     if (!card || !box.classList.contains('filters-box')) return;
     var summary = card.querySelector('summary');
     // dir: +1 while opening, -1 while shutting, 0 when still. A click during a fold turns it back.
-    var N = 4, MS = 480, SHADOW = 8, STACK = 12, dir = 0, fold = null;
+    var N = 4, MS = 480, SHADOW = 8, dir = 0, fold = null;
     function ease(t) { return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(2 - 2 * t, 3) / 2; }
     function copy(w) {
       var c = card.cloneNode(true);
@@ -254,7 +254,6 @@
     // Measure the card shut and open, and build the layer of slices over it.
     function build() {
       var wasOpen = card.open;
-      card.classList.remove('is-shut');
       card.open = false;
       var shut = card.offsetHeight;
       card.open = true;
@@ -266,8 +265,7 @@
       var layer = el('div', 'fold-layer');
       layer.setAttribute('aria-hidden', 'true');
       layer.style.width = w + 'px';
-      layer.style.setProperty('--bar-left', card.clientLeft + 'px');
-      layer.style.setProperty('--bar-w', w - card.clientLeft + 'px');
+      layer.style.setProperty('--card-w', w + 'px');
       var headSlice = slice(0, head, w);
       headSlice.classList.add('fold--head');
       // The hidden card takes no clicks while it folds, so the flat head slice passes them on.
@@ -275,28 +273,18 @@
       var strips = [];
       for (var i = 0; i < N; i++) strips.push(slice(head + i * s, s, w));
       var footSlice = slice(head + L, foot + SHADOW, w);
-      footSlice.classList.add('fold--foot');
       [headSlice].concat(strips, [footSlice]).forEach(function (x) { layer.appendChild(x); });
       box.appendChild(layer);
-      var P0 = Math.min(0.5, STACK / L);
       return {
         layer: layer,
-        foot: foot,
-        // q runs 0 (shut) to 1 (open); the paper opens from P0 to 1.
-        frame: function (q) {
-          var p = P0 + (1 - P0) * q, a = Math.acos(p), depth = s * Math.sin(a);
-          // Near shut (r < 1) the folded strips are a flat grey bar with no right border or
-          // shadow; over the first 30% of opening the bar fades and the folds take shape.
-          var r = Math.min(1, q / 0.3);
-          layer.style.perspective = r > 0 ? 1800 / r + 'px' : 'none';
-          layer.style.setProperty('--grey', (1 - r).toFixed(3));
-          card.style.height = shut + L * p + 'px';
-          layer.style.height = shut + L * p + 'px';
-          card.style.setProperty('--fold', q.toFixed(3));
-          layer.style.setProperty('--fold', q.toFixed(3));
+        // p runs 0 (shut) to 1 (open).
+        frame: function (p) {
+          var a = Math.acos(p), depth = s * Math.sin(a);
+          card.style.height = layer.style.height = shut + L * p + 'px';
+          card.style.setProperty('--fold', p.toFixed(3));
+          layer.style.setProperty('--fold', p.toFixed(3));
           strips.forEach(function (st, k) {
             st.style.top = head + k * s * p + 'px';
-            st.style.width = w + SHADOW * r + 'px';
             st.style.transform = k % 2
               ? 'translateZ(' + -depth + 'px) rotateX(' + a + 'rad)'
               : 'rotateX(' + -a + 'rad)';
@@ -309,22 +297,9 @@
     function clear() {
       if (fold) box.removeChild(fold.layer);
       fold = null;
-      card.classList.remove('is-folding', 'is-shut');
+      card.classList.remove('is-folding');
       card.style.height = '';
       card.style.removeProperty('--fold');
-      card.style.clipPath = '';
-    }
-    // Shut and still: the real card shows, and the folded strips hang under it.
-    function rest() {
-      clear();
-      if (card.open) return;
-      fold = build();
-      fold.frame(0);
-      card.style.height = '';
-      card.style.removeProperty('--fold');
-      card.classList.add('is-shut');
-      // Cut the card's bottom edge and shadow, so its right shadow stops where the grey bar starts.
-      card.style.clipPath = 'inset(-10px -10px ' + fold.foot + 'px -10px)';
     }
     summary.addEventListener('click', function (e) {
       e.preventDefault();
@@ -344,16 +319,10 @@
         last = now;
         fold.frame(ease(t));
         if (t !== (dir > 0 ? 1 : 0)) { requestAnimationFrame(step); return; }
+        clear();
         card.open = t === 1;
         dir = 0;
-        rest();
       });
-    });
-    rest();
-    var timer = null;
-    window.addEventListener('resize', function () {
-      clearTimeout(timer);
-      timer = setTimeout(function () { if (!dir) rest(); }, 150);
     });
   })();
 
