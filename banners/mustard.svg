@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Skleněná sklenice s hladkou žlutou plnotučnou hořčicí, uprostřed miska hrubé kremžské hořčice s viditelnými zrnky, vedle ní rozsypaná hořčičná semínka a vpravo vařený párek s tenkým pruhem hořčice na talíři">
+  <style>.steam path{animation:steam-rise 3.4s ease-in-out infinite}.steam path:nth-child(2){animation-delay:1.1s}.steam path:nth-child(3){animation-delay:2.2s}@keyframes steam-rise{0%{opacity:0;transform:translateY(12px)}40%{opacity:1}100%{opacity:0;transform:translateY(-14px)}}</style>
+  <rect width="1200" height="400" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M60 362 H1140" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-dasharray: 2 12; stroke-linecap: round; opacity: .45"/>
+
+  <!-- jar of smooth full-fat mustard -->
+  <path d="M160 158 H300 V174 Q330 182 330 210 V328 Q330 350 308 350 H152 Q130 350 130 328 V210 Q130 182 160 174 Z" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M139 216 H321 V328 Q321 341 308 341 H152 Q139 341 139 328 Z" style="fill: var(--banner-warm, #e9b44c)"/>
+  <path d="M139 216 H321" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; opacity: .5"/>
+  <path d="M152 226 V240 M152 306 V328" style="fill: none; stroke: #fff7ea; stroke-width: 7; stroke-linecap: round; opacity: .8"/>
+  <!-- label -->
+  <rect x="139" y="248" width="182" height="54" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4"/>
+  <path d="M139 260 H321 M139 290 H321" style="fill: none; stroke: var(--banner-accent, #c8462a); stroke-width: 5"/>
+  <g style="fill: var(--banner-warm, #e9b44c); stroke: var(--banner-fg, #1b2a4a); stroke-width: 3">
+    <circle cx="200" cy="275" r="6"/><circle cx="230" cy="275" r="6"/><circle cx="260" cy="275" r="6"/>
+  </g>
+  <path d="M160 158 H300 V174 Q330 182 330 210 V328 Q330 350 308 350 H152 Q130 350 130 328 V210 Q130 182 160 174 Z" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <rect x="148" y="118" width="164" height="42" rx="9" style="fill: var(--banner-cool, #1f4fa3); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M176 130 V148 M204 130 V148 M232 130 V148 M260 130 V148 M288 130 V148" style="fill: none; stroke: #fff7ea; stroke-width: 4; stroke-linecap: round; opacity: .55"/>
+
+  <!-- dish of coarse kremžská mustard -->
+  <path d="M470 270 H730 Q730 350 600 350 Q470 350 470 270 Z" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M492 300 Q600 322 708 300" style="fill: none; stroke: var(--banner-cool, #1f4fa3); stroke-width: 5; stroke-linecap: round"/>
+  <ellipse cx="600" cy="270" rx="130" ry="26" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6"/>
+  <ellipse cx="600" cy="272" rx="112" ry="17" style="fill: var(--banner-warm, #e9b44c); fill: color-mix(in srgb, var(--banner-warm, #e9b44c) 80%, black); stroke: var(--banner-fg, #1b2a4a); stroke-width: 3"/>
+  <path d="M520 270 C524 244 566 232 600 238 C640 232 678 246 682 270 C640 284 560 284 520 270 Z" style="fill: var(--banner-warm, #e9b44c); fill: color-mix(in srgb, var(--banner-warm, #e9b44c) 80%, black); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+  <g style="fill: var(--banner-warm, #e9b44c); fill: color-mix(in srgb, var(--banner-warm, #e9b44c) 40%, black); stroke: var(--banner-fg, #1b2a4a); stroke-width: 2">
+    <circle cx="552" cy="262" r="5"/><circle cx="578" cy="250" r="5.5"/><circle cx="606" cy="258" r="5"/><circle cx="634" cy="250" r="5.5"/>
+    <circle cx="660" cy="264" r="5"/><circle cx="566" cy="276" r="5"/><circle cx="596" cy="272" r="5.5"/><circle cx="626" cy="274" r="5"/>
+    <circle cx="540" cy="272" r="4.5"/><circle cx="650" cy="276" r="4.5"/><circle cx="612" cy="244" r="4.5"/><circle cx="588" cy="262" r="4"/>
+  </g>
+  <path d="M552 254 q14 -8 30 -6" style="fill: none; stroke: #fff7ea; stroke-width: 3; stroke-linecap: round; opacity: .6"/>
+
+  <!-- loose seeds -->
+  <g style="fill: var(--banner-warm, #e9b44c); stroke: var(--banner-fg, #1b2a4a); stroke-width: 3">
+    <circle cx="772" cy="344" r="7"/><circle cx="796" cy="352" r="7"/><circle cx="820" cy="342" r="7"/>
+    <circle cx="846" cy="352" r="7"/><circle cx="808" cy="330" r="7"/><circle cx="868" cy="340" r="7"/>
+  </g>
+  <g style="fill: #fff7ea; opacity: .8"><circle cx="770" cy="341" r="2"/><circle cx="818" cy="339" r="2"/><circle cx="806" cy="327" r="2"/></g>
+
+  <!-- boiled párek with a line of mustard -->
+  <ellipse cx="1010" cy="336" rx="136" ry="18" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 5"/>
+  <g transform="rotate(-5 1010 290)">
+    <rect x="890" y="262" width="240" height="58" rx="29" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6"/>
+    <path d="M920 276 H1000" style="fill: none; stroke: #fff7ea; stroke-width: 5; stroke-linecap: round; opacity: .6"/>
+    <path d="M910 278 q10 -22 24 -10 q14 -22 28 -8 q14 -20 28 -6 q14 -20 28 -4 q14 -18 28 -2 q14 -18 28 -2 q14 -14 26 0" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 14; stroke-linecap: round; stroke-linejoin: round"/>
+    <path d="M910 278 q10 -22 24 -10 q14 -22 28 -8 q14 -20 28 -6 q14 -20 28 -4 q14 -18 28 -2 q14 -18 28 -2 q14 -14 26 0" style="fill: none; stroke: var(--banner-warm, #e9b44c); stroke-width: 7; stroke-linecap: round; stroke-linejoin: round"/>
+  </g>
+  <g class="steam" style="fill: none; stroke: var(--banner-cool, #1f4fa3); stroke-width: 5; stroke-linecap: round">
+    <path d="M950 232 q-12-16 0-32 q12-16 0-30"/>
+    <path d="M1000 228 q-12-16 0-32 q12-16 0-30"/>
+    <path d="M1050 226 q-12-16 0-32 q12-16 0-30"/>
+  </g>
+
+  <!-- notes -->
+  <text x="50" y="84" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">hladká plnotučná</text>
+  <path d="M290 92 q40 4 46 112" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="420" y="84" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">kremžská, vidíš zrníčka</text>
+  <path d="M600 100 q-24 50 0 128" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="900" y="110" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">k párku tence</text>
+  <path d="M1090 126 q40 50 20 118" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+</svg>
