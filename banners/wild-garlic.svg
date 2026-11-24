@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Svazek listů medvědího česneku, každý list široký a špičatý na vlastní tenké stopce vyrůstající zvlášť, vedle lehce přeškrtnutá konvalinka, jejíž dva listy objímají jeden stonek">
+  <rect width="1200" height="400" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M60 362 H1140" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-dasharray: 2 12; stroke-linecap: round; opacity: .45"/>
+  <g transform="translate(30 0)">
+  <path d="M312 350 Q265 273 215 250" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linecap: round"/>
+  <path d="M322 350 Q278 220 250 172" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linecap: round"/>
+  <path d="M332 350 Q335 260 335 205" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linecap: round"/>
+  <path d="M342 350 Q402 226 430 178" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linecap: round"/>
+  <path d="M352 350 Q405 275 455 252" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linecap: round"/>
+  <path d="M308 322 Q332 334 358 320" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 14; stroke-linecap: round"/>
+  <path d="M308 322 Q332 334 358 320" style="fill: none; stroke: var(--banner-accent, #c8462a); stroke-width: 7; stroke-linecap: round"/>
+  <path d="M338 330 q-6 16 -2 26 M340 330 q10 12 14 24" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linecap: round"/>
+  <g>
+    <g transform="translate(215 250) rotate(-155) scale(1.0)"><path d="M0 0 C16 -30 70 -40 140 0 C70 40 16 30 0 0 Z" style="fill: var(--banner-warm, #e9b44c)"/><path d="M0 0 C16 -30 70 -40 140 0 C70 40 16 30 0 0 Z" style="fill: var(--banner-cool, #1f4fa3); opacity: .4"/><path d="M8 0 L132 0 M12 -9 C50 -19 92 -15 126 -3 M12 9 C50 19 92 15 126 3" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round; opacity: .5"/><path d="M0 0 C16 -30 70 -40 140 0 C70 40 16 30 0 0 Z" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/></g>
+    <g transform="translate(250 172) rotate(-120) scale(1.0)"><path d="M0 0 C16 -30 70 -40 140 0 C70 40 16 30 0 0 Z" style="fill: var(--banner-warm, #e9b44c)"/><path d="M0 0 C16 -30 70 -40 140 0 C70 40 16 30 0 0 Z" style="fill: var(--banner-cool, #1f4fa3); opacity: .4"/><path d="M8 0 L132 0 M12 -9 C50 -19 92 -15 126 -3 M12 9 C50 19 92 15 126 3" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round; opacity: .5"/><path d="M0 0 C16 -30 70 -40 140 0 C70 40 16 30 0 0 Z" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/></g>
+    <g transform="translate(335 205) rotate(-90) scale(1.0)"><path d="M0 0 C16 -30 70 -40 140 0 C70 40 16 30 0 0 Z" style="fill: var(--banner-warm, #e9b44c)"/><path d="M0 0 C16 -30 70 -40 140 0 C70 40 16 30 0 0 Z" style="fill: var(--banner-cool, #1f4fa3); opacity: .4"/><path d="M8 0 L132 0 M12 -9 C50 -19 92 -15 126 -3 M12 9 C50 19 92 15 126 3" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round; opacity: .5"/><path d="M0 0 C16 -30 70 -40 140 0 C70 40 16 30 0 0 Z" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/></g>
+    <g transform="translate(430 178) rotate(-60) scale(0.95)"><path d="M0 0 C16 -30 70 -40 140 0 C70 40 16 30 0 0 Z" style="fill: var(--banner-warm, #e9b44c)"/><path d="M0 0 C16 -30 70 -40 140 0 C70 40 16 30 0 0 Z" style="fill: var(--banner-cool, #1f4fa3); opacity: .4"/><path d="M8 0 L132 0 M12 -9 C50 -19 92 -15 126 -3 M12 9 C50 19 92 15 126 3" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round; opacity: .5"/><path d="M0 0 C16 -30 70 -40 140 0 C70 40 16 30 0 0 Z" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/></g>
+    <g transform="translate(455 252) rotate(-25) scale(0.9)"><path d="M0 0 C16 -30 70 -40 140 0 C70 40 16 30 0 0 Z" style="fill: var(--banner-warm, #e9b44c)"/><path d="M0 0 C16 -30 70 -40 140 0 C70 40 16 30 0 0 Z" style="fill: var(--banner-cool, #1f4fa3); opacity: .4"/><path d="M8 0 L132 0 M12 -9 C50 -19 92 -15 126 -3 M12 9 C50 19 92 15 126 3" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round; opacity: .5"/><path d="M0 0 C16 -30 70 -40 140 0 C70 40 16 30 0 0 Z" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/></g>
+  </g>
+  </g>
+  <g transform="translate(20 0)">
+  <g style="opacity: .75">
+    <path d="M1052 332 C1054 262 1062 196 1066 158 Q1070 128 1104 122" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linecap: round"/>
+    <g style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linecap: round">
+      <path d="M1067 152 q-6 6 -10 16"/><path d="M1077 134 q2 8 6 14"/><path d="M1098 122 q6 6 8 18"/>
+    </g>
+    <g transform="translate(1055 168) scale(0.85)"><path d="M0 0 C-14 0 -14 16 -17 23 Q0 30 17 23 C14 16 14 0 0 0 Z" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/></g>
+    <g transform="translate(1085 146) scale(0.85)"><path d="M0 0 C-14 0 -14 16 -17 23 Q0 30 17 23 C14 16 14 0 0 0 Z" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/></g>
+    <g transform="translate(1106 138) scale(0.8)"><path d="M0 0 C-14 0 -14 16 -17 23 Q0 30 17 23 C14 16 14 0 0 0 Z" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/></g>
+    <path d="M1052 350 C1106 330 1118 264 1096 210 C1062 256 1046 302 1052 350 Z" style="fill: var(--banner-warm, #e9b44c)"/><path d="M1052 350 C1106 330 1118 264 1096 210 C1062 256 1046 302 1052 350 Z" style="fill: var(--banner-cool, #1f4fa3); opacity: .4"/><path d="M1056 338 C1084 300 1094 262 1090 232" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round; opacity: .5"/><path d="M1052 350 C1106 330 1118 264 1096 210 C1062 256 1046 302 1052 350 Z" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+    <path d="M1048 350 C996 332 982 262 1006 198 C1044 246 1060 304 1048 350 Z" style="fill: var(--banner-warm, #e9b44c)"/><path d="M1048 350 C996 332 982 262 1006 198 C1044 246 1060 304 1048 350 Z" style="fill: var(--banner-cool, #1f4fa3); opacity: .4"/><path d="M1042 338 C1012 300 1004 252 1008 220" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round; opacity: .5"/><path d="M1048 350 C996 332 982 262 1006 198 C1044 246 1060 304 1048 350 Z" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  </g>
+  <path d="M972 120 C1030 180 1092 262 1132 340" style="fill: none; stroke: var(--banner-accent, #c8462a); stroke-width: 8; stroke-linecap: round; opacity: .85"/>
+  </g>
+  <path d="M622 112 q-12 36 -28 74" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="582" y="98" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">rozemni: voní česnekem</text>
+  <path d="M494 320 q-30 2 -52 -22" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="506" y="332" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">každý list na vlastní stopce</text>
+  <path d="M930 190 q60 4 112 -30" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="716" y="214" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">ne konvalinka</text>
+</svg>
