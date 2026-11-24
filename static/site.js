@@ -266,6 +266,8 @@
       var layer = el('div', 'fold-layer');
       layer.setAttribute('aria-hidden', 'true');
       layer.style.width = w + 'px';
+      layer.style.setProperty('--bar-left', card.clientLeft + 'px');
+      layer.style.setProperty('--bar-w', w - card.clientLeft + 'px');
       var headSlice = slice(0, head, w);
       headSlice.classList.add('fold--head');
       // The hidden card takes no clicks while it folds, so the flat head slice passes them on.
@@ -273,20 +275,28 @@
       var strips = [];
       for (var i = 0; i < N; i++) strips.push(slice(head + i * s, s, w));
       var footSlice = slice(head + L, foot + SHADOW, w);
+      footSlice.classList.add('fold--foot');
       [headSlice].concat(strips, [footSlice]).forEach(function (x) { layer.appendChild(x); });
       box.appendChild(layer);
       var P0 = Math.min(0.5, STACK / L);
       return {
         layer: layer,
+        foot: foot,
         // q runs 0 (shut) to 1 (open); the paper opens from P0 to 1.
         frame: function (q) {
           var p = P0 + (1 - P0) * q, a = Math.acos(p), depth = s * Math.sin(a);
+          // Near shut (r < 1) the folded strips are a flat grey bar with no right border or
+          // shadow; over the first 30% of opening the bar fades and the folds take shape.
+          var r = Math.min(1, q / 0.3);
+          layer.style.perspective = r > 0 ? 1800 / r + 'px' : 'none';
+          layer.style.setProperty('--grey', (1 - r).toFixed(3));
           card.style.height = shut + L * p + 'px';
           layer.style.height = shut + L * p + 'px';
           card.style.setProperty('--fold', q.toFixed(3));
           layer.style.setProperty('--fold', q.toFixed(3));
           strips.forEach(function (st, k) {
             st.style.top = head + k * s * p + 'px';
+            st.style.width = w + SHADOW * r + 'px';
             st.style.transform = k % 2
               ? 'translateZ(' + -depth + 'px) rotateX(' + a + 'rad)'
               : 'rotateX(' + -a + 'rad)';
@@ -302,6 +312,7 @@
       card.classList.remove('is-folding', 'is-shut');
       card.style.height = '';
       card.style.removeProperty('--fold');
+      card.style.clipPath = '';
     }
     // Shut and still: the real card shows, and the folded strips hang under it.
     function rest() {
@@ -312,6 +323,8 @@
       card.style.height = '';
       card.style.removeProperty('--fold');
       card.classList.add('is-shut');
+      // Cut the card's bottom edge and shadow, so its right shadow stops where the grey bar starts.
+      card.style.clipPath = 'inset(-10px -10px ' + fold.foot + 'px -10px)';
     }
     summary.addEventListener('click', function (e) {
       e.preventDefault();
