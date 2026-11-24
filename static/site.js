@@ -242,7 +242,8 @@
       s.appendChild(c);
       return s;
     }
-    card.querySelector('summary').addEventListener('click', function (e) {
+    var summary = card.querySelector('summary');
+    summary.addEventListener('click', function (e) {
       e.preventDefault();
       if (dir) { dir = -dir; return; }
       var opening = !card.open;
@@ -261,7 +262,11 @@
       var strips = [];
       for (var i = 0; i < N; i++) strips.push(slice(head + i * s, s, w));
       var footSlice = slice(head + L, foot + SHADOW, w);
-      [slice(0, head, w)].concat(strips, [footSlice]).forEach(function (x) { layer.appendChild(x); });
+      // The hidden card takes no clicks while it folds, so the flat head slice passes them on.
+      var headSlice = slice(0, head, w);
+      headSlice.classList.add('fold--head');
+      headSlice.addEventListener('click', function (ev) { ev.preventDefault(); summary.click(); });
+      [headSlice].concat(strips, [footSlice]).forEach(function (x) { layer.appendChild(x); });
       card.appendChild(layer);
       card.classList.add('is-folding');
       layer.style.width = w + 'px';

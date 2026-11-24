@@ -364,6 +364,7 @@ html:not(.js) .scaler button { display: none; }
 .filters-wrap.is-folding { visibility: hidden; }
 .fold-layer { position: absolute; visibility: visible; pointer-events: none; perspective: 1800px; }
 .fold { position: absolute; left: 0; overflow: hidden; transform-origin: 50% 0; }
+.fold--head { pointer-events: auto; cursor: pointer; }
 .fold::after { content: ""; position: absolute; inset: 0; background: #000; opacity: var(--shade, 0); }
 .filters__count { margin: 0 0 6px; font: 600 18px var(--font-note); color: var(--accent); }
 .legend { display: flex; gap: 18px; font-size: 13px; color: var(--muted); margin: 6px 0 10px; flex-wrap: wrap; align-items: center; }
