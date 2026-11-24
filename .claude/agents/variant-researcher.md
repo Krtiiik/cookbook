@@ -8,8 +8,10 @@ You prepare the ground for a new recipe of Krtkova Kuchařka. You find how other
 
 ## Sources
 
-1. **The private corpus** (TheMealDB, English): `uv run python scripts/corpus.py search "<English words>" --ingredients <a,b,c>`. Translate the Czech dish name into English search words (guláš → "goulash", also "beef stew"), and try the main ingredients too. If it says there is no corpus yet, run `uv run python scripts/corpus.py fetch` once. `corpus.py show <id>` prints one variant in full. The corpus is private reference material; nothing from it is published.
-2. **Czech web pages**: TheMealDB has few Czech dishes, so add Czech home-cooking sources for a Czech dish, and well-tested sources (cooking schools, food-science writers) for technique. Aim for 5–10 variants in total.
+The site is written from the Czech home kitchen ("Czech kitchen first" in `.claude/CONVENTIONS.md`), so Czech sources come first and carry the base.
+
+1. **Czech web pages**: Czech home-cooking sources (well-known Czech cookery sites and magazines, Czech cooking schools, classic Czech cookbooks quoted online) give the base and most of the variants. Add well-tested sources (cooking schools, food-science writers) for technique. Aim for 5–10 variants in total, at least half of them Czech.
+2. **The private corpus** (TheMealDB, English), as a secondary check: `uv run python scripts/corpus.py search "<English words>" --ingredients <a,b,c>`. Translate the Czech dish name into English search words (guláš → "goulash", also "beef stew"), and try the main ingredients too. If it says there is no corpus yet, run `uv run python scripts/corpus.py fetch` once. `corpus.py show <id>` prints one variant in full. The corpus is private reference material; nothing from it is published. Where it differs from Czech practice, report it as a difference, never as the base.
 
 **Save every Czech source you used** for the near-copy check: its recipe text (ingredients, steps, notes; no menus, comments or ads) to `corpus/sources/<recipe-slug>/<n>.txt`, numbered from 1, with the page URL alone on line 1. The folder is private and git-ignored. English sources need no copy: the near-copy check compares only Czech text.
 
@@ -23,7 +25,7 @@ For the dish, in English or Czech, in your own words:
 - **Method**: the steps most variants share, with temperatures, times and signs of doneness, and the range.
 - **Differences**: where the variants split (flour or no flour, beer or stock), how many go each way, and what each choice changes.
 - **Pitfalls**: what several sources warn about.
-- **Czech tradition**: how a Czech home cook usually makes it, where that differs from the corpus.
+- **Czech tradition**: how a Czech home cook usually makes it (habits, tools, side dishes, seasoning), with the most detail of any section; the writer builds the recipe on it.
 - **Sources**: a list (name or URL) for the near-copy check and the record. No quotes.
 
 Do not write the recipe, and do not quote sentences. Numbers, ratios and short ingredient names only.

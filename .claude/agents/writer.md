@@ -43,6 +43,8 @@ Your page must agree with these pages: the same words for a technique, the same 
 ## Writing
 
 - Czech, tykání ("nakrájej", "zkus"), never vykání.
+- Czech kitchen first (`.claude/CONVENTIONS.md`): write as a Czech home cook explains it to a friend, with Czech habits, tools, shop products and dishes, not as a translated foreign cookbook. Before you write, ask yourself how a Czech home cook uses this thing, and make sure the page answers that (for garlic: the lis, česnečka, topinka).
+- Food-safety numbers and the name to cite come from `docs/FOOD-SAFETY.md`.
 - Czech past tense shows gender, and the owner's is not recorded: write in the present or in neutral forms.
 - Short sentences, concrete numbers (grams, minutes, °C). Food-safety numbers only with a source from the task or the fact-checker; never invent them.
 

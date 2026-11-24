@@ -9,12 +9,19 @@ Skip anything tooling already checks. Prefer a rule plus a one-line reason over 
 
 - Site text is Czech. Slugs, keys, file names and code are English (`onion`, not `cibule`), so links stay stable when titles change.
 - Address the reader informally (tykání: "nakrájej", "tvoje", "zkus"), never with vykání ("nakrájejte", "Vaše"). This applies to all Czech text: recipes, explainers and UI labels, buttons and messages.
+- **Czech kitchen first.** Write every page from the Czech home kitchen, not as a translated general or American cookbook page. The owner found the early pages "very American, just translated".
+  - Start from what a Czech cook does at home and say it plainly, also when a chef would do it differently: prolisovaný česnek, jíška, zahuštění moukou, bujón. Say what the habit changes and when it is fine; never sneer at it.
+  - Examples and uses are Czech dishes first (česnečka, topinka s česnekem, bramboráky, svíčková, guláš, vepřo knedlo zelo, pomazánky, polévky ze sáčku jen jako srovnání), foreign dishes after them.
+  - Tools, products and cuts by the names a Czech shop, butcher or market uses: lis na česnek, struhadlo, kastrol, pekáč, tlakový hrnec; hladká / polohrubá / hrubá mouka, smetana ke šlehání, zakysaná smetana, tvaroh, sádlo a škvarky; kližka, plec, krk, líčka. No brand names.
+  - Czech seasoning habits where they belong: majoránka, kmín, nové koření, bobkový list, sladká paprika, česnek.
+  - No US framing: no cups or °F (the converter handles them), no US-only products or names (kosher salt, half-and-half, "Dutch oven"), no US habit presented as the default (a whole roasted garlic head, brining a turkey). A foreign technique is fine when it is named as one and placed next to the Czech way.
+  - Seasons, prices and availability as in Czech shops and markets.
 - Slugs are unique across all sections and recipes, so `[[slug]]` never needs a section prefix.
 - Link a method, equipment or troubleshooting page with `[[slug]]` or `[[slug|text]]` in the body. Do not add frontmatter lists for them.
 - Every written page needs at least one incoming link.
 - Write ingredient amounts in metric units from the unit list. Use `text:` (e.g. "podle chuti") only for amounts that must not scale.
 - Never type allergens or diet on a recipe unless the derived value is wrong; then add the override and a note why in Poznámky.
-- Food-safety numbers (temperatures, storage times) need a cited authority, named in the text ("podle USDA FSIS"; FoodKeeper times as "podle USDA FSIS (aplikace FoodKeeper)"). Never invent them. When two authorities differ, recommend the stricter number and never call the looser one "přísnější".
+- Food-safety numbers (temperatures, storage times) need a cited authority, named in the text. Czech and EU authorities come first, other European ones next, USDA FSIS only where none of them gives a number; `docs/FOOD-SAFETY.md` lists the numbers and the name to cite for each topic. Never invent them. When two authorities differ, recommend the stricter number and never call the looser one "přísnější".
 - Cooked food into the fridge always gets the same rule: shallow containers, in the fridge within 2 hours, then a day count (USDA FSIS). A loose "vychladlé dej do lednice" invites hours on the counter. Reheating ends with a target: "až se celé prohřeje a začne mírně vařit (aspoň 74 °C, viz [[thermometer|teploměr]])".
 - Heat words, only these: mírný, středně mírný, střední, středně vysoký, vysoký oheň; "moc silný oheň" only as a mistake. To lower the heat: "stáhni oheň". Give a heat word wherever a step changes the heat, so pages can agree.
 - Raw-meat storage follows USDA FSIS by cut: fridge days, freezer months for quality ("při −18 °C bezpečné neomezeně"). Head, tail and organ cuts (líčka, oháňka, jazyk, játra) are variety meats: 1–2 days in the fridge, 3–4 months frozen (both "podle USDA FSIS"); never infer the whole-cut row.

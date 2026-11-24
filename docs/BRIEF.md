@@ -11,7 +11,7 @@ A public website, built for the owner first:
 
 All parts link to each other. A recipe links to the explainers it uses. Each explainer lists the recipes that use it. The build generates the reverse links from the recipe data and body links; nobody keeps manual lists.
 
-- Site content: **Czech** only, no i18n. The site addresses the reader informally (**tykání**, never vykání), in content and UI text alike.
+- Site content: **Czech** only, no i18n, written from the **Czech home kitchen**: Czech habits, tools, shop products and dishes come first, never a translated foreign cookbook (see "Czech kitchen first" in `.claude/CONVENTIONS.md`). The site addresses the reader informally (**tykání**, never vykání), in content and UI text alike.
 - Code, slugs, file names, data keys and comments: **English**.
 - Never commercial. Content licence: **CC BY-NC-SA 4.0**.
 
@@ -179,7 +179,7 @@ Adapted from the trading site's pipeline. Agents are in `.claude/agents/`, skill
 - **Agents that write**: **writer** (recipes and explainers, and planned catalog entries for new ingredients), **illustrator** (explainer banners).
 - **Agents that check** (read-only, independent of the writer): **reviewer** (reading, Czech, conventions), **fact-checker** (food safety, cooking science, and the catalog data that drives allergens and diet), **test-cook** (cooks the recipe on paper: ingredients against steps, order, timing, scaling).
 - **Agents for the whole site** (read-only): **auditor** (drift between pages and catalog data), **planner** (what to write or cook next).
-- **variant-researcher** (read-only): summarises 5–10 variants of a dish as ratios, temperatures and times, without text. It searches the corpus with `scripts/corpus.py` and Czech web pages, and saves the Czech sources it used to `corpus/sources/<slug>/`.
+- **variant-researcher** (read-only): summarises 5–10 variants of a dish as ratios, temperatures and times, without text. It searches Czech web pages first and the corpus with `scripts/corpus.py` as a secondary check, and saves the Czech sources it used to `corpus/sources/<slug>/`.
 - Recipe drafts:
   1. `variant-researcher` reports the common base and the differences.
   2. `writer` writes a new recipe in the owner's style, metric units, `status: draft`.
@@ -192,7 +192,7 @@ Adapted from the trading site's pipeline. Agents are in `.claude/agents/`, skill
 
 - **Copyright**: take ideas, write new text. Ingredient lists are usually not protected; method text, photos and stories are. Do not reproduce large parts of one collection (EU database right).
 - **Accuracy**: drafts are marked "netestováno"; only tested recipes are the core of the site.
-- **Food safety**: temperatures and storage times must cite a food-safety authority. Never invent numbers.
+- **Food safety**: temperatures and storage times must cite a food-safety authority, Czech or EU first, USDA only as a fallback (`docs/FOOD-SAFETY.md`). Never invent numbers.
 - **Allergens**: the EU 14: cereals containing gluten, crustaceans, eggs, fish, peanuts, soybeans, milk, nuts, celery, mustard, sesame, sulphur dioxide and sulphites, lupin, molluscs.
 
 ## 10. Stack

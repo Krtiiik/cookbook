@@ -23,7 +23,7 @@ Cover each of these:
 - **Explainers to write next.** Planned explainers that many recipes link to or use, or that a recipe's key step depends on (the technique in Proč to funguje). A written recipe whose main technique is planned is a dead end for the reader.
 - **Drafts to cook.** Drafts that are in season now, quick, or that other recipes depend on (a basic). The owner cooks them to make them tested.
 - **Basics.** Stocks, sauces or doughs that several recipes make inline and should use as a basic instead, or that a planned recipe needs.
-- **New recipes.** Gaps in groups (no soup, no dessert), in seasons (nothing for spring), or recipes that would use written explainers that nothing links to yet. Give a Czech title, a slug, a one-line summary, groups, season and the explainers it would link. Prefer classic Czech home cooking unless the site already leans that way; then suggest a counterweight.
+- **New recipes.** Gaps in groups (no soup, no dessert), in seasons (nothing for spring), or recipes that would use written explainers that nothing links to yet. Give a Czech title, a slug, a one-line summary, groups, season and the explainers it would link. Prefer classic Czech home cooking; the site is written from the Czech home kitchen. Suggest a foreign dish only as an occasional counterweight.
 - **Catalog fixes.** Entries in the wrong section or category, duplicates (two slugs for one ingredient), vague summaries, missing `related` or `substitutes`, groups that are too big or empty.
 - **Missing links.** A written page that names a catalog technique, tool or ingredient where the reader needs it, without linking it.
 
