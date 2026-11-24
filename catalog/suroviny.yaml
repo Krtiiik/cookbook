@@ -1,7 +1,7 @@
 # season: all-year, or a list of month numbers (1-12) when the ingredient is at its best here.
 # animal: none | dairy | egg | honey | fish | meat (drives vegetarian and vegan).
 # density: grams per millilitre, approximate; only for the converter.
-- { slug: beef-shank, title: Hovězí kližka, summary: "Libové maso z nohy s hodně kolagenu. Na dušení.", category: meat, animal: meat, season: all-year }
+- { slug: beef-shank, title: Hovězí kližka, summary: "Maso z nohy, hodně kolagenu a málo tuku. Dlouhým dušením změkne.", category: meat, animal: meat, season: all-year }
 - { slug: beef-bones, title: Hovězí kosti, summary: "Základ vývaru. Morkové dávají chuť, kloubní želatinu.", category: meat, animal: meat, season: all-year }
 - { slug: onion, title: Cibule, summary: "Základ většiny omáček. Syrová ostrá, opékaná sladká.", category: vegetables, animal: none, season: all-year, substitutes: [shallot, leek] }
 - { slug: shallot, title: Šalotka, summary: "Jemnější a sladší než cibule.", category: vegetables, animal: none, season: all-year, substitutes: [onion] }

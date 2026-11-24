@@ -1,9 +1,10 @@
 - slug: tough-stew
   title: Proč je dušené maso tuhé?
-  summary: "Málo času, prudký var nebo libový kus."
+  summary: "Málo času, prudký var nebo kus s málo kolagenem."
   category: meat-problems
-  related: [braising]
+  related: [braising, simmering, beef-shank]
 - slug: bitter-paprika
   title: Proč paprika zhořkla?
-  summary: "Mletá paprika na přímém žáru rychle připálí."
+  summary: "Mletá paprika se na přímém žáru rychle připálí."
   category: sauces
+  related: [sweet-paprika, browning, caramelising]

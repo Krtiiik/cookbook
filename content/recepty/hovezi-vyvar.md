@@ -40,7 +40,7 @@ Ve studené vodě se bílkoviny z kostí uvolňují pomalu a srazí se v pěnu, 
 
 ## Skladování a ohřev
 
-Rozlij do mělkých nádob, ať rychle vychladne, a do 2 hodin dej do lednice. Vydrží 3 dny (podle USDA FSIS). Můžeš ho i zmrazit po porcích.
+Rozlij do mělkých nádob, ať rychle vychladne, a do 2 hodin dej do lednice. Vydrží 3 dny (podle USDA FSIS). Můžeš ho i zmrazit po porcích, v mrazáku vydrží zhruba 3 měsíce (podle USDA FSIS).
 
 ## Poznámky
 

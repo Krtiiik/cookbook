@@ -27,12 +27,13 @@ changes:
 ---
 ## Postup
 
-1. Maso osuš a nakrájej na kostky asi 4 cm. Menší kostky se při dlouhém [[braising|dušení]] rozpadnou.
+1. Maso nakrájej na kostky asi 4 cm a osuš je papírovou utěrkou. Menší kostky se při dlouhém [[braising|dušení]] rozpadnou.
 2. V [[dutch-oven|litinovém hrnci]] rozpusť sádlo. Cibuli opékej na středním ohni 20–25 minut, až zezlátne a změkne ([[caramelising|karamelizace]]).
-3. Přidej česnek, kmín a protlak a minutu míchej. Hrnec stáhni z ohně a vmíchej papriku: na přímém žáru [[bitter-paprika|zhořkne]].
-4. Vrať hrnec na střední oheň a přidej maso. Maso a jeho šťáva hrnec zchladí a ty pořád mícháš, takže paprika už nezhořkne. Míchej asi 5 minut, až se maso [[browning|na povrchu zatáhne]] a ze všech stran zešedne. Zalij [[hovezi-vyvar|hovězím vývarem]], aby bylo maso skoro ponořené.
-5. Přikryj a nech jen [[simmering|mírně vařit]] 2–2,5 hodiny. Občas promíchej a podle potřeby dolij trochu horké vody.
-6. Odkryj, přidej majoránku a nech 15 minut zhoustnout na středním ohni. Často míchej, ať se omáčka nepřichytí ke dnu. Osol podle chuti.
+3. Přidej česnek, kmín a protlak a minutu míchej. Hrnec stáhni z ohně a vmíchej papriku jen na pár vteřin: na přímém žáru [[bitter-paprika|zhořkne]].
+4. Přidej maso, vrať hrnec na střední oheň a pořád míchej. Maso a jeho šťáva hrnec zchladí, takže paprika už nezhořkne. Míchej asi 5 minut, až se maso [[browning|na povrchu zatáhne]] a ze všech stran zešedne. Zalij [[hovezi-vyvar|hovězím vývarem]], aby bylo maso skoro ponořené.
+5. Na středním ohni přiveď guláš do [[simmering|mírného varu]].
+6. Přikryj, stáhni oheň na mírný a po 5 minutách zkontroluj hladinu: má se jen mírně vařit. Vař 2–2,5 hodiny, až vidlička projde masem bez odporu ([[tough-stew|zůstalo tuhé?]]). Občas promíchej a podle potřeby dolij trochu horké vody.
+7. Odkryj, přidej majoránku a nech 15 minut zhoustnout na středním ohni. Často míchej, ať se omáčka nepřichytí ke dnu. Osol podle chuti.
 
 ## Proč to funguje
 

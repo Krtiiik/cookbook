@@ -8,7 +8,7 @@ Kolagen v tuhých kusech se při tom mění na želatinu. Proto se dusí kusy, k
 
 - **Ano:** kusy s hodně kolagenem: [[beef-shank]], plec, líčka.
 - **Ano:** zelí, kořenová zelenina, luštěniny.
-- **Ne:** libové a měkké kusy (svíčková, kuřecí prsa). Vyschnou dřív, než by změkly.
+- **Ne:** kusy s málo kolagenem (svíčková, kuřecí prsa). Rozhoduje kolagen, ne tuk: libová kližka je na dušení ideální.
 
 ## Postup
 
@@ -23,5 +23,5 @@ Kolagen v tuhých kusech se při tom mění na želatinu. Proto se dusí kusy, k
 | Chyba | Co se stane | Jak tomu předejít |
 |---|---|---|
 | Prudký var | Vlákna se stáhnou, maso je suché, i když je měkké. | Jen mírný var, případně trouba. |
-| Moc tekutiny | Maso se vaří, místo aby se dusilo. Omáčka je řídká. | Tekutina nejvýš do poloviny masa. |
-| Libový kus | Maso vyschne a zůstane tuhé. | Vyber kus s kolagenem. Viz [[tough-stew|proč je dušené maso tuhé]]. |
+| Moc tekutiny | Maso se vaří, místo aby se dusilo. Omáčka je řídká. | Tekutina nejvýš do poloviny masa (kostky v omáčce: skoro zakryté). |
+| Kus s málo kolagenem | Maso vyschne a zůstane tuhé. | Vyber kus s kolagenem. Viz [[tough-stew|proč je dušené maso tuhé]]. |
