@@ -9,10 +9,10 @@
 - { slug: onion, title: Cibule, summary: "Základ většiny omáček. Syrová ostrá, opékaná sladká.", category: vegetables, animal: none, season: all-year, substitutes: [shallot, leek] }
 - { slug: shallot, title: Šalotka, summary: "Jemnější a sladší než cibule.", category: vegetables, animal: none, season: all-year, substitutes: [onion] }
 - { slug: leek, title: Pórek, summary: "Mírná cibulová chuť, jíst se dá i zelená část.", category: vegetables, animal: none, season: [9, 10, 11, 12, 1, 2, 3], substitutes: [onion] }
-- { slug: garlic, title: Česnek, summary: "Syrový ostrý, pomalu pečený sladký a jemný.", category: vegetables, animal: none, season: all-year }
-- { slug: carrot, title: Mrkev, summary: "Sladká kořenová zelenina do vývarů a omáček.", category: vegetables, animal: none, season: all-year }
-- { slug: celeriac, title: Celer bulvový, summary: "Kořenová zelenina s výraznou vůní.", category: vegetables, animal: none, season: [9, 10, 11, 12, 1, 2, 3], allergens: [celery] }
-- { slug: parsley-root, title: Petržel kořenová, summary: "Sladší než mrkev, s vůní petrželky.", category: vegetables, animal: none, season: [9, 10, 11, 12, 1, 2, 3] }
+- { slug: garlic, title: Česnek, summary: "Syrový ostrý, pomalu pečený sladký a jemný.", category: vegetables, animal: none, season: all-year, substitutes: [wild-garlic] }
+- { slug: carrot, title: Mrkev, summary: "Sladká kořenová zelenina do vývarů a omáček.", category: vegetables, animal: none, season: all-year, substitutes: [parsley-root] }
+- { slug: celeriac, title: Celer bulvový, summary: "Kořenová zelenina s výraznou vůní. Alergen (celer).", category: vegetables, animal: none, season: [8, 9, 10, 11, 12, 1, 2, 3, 4], allergens: [celery], substitutes: [parsley-root, carrot] }
+- { slug: parsley-root, title: Petržel kořenová, summary: "Bílý kořen s vůní petrželky, kořenitější než mrkev.", category: vegetables, animal: none, season: [8, 9, 10, 11, 12, 1, 2, 3, 4], substitutes: [carrot, celeriac] }
 - { slug: pumpkin, title: Dýně, summary: "Hokkaido se nemusí loupat.", category: vegetables, animal: none, season: [9, 10, 11] }
 - { slug: tomato, title: Rajčata, summary: "Nejlepší v létě. V zimě raději z plechovky.", category: vegetables, animal: none, season: [7, 8, 9] }
 - { slug: asparagus, title: Chřest, summary: "Jarní zelenina, bílý i zelený.", category: vegetables, animal: none, season: [4, 5, 6] }
@@ -29,9 +29,9 @@
 - { slug: marjoram, title: Majoránka, summary: "Sušená do guláše a bramboračky.", category: herbs, animal: none, season: all-year }
 - { slug: bay-leaf, title: Bobkový list, summary: "Do vývarů a omáček, před podáváním vyndej.", category: spices, animal: none, season: all-year }
 - { slug: peppercorns, title: Černý pepř, summary: "Celý do vývarů, čerstvě mletý na dochucení.", category: spices, animal: none, season: all-year }
-- { slug: salt, title: Sůl, summary: "Na dochucení. Do vývaru až na konci.", category: pantry, animal: none, season: all-year }
+- { slug: salt, title: Sůl, summary: "Dochutí jídlo a vytáhne vodu. Kdy solit, záleží na jídle; vývar až na konci.", category: pantry, animal: none, season: all-year, density: 1.2 }
 - { slug: water, title: Voda, summary: "Do vývarů a na podlévání.", category: pantry, animal: none, season: all-year, density: 1 }
-- { slug: tomato-paste, title: Rajčatový protlak, summary: "Zahuštěná rajčata. Krátce opeč, chuť zesílí.", category: pantry, animal: none, season: all-year }
+- { slug: tomato-paste, title: Rajčatový protlak, summary: "Zahuštěná rajčata. Krátce opeč, ztmavne a ztratí syrovou chuť.", category: pantry, animal: none, season: all-year, substitutes: [tomato] }
 - { slug: lard, title: Sádlo, summary: "Vepřový tuk. Snese vysokou teplotu.", category: fats, animal: meat, season: all-year, substitutes: [oil, butter] }
 - { slug: oil, title: Olej, summary: "Rafinovaný snese vysokou teplotu, panenský raději za studena.", category: fats, animal: none, season: all-year, density: 0.92, substitutes: [lard, butter] }
 - { slug: butter, title: Máslo, summary: "Na chuť a na nižší teploty.", category: fats, animal: dairy, season: all-year, allergens: [milk], density: 0.96, substitutes: [oil, lard] }

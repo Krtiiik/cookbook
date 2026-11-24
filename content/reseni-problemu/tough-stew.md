@@ -19,7 +19,7 @@ Při [[braising|dušení]] se kolagen v mase pomalu mění na želatinu a maso m
 - **Moc tekutiny.** Když maso v tekutině plave, chuť z něj přejde do tekutiny a omáčka je řídká a mdlá. Šťavnatější maso od toho nebude (podle America's Test Kitchen tekutina masu vlhkost nedodá). (→ maso bez chuti, tuhost to nespraví)
 - **Moc malé kostky.** Malá kostka nemá chráněný střed: prohřeje se celá naráz, rychleji ztratí šťávu a rozpadne se na suchá vlákna dřív, než změknou větší kusy. (→ měkké, ale suché)
 
-Častá rada říká, že sůl na začátku maso ztuží. Není to pravda: America's Test Kitchen naopak solí dušené maso hned na začátku, aby sůl stihla proniknout do masa. Hledej příčinu v čase, varu a kusu masa.
+Častá rada říká, že sůl na začátku maso ztuží. Není to pravda: America's Test Kitchen naopak solí dušené maso hned na začátku (kdy přesně, když maso opékáš, viz [[browning|hnědnutí masa]]), aby sůl stihla proniknout do masa. Hledej příčinu v čase, varu a kusu masa.
 
 ## Jak to zachránit
 

@@ -30,7 +30,7 @@ Připálenou cibuli zachránit nejde. Hořkost z ní nedostaneš. Rozhoduje, jak
 
 Dokud opékáš, cukr ani koření nepřidávej: cukr se v horkém tuku sám připálí a koření jen přidá další chuť do hořkého základu. Špetka cukru pomůže až v hotovém jídle.
 
-Když hořkost poznáš až v hotovém jídle, zůstane v něm. Trochu ji zmírní víc cibule [[caramelising|opečené zvlášť do zlaté fáze]], lžíce [[tomato-paste|protlaku]], špetka cukru nebo lžíce zakysané smetany do porce na talíři.
+Když hořkost poznáš až v hotovém jídle, zůstane v něm. Trochu ji zmírní víc cibule [[caramelising|opečené zvlášť do zlaté fáze]], lžíce [[tomato-paste|protlaku]] rozmíchaná v trošce horké omáčky (pár minut provař), špetka cukru nebo lžíce zakysané smetany do porce na talíři.
 
 ## Jak tomu předejít
 

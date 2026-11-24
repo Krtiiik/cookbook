@@ -12,9 +12,9 @@ ingredient_groups:
   - items:
       - { qty: 1500, unit: g, item: beef-bones, note: morkové i kloubní }
       - { qty: 3, unit: l, item: water, note: studená }
-      - { qty: 2, unit: ks, item: carrot }
-      - { qty: 1, unit: ks, item: parsley-root }
-      - { qty: 150, unit: g, item: celeriac }
+      - { qty: 2, unit: ks, item: carrot, note: "oloupaná, vcelku" }
+      - { qty: 1, unit: ks, item: parsley-root, note: "oloupaná, vcelku" }
+      - { qty: 150, unit: g, item: celeriac, note: "oloupaný, na velké kusy" }
       - { qty: 1, unit: ks, item: onion, note: "rozpůlená, ve slupce" }
       - { qty: 10, unit: ks, item: peppercorns }
       - { qty: 2, unit: ks, item: bay-leaf }
@@ -28,7 +28,7 @@ changes:
 2. Pomalu přiveď k varu. Pěnu, která vystoupí na povrch, sbírej lžící.
 3. Stáhni oheň, aby vývar jen [[simmering|mírně vařil]]. Přidej koření a nech 3 hodiny.
 4. Přidej zeleninu a cibuli a nech ještě hodinu.
-5. Vývar sceď přes jemné síto. Osol až teď, podle toho, na co ho použiješ.
+5. Vývar sceď přes jemné síto. Osol až teď, podle toho, na co ho použiješ. Na guláš nebo omáčku, která se bude dál vařit, ho nesol.
 
 ## Proč to funguje
 
@@ -44,4 +44,4 @@ Rozlij do mělkých nádob, ať rychle vychladne, a do 2 hodin dej do lednice. V
 
 ## Poznámky
 
-Sůl až na konci: vývar se při dalším vaření zahustí a byl by moc slaný.
+Sůl až na konci: při dalším vaření se voda odpaří, sůl zůstane a vývar by byl moc slaný.
