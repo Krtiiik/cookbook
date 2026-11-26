@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Prorostlý kus vepřové krkovice s tukovým okrajem, vedle ukrojený plátek a plochý steak s naříznutým tukovým okrajem, aby se nekroutil">
+  <rect width="1200" height="400" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M60 362 H1140" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-dasharray: 2 12; stroke-linecap: round; opacity: .45"/>
+  <path d="M130 258 C130 188 260 158 340 158 C440 158 540 178 540 258 C540 328 450 350 340 350 C230 350 130 328 130 258 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M130 258 C130 188 260 158 340 158 C440 158 540 178 540 258 C540 328 450 350 340 350 C230 350 130 328 130 258 Z" style="fill: var(--banner-fg, #1b2a4a); opacity: .25"/>
+  <path d="M130 230 C130 160 260 130 340 130 C440 130 540 150 540 230 C540 300 450 322 340 322 C230 322 130 300 130 230 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M160 196 C190 152 270 142 340 142 C420 142 496 156 516 198" style="fill: none; stroke: #fff7ea; stroke-width: 12; stroke-linecap: round"/>
+  <g style="fill: none; stroke: #fff7ea; stroke-width: 3.5; stroke-linecap: round; opacity: .9">
+    <path d="M176 224 q40 10 70 -4 q30 -14 70 2 q36 14 80 0"/>
+    <path d="M196 268 q50 -12 90 4 q40 16 90 -6 q30 -14 70 0"/>
+    <path d="M300 170 q20 30 0 56 q-16 28 10 58"/>
+    <path d="M410 164 q-10 30 14 50 q24 20 10 54"/>
+    <path d="M450 236 q30 10 50 -6"/>
+    <path d="M232 190 q14 12 6 30"/>
+    <path d="M360 296 q16 -10 34 -4"/>
+  </g>
+  <g style="fill: #fff7ea; opacity: .9">
+    <ellipse cx="256" cy="250" rx="8" ry="4"/>
+    <ellipse cx="368" cy="226" rx="7" ry="3.5"/>
+    <ellipse cx="482" cy="264" rx="8" ry="4"/>
+    <ellipse cx="170" cy="250" rx="6" ry="3"/>
+  </g>
+  <g style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round">
+    <path d="M600 190 C600 170 664 170 664 190 L664 330 C664 350 600 350 600 330 Z" style="fill: var(--banner-accent, #c8462a)"/>
+    <path d="M600 190 C600 170 664 170 664 190 L664 330 C664 350 600 350 600 330 Z" style="fill: var(--banner-fg, #1b2a4a); opacity: .25"/>
+    <path d="M590 178 C590 150 654 150 654 178 L654 318 C654 340 590 340 590 318 Z" style="fill: var(--banner-accent, #c8462a)"/>
+  </g>
+  <path d="M600 166 L600 200" style="fill: none; stroke: #fff7ea; stroke-width: 10; stroke-linecap: round"/>
+  <g style="fill: none; stroke: #fff7ea; stroke-width: 3.5; stroke-linecap: round; opacity: .9">
+    <path d="M606 236 q14 8 28 -2"/>
+    <path d="M610 280 q14 -8 30 2"/>
+  </g>
+  <path d="M770 262 C770 192 860 172 940 178 C1030 184 1090 222 1086 282 C1082 342 1000 364 920 362 C830 360 770 328 770 262 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round" transform="translate(0 -14)"/>
+  <path d="M770 262 C770 192 860 172 940 178 C1030 184 1090 222 1086 282 C1082 342 1000 364 920 362 C830 360 770 328 770 262 Z" style="fill: var(--banner-fg, #1b2a4a); opacity: .25" transform="translate(0 -14)"/>
+  <path d="M770 238 C770 168 860 148 940 154 C1030 160 1090 198 1086 258 C1082 318 1000 340 920 338 C830 336 770 304 770 238 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M796 204 C826 170 876 164 940 168 C1000 172 1048 192 1064 224" style="fill: none; stroke: #fff7ea; stroke-width: 16; stroke-linecap: round"/>
+  <g style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linecap: round">
+    <path d="M830 172 L842 206"/>
+    <path d="M876 166 L882 202"/>
+    <path d="M924 164 L924 200"/>
+    <path d="M972 168 L966 204"/>
+    <path d="M1018 178 L1006 212"/>
+  </g>
+  <g style="fill: none; stroke: #fff7ea; stroke-width: 3.5; stroke-linecap: round; opacity: .9">
+    <path d="M806 252 q30 10 56 -4 q26 -12 56 4"/>
+    <path d="M846 294 q30 -10 60 4 q30 12 56 -4"/>
+    <path d="M950 232 q20 24 4 48"/>
+    <path d="M880 224 q10 18 0 32"/>
+    <path d="M1010 262 q18 6 34 -6"/>
+  </g>
+  <g style="fill: #fff7ea; opacity: .9">
+    <ellipse cx="926" cy="262" rx="8" ry="4"/>
+    <ellipse cx="1030" cy="236" rx="7" ry="3.5"/>
+    <ellipse cx="830" cy="278" rx="6" ry="3"/>
+  </g>
+  <path d="M296 84 q20 2 20 50" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="60" y="76" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">prorostlá, nevysychá</text>
+  <path d="M606 92 q20 4 8 54" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="520" y="76" style="font: 600 36px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">plátky 1,5–2 cm</text>
+  <path d="M900 94 q-10 20 4 60" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="790" y="76" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">okraj nařízni</text>
+</svg>
