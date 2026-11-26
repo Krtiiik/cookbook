@@ -319,6 +319,16 @@ def test_current_month_frame_closes_on_the_last_shown_row():
     assert "classList.toggle('is-last'" in js
 
 
+def test_current_month_frame_stays_in_the_cell_gap():
+    # The other months are dimmed; a frame wider than the 3px border-spacing reaches into a
+    # neighbour cell, and the dimmed neighbour paints over the ink edge.
+    css = (ROOT / "static" / "site.css").read_text(encoding="utf-8")
+    assert "border-spacing: 3px" in css
+    for rule in re.findall(r"\.season (?:thead th|td)\.now::before \{[^}]*\}", css):
+        assert "left: -2.5px; right: -2.5px;" in rule, rule
+    assert ".season td:not(.now) { opacity: .65; }" in css
+
+
 def test_ingredient_section_has_category_and_season_filters(real_site):
     site, out = real_site
     text = (out / "static" / "index.js").read_text(encoding="utf-8")
