@@ -6,7 +6,7 @@ Vpichový teploměr se vyplatí tam, kde povrch vypadá hotově dřív, než se 
 
 - **Drůbež:** pečené kuře vcelku, stehna, krůtí prsa. Kůže zezlátne dřív, než se propeče stehno u kosti.
 - **Mleté maso:** sekaná, karbanátky, burgery. Bakterie z povrchu masa jsou při mletí rozmíchané i dovnitř, takže musí být horký i střed.
-- **Vepřová pečeně:** velký kus z krku nebo kýty. Teploměr ukáže, kdy je střed hotový, a pečeni vytáhneš dřív, než vyschne.
+- **Vepřová pečeně:** libovou pečeni z kýty nebo kotlety vytáhni podle teploty, jakmile je střed hotový, jinak vyschne. Prorostlou [[veprova-krkovice|krkovici]] změř, jestli má bezpečné minimum, a pak peč dál, až do ní vidlička zajede bez odporu.
 - **Pečená kachna a husa:** silná stehna se propečou nejpozději.
 - **Ohřívání:** guláš z lednice nebo porce v mikrovlnce. Okraje bublají a střed je ještě vlažný.
 

@@ -45,7 +45,7 @@ Tuhé maso skoro vždy změkne, jen to trvá. Nepřidávej oheň, aby to šlo ry
 
 ## Jak tomu předejít
 
-- **Vyber kus s kolagenem:** na guláš [[hovezi-klizka|kližku]], plec nebo líčka. Z vepřového plec nebo krk, ne panenku ani kotletu. U řezníka chtěj kus vcelku a nakrájej si ho doma. Kusy s málo kolagenem raději krátce opeč.
+- **Vyber kus s kolagenem:** na guláš [[hovezi-klizka|kližku]], plec nebo líčka. Z vepřového plec nebo [[veprova-krkovice|krk]], ne panenku ani kotletu. U řezníka chtěj kus vcelku a nakrájej si ho doma. Kusy s málo kolagenem raději krátce opeč.
 - **Krájej větší kostky,** asi 4 cm.
 - **Podlévej s mírou:** po troškách (dno asi 2 cm, dolévej horkou), nebo jednou do třetiny až poloviny výšky masa. Kostky v omáčce, třeba guláš, můžou být skoro zakryté.
 - **Udržuj mírný var.** Na plotně mírný oheň, hladinu kontroluj každých 20–30 minut. Nejstálejší teplotu udrží trouba a [[litinovy-hrnec|litinový hrnec]] nebo pekáč s poklicí.

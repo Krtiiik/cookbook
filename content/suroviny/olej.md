@@ -43,7 +43,7 @@ Olej žlukne: kyslík, světlo a teplo rozkládají tuk a olej začne páchnout 
 - **Extra panenský olivový:** otevřený spotřebuj do pár měsíců. V lednici se zakalí a zhoustne; to nevadí, při pokojové teplotě se zase vyčeří.
 - **Lisovaný za studena ze semen (lněný, dýňový, ořechový):** po otevření v lednici, spotřebuj do pár týdnů.
 
-Žluklý olej poznáš podle vůně: páchne jako staré ořechy, olejová barva nebo plastelína. Chutná hořce a škrábe v krku. Zkazí chuť jídla, takže ho vyhoď.
+Žluklý olej poznáš podle vůně: páchne jako staré [[orechy|ořechy]], olejová barva nebo plastelína. Chutná hořce a škrábe v krku. Zkazí chuť jídla, takže ho vyhoď.
 
 ## Jak připravit
 

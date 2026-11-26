@@ -84,7 +84,7 @@ Jak dochucovat: přidej lžičku octa, promíchej, nech chvíli [[mirny-var|mír
 - **Svíčková:** na konci ji dochuť octem nebo [[citron|citronem]], cukrem a solí.
 - **Čočka na kyselo:** čočku nejdřív uvař doměkka, s [[bobkovy-list|bobkovým listem]]. Pak ji zahusti (po zahuštění aspoň 15 minut mírně vařit, viz [[mouka|mouka]]) a teprve potom ji dokysel octem a oslaď. Luštěniny v kyselé vodě měknou pomaleji, proto ocet nikdy na začátek. K čočce se podává sázené vejce, párek a kyselá okurka.
 - **Kulajda:** dokysel ji octem až po smetaně, na mírném ohni. Ocet přilévej po lžičkách a ochutnávej. Houby se v ní vaří aspoň 20 minut, viz [[hriby|hřiby]].
-- **Dušené kysané zelí, červené zelí:** octem a cukrem se dochucují na konci. Ocet drží červenému zelí barvu (víc u [[cukr|cukru]] a [[kysane-zeli|kysaného zelí]]).
+- **Dušené kysané zelí, červené zelí:** octem a cukrem se dochucují na konci. Ocet drží červenému zelí barvu (víc u [[cukr|cukru]] a [[jablka|jablek]]; kysané zelí viz [[kysane-zeli|kysané zelí]]).
 
 Když je jídlo moc kyselé, přidej cukr po špetkách, nebo trochu vody či vývaru a nech ho chvíli mírně vařit.
 

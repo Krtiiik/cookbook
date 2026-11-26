@@ -16,7 +16,7 @@ Celé smažení stojí na jedné rovnováze: obal má zezlátnout za stejnou dob
 - **Ano:** smažený kapr. Porce, časy a kontrolu u kosti najdeš u [[kapr|kapra]], obaluje se stejně jako tady.
 - **Ano:** smažený sýr (eidam, hermelín; obsahuje mléko), smažený květák, smažený [[celer|celer]] a žampiony. Bez masa, ale ne bez vajec a lepku.
 - **Ano:** vídeňský řízek z telecího. Rakouská klasika, obaluje se stejně, jen se smaží ve vrstvě tuku asi 2 cm a pánví se při tom kývá, aby se obal zvlnil.
-- **Ne:** silné kusy, třeba kuřecí stehno s kostí nebo celý plátek krkovice 3 cm. Obal zčerná, než se střed propeče. Takové maso nakrájej a naklepej, nebo ho peč.
+- **Ne:** silné kusy, třeba kuřecí stehno s kostí nebo celý plátek [[veprova-krkovice|krkovice]] 3 cm. Obal zčerná, než se střed propeče. Takové maso nakrájej a naklepej, nebo ho peč.
 - **Ne:** hranolky a krokety. Ty se smaží v hlubokém tuku a nejvýš na 175 °C kvůli akrylamidu, viz [[olej|olej]].
 - **Jen mouka:** [[kapr|kapr po mlynářsku]] nebo plátek masa na přírodní řízek se obalí jen v mouce a opeče na tuku. To už není trojobal.
 

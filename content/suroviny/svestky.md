@@ -5,7 +5,7 @@
 Doma se švestky dělají hlavně takhle:
 
 - **ovocné knedlíky** z tvarohového nebo bramborového těsta, s rozpuštěným máslem, tvarohem a cukrem,
-- **švestkový koláč** z kynutého těsta s drobenkou a **bublanina**,
+- **švestkový koláč** z [[drozdi|kynutého těsta]] s drobenkou a **bublanina**,
 - **povidla** do buchet, koláčů a na lívance,
 - **kompot**, **sušené švestky** a švestková pálenka (slivovice).
 
@@ -85,7 +85,7 @@ Jahodové, meruňkové nebo borůvkové knedlíky se dělají stejně. Kupované
 
 ### Švestkový koláč a bublanina
 
-- **Švestkový koláč:** kynuté těsto rozválej na plech, posyp ho tenkou vrstvou strouhanky nebo krupice, ta nasaje šťávu. Švestky rozpul a skládej je těsně vedle sebe, šikmo a trochu přes sebe jako šupiny. Navrch dej drobenku z mouky, másla a cukru (obsahuje lepek a mléko). Peč v troubě vyhřáté na 180 °C asi 30–40 minut, až je drobenka zlatá a těsto zespodu upečené.
+- **Švestkový koláč:** kynuté těsto rozválej na plech, posyp ho tenkou vrstvou [[chleb-a-pecivo|strouhanky]] nebo krupice, ta nasaje šťávu. Švestky rozpul a skládej je těsně vedle sebe, šikmo a trochu přes sebe jako šupiny. Navrch dej drobenku z mouky, másla a cukru (obsahuje lepek a mléko). Peč v troubě vyhřáté na 180 °C asi 30–40 minut, až je drobenka zlatá a těsto zespodu upečené.
 - **Bublanina:** do piškotového těsta zapeč půlky švestek řezem nahoru. V těstě klesnou ke dnu, proto je dej až na těsto rozlité v plechu a peč hned, v troubě vyhřáté na 180 °C asi 35–45 minut. Hotová je, když špejle zapíchnutá do těsta vyjde suchá. Obsahuje lepek, mléko a vejce.
 
 Do koláče a bublaniny jsou zmrzlé švestky v pořádku, dej je na těsto nerozmrazené. Švestky na koláči můžeš navrch posypat trochou skořice.
@@ -136,4 +136,4 @@ Uvařené ovocné knedlíky rozlož do mělkých nádob a do 2 hodin je dej do l
 - **Meruňky:** do knedlíků a na koláč, stejně odpeckované. Jsou kyselejší a měkčí, vaří se kratší dobu.
 - **[[jahody|Jahody]]:** do knedlíků a do bublaniny místo švestek, čerstvé nebo předem povařené; mražené jen povařené, viz [[jahody|jahody]]. Jsou měkčí, knedlík je hotový dřív.
 - **[[jablka|Jablka]]:** na koláč a do bublaniny, nakrájená na plátky. Chutnají jinak, ale postup zůstane stejný.
-- **Povidla:** místo vlastních povidla z obchodu, jen hustá. Švestkový džem je sladší a řidší, z koláče vyteče. Do buchet a koláčů se dá místo povidel dát tvarohová nebo maková náplň (tvaroh obsahuje mléko).
+- **Povidla:** místo vlastních povidla z obchodu, jen hustá. Švestkový džem je sladší a řidší, z koláče vyteče. Do buchet a koláčů se dá místo povidel dát tvarohová nebo [[mak|maková náplň]] (tvaroh obsahuje mléko).

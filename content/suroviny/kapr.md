@@ -132,7 +132,7 @@ Porce nebo půlky kapra osol, posyp celým [[kmin|kmínem]] a polož kůží dol
 
 ### Kapr na černo
 
-Staročeské vánoční jídlo. Kapr se vaří nebo pozvolna povaří v tmavé sladkokyselé omáčce. Základ omáčky je kořenová zelenina, tmavé pivo a perník, k tomu [[svestky|sušené švestky]], rozinky, ořechy nebo mandle, ocet a [[cukr|cukr]], podle rodiny i [[nove-koreni|nové koření]] a [[bobkovy-list|bobkový list]]. Omáčka obsahuje lepek (pivo, perník) a ořechy; kořenová zelenina bývá s celerem (alergen); sušené ovoce a ocet mohou obsahovat siřičitany, čti etiketu. Každá rodina ji má jinou a recept na tomto webu zatím není.
+Staročeské vánoční jídlo. Kapr se vaří nebo pozvolna povaří v tmavé sladkokyselé omáčce. Základ omáčky je kořenová zelenina, tmavé pivo a perník, k tomu [[svestky|sušené švestky]], rozinky, [[orechy|ořechy]] nebo mandle, ocet a [[cukr|cukr]], podle rodiny i [[nove-koreni|nové koření]] a [[bobkovy-list|bobkový list]]. Omáčka obsahuje lepek (pivo, perník) a ořechy; kořenová zelenina bývá s celerem (alergen); sušené ovoce a ocet mohou obsahovat siřičitany, čti etiketu. Každá rodina ji má jinou a recept na tomto webu zatím není.
 
 ### Rybí polévka
 
@@ -146,7 +146,7 @@ Rybí polévka se vaří ze zbytků, které po kaprovi zůstanou: hlava bez žá
 6. Polévku zahusti světlou [[mouka|jíškou]] (obsahuje lepek) a po zahuštění ji nech aspoň 15 minut mírně vařit. Kosti už v polévce nejsou, takže ji dlouhý var nezahořkne.
 7. Na posledních 5–10 minut přidej jikry nebo mlíčí, obrané maso a zeleninu. Dochuť [[sul|solí]] a mletým pepřem.
 
-Polévka obsahuje rybu, celer a lepek (jíška). Do talíře se dávají osmažené kostičky z housky nebo rohlíku (obsahují lepek). Někdo do polévky přidá na konci smetanu (obsahuje [[mleko|mléko]]), jiný ji dělá čirou bez jíšky.
+Polévka obsahuje rybu, celer a lepek (jíška). Do talíře se dávají osmažené kostičky z [[chleb-a-pecivo|housky]] nebo rohlíku (obsahují lepek). Někdo do polévky přidá na konci smetanu (obsahuje [[mleko|mléko]]), jiný ji dělá čirou bez jíšky.
 
 ## Náhrady
 

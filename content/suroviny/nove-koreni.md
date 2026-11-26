@@ -9,7 +9,7 @@ V české kuchyni patří k základnímu koření, a skoro vždycky celé:
 - **vývar:** [[hovezi-vyvar|hovězí vývar]], slepičí vývar, rybí polévka z [[kapr|kapra]],
 - **omáčky:** svíčková, rajská, omáčka ke zvěřině,
 - **polévky a luštěniny:** zelňačka, čočka na kyselo, gulášová polévka,
-- **zelí:** dušené kysané zelí k vepřo knedlo zelo (někdo ho tam dává, jiný jen [[kmin|kmín]]),
+- **zelí:** dušené [[kysane-zeli|kysané zelí]] k vepřo knedlo zelo (někdo ho tam dává, jiný jen [[kmin|kmín]]),
 - **nálevy:** okurky, utopenci, nakládaný hermelín, zavináče, nakládané houby,
 - **marinády:** na svíčkovou a na zvěřinu, spolu s jalovcem.
 

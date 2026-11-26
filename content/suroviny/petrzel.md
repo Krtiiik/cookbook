@@ -26,7 +26,7 @@ Petržel se často plete s **pastinákem** a v obchodě se občas i prohodí cen
 
 Stejně jako [[mrkev|mrkev]]: nať hned ustřihni, kořen dej do sáčku do zeleninové zásuvky v lednici. Vydrží dva až tři týdny. Ve sklepě vydrží v bedýnce s vlhkým pískem do jara.
 
-Nať i petrželku zabal do vlhké utěrky nebo dej stonky do sklenice s vodou a spotřebuj ji do pár dní. Nasekanou ji můžeš zamrazit v sáčku a brát po hrstech, na posypání polévky stačí.
+Nať i petrželku zabal do vlhké utěrky nebo dej stonky do sklenice s vodou a spotřebuj ji do pár dní (víc o skladování čerstvých bylinek u [[kopr|kopru]]). Nasekanou ji můžeš zamrazit v sáčku a brát po hrstech, na posypání polévky stačí.
 
 Časy jsou odhad kvality, ne bezpečnostní lhůta.
 

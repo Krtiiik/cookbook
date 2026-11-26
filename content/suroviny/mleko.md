@@ -8,7 +8,7 @@ Kam patří v české domácí kuchyni:
 - krupicová kaše, mléčná rýže a rýžový nákyp (na ně je kulatozrnná [[ryze|rýže]]),
 - palačinky, lívance, kynuté těsto na buchty a vánočku,
 - světlé omáčky zahuštěné [[mouka|jíškou nebo moukou]]: koprovka, bešamel na zapečené těstoviny nebo květák,
-- rohlík nebo houska namočená v mléce do sekané a karbanátků,
+- [[chleb-a-pecivo|rohlík]] nebo houska namočená v mléce do sekané a karbanátků,
 - kakao a bílá káva.
 
 Recepty na tomto webu myslí plnotučné kravské mléko, čerstvé nebo trvanlivé.
@@ -82,7 +82,7 @@ Mléko ohřej v malém hrnci spolu s máslem na mírném ohni, až se máslo roz
 
 ### Do kynutého těsta
 
-Droždí se rozmíchává ve vlažném mléce s trochou cukru. Mléko má být vlažné, příjemné na prstu. Horké mléko droždí spaří a těsto nevykyne.
+[[drozdi|Droždí]] se rozmíchává ve vlažném mléce s trochou cukru. Mléko má být vlažné, příjemné na prstu. Horké mléko droždí spaří a těsto nevykyne.
 
 ### Škraloup
 
@@ -120,6 +120,6 @@ Když už se omáčka srazila: stáhni hrnec z ohně a omáčku ihned prošlehej
 - **Bezlaktózové mléko:** jde 1:1, chutná o něco sladčeji (obsahuje mléko).
 - **[[smetana|Smetana na vaření]] (asi 12 %) ředěná vodou:** do kaše a omáček, asi 1 díl smetany na 2 díly vody (obsahuje mléko). Výsledek bude plnější.
 - **Trvanlivé místo čerstvého:** jde 1:1 všude, kde se mléko vaří nebo peče.
-- **Rostlinné nápoje** (v obchodě se nesmějí jmenovat „mléko“): vezmi neslazené a bez příchuti. Do kaše a omáček se nejlépe hodí sójový (obsahuje sóju), v teple se sráží méně než ovesný nebo mandlový, pokud není kyselý. Ovesný je sladší a do omáček zahušťuje (obsahuje oves, tedy lepek, pokud není označený bezlepkový). Mandlový chutná výrazně po mandlích (obsahuje ořechy).
+- **Rostlinné nápoje** (v obchodě se nesmějí jmenovat „mléko“): vezmi neslazené a bez příchuti. Do kaše a omáček se nejlépe hodí sójový (obsahuje sóju), v teple se sráží méně než ovesný nebo mandlový, pokud není kyselý. Ovesný je sladší a do omáček zahušťuje (obsahuje oves, tedy lepek, pokud není označený bezlepkový). Mandlový chutná výrazně po mandlích (obsahuje [[orechy|ořechy]]).
 - **Do bramborové kaše bez mléčného nápoje:** pár lžic vody, ve které se brambory vařily, a víc másla (máslo obsahuje mléko). Při alergii na mléko vezmi místo másla i mléka jen vodu z brambor s lžící neutrálního oleje, nebo neslazený sójový nápoj (obsahuje sóju). Kaše bude méně krémová.
 - **Ne:** kefír, podmáslí ani kyselé mléko místo obyčejného do teplých jídel. V teple se srazí.

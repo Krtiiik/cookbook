@@ -75,7 +75,7 @@ I tam, kde sbírat smíš, ber s mírou: z každé rostliny jeden až dva listy.
 
 ## Jak skladovat
 
-- **V lednici:** listy neumyté zabal do vlhké papírové utěrky a dej je do sáčku nebo do krabičky. Vydrží 2–4 dny. To je odhad kvality, ne bezpečnostní lhůta. Svazek můžeš dát i jako kytici do sklenice s trochou vody a přikrýt sáčkem.
+- **V lednici:** listy neumyté zabal do vlhké papírové utěrky a dej je do sáčku nebo do krabičky. Vydrží 2–4 dny. To je odhad kvality, ne bezpečnostní lhůta. Svazek můžeš dát i jako kytici do sklenice s trochou vody a přikrýt sáčkem (víc u [[kopr|kopru]]).
 - **Zamrazený:** listy umyj, osuš a nasekej. Zamraz je v sáčku nebo v tvořítku na led, zalité trochou vody. Po rozmražení změknou, takže se hodí do polévky, do pomazánky a do těsta, ne na ozdobu. Chuť vydrží asi půl roku, to je odhad kvality.
 - **Sušený:** usušit se dá, ale ztratí skoro všechnu vůni. Nevyplatí se.
 - **Medvědí sůl:** listy rozmixuj s hrubou [[sul|solí]] (v kuchyni se běžně dává asi 1 díl soli na 2 díly listů), rozprostři na plech a nech vyschnout při pokojové teplotě nebo v troubě na nejnižší stupeň s pootevřenými dvířky. Sůl drží barvu i vůni déle než samotné sušené listy.
@@ -90,7 +90,7 @@ Sebraný medvědí česnek důkladně omyj. Vajíčka tasemnice lištkové mytí
 
 - **Pomazánka:** 250 g [[tvaroh|tvarohu]] (obsahuje mléko), 50 g změklého [[maslo|másla]] (obsahuje mléko), hrst (asi 50 g) nasekaných listů a sůl podle chuti. Nech ji v lednici aspoň půl hodiny, ať se chuť spojí. Místo tvarohu jde i čerstvý smetanový sýr (obsahuje mléko). Pomazánku drž v lednici a spotřebuj do 2 dnů, jako jiné zbytky (podle bezpecnostpotravin.cz).
 - **Máslo s medvědím česnekem:** změklé máslo rozmíchej s nasekanými listy a špetkou soli. Na chleba, na topinku, na opečené maso a na vařené [[brambory|brambory]]. V lednici ho spotřebuj do 2 dnů, jako jiné zbytky (podle bezpecnostpotravin.cz), na déle ho zabal do potravinové fólie a zamraz.
-- **Pesto:** 100 g listů, 50 g strouhaného tvrdého sýra (obsahuje mléko), 40 g opražených slunečnicových semínek, nebo místo nich vlašských ořechů (obsahuje ořechy), asi 100 ml [[olej|oleje]] a sůl. Rozmixuj nahrubo. Na těstoviny, do brambor, na chleba. Skladování viz výš.
+- **Pesto:** 100 g listů, 50 g strouhaného tvrdého sýra (obsahuje mléko), 40 g opražených slunečnicových semínek, nebo místo nich vlašských [[orechy|ořechů]] (obsahuje ořechy), asi 100 ml [[olej|oleje]] a sůl. Rozmixuj nahrubo. Na těstoviny, do brambor, na chleba. Skladování viz výš.
 - **Polévka:** uvař bramborovou polévku jako obvykle, nebo krémovou z brambor a [[porek|pórku]]. Stáhni hrnec z ohně, přidej 1–2 hrsti nasekaných listů a polévku rozmixuj. Zůstane jasně zelená. Ke konci můžeš zjemnit smetanou (obsahuje mléko). Zbytek rozlij do mělkých nádob, do 2 hodin dej do lednice (podle KHS) a spotřebuj do 2 dnů (podle bezpecnostpotravin.cz). Ohřej ji, až se celá prohřeje a začne mírně vařit (ve středu aspoň 75 °C, nebo 70 °C po 2 minuty, podle SZÚ a BfR, viz [[teplomer|teploměr]]).
 - **Do těsta:** nasekané listy přidej do těsta na bramboráky, na halušky, na bramborové knedlíky, do chlebového nebo do palačinkového těsta (obsahují lepek). V těstě vůni z velké části udrží.
 - **K vejcím (obsahuje vejce):** do míchaných vajec nebo do omelety, na konci, jen na pár vteřin.

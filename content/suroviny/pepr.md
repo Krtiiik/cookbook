@@ -63,7 +63,7 @@ Tohle platí pro každé suché koření, nejen pro pepř:
 
 **Svíčková.** Na svíčkovou dej asi 10 kuliček pepře spolu s 5–6 kuličkami [[nove-koreni|nového koření]] a 2 [[bobkovy-list|bobkovými listy]] ke kořenové zelenině a masu, ať už maso nejdřív marinuješ, nebo ho rovnou dusíš. Koření se dusí s masem celou dobu. Než omáčku rozmixuješ, kuličky i listy vylov: rozmixované kuličky by omáčku zbytečně zostřily a zůstaly by v ní tvrdé kousky. Kdo nechce lovit, dá koření do plátýnka.
 
-**Nálevy.** Do nálevu na okurky a na utopence jde celý pepř, nové koření a bobkový list, k tomu cibule, u okurek kopr a hořčičné semínko. Kuličky dej rovnou do sklenice, nebo je svař s nálevem. Vůni pouštějí pomalu, celé dny ve sklenici. Mletý pepř se sem nehodí, zakalil by nálev.
+**Nálevy.** Do nálevu na okurky a na utopence jde celý pepř, nové koření a bobkový list, k tomu cibule, u okurek [[kopr|kopr]] a hořčičné semínko. Kuličky dej rovnou do sklenice, nebo je svař s nálevem. Vůni pouštějí pomalu, celé dny ve sklenici. Mletý pepř se sem nehodí, zakalil by nálev.
 
 **Rozdrcený pepř na kratší vaření.** Na 30–60 minut vaření nebo do marinády kuličky nejdřív rozdrť: přitlač je plochou stranou [[kucharsky-nuz|nože]] nebo dnem pánve. Pustí vůni rychleji.
 

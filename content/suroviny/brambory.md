@@ -27,7 +27,7 @@ Když varný typ neznáš, uvař jednu bramboru na zkoušku. Moučná po uvařen
 
 ### Rané a pozdní
 
-- **Rané brambory:** sklízejí se nevyzrálé. České rané jsou v obchodech a na trzích od června, dovozové už od jara. Mají tenkou slupku, kterou setřeš palcem, a jsou spíš pevné. Stačí je odrhnout kartáčkem a uvařit ve slupce. Podávej je s máslem a koprem, nebo jen s máslem, solí a kyselým mlékem. Vydrží asi týden.
+- **Rané brambory:** sklízejí se nevyzrálé. České rané jsou v obchodech a na trzích od června, dovozové už od jara. Mají tenkou slupku, kterou setřeš palcem, a jsou spíš pevné. Stačí je odrhnout kartáčkem a uvařit ve slupce. Podávej je s máslem a [[kopr|koprem]], nebo jen s máslem, solí a kyselým mlékem. Vydrží asi týden.
 - **Pozdní (skladovací) brambory:** sklízejí se na podzim a v chladu vydrží do jara. Mají pevnou slupku. Tyto brambory kupuješ většinu roku a najdeš je ve všech třech varných typech.
 
 ## Jak vybrat

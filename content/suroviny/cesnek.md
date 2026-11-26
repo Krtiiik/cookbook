@@ -48,7 +48,7 @@ Stejné riziko má nakládaný hermelín: sýr s česnekem v oleji. Platí pro n
 ### Syrový
 
 - **Česnečka:** česnek se do ní dává až na konci. Prolisuj ho do hotové polévky, když už nevře, nebo rovnou do talíře na sýr a krutony. Dlouhým varem by zjemněl a polévka by ztratila to hlavní.
-- **Topinky:** chleba osmaž na sádle nebo oleji a horký ho potři rozpůleným stroužkem. Hrubá kůrka stroužek strouhá jako struhadlo. Kdo chce víc, rozetře na topince prolisovaný česnek.
+- **Topinky:** [[chleb-a-pecivo|chleba]] osmaž na sádle nebo oleji a horký ho potři rozpůleným stroužkem. Hrubá kůrka stroužek strouhá jako struhadlo. Kdo chce víc, rozetře na topince prolisovaný česnek.
 - **Česneková pomazánka:** z tvarohu, másla, vajec nebo sýra a prolisovaného česneku. Nech ji v lednici aspoň půl hodiny, ať se chuť spojí.
 - **Špenát s česnekem:** česnek prolisuj do hotového špenátu na konci a jen ho prohřej.
 

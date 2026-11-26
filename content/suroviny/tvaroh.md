@@ -102,7 +102,7 @@ Bez másla bude pomazánka lehčí a kyselejší. Rozmíchej tvaroh s 2–3 lž�
 
 ### Sladký tvaroh a palačinky
 
-Měkký tvaroh rozmíchej s trochou mléka nebo zakysané smetany, s cukrem a vanilkovým cukrem. Na 250 g tvarohu stačí 2–3 lžíce [[cukr|cukru]] a 2–3 lžíce mléka. Navrch nebo dovnitř dej ovoce, džem nebo med (med nedávej dětem do 1 roku, viz [[med|med]]). Kupované mražené bobule nejdřív povař, viz [[jahody|jahody]].
+Měkký tvaroh rozmíchej s trochou mléka nebo zakysané smetany, s cukrem a [[vanilka|vanilkovým cukrem]]. Na 250 g tvarohu stačí 2–3 lžíce [[cukr|cukru]] a 2–3 lžíce mléka. Navrch nebo dovnitř dej ovoce, džem nebo med (med nedávej dětem do 1 roku, viz [[med|med]]). Kupované mražené bobule nejdřív povař, viz [[jahody|jahody]].
 
 Stejný tvaroh je náplň do **palačinek**. Palačinku namaž, srolij a polij zakysanou smetanou nebo ovocem.
 

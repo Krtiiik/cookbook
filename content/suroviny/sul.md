@@ -12,7 +12,7 @@ Zdravý dospělý má podle WHO sníst méně než 5 g soli denně, i se solí v
 - **Jodidovaná s fluoridem:** stejná sůl, navíc s fluoridem pro zuby. V kuchyni se chová úplně stejně. Když dítě bere fluoridové tablety, tuhle sůl nepoužívej, píše se to i na obalu.
 - **Kamenná:** těžená z ložisek pod zemí. Jemná i hrubá do mlýnku, s jódem i bez. Patří sem i růžová himálajská. Chutná stejně jako běžná sůl, jen je dražší.
 - **Mořská:** jemná i hrubá. Chutná skoro stejně jako běžná, často je bez jódu.
-- **Bez jódu (nejodidovaná):** na kysané zelí a nakládání okurek se tradičně bere sůl bez jódu a bez protispékavé látky. Jód kvašení podle všeho nevadí, protispékavá látka ale může nálev zakalit. Hledej na obalu „bez jódu“ nebo „nejodidovaná“, často je to kamenná sůl.
+- **Bez jódu (nejodidovaná):** na [[kysane-zeli|kysané zelí]] a nakládání okurek se tradičně bere sůl bez jódu a bez protispékavé látky. Jód kvašení podle všeho nevadí, protispékavá látka ale může nálev zakalit. Hledej na obalu „bez jódu“ nebo „nejodidovaná“, často je to kamenná sůl.
 - **Vločková:** tenké křupavé vločky, dražší, ve větších obchodech. Nevař s ní, sypej ji na hotové jídlo, třeba na maso nebo zeleninu na talíři.
 
 ## Jak vybrat

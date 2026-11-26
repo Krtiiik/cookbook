@@ -5,7 +5,7 @@ Sladká paprika je prášek z usušených a jemně umletých plodů nepálivých
 V české kuchyni patří k nejběžnějším kořením, vedle [[kmin|kmínu]], [[majoranka|majoránky]] a [[pepr|pepře]]. Přišla k nám z Maďarska a s ní jídla, která na ní stojí:
 
 - [[hovezi-gulas|hovězí guláš]] a vepřový guláš,
-- segedínský guláš: vepřové s kysaným zelím a smetanou,
+- segedínský guláš: vepřové s [[kysane-zeli|kysaným zelím]] a smetanou,
 - kuřecí paprikáš na smetaně, s knedlíkem nebo těstovinami,
 - bramborový guláš a buřtguláš: [[brambory|brambory]], cibule, paprika a majoránka,
 - lečo z čerstvých paprik, rajčat a cibule, často i s trochou mleté papriky.

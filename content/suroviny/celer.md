@@ -34,7 +34,7 @@ Bulva má být těžká na svou velikost, pevná, bez měkkých míst a plísně
 
 **Smažený celer:** bulvu nakrájej na plátky asi 1 cm silné. Plátky povař v osolené vodě asi 5 minut, až je vidlička propíchne s lehkým odporem. Nech je okapat a osuš je. Osol je, obal v [[trojobal|trojobalu]] (hladká mouka, rozšlehané vejce, strouhanka) a osmaž na středním ohni dozlatova na [[olej|oleji]] nebo [[sadlo|sádle]] asi 1 cm vysoko, jako řízek. Podává se s bramborovým salátem nebo vařenými brambory a tatarkou. Trojobal obsahuje lepek a vejce.
 
-**Celerový salát:** syrový celer nastrouhej na jemné straně struhadla a hned ho zakap citronem. Smíchej ho s nastrouhaným [[jablka|jablkem]] a [[smetana|zakysanou smetanou]] nebo majonézou, podle chuti s nasekanými vlašskými ořechy. Smetana, majonéza (vejce, často i hořčice) i ořechy přidají salátu další alergeny. Nech ho aspoň hodinu odležet v lednici, celer zjemní.
+**Celerový salát:** syrový celer nastrouhej na jemné straně struhadla a hned ho zakap citronem. Smíchej ho s nastrouhaným [[jablka|jablkem]] a [[smetana|zakysanou smetanou]] nebo majonézou, podle chuti s nasekanými vlašskými [[orechy|ořechy]]. Smetana, majonéza (vejce, často i hořčice) i ořechy přidají salátu další alergeny. Nech ho aspoň hodinu odležet v lednici, celer zjemní.
 
 ## Náhrady
 

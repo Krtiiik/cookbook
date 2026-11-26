@@ -4,8 +4,8 @@ Hladká mouka je nejjemněji namletá pšeničná mouka. Mele se z vnitřku zrna
 
 V české kuchyni je hladká mouka v každé spíži. Recepty na tomto webu ji myslí, když píšou jen „mouka“:
 
-- **jíška** do polévek a omáček: kmínová, bramboračka, koprovka, rajská, houbová,
-- **zahuštění moukou** na konci vaření: paprikáš, segedín, dušené zelí, omáčky ze smetany,
+- **jíška** do polévek a omáček: kmínová, bramboračka, [[kopr|koprovka]], rajská, houbová,
+- **zahuštění moukou** na konci vaření: paprikáš, segedín, dušené [[kysane-zeli|zelí]], omáčky ze smetany,
 - **trojobal** na řízek, smažený sýr a smažený květák (první vrstva),
 - obalení masa nebo ryby před opékáním,
 - palačinky, lívance, perník, piškot, bábovka.
@@ -15,7 +15,7 @@ V české kuchyni je hladká mouka v každé spíži. Recepty na tomto webu ji m
 Na obalu české mouky najdeš dvě různé stupnice. Hrubost (hladká, polohrubá, hrubá) říká, jak jemně je mouka namletá; typ (světlá, polosvětlá, chlebová) říká, kolik je v ní slupky; celozrnná stojí mimo obě, je v ní slupka celá. Hrubost poznáš prsty:
 
 - **Hladká:** jemná jako pudr. Když ji zmáčkneš v dlani, drží tvar. Pije tekutinu rychle a rovnoměrně. Na jíšku, zahušťování, trojobal, palačinky a jemné těsto.
-- **Polohrubá:** trochu zrnitá, mezi prsty jemně drhne. Na kynuté těsto (buchty, koláče, vánočka), na knedlíky a do bramborového těsta.
+- **Polohrubá:** trochu zrnitá, mezi prsty jemně drhne. Na [[drozdi|kynuté těsto]] (buchty, koláče, vánočka), na knedlíky a do bramborového těsta.
 - **Hrubá:** sypká jako jemný písek, skoro jako krupice. Na houskové knedlíky, nočky, halušky a sypké těsto. Na jíšku ani na zahušťování se nehodí: dělá hrudky a omáčka zůstane zrnitá.
 - **Celozrnná:** semletá i se slupkou a klíčkem. Je tmavší, chutná víc po obilí a pije víc vody. Do chleba a pečiva, často napůl s hladkou.
 

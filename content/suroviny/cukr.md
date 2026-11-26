@@ -19,7 +19,7 @@ Cukr v kuchyni nedělá jen sladkost:
 - **Třtinový a hnědý:** hnědé krystaly s melasou. Chutnají po karamelu a lehce po lékořici, těsto je s nimi tmavší a vláčnější. Hnědý cukr nemusí být z třtiny, někdy je to řepný cukr s přidanou melasou; poznáš to ze složení. Do perníku, mrkvového dortu, na ovesnou kaši.
 - **Kostkový:** krupice slisovaná do kostek, do kávy a čaje. Na odměřování se nehodí, kostky váží různě. Kostka se ale dává do švestkových knedlíků místo vypeckované pecky (viz [[svestky|švestky]]).
 - **Vanilinový cukr:** sáček krupice s vanilinem, levnou vůní vyrobenou uměle. Tohle myslí většina českých receptů, když napíše „1 vanilkový cukr“.
-- **Vanilkový cukr (s pravou vanilkou):** v sáčku je cukr s mletou vanilkou nebo s výtažkem z ní. Je dražší a voní jemněji a plněji. Čti obal: jméno „vanilkový“ se na sáčcích plete s vanilinovým. Doma si ho uděláš sám: vyškrábnutý vanilkový lusk zastrč do sklenice s krupicí a nech pár týdnů ležet.
+- **Vanilkový cukr (s pravou vanilkou):** v sáčku je cukr s mletou vanilkou nebo s výtažkem z ní. Je dražší a voní jemněji a plněji. Čti obal: jméno „vanilkový“ se na sáčcích plete s vanilinovým (jak je rozeznat, viz [[vanilka|vanilka]]). Doma si ho uděláš sám: vyškrábnutý vanilkový lusk zastrč do sklenice s krupicí a nech 2–3 týdny ležet.
 - **Želírovací cukr:** krupice s pektinem a kyselinou citronovou, na džem. Prodává se ve třech druzích podle poměru ovoce a cukru: **1:1** (1 kg ovoce na 1 kg cukru), **2:1** (2 kg ovoce na 1 kg cukru) a **3:1** (3 kg ovoce na 1 kg cukru). Který poměr zvolit a jak se s ním vaří, je níže v Jak připravit.
 
 ## Jak vybrat
@@ -53,7 +53,7 @@ Do těsta cukr važ. Lžíce krupice (15 ml) váží asi 13 g, lžička (5 ml) a
 Cukr kyselost nezruší, jen ji vyváží. Jídlo pak chutná plněji a míň ostře. Přidávej ho po špetkách a mezi tím ochutnávej. Když je jídlo cítit sladce, je cukru moc.
 
 - **Rajská omáčka a rajčatová polévka:** špetka do kyselé omáčky, hlavně z plechovky a ze zimních rajčat (viz [[rajcata|rajčata]] a [[rajcatovy-protlak|protlak]]).
-- **Dušené kysané zelí** k vepřo knedlo zelo: zelí dochuť cukrem a octem podle chuti, až je sladkokyselé. Hodně kuchařek na začátku nechá lžíci cukru na [[sadlo|sádle]] na středním ohni zhnědnout jen do jantarové barvy (viz Karamel níž), přidá [[cibule|cibuli]] a pak zelí. Zelí pak má zlatou barvu a karamelovou chuť.
+- **Dušené [[kysane-zeli|kysané zelí]]** k vepřo knedlo zelo: zelí dochuť cukrem a octem podle chuti, až je sladkokyselé. Hodně kuchařek na začátku nechá lžíci cukru na [[sadlo|sádle]] na středním ohni zhnědnout jen do jantarové barvy (viz Karamel níž), přidá [[cibule|cibuli]] a pak zelí. Zelí pak má zlatou barvu a karamelovou chuť.
 - **Červené zelí:** cukr, ocet a nastrouhané [[jablka|jablko]]. Ocet drží barvu červenou, cukr srovná kyselost.
 - **Svíčková:** na konci se dochucuje cukrem, octem nebo citronem a solí, dokud se sladká, kyselá a slaná chuť nevyrovnají.
 - **Nálev na salát** (rajčatový, okurkový, zelný): rozpusť cukr a [[sul|sůl]] ve vodě dřív, než přiliješ ocet. Ve studené vodě se krupice rozpouští pomalu, proto ji míchej, nebo část vody ohřej v konvici.

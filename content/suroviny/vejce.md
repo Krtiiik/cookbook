@@ -184,7 +184,7 @@ Vánočka, buchty, koláče, mazance a rohlíky dostanou lesk a zlatou barvu, kd
 
 - **Celé vejce:** 1 vejce rozšlehej se lžící mléka a špetkou soli. Sůl vejce rozředí a nátěr se lépe roztírá. Běžný lesk na vánočku a buchty.
 - **Jen žloutek** se lžící mléka nebo smetany: tmavší, sytější barva. Na mazanec a koláče.
-- **Jen bílek:** světlý lesk a lepí. Na pečivo, které posypeš [[kmin|kmínem]], solí nebo mákem.
+- **Jen bílek:** světlý lesk a lepí. Na pečivo, které posypeš [[kmin|kmínem]], solí nebo [[mak|mákem]].
 
 Potírej měkkým štětcem tenkou vrstvou. Kde se nátěr nahromadí, v záhybech copu a u okrajů plechu, zhnědne moc. Kynuté těsto potři až po kynutí, opatrně, ať ho neprotlačíš. Zbytek nátěru je syrové vejce: dej ho do lednice a použij ještě týž den do míchaných vajec nebo do těsta.
 
@@ -222,7 +222,7 @@ Když syrová vejce do jídla dáváš:
 
 Jedno vejce dělá v jídle různé věci: v sekané a v bramborácích pojí, v piškotu nadýchává, na vánočce leskne, v majonéze spojuje tuk s vodou. Náhrada proto záleží na tom, k čemu vejce v receptu slouží.
 
-- **Do sekané, karbanátků a bramboráků (pojivo):** rohlík namočený ve vodě nebo v mléce a dobře vymačkaný (obsahuje lepek, s mlékem i mléko), nebo lžíce strouhanky navíc (obsahuje lepek). Bramboráky drží i bez vejce, když z nastrouhaných brambor dobře vymačkáš vodu a přidáš trochu víc mouky (obsahuje lepek).
+- **Do sekané, karbanátků a bramboráků (pojivo):** [[chleb-a-pecivo|rohlík]] namočený ve vodě nebo v mléce a dobře vymačkaný (obsahuje lepek, s mlékem i mléko), nebo strouhanka (obsahuje lepek; kolik za rohlík, viz [[chleb-a-pecivo|chléb a pečivo]]). Bramboráky drží i bez vejce, když z nastrouhaných brambor dobře vymačkáš vodu a přidáš trochu víc mouky (obsahuje lepek).
 - **Do trojobalu:** hladká mouka rozmíchaná se studenou vodou na hustotu tekuté smetany místo rozšlehaného vejce (obsahuje lepek). Obal se drží o něco hůř, viz [[trojobal|trojobal]].
 - **Do palačinek a lívanců:** těsto jde i bez vajec, jen z mouky, mléka a lžíce oleje (obsahuje lepek, s mlékem i mléko). Palačinky jsou křehčí, otáčej je opatrně.
 - **Do perníku, buchet a hrnkových koláčů:** na 1 vejce 1 lžíce mletého lněného semínka rozmíchaná se 3 lžícemi vody, nech 10 minut nabobtnat. Nebo asi 50 g rozmačkaného zralého banánu (chuť banánu bude znát). Na hutná těsta dobré, na piškot ne.

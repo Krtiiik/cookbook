@@ -6,7 +6,7 @@ Kmín je ze stejné rodiny jako [[celer|celer]]. Kdo má alergii na celer, můž
 
 V české kuchyni je kmín jedno ze základních koření, vedle majoránky, [[nove-koreni|nového koření]] a bobkového listu:
 
-- celý do dušeného zelí, kysaného i bílého, k vepřo knedlo zelo, k pečené kachně a do segedínského guláše,
+- celý do dušeného zelí, [[kysane-zeli|kysaného]] i bílého, k vepřo knedlo zelo, k pečené kachně a do segedínského guláše,
 - celý nebo hrubě drcený na vepřovou pečeni a na kachnu, spolu se [[sul|solí]] a [[cesnek|česnekem]],
 - celý k [[brambory|bramborám]]: brambory na kmíně z trouby, do vody na vařené brambory, do bramboračky,
 - celý do kmínové polévky, té nejjednodušší české polévky z vody, tuku, mouky a kmínu,

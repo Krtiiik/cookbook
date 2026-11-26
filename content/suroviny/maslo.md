@@ -5,10 +5,10 @@ Máslo je tuk ze smetany. Smetana se stlouká tak dlouho, až se tuk spojí do h
 V české kuchyni je máslo hlavně na chuť:
 
 - chleba s máslem, s pažitkou nebo s ředkvičkami, k snídani i k večeři,
-- vařené brambory s máslem a petrželkou, nové brambory s máslem a koprem,
+- vařené brambory s máslem a petrželkou, nové brambory s máslem a [[kopr|koprem]],
 - [[bramborova-kase|bramborová kaše]], kam patří hodně másla,
 - cibulka zpěněná na másle jako základ polévek a světlých omáček,
-- rozpuštěné máslo na [[svestky|ovocné knedlíky]], na květák se strouhankou, na [[kapr|kapra]],
+- rozpuštěné máslo na [[svestky|ovocné knedlíky]], na květák se [[chleb-a-pecivo|strouhankou]], na [[kapr|kapra]],
 - pečení: bábovka, buchty, vánoční cukroví (linecké, vanilkové rohlíčky).
 
 Právě voda a mléčná sušina rozhodují, co máslo snese. Dávají mu chuť, ale na vysoké teplotě se sušina připálí. Proto je máslo tuk na chuť a na nižší teploty. Na opékání do kůrky se hodí [[sadlo|sádlo]], rafinovaný [[olej|olej]] nebo přepuštěné máslo.
