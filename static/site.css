@@ -272,7 +272,7 @@ html:not(.js) .scaler button { display: none; }
 .prose h2:first-child { margin-top: 0; }
 .prose p, .prose ul { max-width: 66ch; margin: 0 0 12px; }
 .prose ol { list-style: none; counter-reset: s; margin: 0 0 12px; padding: 0; max-width: 66ch; }
-.prose ol li { counter-increment: s; position: relative; padding: 6px 0 6px 46px; min-height: 36px; }
+.prose ol li { counter-increment: s; position: relative; padding: 6px 0 6px 46px; min-height: 44px; }
 .prose ol li::before { content: counter(s); position: absolute; left: 0; top: 2px; width: 36px; height: 36px; border-radius: 50% 45% 52% 48%; background: var(--cobalt); color: var(--on-cobalt); border: 2.5px solid var(--ink); display: flex; align-items: center; justify-content: center; font: 600 24px var(--font-note); }
 .prose ol.steps { max-width: 70ch; }
 .prose ol.steps li { padding: 6px 0 18px 70px; min-height: 50px; margin-bottom: 10px; border-bottom: 1.5px dashed var(--line); }
