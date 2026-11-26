@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Ruční mlýnek na mák s násypkou plnou modrých semínek, z výsypky padá mletý mák do misky; vedle miska celého modrého máku, tři zvětšená ledvinková semínka a koláč s tmavou makovou náplní">
+  <rect width="1200" height="400" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M60 362 H1140" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-dasharray: 2 12; stroke-linecap: round; opacity: .45"/>
+  <!-- mill: hopper with seeds, body, spout, crank -->
+  <path d="M250 84 L410 84 L370 172 L290 172 Z" style="fill: var(--banner-bg, #fffaf0); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M262 84 C286 44 374 44 398 84 Z" style="fill: var(--banner-cool, #1f4fa3); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+  <path d="M258 84 H402" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linecap: round"/>
+  <g style="fill: #fff7ea; opacity: .8"><circle cx="300" cy="72" r="3"/><circle cx="332" cy="58" r="3"/><circle cx="360" cy="68" r="3"/><circle cx="344" cy="76" r="3"/></g>
+  <path d="M270 172 H390 V266 Q330 280 270 266 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <g style="fill: #fff7ea"><circle cx="298" cy="236" r="6"/><circle cx="330" cy="244" r="6"/><circle cx="362" cy="236" r="6"/></g>
+  <path d="M310 270 L350 270 L342 296 L318 296 Z" style="fill: var(--banner-fg, #1b2a4a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+  <path d="M392 214 H466 V176" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 16; stroke-linecap: round; stroke-linejoin: round"/>
+  <circle cx="466" cy="168" r="15" style="fill: var(--banner-warm, #e9b44c); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5"/>
+  <circle cx="390" cy="214" r="9" style="fill: var(--banner-bg, #fffaf0); stroke: var(--banner-fg, #1b2a4a); stroke-width: 4"/>
+  <path d="M494 196 q18 22 -2 48 M492 244 l-14 -4 M492 244 l6 -14" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round"/>
+  <!-- ground poppy falling into a bowl -->
+  <g style="fill: var(--banner-cool, #1f4fa3); fill: color-mix(in srgb, var(--banner-cool, #1f4fa3) 50%, black)"><circle cx="330" cy="304" r="3.5"/><circle cx="326" cy="312" r="3.5"/><circle cx="334" cy="318" r="3.5"/></g>
+  <path d="M232 322 C242 372 418 372 428 322 Z" style="fill: var(--banner-warm, #e9b44c); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <g style="fill: #fff7ea"><circle cx="290" cy="346" r="6"/><circle cx="330" cy="352" r="6"/><circle cx="370" cy="346" r="6"/></g>
+  <path d="M244 322 C268 296 392 296 416 322 Z" style="fill: var(--banner-cool, #1f4fa3); fill: color-mix(in srgb, var(--banner-cool, #1f4fa3) 50%, black); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+  <ellipse cx="330" cy="322" rx="98" ry="12" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6"/>
+  <!-- bowl of whole blue seeds -->
+  <path d="M560 292 C570 350 710 350 720 292 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <g style="fill: #fff7ea"><circle cx="610" cy="320" r="6"/><circle cx="640" cy="326" r="6"/><circle cx="670" cy="320" r="6"/></g>
+  <path d="M570 292 C596 250 684 250 710 292 Z" style="fill: var(--banner-cool, #1f4fa3); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+  <g style="fill: #fff7ea; opacity: .75"><circle cx="612" cy="276" r="2.5"/><circle cx="642" cy="266" r="2.5"/><circle cx="672" cy="278" r="2.5"/><circle cx="628" cy="284" r="2.5"/><circle cx="656" cy="284" r="2.5"/></g>
+  <ellipse cx="640" cy="292" rx="82" ry="12" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 6"/>
+  <!-- three enlarged seeds -->
+  <g style="fill: var(--banner-cool, #1f4fa3); stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linejoin: round">
+    <path d="M-26 4 C-30 -18 6 -28 24 -14 C34 -4 28 14 8 14 C-4 14 -6 4 -14 6 C-20 8 -24 12 -26 4 Z" transform="translate(790 262) rotate(-14)"/>
+    <path d="M-26 4 C-30 -18 6 -28 24 -14 C34 -4 28 14 8 14 C-4 14 -6 4 -14 6 C-20 8 -24 12 -26 4 Z" transform="translate(806 318) rotate(24)"/>
+    <path d="M-26 4 C-30 -18 6 -28 24 -14 C34 -4 28 14 8 14 C-4 14 -6 4 -14 6 C-20 8 -24 12 -26 4 Z" transform="translate(770 336) rotate(-6) scale(.85)"/>
+  </g>
+  <g style="fill: none; stroke: #fff7ea; stroke-width: 2.5; stroke-linecap: round; opacity: .6">
+    <path d="M-14 -12 C-4 -18 8 -16 14 -10" transform="translate(790 262) rotate(-14)"/>
+    <path d="M-14 -12 C-4 -18 8 -16 14 -10" transform="translate(806 318) rotate(24)"/>
+  </g>
+  <!-- koláč with poppy filling -->
+  <circle cx="1010" cy="268" r="92" style="fill: var(--banner-warm, #e9b44c); fill: color-mix(in srgb, var(--banner-warm, #e9b44c) 55%, #fff7ea); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6"/>
+  <g style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round; opacity: .45">
+    <path d="M944 214 q-6 6 -8 14 M1076 214 q6 6 8 14 M944 322 q-6 -6 -8 -14 M1076 322 q6 -6 8 -14"/>
+  </g>
+  <circle cx="1010" cy="268" r="54" style="fill: var(--banner-cool, #1f4fa3); fill: color-mix(in srgb, var(--banner-cool, #1f4fa3) 50%, black); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5"/>
+  <g style="fill: #fff7ea; opacity: .6"><circle cx="990" cy="250" r="3"/><circle cx="1022" cy="244" r="3"/><circle cx="1034" cy="272" r="3"/><circle cx="1004" cy="284" r="3"/><circle cx="982" cy="274" r="3"/></g>
+  <!-- notes -->
+  <path d="M498 84 q-44 -6 -84 2" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="506" y="96" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">mel až těsně před použitím</text>
+  <path d="M640 220 q-8 12 -2 28" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="566" y="208" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">modrý mák</text>
+  <path d="M1010 150 q10 8 0 24" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="920" y="140" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">náplň do koláčů</text>
+</svg>
