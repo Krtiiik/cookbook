@@ -15,14 +15,14 @@
   related: [mirny-var, olej, cukr, trojobal]
 - slug: trouba
   title: Trouba a pekáč
-  summary: "Horní a spodní ohřev, horkovzduch, pekáč a plech. Proč trouba nepeče, jak ukazuje."
+  summary: "Horní a spodní ohřev, horkovzduch, pekáč a plech. Proč trouba peče jinak, než ukazuje."
   category: pots
-  related: [peceni-masa, teplomer, litinovy-hrnec]
+  related: [peceni-masa, teplomer, litinovy-hrnec, duseni, trojobal, panev, roztekle-cukrovi]
 - slug: panev
   title: Pánev
   summary: "Nerezová, litinová, ocelová a nepřilnavá: která na co a jak se o ni starat."
   category: pots
-  related: [hnednuti-masa, trojobal, olej, maslo]
+  related: [hnednuti-masa, trojobal, olej, maslo, vejce, litinovy-hrnec, trouba, sadlo]
 - slug: sitko
   title: Sítko, cedník a plátýnko
   summary: "Cedník na brambory a těstoviny, sítko na vývar, pasírovanou omáčku a prosetou mouku, plátýnko na úplně čirý vývar."
@@ -30,6 +30,6 @@
   related: [mirny-var, bobkovy-list, mouka, brambory, tvaroh]
 - slug: tycovy-mixer
   title: Tyčový mixér
-  summary: "Na krémové polévky a omáčky v hrnci. Jak mixovat horké, aby nestříkalo."
+  summary: "Na krémové polévky a omáčky v hrnci. Jak mixovat horké, aby nestříkalo, a kdy radši stolní mixér nebo sítko."
   category: tools
-  related: [dyne, zpoceni-zeleniny]
+  related: [dyne, zpoceni-zeleniny, sitko, brambory, smetana, tvaroh, mleko, mouka]

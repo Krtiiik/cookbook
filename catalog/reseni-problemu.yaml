@@ -15,16 +15,16 @@
   related: [karamelizace-cibule, zpoceni-zeleniny, zhorkla-paprika, hnednuti-masa]
 - slug: odpadajici-trojobal
   title: Proč trojobal odpadá?
-  summary: "Mokré maso, slabá vrstva mouky nebo moc studený tuk."
+  summary: "Mokré nebo dlouho solené maso, silná vrstva mouky, neokapané vejce, studený tuk či plná pánev. Odpadlý obal nepřilepíš, měkký v troubě zkřupne."
   category: frying
-  related: [trojobal, olej, vejce]
+  related: [trojobal, olej, vejce, sul, panev, chleb-a-pecivo, trouba, teplomer]
 - slug: rozpadle-knedliky
   title: Proč se knedlíky rozpadají?
-  summary: "Řídké těsto, prudký var nebo moc vody."
+  summary: "Mokré suroviny, málo mouky nebo prudký var."
   category: dough-problems
-  related: [mirny-var, mouka, brambory, svestky]
+  related: [mirny-var, mouka, brambory, svestky, tvaroh, chleb-a-pecivo, drozdi]
 - slug: roztekle-cukrovi
   title: Proč se cukroví rozteklo?
-  summary: "Teplé máslo, moc cukru nebo studená trouba."
+  summary: "Teplé těsto, změklé máslo nebo trouba, která hřeje méně."
   category: dough-problems
-  related: [maslo, cukr, trouba]
+  related: [maslo, cukr, trouba, orechy, vejce, mouka, sadlo]

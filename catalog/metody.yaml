@@ -2,12 +2,12 @@
   title: Dušení
   summary: "Pomalé vaření v malém množství tekutiny pod pokličkou."
   category: moist-heat
-  related: [hnednuti-masa, mirny-var, litinovy-hrnec, tuhe-dusene-maso, voda]
+  related: [hnednuti-masa, mirny-var, litinovy-hrnec, tuhe-dusene-maso, voda, peceni-masa, trouba]
 - slug: hnednuti-masa
   title: Hnědnutí masa
   summary: "Proč opečené maso voní a jak docílit kůrky."
   category: dry-heat
-  related: [duseni, karamelizace-cibule, litinovy-hrnec, olej]
+  related: [duseni, karamelizace-cibule, litinovy-hrnec, olej, peceni-masa, panev]
 - slug: zpoceni-zeleniny
   title: Zpocení zeleniny
   summary: "Zelenina změkne na tuku bez barvy."
@@ -27,9 +27,9 @@
   title: Trojobal a smažení
   summary: "Mouka, vejce, strouhanka a tuk na správnou teplotu: řízek, kapr, smažený sýr."
   category: dry-heat
-  related: [mouka, vejce, olej, sadlo, teplomer, panev, kapr, sul]
+  related: [mouka, vejce, olej, sadlo, teplomer, panev, kapr, sul, odpadajici-trojobal, trouba]
 - slug: peceni-masa
   title: Pečení masa v troubě
-  summary: "Teplota, podlévání a odpočinek: pečeně, krkovice a kachna."
+  summary: "Podlévání, odpočinek a kůrčička: pečeně, krkovice, kachna a husa."
   category: dry-heat
-  related: [hnednuti-masa, trouba, teplomer, duseni]
+  related: [hnednuti-masa, trouba, teplomer, duseni, veprova-krkovice, sadlo]
