@@ -31,7 +31,7 @@ Sádlo je živočišný tuk. Jídlo se sádlem není vegetariánské.
 - **Hotové domácí sádlo** prodávají řezníci a stánky na trzích, často i se škvarky. Řezníci mívají i lisované škvarky: vymačkané v lisu do tuhé kostky, sušší a méně mastné.
 - **Kupované:** ve složení má být jen vepřové sádlo. „Pokrmový tuk“ je jiný výrobek, často z rostlinných tuků.
 - Barva bílá až smetanová, vůně slabá a čistá.
-- Na sladké pečení vyber sádlo z plsti nebo kupované, je skoro bez vůně. Na guláš a opékání stačí jakékoli. Domácí dá jídlu víc chuti.
+- Na sladké pečení vyber sádlo z plsti nebo kupované, je skoro bez vůně. Do cukroví ho dávej studené z lednice, jinak se rozteče (viz [[roztekle-cukrovi|rozteklé cukroví]]). Na guláš a opékání stačí jakékoli. Domácí dá jídlu víc chuti.
 
 ## Jak skladovat
 
@@ -49,11 +49,11 @@ Ze sklenice ber sádlo vždy čistou a suchou lžící. Drobky jídla a voda v s
 
 - Tuhé sádlo odměř zarovnanou lžící.
 - Na cibuli ho rozpusť na středním ohni, až se rozteče a lehce tetelí. Teprve potom přidej cibuli.
-- Na [[hnednuti-masa|opékání masa]] rozehřej pánev naprázdno na středně vysokém ohni a sádlo přidej až do ní. Maso pokládej, až se sádlo leskne a lehce tetelí.
+- Na [[hnednuti-masa|opékání masa]] rozehřej nerezovou nebo litinovou pánev naprázdno na středně vysokém ohni a sádlo přidej až do ní; na nepřilnavé pánvi dej sádlo hned (viz [[panev|pánev]]). Maso pokládej, až se sádlo leskne a lehce tetelí.
 - Když se ze sádla kouří, je moc horké. Stáhni oheň. Přepálené sádlo hořkne a smrdí.
 - Na [[karamelizace-cibule|dlouhé opékání cibule]] počítej 2–3 lžíce sádla na 500 g cibule.
 - **Smažení řízků a bramboráků:** sádla dej do pánve tolik, aby ho po rozpuštění bylo na dně asi 1 cm. Teplotu vyzkoušej jako u oleje, strouhankou nebo vařečkou (viz [[olej|olej]]). Tam je i to, kolik tepla sádlo snese. Na sádle mají řízky plnější chuť než na oleji. Celý postup je u [[trojobal|trojobalu]].
-- **Pečení:** vepřovou pečeni potři sádlem, nebo dej lžíci sádla do pekáče k masu. Z kachny a husy při pečení vyteče vlastní tuk; slij ho do sklenice, je to kachní nebo husí sádlo na příště.
+- **Pečení:** vepřovou pečeni potři sádlem, nebo dej lžíci sádla do pekáče k masu (postup viz [[peceni-masa|pečení masa]]). Z kachny a husy při pečení vyteče vlastní tuk; slij ho do sklenice, je to kachní nebo husí sádlo na příště.
 - **Chleba se sádlem:** sádlo nech změknout při pokojové teplotě, namaž ho na chleba, osol a dej na něj kolečka cibule. Kdo chce, posype ho [[sladka-paprika|sladkou paprikou]] nebo přidá škvarky.
 - **Do těsta:** sádlo dělá těsto křehké. Ve škvarkových plackách a pagáčcích je místo másla. Kde recept chce máslo, sádlem ho nenahrazuj, chuť i struktura budou jiné.
 

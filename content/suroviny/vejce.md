@@ -228,5 +228,5 @@ Jedno vejce dělá v jídle různé věci: v sekané a v bramborácích pojí, v
 - **Do perníku, buchet a hrnkových koláčů:** na 1 vejce 1 lžíce mletého lněného semínka rozmíchaná se 3 lžícemi vody, nech 10 minut nabobtnat. Nebo asi 50 g rozmačkaného zralého banánu (chuť banánu bude znát). Na hutná těsta dobré, na piškot ne.
 - **Na sníh:** nálev z cizrny z plechovky, asi 3 lžíce za 1 bílek, se ušlehá do pěny podobné sněhu. Na pusinky a pěnu v cukrářství; piškot z něj je jiný a vyzkoušej si ho nejdřív.
 - **Na potírání pečiva:** mléko, nebo rozpuštěné [[maslo|máslo]] (obojí obsahuje mléko). Bez mléka: lžíce oleje rozmíchaná se lžící vody, nebo slazená voda hned po upečení. Lesk je slabší.
-- **Majonéza bez vajec:** z neslazeného sójového nápoje a oleje se dá ušlehat tyčovým mixérem (obsahuje sóju). Jinak kupovaná veganská majonéza; čti složení, bývá v ní hořčice.
+- **Majonéza bez vajec:** z neslazeného sójového nápoje a oleje se dá ušlehat [[tycovy-mixer|tyčovým mixérem]] (obsahuje sóju). Jinak kupovaná veganská majonéza; čti složení, bývá v ní hořčice.
 - **Nehodí se:** do piškotu a pusinek, kde vejce nese celé těsto. Tam vejce nic dobře nenahradí; vezmi jiný recept.

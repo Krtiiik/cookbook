@@ -120,7 +120,7 @@ Kapr se nemusí péct ani smažit dlouho. Když se převaří, maso se rozpadne 
 2. Porce obal v [[trojobal|trojobalu]]: nejdřív v hladké [[mouka|mouce]], pak v rozšlehaném vejci, nakonec ve strouhance (obsahuje lepek a vejce). Strouhanku lehce přimáčkni dlaní.
 3. Smaž v pánvi v oleji nebo na [[sadlo|sádle]] asi 1 cm vysoko, jako řízky. Jak poznat, že je olej připravený, popisuje [[olej|olej]].
 4. Filety smaž na středním ohni asi 3–4 minuty z každé strany, silné podkovy s kostí déle, 5–6 minut z každé strany. U podkovy zkontroluj maso u kosti: má být bílé a nesklovité. Obal má být zlatý; když zhnědne dřív, než je maso hotové, stáhni oheň na středně mírný.
-5. Nech okapat na papírové utěrce nebo na mřížce.
+5. Nech krátce okapat na papírové utěrce, pak na mřížce.
 
 Podává se s bramborovým salátem a citronem. Olej po rybě drž zvlášť (viz [[olej|olej]]).
 

@@ -25,7 +25,7 @@ Proč na rozdílu záleží:
 - **Ano:** vařené hovězí ke koprovce nebo rajské omáčce, uzené maso. V mírném varu zůstane maso šťavnaté.
 - **Ano:** polévky zahuštěné [[mouka|jíškou nebo moukou]]. Po zahuštění je nech probublávat aspoň 15 minut, aby nebyla cítit syrová mouka, a míchej ode dna: hustá polévka se snadno připálí.
 - **Ano:** [[duseni|dušení]]. Tekutina pod pokličkou má jen mírně vařit: občas bublinka, nikdy bubliny po celé ploše.
-- **Ano:** knedlíky. Vkládáš je do vody, která prudce vře, aby se povrch hned stáhl. Jakmile voda znovu začne vařit, stáhni oheň, aby voda jen mírně vařila. V prudkém varu se knedlíky, hlavně bramborové, na povrchu rozvaří.
+- **Ano:** knedlíky. Vkládáš je do vody, která prudce vře, aby se povrch hned stáhl. Jakmile voda znovu začne vařit, stáhni oheň, aby voda jen mírně vařila. V prudkém varu se knedlíky, hlavně bramborové, na povrchu rozvaří (víc u [[rozpadle-knedliky|rozpadlých knedlíků]]).
 - **Ano:** luštěniny a [[brambory|brambory]], které se mají uvařit a nerozpadnout. Suché fazole (hlavně červené) ale nejdřív namoč aspoň na 5 hodin, nejlépe přes noc. Vodu slij, zalij čerstvou a vař je prudce aspoň 10 minut (podle Health Canada). Teprve potom stáhni oheň, aby voda jen mírně vařila. Při nižší teplotě se v nich nezničí přírodní jed (lektin).
 - **Ne:** těstoviny. Ty sypeš do vody, která prudce vře, a první minuty mícháš, aby se neslepily.
 - **Ne:** zahušťování omáčky odpařováním. Prudší var to zkrátí, jen často míchej.

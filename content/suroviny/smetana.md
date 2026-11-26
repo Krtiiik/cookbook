@@ -72,7 +72,7 @@ Proč se mléko a smetana v omáčce srážejí (kyselina, sůl, prudký var), v
 
 **Kyselina až na konci.** Do koprovky a kulajdy patří [[ocet|ocet]]. Přidej ho až po smetaně a zahuštění, po lžičkách, a po každé lžičce ochutnej.
 
-**Když se smetana srazila,** postupuj podle [[mleko|mléka]]: stáhni hrnec z ohně a prošlehej omáčku metlou nebo krátce tyčovým mixérem. Hrubé vločky už spraví jen [[sitko|sítko]].
+**Když se smetana srazila,** postupuj podle [[mleko|mléka]]: stáhni hrnec z ohně a prošlehej omáčku metlou nebo krátce [[tycovy-mixer|tyčovým mixérem]]. Hrubé vločky už spraví jen [[sitko|sítko]].
 
 ### Česká jídla se smetanou
 

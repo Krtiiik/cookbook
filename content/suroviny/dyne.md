@@ -84,7 +84,7 @@ Na 4 porce: 1 hokkaido (asi 1 kg), 1 [[cibule|cibule]], 1 lžíce [[maslo|másla
 1. Cibuli zpoť na másle na mírném ohni (viz [[zpoceni-zeleniny|zpocení]]). Můžeš přidat i kousek [[mrkev|mrkve]] nebo [[cesnek|česnek]].
 2. Nejdřív ochutnej syrový kousek dýně (viz Hořká dýně). Pak ji nakrájej na kostky asi 2 cm se slupkou, přidej k cibuli a chvíli míchej.
 3. Zalij vodou nebo vývarem jen tolik, aby byla dýně pod hladinou. Přiveď k varu na vysokém ohni, stáhni oheň na středně mírný a vař v [[mirny-var|mírném varu]] asi 15–20 minut, dokud vidlička nepropíchne kostku bez odporu.
-4. Polévku rozmixuj ponorným mixérem a podle hustoty dolij vodu.
+4. Polévku rozmixuj [[tycovy-mixer|tyčovým mixérem]] a podle hustoty dolij vodu.
 5. Vmíchej smetanu a jen prohřej, ať nezačne prudce vařit (víc u [[smetana|smetany]]). Dosol a opepři.
 
 Do talíře se hodí opražená dýňová semínka, kapka dýňového oleje, krutony (obsahují lepek) nebo lžíce zakysané smetany (obsahuje mléko). Kdo má rád ostřejší, přidá k cibuli kousek zázvoru. S kokosovým mlékem místo smetany a s olejem místo másla je polévka thajská a bez mléka (zeleninový vývar čti na celer).
@@ -101,7 +101,7 @@ Upečenou nebo uvařenou dýni rozmačkej nebo rozmixuj. Na vaření dej kostky 
 
 ### Semínka
 
-Semínka odděl od vláken, opláchni a osuš. Promíchej je s kapkou oleje a solí a opeč v troubě při 160 °C asi 15–20 minut, až zezlátnou a začnou praskat. Semínka hokkaida a halloweenské dýně mají tvrdou slupku: jez je celá, nebo je louskej. Zelená loupaná semínka z obchodu (z olejné dýně) stačí opražit na suché pánvi na středním ohni, viz [[kmin|kmín]] pro pražení semínek.
+Semínka odděl od vláken, opláchni a osuš. Promíchej je s kapkou oleje a solí a opeč v troubě při 160 °C asi 15–20 minut, až zezlátnou a začnou praskat. Semínka hokkaida a halloweenské dýně mají tvrdou slupku: jez je celá, nebo je louskej. Zelená loupaná semínka z obchodu (z olejné dýně) stačí opražit na suché pánvi (ne nepřilnavé) na středním ohni, viz [[kmin|kmín]] pro pražení semínek.
 
 ## Náhrady
 

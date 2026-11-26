@@ -45,7 +45,7 @@ Kloubní kosti dají za 4 hodiny mírného varu želatinu, morkové chuť a tuk 
 
 - **Hovězí polévka:** do horkého osoleného vývaru dej nudle uvařené zvlášť a játrové knedlíčky. Uvařenou mrkev a petržel z vývaru nakrájej na kolečka a vrať je do polévky. Na talíři posyp nasekanou petrželkou. Nudle i játrové knedlíčky obvykle obsahují lepek a vejce; u kupovaných knedlíčků a polévkových směsí čti složení.
 - **S masem:** kus [[hovezi-klizka|kližky]] nebo [[hovezi-plec|plece]] vcelku dej hned na začátku ke kostem. Od 2 hodin ho zkoušej vidličkou; až jím projde bez odporu (kolem 2,5–3 hodin), vytáhni ho, ať se nerozvaří; vývar vař dál. Maso podáš nakrájené v polévce nebo s koprovkou či rajskou omáčkou.
-- **Zlatější barva:** cibuli předem opeč řeznou plochou na suché pánvi, až zhnědne (viz [[cibule|cibule]]).
+- **Zlatější barva:** cibuli předem opeč řeznou plochou na suché pánvi (ne nepřilnavé), až zhnědne (viz [[cibule|cibule]]).
 - **Tmavý vývar:** kosti nejdřív opeč v troubě (220 °C, 45–60 minut) do tmavě hněda; černé kusy do hrnce nedávej. Celý postup je u [[hovezi-kosti|hovězích kostí]]. Vývar bude tmavší a plnější, hodí se do tmavé omáčky.
 - **Krvavé kosti:** když ti záleží na čirém vývaru, kosti nejdřív [[hovezi-kosti|blanšíruj]]: krátce je povař a první vodu slij.
 - **V tlakovém hrnci:** vývar je hotový mnohem dřív, ale bývá kalnější. Množstvím vody a časem se řiď podle návodu k hrnci. Kořenovou zeleninu přidej až na konec.

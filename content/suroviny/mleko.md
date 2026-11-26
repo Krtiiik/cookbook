@@ -112,7 +112,7 @@ Jak tomu předejít:
 5. **Vezmi plnotučné.** Plnotučné se sráží méně snadno než odtučněné.
 6. **Sol až na konci,** po ochutnání (víc u [[sul|soli]]).
 
-Když už se omáčka srazila: stáhni hrnec z ohně a omáčku ihned prošlehej metlou. Malé vločky tím zmizí nebo se zmenší. Pomůže i krátké rozmixování tyčovým mixérem. Hrubé sražení už nespravíš, omáčku můžeš jen přecedit přes sítko.
+Když už se omáčka srazila: stáhni hrnec z ohně a omáčku ihned prošlehej metlou. Malé vločky tím zmizí nebo se zmenší. Pomůže i krátké rozmixování [[tycovy-mixer|tyčovým mixérem]]. Hrubé sražení už nespravíš, omáčku můžeš jen přecedit přes sítko.
 
 ## Náhrady
 

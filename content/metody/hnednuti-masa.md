@@ -12,7 +12,7 @@ Karamelizace je něco jiného: hnědne při ní cukr sám, bez bílkovin. U cibu
 
 **Kůrka šťávu v mase neuzavře.** Starší kuchařky radí maso zatáhnout, aby se „uzavřely póry“ a šťáva zůstala uvnitř. Tak to nefunguje: opečené maso ztrácí šťávu stejně jako neopečené. Opékáš kvůli chuti a barvě, ne kvůli šťavnatosti.
 
-Na dně pánve zůstane hnědý povlak: **výpek**. Je to rozpuštěná a zhnědlá šťáva z masa nebo zeleniny a nese hodně chuti. Proto české recepty po opečení píšou „podlij a výpek vyvař“: tekutina výpek rozpustí a chuť přejde do omáčky. Z výpeku je i šťáva k pečeni.
+Na dně pánve zůstane hnědý povlak: **výpek**. Je to rozpuštěná a zhnědlá šťáva z masa nebo zeleniny a nese hodně chuti. Proto české recepty po opečení píšou „podlij a výpek vyvař“: tekutina výpek rozpustí a chuť přejde do omáčky. Z výpeku je i šťáva k [[peceni-masa|pečeni]].
 
 ## Kdy ano a kdy ne
 
@@ -27,7 +27,7 @@ Na dně pánve zůstane hnědý povlak: **výpek**. Je to rozpuštěná a zhněd
 
 1. Maso osuš papírovou utěrkou ze všech stran.
 2. Osol těsně před opékáním, nebo aspoň 40 minut předem (ideálně v lednici). Mezi pár minutami a 40 minutami ne: sůl vytáhne vodu na povrch a ta ještě nestihne zpátky, maso se pak vaří ve vlastní šťávě místo opékání.
-3. Rozehřej pánev na středně vysokém ohni, 2–3 minuty naprázdno. Smaltovaný kastrol nebo [[litinovy-hrnec|litinový hrnec]] nahřívej až s tukem, na středním ohni, a teprve pak přidej oheň na středně vysoký.
+3. Rozehřej nerezovou, litinovou nebo ocelovou pánev na středně vysokém ohni, 2–3 minuty naprázdno. Nepřilnavou nikdy nenahřívej prázdnou, dej do ní tuk hned (viz [[panev|pánev]]). Smaltovaný kastrol nebo [[litinovy-hrnec|litinový hrnec]] nahřívej až s tukem, na středním ohni, a teprve pak přidej oheň na středně vysoký.
 4. Přidej tuk, který snese vysokou teplotu: [[sadlo|sádlo]] nebo rafinovaný [[olej|olej]] (řepkový, slunečnicový). Tuk se má lesknout a lehce tetelit. Když kouří, stáhni oheň.
 5. Pokládej maso po kouscích, s mezerou asi 1 cm. Když se nevejde všechno, opékej po dávkách.
 6. Nehýbej s ním 2–3 minuty. Maso se nejdřív přilepí; až se kůrka vytvoří, pustí se samo.
@@ -55,4 +55,4 @@ Cibule je zlatá a [[sladka-paprika|paprika]] vmíchaná mimo oheň (viz [[hovez
 | Brzké otáčení | Maso se trhá a zůstane na dně, kůrka je flekatá. | Počkej, až se maso pustí samo. |
 | Máslo na začátku | Mléčná sušina v [[maslo|másle]] (bílkoviny a mléčný cukr) se při vysoké teplotě připálí dřív, než se udělá kůrka. | Opékej na sádle, oleji nebo přepuštěném másle; máslo přidej až na konci. |
 | Černý výpek | Připálený výpek je hořký a zhořkne s ním celá omáčka. | Stáhni oheň, když výpek tmavne moc rychle. Černý výpek do omáčky nedávej. |
-| Nepřilnavá pánev | Výpek se na ní skoro netvoří. | Na opékání před dušením vezmi litinovou nebo nerezovou pánev, nebo opékej rovnou v kastrolu, ve kterém budeš dusit. |
+| Nepřilnavá pánev | Výpek se na ní skoro netvoří. | Na opékání před dušením vezmi litinovou nebo nerezovou [[panev|pánev]], nebo opékej rovnou v kastrolu, ve kterém budeš dusit. |

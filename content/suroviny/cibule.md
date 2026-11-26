@@ -40,7 +40,7 @@ Zhořkla? Viz [[zhorkla-cibule|proč cibule zhořkla]].
 
 ### Do vývaru
 
-Do [[hovezi-vyvar|hovězího vývaru]] dej cibuli rozpůlenou ve slupce. Slupka vývar zbarví dozlatova. Na ještě tmavší barvu opeč cibuli předem řeznou plochou na suché pánvi, až zhnědne.
+Do [[hovezi-vyvar|hovězího vývaru]] dej cibuli rozpůlenou ve slupce. Slupka vývar zbarví dozlatova. Na ještě tmavší barvu opeč cibuli předem řeznou plochou na suché pánvi (ne nepřilnavé), až zhnědne.
 
 ### Syrová
 

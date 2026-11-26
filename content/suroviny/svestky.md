@@ -71,7 +71,7 @@ Obě těsta obsahují lepek a vejce, tvarohové i mléko.
 1. Ve velkém hrnci přiveď k varu vodu na vysokém ohni a [[sul|osol]] ji, asi 1 lžičku na litr.
 2. Knedlíky do vody spouštěj po jednom, ať se nedotýkají. Do hrnce dej jen tolik, kolik jich na dně leží vedle sebe.
 3. Hned je zespodu opatrně uvolni vařečkou, ať se nepřichytí ke dnu.
-4. Jakmile voda znovu začne vařit, stáhni oheň na středně mírný, aby jen [[mirny-var|mírně vařila]]. V prudkém varu se bramborové těsto rozvaří.
+4. Jakmile voda znovu začne vařit, stáhni oheň na středně mírný, aby jen [[mirny-var|mírně vařila]]. V prudkém varu se bramborové těsto rozvaří. Rozpadají se? Viz [[rozpadle-knedliky|proč se knedlíky rozpadají]].
 5. **Hotové:** knedlíky vyplavou na hladinu. Od té chvíle je vař ještě asi 5 minut, velké s celou švestkou o něco déle, se zmrzlou švestkou o 2–3 minuty déle. Celkem to bývá 8–12 minut. Jeden vyndej a rozkroj: těsto je uvařené až ke švestce, nelepí se a nemá syrový střed, švestka je měkká. Nedovařený střed znamená, že ostatní vař ještě 2–3 minuty; rozkrojený knedlík dej na pánev s máslem.
 6. Knedlíky vyndávej děrovanou lžící. Hned každý propíchni vidličkou, aby z něj unikla pára. Jinak splaskne a ztvrdne.
 
@@ -98,9 +98,9 @@ Dřív se povidla vařila venku v kotli celý den a sousedé se střídali v mí
 
 1. Švestky umyj, odpeckuj a vyber červivé. Na hrnec počítej aspoň 3–5 kg; povidel bude zhruba třetina až čtvrtina váhy.
 2. Švestky dej do hrnce se silným dnem nebo do pekáče. Vodu nepřidávej.
-3. **Na sporáku:** zahřívej je na středně mírném ohni, až pustí šťávu a začnou vařit. Pak stáhni oheň na mírný. **V troubě:** pekáč dej do trouby na 150–160 °C bez poklice.
+3. **Na sporáku:** zahřívej je na středně mírném ohni, až pustí šťávu a začnou vařit. Pak stáhni oheň na mírný. **V troubě:** pekáč dej do trouby na 150–160 °C bez víka.
 4. Vař a míchej vařečkou ode dna, pomalu a pravidelně. Na začátku stačí každých 15–20 minut. Jak povidla houstnou, míchej častěji, nakonec skoro pořád. Hustá povidla se snadno připálí a připálená chutnají hořce. Houstnoucí povidla prskají a horké kapky pálí: míchej vařečkou s dlouhou násadou a na sporáku hrnec napůl přikryj.
-5. Po pár hodinách, když jsou švestky rozvařené, je můžeš rozmixovat tyčovým mixérem, pokud chceš hladká povidla. Hrnec před mixováním stáhni z ohně a mixuj opatrně, horká hmota stříká. Pak vař dál.
+5. Po pár hodinách, když jsou švestky rozvařené, je můžeš rozmixovat [[tycovy-mixer|tyčovým mixérem]], pokud chceš hladká povidla. Horké mixuj, jen když to návod k mixéru dovoluje. Hrnec před mixováním stáhni z ohně a mixuj opatrně, horká hmota stříká. Pak vař dál.
 6. Celkem to trvá podle množství a šťavnatosti 4–8 hodin. Když vaření rozložíš do dvou dnů, nenechávej povidla přes noc na sporáku. Přendej je do mělkých nádob, do 2 hodin je dej do lednice (podle KHS) a druhý den vař dál.
 7. **Hotová povidla:** lžíce v nich stojí, vařečka po dně udělá cestičku, která se hned nezavře, a kapka na talíři nepustí kolem sebe žádnou vodu.
 

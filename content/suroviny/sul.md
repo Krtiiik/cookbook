@@ -29,7 +29,7 @@ V suchu, v uzavřené dóze nebo slánce. Sůl se nekazí, u jodidované ale ča
 
 - **Maso na opékání:** těsně před opékáním, nebo aspoň 40 minut předem; proč ne mezi tím, viz [[hnednuti-masa|hnědnutí masa]].
 - **Maso na řízky:** naklepané plátky osuš papírovou utěrkou a osol těsně před obalováním. Když sůl stojí na mase déle, vytáhne na povrch šťávu; mokrý povrch drží obal hůř a trojobal se může odlupovat.
-- **Pečeně:** vepřovou pečeni potři solí s [[kmin|kmínem]] a česnekem klidně den předem a nech ji přikrytou v lednici. Sůl stihne proniknout dovnitř.
+- **Pečeně:** vepřovou pečeni potři solí s [[kmin|kmínem]] a česnekem klidně den předem a nech ji přikrytou v lednici. Sůl stihne proniknout dovnitř. Jak pak péct, popisuje [[peceni-masa|pečení masa]].
 - **Maso na dušení:** sůl ho neztuží ([[tuhe-dusene-maso|proč je dušené maso tuhé]]). Když ho před dušením opékáš, osol ho podle [[hnednuti-masa|hnědnutí masa]]: těsně před opékáním, nebo aspoň 40 minut předem. Omáčku dochuť až na konci, protože se odpařuje.
 - **Zelenina na tuku:** špetka hned na začátku. Vytáhne vodu a zelenina se méně připálí.
 - **Voda na [[brambory|brambory]]:** sol hned, asi 1 lžičku soli na litr, ať se brambory osolí i uvnitř, i ty na [[bramborova-kase|bramborovou kaši]]. Do vody přidej klidně i kmín.

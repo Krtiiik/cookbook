@@ -68,7 +68,7 @@ Na grilu z marinády s olejem kape tuk do žhavého uhlí a šlehá plamen. Plá
 
 ### Pečeně
 
-Kus 1–1,5 kg potři solí, kmínem a česnekem, klidně den předem a pak ho nech přikrytý v lednici. Když se kus rozpadá na jednotlivé svaly, svaž ho kuchyňským provázkem. Peč ho v pekáči se lžící [[sadlo|sádla]] a trochou vody při 170–180 °C: první hodinu pod víkem, pak bez víka, aby povrch zezlátl. Pod víkem se maso vlastně dusí; mírnější nastavení trouby pro dlouhé dušení najdeš u [[duseni|dušení]]. Kus kolem 1 kg je hotový zhruba za 1,5–2 hodiny, kus 1,5 kg asi o půl hodiny déle. Ve středu musí mít aspoň 75 °C, ale to je jen bezpečné minimum. Krkovice je měkká až později: vidlička do ní zajede bez odporu. Podlévání a odpočinek po upečení popisuje [[peceni-masa|pečení masa]].
+Na pečeni vezmi kus 1–1,5 kg. Když se rozpadá na jednotlivé svaly, svaž ho kuchyňským provázkem. Bezpečnou teplotu ve středu má krkovice dřív, než je měkká: peč ji dál, až do ní vidlička zajede bez odporu. Postup, podlévání a odpočinek: [[peceni-masa|pečení masa]]. Mírnější nastavení trouby pro dlouhé dušení pod víkem najdeš u [[duseni|dušení]].
 
 ### Guláš a dušené
 

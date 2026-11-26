@@ -24,7 +24,7 @@ Cukr v kuchyni nedělá jen sladkost:
 
 ## Jak vybrat
 
-Na běžné vaření a pečení stačí obyčejná krupice. Cukr z různých obchodů se liší jen tím, jak jemně je mletý.
+Na běžné vaření a pečení stačí obyčejná krupice. Kromě křehkého cukroví: tam patří moučka (viz [[roztekle-cukrovi|rozteklé cukroví]]). Cukr z různých obchodů se liší jen tím, jak jemně je mletý.
 
 - **Na sypání a do šlehačky:** moučka.
 - **Na kompot a sirup:** krystal, nebo krupice.
@@ -69,7 +69,7 @@ Karamel je cukr, který se rozpustil a zhnědl teplem. Slovo je stejné jako u [
 
 Popálení karamelem: drž popálené místo pod tekoucí studenou vodou (ne ledovou) aspoň 20 minut a dál, dokud bolest neustoupí (podle britské NHS; Český červený kříž uvádí aspoň 10 minut). Led nepřikládej. Co se přilepilo na kůži, netrhej. Při rozsáhlé popálenině, popálenině obličeje nebo dlaní a u malého dítěte volej 155. Při velké nebo bolestivé popálenině jdi k lékaři.
 
-**Na čem:** v kastrolu nebo pánvi se silným a světlým dnem (nerez, smalt). Na světlém dně vidíš barvu. Na tmavé teflonové pánvi ji neuvidíš a tenké dno se rozpálí nerovnoměrně.
+**Na čem:** v kastrolu nebo pánvi se silným a světlým dnem (nerez, smalt). Na světlém dně vidíš barvu. Na tmavé nepřilnavé pánvi ji neuvidíš a tenké dno se rozpálí nerovnoměrně.
 
 **Na sucho** (rychlejší, na barvu do zelí nebo omáčky, na menší množství):
 

@@ -110,7 +110,7 @@ Hořčice drží olej a ocet pohromadě. Slizové látky ze semínka obalí kapk
 ### Hořčičné semínko
 
 - **Do nálevu:** lžička žlutého semínka na sklenici okurek nebo zeleniny, spolu s [[bobkovy-list|bobkovým listem]] a [[nove-koreni|novým kořením]]. Zavařování potřebuje ověřený postup; na této stránce ho nenajdeš.
-- **Opražené:** na suché pánvi nebo na tuku semínka chvíli praskají a poskakují; jak na to, popisuje [[kmin|kmín]]. Pak voní oříškově a skoro nepálí. Hodí se k zelí, bramborám a do indických jídel.
+- **Opražené:** na suché pánvi (ne nepřilnavé) nebo na tuku semínka chvíli praskají a poskakují; jak na to, popisuje [[kmin|kmín]]. Pak voní oříškově a skoro nepálí. Hodí se k zelí, bramborám a do indických jídel.
 
 ## Náhrady
 

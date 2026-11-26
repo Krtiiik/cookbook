@@ -10,7 +10,7 @@ Kolagen v tuhých kusech se při tom mění na želatinu. Proto se dusí kusy, k
 
 - **Ano:** hovězí kusy s hodně kolagenem: [[hovezi-klizka|kližka]], [[hovezi-plec|plec]], [[hovezi-licka|líčka]], [[ohanka|oháňka]]. Z nich je guláš, dušené hovězí na kostky nebo ve větším kuse.
 - **Ano:** svíčková na smetaně z [[hovezi-plec|kulaté plece]] (falešná svíčková) nebo z kusu z kýty. Dusí se v pekáči s kořenovou zeleninou, z které je pak omáčka. Dělá se i z pravé svíčkové: ta se prošpikuje slaninou a peče kratší dobu, ne do měkka (viz [[tuhe-dusene-maso|proč je dušené maso tuhé]]).
-- **Ano:** vepřová plec a [[veprova-krkovice|krk]], třeba na kmíně nebo na paprice. Vepřová pečeně v pekáči se peče pod víkem a na konci bez víka, aby se povrch opekl. Pod víkem je to vlastně dušení.
+- **Ano:** vepřová plec a [[veprova-krkovice|krk]], třeba na kmíně nebo na paprice. [[peceni-masa|Vepřová pečeně]] v pekáči se peče pod víkem a na konci bez víka, aby se povrch opekl. Pod víkem je to vlastně dušení.
 - **Ano:** kuřecí stehna a králík (kuře na paprice, králík na smetaně), hovězí plátky z kýty na španělské ptáčky. Dusí se kratší dobu než hovězí kostky; zkoušej vidličkou.
 - **Ano:** dušené zelí, kořenová zelenina (třeba mrkev na másle).
 - **Ne:** kusy s málo kolagenem: pravá hovězí svíčková, kuřecí prsa, vepřová panenka. Rozhoduje kolagen, ne tuk: libová kližka je na dušení ideální.

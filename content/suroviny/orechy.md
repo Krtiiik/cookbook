@@ -83,7 +83,7 @@ Ořechy se pálí nejvíc na konci. Dlouho se nic neděje a pak během minuty zh
 
 **Na suché pánvi** (do 200 g, hlavně plátky a nasekané ořechy):
 
-1. Nasyp ořechy na suchou [[panev|pánev]] v jedné vrstvě, bez tuku.
+1. Nasyp ořechy na suchou [[panev|pánev]] (ne nepřilnavou) v jedné vrstvě, bez tuku.
 2. Dej ji na středně mírný oheň.
 3. Pořád míchej nebo pánví potřásej, po dobu z tabulky.
 4. Jsou hotové, když zavoní a zezlátnou o pár odstínů. Rozlom jeden: uvnitř má být světle zlatý, ne bílý.

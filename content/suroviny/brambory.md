@@ -21,7 +21,8 @@ Na obalu najdeš i mezistupně **AB** a **BC**. Leží mezi dvěma typy a hodí 
 Typ nezaměňuj:
 
 - **Moučné do salátu:** rozpadnou se a salát bude kašovitý.
-- **Pevné na kaši:** kaše bude lepkavá a gumová. Pevné brambory se samy nerozpadnou. Musíš je mačkat dlouho, buňky při tom praskají a pouštějí lepivý škrob. Na kaši proto kupuj typ C. Rozmačkej ji šťouchadlem, mixér ji zlepí i z moučných brambor.
+- **Pevné na kaši:** kaše bude lepkavá a gumová. Pevné brambory se samy nerozpadnou. Musíš je mačkat dlouho, buňky při tom praskají a pouštějí lepivý škrob. Na kaši proto kupuj typ C. Rozmačkej ji šťouchadlem, [[tycovy-mixer|mixér]] ji zlepí i z moučných brambor.
+- **Pevné do knedlíků:** těsto je vlhké a knedlíky se ve vodě rozpadají (viz [[rozpadle-knedliky|proč se knedlíky rozpadají]]).
 
 Když varný typ neznáš, uvař jednu bramboru na zkoušku. Moučná po uvaření na povrchu popraská a dužina se drolí. Pevná má hladký povrch a řeže se jako mýdlo.
 

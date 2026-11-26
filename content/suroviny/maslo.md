@@ -63,7 +63,7 @@ Přepuštěné máslo ulož do čisté suché sklenice s víčkem, v lednici. Vo
 ### Na chleba a na pečení
 
 - **Máslo s pažitkou (bylinkové máslo):** změklé máslo rozmíchej s nasekanou pažitkou, špetkou soli a případně s trochou [[cesnek|česneku]]. Na chleba, na topinku, na opečené maso.
-- **Do těsta:** recept řekne, jestli máslo chce studené, nebo změklé. Na linecké a křehká těsta studené, nakrájené na kousky. Do bábovky a třených těst změklé, aby šlo s cukrem utřít do pěny. Změkne za hodinu nebo dvě na lince.
+- **Do těsta:** recept řekne, jestli máslo chce studené, nebo změklé. Na linecké a křehká těsta studené, nakrájené na kousky, jinak se cukroví rozteče (viz [[roztekle-cukrovi|rozteklé cukroví]]). Do bábovky a třených těst změklé, aby šlo s cukrem utřít do pěny. Změkne za hodinu nebo dvě na lince.
 
 ### Oříškové máslo
 

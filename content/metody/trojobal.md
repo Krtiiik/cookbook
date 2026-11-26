@@ -60,7 +60,7 @@ Po syrovém mase umyj ruce, prkénko a paličku (podle BfR). Zbylou mouku, vejce
 1. Vepřový i kuřecí řízek smaž na středním ohni asi 3–4 minuty z každé strany, dokud obal nezezlátne.
 2. Obracej jen jednou, obracečkou nebo kleštěmi. Vidličkou do řízku nepíchej: z dírek uteče šťáva a obal se kolem nich odloupne.
 3. Když obal hnědne dřív, než uplyne čas, stáhni oheň na středně mírný. Když po 4 minutách ještě bledne, tuk je moc studený: přidej oheň a další dávku dávej do tuku až po zkoušce.
-4. Hotové kusy nech okapat na papírové utěrce nebo na mřížce. Na mřížce zůstane obal křupavý i zespodu.
+4. Hotové kusy nech krátce okapat na papírové utěrce a hned je přendej na mřížku. Na mřížce zůstane obal křupavý i zespodu, na utěrce změkne (viz [[odpadajici-trojobal|proč trojobal odpadá]]).
 5. Mezi dávkami nech tuk znovu rozehřát a vyber z něj spadlé drobky, než se připálí.
 
 Vepřové a kuřecí maso musí být propečené i ve středu. Zlatý obal ukáže jen to, že je hotový obal. Tenký řízek (5 mm) změříš jen vpichem z boku, celý hrot musí být v mase (viz [[teplomer|teploměr]]). Když to nejde, rozkroj nejsilnější kus: maso má být uprostřed bílé a šťáva čirá. To je podle britského úřadu FSA jen náhradní znamení. Teploměr v nejsilnějším místě má podle SZÚ ukázat aspoň 75 °C ve středu, nebo 70 °C po 2 minuty (víc u [[teplomer|teploměru]]).

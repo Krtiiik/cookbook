@@ -109,7 +109,7 @@ Omáčka zahuštěná moukou je matnější a hustší než omáčka zahuštěn�
 ### Když jsou hrudky
 
 - Malé hrudky rozmíchej metlou přímo v hrnci.
-- Větší hrudky: polévku nebo omáčku prolij přes sítko a hrudky vyhoď, nebo ji rozmixuj ponorným mixérem.
+- Větší hrudky: polévku nebo omáčku prolij přes sítko a hrudky vyhoď, nebo ji rozmixuj [[tycovy-mixer|tyčovým mixérem]].
 - Pak ji stejně nech provařit, ať zmizí chuť syrové mouky.
 
 ## Náhrady

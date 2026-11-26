@@ -52,7 +52,7 @@ Kolik zhruba (na chuť, dolaď ochutnáním):
 
 - **Zelí:** 1 lžička celého na 500 g zelí.
 - **Vařené brambory:** ½ lžičky celého do vody na 1 kg brambor.
-- **Vepřová pečeně nebo kachna:** 1–2 lžičky celého nebo drceného na 1 kg masa, vetřené se solí.
+- **Vepřová pečeně nebo kachna:** 1–2 lžičky celého nebo drceného na 1 kg masa, vetřené se solí. Postup viz [[peceni-masa|pečení masa]].
 - **Žitný chléb:** 1–2 lžičky celého na 500 g mouky.
 - **Guláš:** 1 lžička mletého na 1 kg masa.
 
@@ -62,7 +62,7 @@ Opražený kmín voní víc a chutná kulatěji, méně ostře. Praž jen celý;
 
 **Na suché pánvi:**
 
-1. Rozehřej suchou pánev na středním ohni, bez tuku.
+1. Rozehřej suchou pánev (ne nepřilnavou, viz [[panev|pánev]]) na středním ohni, bez tuku.
 2. Nasyp kmín v jedné vrstvě.
 3. Pánví pořád potřásej nebo míchej, 1–2 minuty.
 4. Signál je vůně: když kmín začne silně vonět a ztmavne o odstín, je hotový.

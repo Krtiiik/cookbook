@@ -35,7 +35,7 @@ changes:
 
 Moučné brambory (varný typ C) mají hodně škrobu a po uvaření se samy rozpadají. Stačí je krátce rozmačkat. Když je mačkáš dlouho nebo je mixuješ, buňky praskají a pouštějí lepivý škrob. Kaše je pak lepkavá a gumová, i z moučných brambor (víc u [[brambory|brambor]]).
 
-Doma se kaše často prošlehá metlami ručního šlehače. Krátce, pár vteřin na nízký stupeň, to jde a kaše bude nadýchanější. Tyčový mixér nebo dlouhé šlehání ji zlepí.
+Doma se kaše často prošlehá metlami ručního šlehače. Krátce, pár vteřin na nízký stupeň, to jde a kaše bude nadýchanější. [[tycovy-mixer|Tyčový mixér]] nebo dlouhé šlehání ji zlepí.
 
 Ze studené vody se brambory prohřívají postupně a změknou stejnoměrně. Ve vroucí vodě by se povrch rozvařil dřív, než změkne střed.
 

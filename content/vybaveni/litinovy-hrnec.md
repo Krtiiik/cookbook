@@ -1,6 +1,6 @@
 ## K čemu je
 
-Těžký litinový hrnec s těsnou pokličkou, holý nebo smaltovaný. Silné dno i stěny drží teplo, takže teplota uvnitř kolísá jen málo. Na plotně ho nahřívej pomalu, nad hořákem se dno rozpálí víc než po krajích. Hodí se na [[duseni|dušení]] na plotně i v troubě, na guláš, na pomalé pečení masa a na chléb.
+Těžký litinový hrnec s těsnou pokličkou, holý nebo smaltovaný. Silné dno i stěny drží teplo, takže teplota uvnitř kolísá jen málo. Na plotně ho nahřívej pomalu, nad hořákem se dno rozpálí víc než po krajích. Hodí se na [[duseni|dušení]] na plotně i v troubě, na guláš, na pomalé [[peceni-masa|pečení masa]] a na chléb.
 
 V české kuchyni se k němu lidé teprve vracejí. Doma se dusí hlavně v tomhle nádobí a recepty na guláš a dušené maso v něm fungují taky:
 

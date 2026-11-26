@@ -64,7 +64,7 @@ Stejné riziko má nakládaný hermelín: sýr s česnekem v oleji. Platí pro n
 
 ### V troubě a v těstě
 
-- **Vepřová pečeně:** maso potři česnekem utřeným se solí a [[kmin|kmínem]], klidně den předem. Nebo do masa nožem udělej zářezy a zastrč do nich plátky česneku. Česnek na mase pod šťávou se nepřipálí jako na pánvi, tak může v troubě zůstat celou dobu.
+- **Vepřová pečeně:** maso potři česnekem utřeným se solí a [[kmin|kmínem]], klidně den předem. Nebo do masa nožem udělej zářezy a zastrč do nich plátky česneku. Česnek na mase pod šťávou se nepřipálí jako na pánvi, tak může v troubě zůstat celou dobu (postup viz [[peceni-masa|pečení masa]]).
 - **Bramboráky:** 2–4 prolisované stroužky na kilo brambor, spolu s majoránkou. V těstě se česnek nepřipálí.
 - **Pečené stroužky:** celé stroužky ve slupce dej k pečeni nebo k bramborám do pekáče. Změknou, zesládnou a vymáčkneš je na chleba nebo do omáčky. Celou hlavičku s odříznutým vrškem můžeš upéct i samotnou, zabalenou v alobalu, 40–50 minut při 200 °C; je to zvyk z jiných kuchyní.
 
