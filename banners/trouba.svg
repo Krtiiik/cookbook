@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Trouba zepředu: v okénku svítí horní a spodní topná spirála, na středním roštu stojí plech s pečeným masem a vedle visí troubový teploměr s ručičkou">
+  <style>.glow{animation:oven-flicker 2.6s ease-in-out infinite}.late{animation-delay:1.3s}@keyframes oven-flicker{0%,100%{opacity:1}50%{opacity:.7}}</style>
+  <rect width="1200" height="400" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M60 362 H1140" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-dasharray: 2 12; stroke-linecap: round; opacity: .45"/>
+  <rect x="400" y="46" width="400" height="299" rx="26" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M400 108 H800" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 5"/>
+  <g style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4">
+    <circle cx="450" cy="78" r="17"/><circle cx="508" cy="78" r="17"/><circle cx="692" cy="78" r="17"/><circle cx="750" cy="78" r="17"/>
+  </g>
+  <g style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linecap: round">
+    <path d="M450 66 V78"/><path d="M508 78 L518 70"/><path d="M692 78 L682 68"/><path d="M750 78 L760 80"/>
+  </g>
+  <rect x="560" y="64" width="80" height="30" rx="8" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4"/>
+  <text x="600" y="88" style="font: 600 28px Caveat, cursive; fill: var(--banner-fg, #1b2a4a); text-anchor: middle">200</text>
+  <path d="M440 128 H760" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 12; stroke-linecap: round"/>
+  <rect x="432" y="148" width="336" height="176" rx="14" style="fill: var(--banner-fg, #1b2a4a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6"/>
+  <g style="fill: none; stroke: #fff7ea; stroke-width: 5; stroke-linecap: round">
+    <path d="M440 204 H760" style="opacity: .5"/>
+    <path d="M440 306 H760" style="opacity: .5"/>
+    <path d="M440 256 H760"/>
+  </g>
+  <rect x="500" y="238" width="190" height="14" rx="5" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4"/>
+  <path d="M520 238 C516 206 556 192 600 192 C650 192 676 212 670 238 Z" style="fill: var(--banner-warm, #e9b44c); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+  <g style="fill: none; stroke: #fff7ea; stroke-width: 5; stroke-linecap: round; opacity: .8">
+    <path d="M550 216 C566 206 584 208 596 214"/><path d="M620 222 C632 214 644 216 654 224"/>
+  </g>
+  <g class="glow" style="fill: none; stroke-linecap: round; stroke-linejoin: round">
+    <path d="M452 166 q16 -16 32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0" style="stroke: var(--banner-bg, #fffaf0); stroke-width: 13"/>
+    <path d="M452 166 q16 -16 32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0" style="stroke: var(--banner-warm, #e9b44c); stroke-width: 7"/>
+  </g>
+  <g class="glow late" style="fill: none; stroke-linecap: round; stroke-linejoin: round">
+    <path d="M452 316 q16 -16 32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0" style="stroke: var(--banner-bg, #fffaf0); stroke-width: 13"/>
+    <path d="M452 316 q16 -16 32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0 t32 0" style="stroke: var(--banner-warm, #e9b44c); stroke-width: 7"/>
+  </g>
+  <path d="M718 204 V218" style="stroke: #fff7ea; stroke-width: 4; stroke-linecap: round"/>
+  <circle cx="718" cy="244" r="26" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 5"/>
+  <path d="M718 244 L736 230" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linecap: round"/>
+  <circle cx="718" cy="244" r="4" style="fill: var(--banner-accent, #c8462a)"/>
+  <path d="M200 126 C260 150 340 150 440 164" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="50" y="112" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">předehřej předem</text>
+  <path d="M846 168 C800 170 740 190 696 244" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="852" y="176" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">střední rošt</text>
+  <path d="M846 304 C800 300 770 280 750 262" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="852" y="312" style="font: 600 36px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">displeji nevěř, měř</text>
+</svg>
