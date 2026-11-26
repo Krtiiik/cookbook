@@ -687,7 +687,8 @@ def render_body(site: Site, page: Page, root_prefix: str) -> str:
     html = re.sub(r"<h2>(.*?)</h2>", h2, html)
     html = html.replace("<table>", '<div class="tablebox"><table>').replace("</table>", "</table></div>")
     if page.kind == "recipe":
-        html = re.sub(r'(<h2 class="c-\w+">Postup</h2>\s*)<ol>', r'\1<ol class="steps">', html)
+        html = re.sub(r'(<h2 class="c-\w+">Postup</h2>(?:(?!<h2|<ol>).)*)<ol>', r'\1<ol class="steps">',
+                      html, flags=re.S)
         html = re.sub(r'(<h2 class="c-\w+">Poznámky</h2>)(.*?)(?=<h2|\Z)',
                       lambda m: m.group(1) + m.group(2).replace("<p>", '<p class="handnote">'),
                       html, flags=re.S)

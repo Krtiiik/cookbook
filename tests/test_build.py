@@ -216,6 +216,16 @@ def test_body_rendering_adds_design_hooks(site_root):
     assert '<p class="handnote">Poznámka.</p>' in html
 
 
+def test_steps_style_allows_an_intro_paragraph_before_the_list(site_root):
+    add_recipe(site_root)
+    path = site_root / "content/recepty/polevka.md"
+    text = path.read_text(encoding="utf-8")
+    path.write_text(text.replace("## Postup\n\n", "## Postup\n\nVývar uvař předem.\n\n"), encoding="utf-8")
+    site = build.load_site(site_root)
+    html = build.render_body(site, site.pages["polevka"], "../")
+    assert '<p>Vývar uvař předem.</p>\n<ol class="steps">' in html
+
+
 def test_recipe_jsonld_lists_steps_and_ingredients(site_root):
     add_recipe(site_root)
     site = build.load_site(site_root)
