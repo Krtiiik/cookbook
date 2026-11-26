@@ -889,7 +889,7 @@ def render_site(site: Site, out: Path, templates: Path, static: Path, cache: Pat
         path.write_text(html, encoding="utf-8")
         written.append(path)
 
-    emit("index.html", "home.html", title="", nav="recepty")
+    emit("index.html", "home.html", title="", nav="")
     emit("recepty/index.html", "recipes.html", title="Recepty", nav="recepty")
     for section in site.sections:
         emit(section.url, "section.html", title=section.title, nav=section.slug, section=section)

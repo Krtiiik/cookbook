@@ -372,6 +372,13 @@ def test_home_has_no_meta_description(real_site):
     assert 'name="description"' not in (out / "index.html").read_text(encoding="utf-8")
 
 
+def test_home_marks_no_tab_as_current(real_site):
+    _, out = real_site
+    home = (out / "index.html").read_text(encoding="utf-8")
+    assert 'aria-current="page"' not in home and " on\"" not in home
+    assert 'aria-current="page"' in (out / "recepty" / "index.html").read_text(encoding="utf-8")
+
+
 def test_status_shows_only_on_planned_pages_without_written_counts(site_root, tmp_path):
     site = build.load_site(site_root)
     out = tmp_path / "out"
