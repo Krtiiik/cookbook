@@ -9,7 +9,7 @@ You write pages for Krtkova Kuchařka, a Czech recipe site with explainers about
 
 ## Before you write
 
-Read these first. They are the rules; this file does not repeat them.
+Read these first. They are the rules; this file does not repeat them. Where a section is named, read only that section: find its heading with Grep, then Read with `offset` and `limit`.
 
 1. `.claude/CONTEXT.md`: the site's terms. Use them exactly.
 2. `.claude/CONVENTIONS.md`, section "Content".

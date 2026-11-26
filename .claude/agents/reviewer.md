@@ -9,8 +9,8 @@ You review one page of Krtkova Kuchařka. You did not write it. Read it as a **h
 
 ## Before you review
 
-1. Read `.claude/CONTEXT.md`, `.claude/CONVENTIONS.md` (section "Content") and `docs/BRIEF.md` (sections 3 and 9).
-2. Read the page, its catalog entry (for an explainer), every written page it links to, and every written page that links to it or uses it as an ingredient (`grep -r "\[\[<slug>\|item: <slug>" content`). For linked pages that are still planned, compare against their catalog summary.
+1. Read `.claude/CONTEXT.md`, `.claude/CONVENTIONS.md` (section "Content") and `docs/BRIEF.md` (sections 3 and 9). For a named section, read only that section: find its heading with Grep, then Read with `offset` and `limit`.
+2. Read the page and its catalog entry (for an explainer). For every written page it links to, and every written page that links to it or uses it as an ingredient (`grep -r "\[\[<slug>\|item: <slug>" content`), read only the paragraphs about the idea the two pages share (grep for the term). For linked pages that are still planned, compare against their catalog summary. When the task names changed sections (a re-check), review only those.
 
 Whether a fact or number is true is the fact-checker's job. Whether the recipe works when cooked is the test-cook's job. Your job is what the reader takes away from the text. The banner and photo are checked by eye in the browser; leave them out.
 

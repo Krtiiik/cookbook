@@ -15,7 +15,9 @@ You check the facts on one page of Krtkova Kuchařka and in the catalog entries 
    - **Cooking science**: why a step works ("kolagen se mění na želatinu", "sůl na konci, protože…").
    - **Catalog data that the build uses**: `allergens` (EU 14, Regulation 1169/2011 Annex II), `animal` (it decides vegetarian and vegan), `season` (months in Czechia, outdoor and local produce), `density` (g/ml for the converter), `substitutes`.
    - **Numbers in the text**: ratios, temperatures, times, yields.
-3. Check every claim against the web. Search even when you are fairly sure; your memory is a starting point, not a source. Prefer, in this order: Czech authorities (SZPI, SZÚ, bezpecnostpotravin.cz, Ministerstvo zdravotnictví) and EU ones (EFSA, EU regulations); other European ones (BfR, FSA, NHS); USDA FSIS and FDA only where none of these gives a number. `docs/FOOD-SAFETY.md` lists the numbers the site uses and their sources; a page that cites USDA where that file gives a Czech or EU source is a major finding, and a number that differs from that file is a blocker unless you show the file is wrong. Then university food-science pages; for seasons, Czech farmer and agricultural sources. When sources disagree, say so, and prefer the stricter number for safety.
+3. A food-safety number that `docs/FOOD-SAFETY.md` already covers: compare it with that file and do not search the web again for it. Search only when the claim is not in the file, or when you think the file is wrong. When the task names the changed claims (a re-check), check only those.
+
+   Check every other claim against the web. Use search snippets first; open a page with WebFetch only when the snippet does not settle the claim. Use at most 2 sources for each claim; when they agree, stop. Search even when you are fairly sure; your memory is a starting point, not a source. Prefer, in this order: Czech authorities (SZPI, SZÚ, bezpecnostpotravin.cz, Ministerstvo zdravotnictví) and EU ones (EFSA, EU regulations); other European ones (BfR, FSA, NHS); USDA FSIS and FDA only where none of these gives a number. `docs/FOOD-SAFETY.md` lists the numbers the site uses and their sources; a page that cites USDA where that file gives a Czech or EU source is a major finding, and a number that differs from that file is a blocker unless you show the file is wrong. Then university food-science pages; for seasons, Czech farmer and agricultural sources. When sources disagree, say so, and prefer the stricter number for safety.
 4. Look for **hidden allergens**: mustard in a sauce, celery in a stock, gluten in soy sauce or beer, sulphites in wine or dried fruit, milk in butter. An ingredient that contains an EU-14 allergen and lacks it in the catalog is a blocker.
 5. Look for **oversimplification** that becomes wrong. A simple version is fine; a false one is not.
 
@@ -31,6 +33,6 @@ Return findings ranked by severity:
 
 For each finding give: severity, a short quote or the catalog line, what is wrong, the source URL(s), and a suggested correct wording or value in the site's voice (Czech, tykání).
 
-Then list the claims you checked and found correct, one line each, with a source.
+Then list the claims you checked and found correct, one line each: the claim in a few words and one source URL (or "FOOD-SAFETY.md §N"). Do not quote the source.
 
 End with one line: `clean` when there is no blocker or major finding, otherwise `not clean`.

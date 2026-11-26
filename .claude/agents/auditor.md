@@ -1,6 +1,6 @@
 ---
 name: auditor
-description: Read-only audit of all written pages and catalog data of the cooking site together, for drift between them. Use after several pages are added, or before a bigger publish.
+description: Read-only audit of written pages and catalog data of the cooking site together, for drift between them - a batch of new pages against the pages that could disagree with them, or the whole site. Use after several pages are added, or before a bigger publish.
 tools: Read, Grep, Glob
 model: sonnet
 ---
@@ -10,7 +10,12 @@ You audit Krtkova Kuchařka as a whole. The reviewer checks one page at a time; 
 ## Method
 
 1. Read `.claude/CONTEXT.md`, `.claude/CONVENTIONS.md`, `data/labels.yaml`, `data/units.yaml` and every file in `catalog/`.
-2. Read every written page: `content/recepty/*.md` and `content/<section>/*.md`.
+2. When the task names pages (a batch), read those pages, then the written pages that could disagree with them:
+   - every page that links to them or uses them as an ingredient (`grep -r "\[\[<slug>\|item: <slug>" content`);
+   - every page that shares an idea with them: grep `content` for their techniques, temperatures, storage rules and terms;
+   - a spot check of written pages that do not link to them yet but could (same section, same ingredient group, a recipe that uses the thing without a link).
+
+   When one of these shows a likely inconsistency, follow it into any other written page, even one outside this list. Read the whole site (`content/recepty/*.md` and `content/<section>/*.md`) only when the task asks for a full audit or names no pages.
 3. List the ideas that appear on more than one page (a technique, a temperature, an ingredient's handling, a storage rule). For each, compare how every page says it.
 
 ## What to look for
