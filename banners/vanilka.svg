@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Podélně rozříznutý tmavý lusk vanilky s vyškrábanými černými semínky a nožem, vedle dvě misky cukru: vanilkový cukr s černými tečkami semínek a čistě bílý vanilinový cukr">
+  <rect width="1200" height="400" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M60 366 H1140" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-dasharray: 2 12; stroke-linecap: round; opacity: .45"/>
+
+  <!-- split pod -->
+  <path d="M64 300 C200 322 380 268 536 176 L546 204 C390 300 210 350 64 324 Z" style="fill: var(--banner-warm, #e9b44c); fill: color-mix(in srgb, var(--banner-warm, #e9b44c) 40%, black); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <path d="M64 312 C200 336 385 284 541 190" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 22; stroke-linecap: round; stroke-dasharray: 440 2000; stroke-dashoffset: -34"/>
+  <path d="M64 312 C200 336 385 284 541 190" style="fill: none; stroke: var(--banner-warm, #e9b44c); stroke-width: 13; stroke-linecap: round; stroke-dasharray: 440 2000; stroke-dashoffset: -34"/>
+  <g style="fill: var(--banner-fg, #1b2a4a)">
+    <circle cx="140" cy="321" r="2.8"/><circle cx="162" cy="324" r="2.8"/><circle cx="186" cy="316" r="2.8"/><circle cx="208" cy="314" r="2.8"/><circle cx="232" cy="308" r="2.8"/><circle cx="252" cy="304" r="2.8"/><circle cx="272" cy="299" r="2.8"/><circle cx="294" cy="296" r="2.8"/><circle cx="314" cy="291" r="2.8"/><circle cx="336" cy="285" r="2.8"/><circle cx="358" cy="276" r="2.8"/><circle cx="382" cy="268" r="2.8"/><circle cx="404" cy="261" r="2.8"/><circle cx="426" cy="250" r="2.8"/><circle cx="448" cy="240" r="2.8"/><circle cx="470" cy="228" r="2.8"/>
+  </g>
+  <path d="M96 296 q60 6 130 -8" style="fill: none; stroke: #fff7ea; stroke-width: 3; stroke-linecap: round; opacity: .5"/>
+
+  <!-- seeds scraped out -->
+  <g style="fill: var(--banner-fg, #1b2a4a)">
+    <circle cx="214" cy="356" r="3"/><circle cx="224" cy="352" r="3"/><circle cx="234" cy="357" r="3"/><circle cx="244" cy="353" r="3"/><circle cx="254" cy="357" r="3"/><circle cx="264" cy="352" r="3"/><circle cx="274" cy="356" r="3"/><circle cx="229" cy="346" r="3"/><circle cx="240" cy="343" r="3"/><circle cx="251" cy="347" r="3"/><circle cx="262" cy="344" r="3"/><circle cx="244" cy="336" r="3"/><circle cx="255" cy="337" r="3"/>
+  </g>
+
+  <!-- knife scraping -->
+  <g transform="translate(404 262) rotate(-55)">
+    <path d="M0 0 Q40 -14 104 -12 L104 10 Q40 12 0 0 Z" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+    <rect x="102" y="-13" width="84" height="25" rx="10" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5"/>
+    <g style="fill: #fff7ea"><circle cx="126" cy="0" r="4"/><circle cx="160" cy="0" r="4"/></g>
+  </g>
+
+  <!-- sugar with vanilla seeds -->
+  <g transform="translate(740 262)">
+    <path d="M-110 0 L-86 78 Q-80 96 -62 96 L62 96 Q80 96 86 78 L110 0 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+    <g style="fill: #fff7ea"><circle cx="-56" cy="52" r="8"/><circle cx="0" cy="72" r="8"/><circle cx="56" cy="50" r="8"/></g>
+    <ellipse cx="0" cy="0" rx="110" ry="22" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6"/>
+    <ellipse cx="0" cy="3" rx="96" ry="15" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4"/>
+    <path d="M-98 4 C-70 -2 -36 -48 0 -74 C36 -48 70 -2 98 4 C60 22 -60 22 -98 4 Z" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+    <g style="fill: var(--banner-fg, #1b2a4a)">
+      <circle cx="-6" cy="-48" r="3.2"/><circle cx="14" cy="-34" r="3.2"/><circle cx="-24" cy="-30" r="3.2"/><circle cx="2" cy="-20" r="3.2"/><circle cx="-46" cy="-12" r="3.2"/><circle cx="28" cy="-8" r="3.2"/><circle cx="-16" cy="-6" r="3.2"/><circle cx="52" cy="-2" r="3.2"/><circle cx="-70" cy="2" r="3.2"/><circle cx="-36" cy="6" r="3.2"/><circle cx="12" cy="8" r="3.2"/><circle cx="70" cy="4" r="3.2"/><circle cx="38" cy="10" r="3.2"/><circle cx="-8" cy="12" r="3.2"/>
+    </g>
+  </g>
+
+  <!-- plain white sugar with vanillin -->
+  <g transform="translate(1010 262)">
+    <path d="M-110 0 L-86 78 Q-80 96 -62 96 L62 96 Q80 96 86 78 L110 0 Z" style="fill: var(--banner-cool, #1f4fa3); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+    <g style="fill: #fff7ea"><circle cx="-56" cy="52" r="8"/><circle cx="0" cy="72" r="8"/><circle cx="56" cy="50" r="8"/></g>
+    <ellipse cx="0" cy="0" rx="110" ry="22" style="fill: var(--banner-cool, #1f4fa3); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6"/>
+    <ellipse cx="0" cy="3" rx="96" ry="15" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4"/>
+    <path d="M-98 4 C-70 -2 -36 -48 0 -74 C36 -48 70 -2 98 4 C60 22 -60 22 -98 4 Z" style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+    <g style="fill: var(--banner-fg, #1b2a4a); opacity: .4">
+      <circle cx="-4" cy="-44" r="2.5"/><circle cx="-30" cy="-24" r="2.5"/><circle cx="20" cy="-26" r="2.5"/><circle cx="-52" cy="-6" r="2.5"/><circle cx="0" cy="-8" r="2.5"/><circle cx="46" cy="-4" r="2.5"/><circle cx="-24" cy="8" r="2.5"/><circle cx="30" cy="10" r="2.5"/>
+    </g>
+    <path d="M-30 -40 q14 -18 28 -26" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round; opacity: .3"/>
+  </g>
+
+  <!-- notes -->
+  <text x="60" y="80" style="font: 600 40px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">semínka seškrábni</text>
+  <text x="60" y="124" style="font: 600 40px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">hřbetem nože</text>
+  <path d="M250 140 q10 56 70 108" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="590" y="76" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">vanilkový:</text>
+  <text x="590" y="118" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">pravá vanilka</text>
+  <path d="M700 132 q22 24 36 52" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="930" y="96" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">vanilinový:</text>
+  <text x="930" y="138" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">jen vanilin</text>
+  <path d="M1010 152 q-8 18 -2 36" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+</svg>
