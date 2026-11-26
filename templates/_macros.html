@@ -1,3 +1,29 @@
+{# Ingredient categories: an enamel colour per family (plants mint, animals tomato, grain and fat
+   mustard, the rest cobalt) and a hand-drawn icon on a 20px grid. The colour is decoration, not data. #}
+{% set CATEGORY_PILLS = {
+  'vegetables': ('mint', '<path d="M4 16.5C7 13.5 11 9.5 12.6 7.4L15.1 9.9C13 11.5 9 15 4 16.5Z"/><path d="M13.2 7 13.8 3M14 8.2 18 6.5M13.8 7.6 17 4"/>'),
+  'fruit': ('mint', '<path d="M10 6.5C6.5 4.5 3 6.5 3.8 11.2 4.6 15.4 7.8 17.6 10 16.6 12.2 17.6 15.4 15.4 16.2 11.2 17 6.5 13.5 4.5 10 6.5Z"/><path d="M10 6.5 10.6 3M10.8 4.4C12.2 2.8 14.4 3 14.4 3 14 4.6 12.4 5 10.8 4.4Z"/>'),
+  'herbs': ('mint', '<path d="M4 16C4 8.5 8.5 4 16 4 16 11.5 11.5 16 4 16Z"/><path d="M4 16 12.5 7.5"/>'),
+  'mushrooms': ('mint', '<path d="M2.8 10.5C2.8 4.5 17.2 4.5 17.2 10.5Z"/><path d="M8 10.5 7.4 16.5H12.6L12 10.5"/>'),
+  'meat': ('tomato', '<path d="M11 3.5C15 2.5 18 6 16.5 9.5 15 12.5 11.5 12.5 9.5 11L7 13.5"/><path d="M11 3.5C8 4.5 7.5 8.5 9.5 11"/><path d="M7 13.5C5.2 12.6 3.4 14.4 4.6 15.4 3.6 16.6 5.4 18.4 6.5 16.4 7.6 15.8 7.8 14.2 7 13.5Z"/>'),
+  'fish': ('tomato', '<path d="M2.5 10C6 5 11.5 5 14.5 10 11.5 15 6 15 2.5 10Z"/><path d="M14.5 10 18 6.5V13.5Z"/><circle cx="6.5" cy="9.3" r=".6"/>'),
+  'eggs': ('tomato', '<path d="M10 2.8C13.6 2.8 15.8 8.6 15.8 12 15.8 15.4 13.4 17.2 10 17.2 6.6 17.2 4.2 15.4 4.2 12 4.2 8.6 6.4 2.8 10 2.8Z"/>'),
+  'flour': ('mustard', '<path d="M10 18V5"/><path d="M10 7C7 6 7 3.5 10 2.5 13 3.5 13 6 10 7ZM10 11C7 10 6.5 7.5 6.8 7 9 7.4 10 9 10 11ZM10 11C13 10 13.5 7.5 13.2 7 11 7.4 10 9 10 11ZM10 15C7 14 6.5 11.5 6.8 11 9 11.4 10 13 10 15ZM10 15C13 14 13.5 11.5 13.2 11 11 11.4 10 13 10 15Z"/>'),
+  'nuts': ('mustard', '<path d="M3.8 8.2C3.8 4.8 16.2 4.8 16.2 8.2Z"/><path d="M5 8.2C5 13 8 16 10 17.2 12 16 15 13 15 8.2M10 5.4V3"/>'),
+  'fats': ('mustard', '<path d="M10 2.8C13 7.5 15.2 10 15.2 12.6A5.2 5.2 0 0 1 4.8 12.6C4.8 10 7 7.5 10 2.8Z"/><path d="M7.6 13C7.8 14.2 8.6 15 9.6 15.2"/>'),
+  'dairy': ('cobalt', '<path d="M6 7.5 8 3.5H12L14 7.5V17H6Z"/><path d="M6 7.5H14M8.5 11H11.5"/>'),
+  'spices': ('cobalt', '<path d="M6.5 9H13.5V17H6.5Z"/><path d="M6.5 9C6.5 5 13.5 5 13.5 9"/><path d="M9 6.3H9.01M11 6.3H11.01M10 4.6H10.01"/>'),
+  'pantry': ('cobalt', '<path d="M6.5 3.2H13.5V6H6.5Z"/><path d="M5.5 6.5H14.5V16C14.5 17 13.8 17.6 12.8 17.6H7.2C6.2 17.6 5.5 17 5.5 16Z"/><path d="M7.5 10H12.5V13.5H7.5Z"/>'),
+} %}
+
+{# A pill for an ingredient category. With href it is a link; inside a card it must stay a span. #}
+{% macro category_pill(category, label, href=None, small=False) -%}
+{% set color, icon = CATEGORY_PILLS.get(category, ('mint', '')) %}
+{% set tag = 'a' if href else 'span' %}
+<{{ tag }} class="category-pill{% if small %} category-pill--small{% endif %} c-{{ color }}"{% if href %} href="{{ href }}" title="Všechny suroviny: {{ label }}"{% endif %}>
+{%- if icon %}<i class="category-pill__icon"><svg viewBox="0 0 20 20" aria-hidden="true">{{ icon|safe }}</svg></i>{% endif %}{{ label }}</{{ tag }}>
+{%- endmacro %}
+
 {% macro link(page, root, text=None) -%}
 <a class="site-link is-{{ page.status }}" data-slug="{{ page.slug }}" href="{{ root }}{{ page.url }}">{{ text or page.title }}</a>
 {%- endmacro %}
@@ -24,10 +50,11 @@
 </a>
 {%- endmacro %}
 
-{% macro explainer_card(page, root) -%}
+{% macro explainer_card(site, page, root) -%}
 <a class="card explainer-card is-{{ page.status }} c-{{ page.color }}" href="{{ root }}{{ page.url }}" data-slug="{{ page.slug }}">
   <div class="ban">{{ page.banner_svg|safe }}</div>
-  <span class="lbl">{{ SECTIONS[page.section].label }}</span>
+  {% if page.section == 'suroviny' %}<span>{{ category_pill(page.category, site.label('categories', page.category), small=True) }}</span>
+  {% else %}<span class="lbl">{{ SECTIONS[page.section].label }}</span>{% endif %}
   <h3>{{ page.title }}</h3>
   <p>{{ page.summary }}</p>
   {% if not page.written %}<span class="later">zatím nenapsáno</span>{% endif %}
@@ -37,7 +64,7 @@
 {% macro cards(site, pages, root) -%}
 <div class="grid4">
 {% for p in pages %}
-{% if p.kind == 'recipe' %}{{ recipe_card(site, p, root, COLORS[loop.index0 % 4]) }}{% else %}{{ explainer_card(p, root) }}{% endif %}
+{% if p.kind == 'recipe' %}{{ recipe_card(site, p, root, COLORS[loop.index0 % 4]) }}{% else %}{{ explainer_card(site, p, root) }}{% endif %}
 {% endfor %}
 </div>
 {%- endmacro %}

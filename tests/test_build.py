@@ -352,3 +352,23 @@ def test_converter_and_calendar_have_own_pages(real_site):
 def test_home_has_no_meta_description(real_site):
     _, out = real_site
     assert 'name="description"' not in (out / "index.html").read_text(encoding="utf-8")
+
+
+def test_ingredient_categories_show_as_pills(real_site):
+    site, out = real_site
+    cesnek = (out / "suroviny" / "cesnek.html").read_text(encoding="utf-8")
+    # On the ingredient page the pill links to the section list, filtered to the category.
+    assert re.search(r'<a class="category-pill c-mint" href="index.html\?category=vegetables"[^>]*>'
+                     r'<i class="category-pill__icon"><svg[^>]*>.*?</svg></i>zelenina</a>', cesnek)
+
+    calendar = (out / "sezonni-kalendar" / "index.html").read_text(encoding="utf-8")
+    assert '<span class="category-pill category-pill--small c-mint">' in calendar
+
+    # Ingredient cards show the category instead of the section label, which repeats on every card.
+    section = (out / "suroviny" / "index.html").read_text(encoding="utf-8")
+    assert '<span class="lbl">suroviny</span>' not in section
+    pills = re.findall(r'<span class="category-pill category-pill--small c-(\w+)">(.*?)</span>', section)
+    assert len(pills) == len(next(s for s in site.sections if s.slug == "suroviny").pages)
+    # Every category has its own icon and one of the four enamel colours.
+    assert all(colour in build.COLORS and "<svg" in inner for colour, inner in pills)
+    assert {"maso", "koření"} <= {re.sub(r"<.*>", "", inner) for _, inner in pills}

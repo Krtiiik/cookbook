@@ -61,7 +61,7 @@ Ingredient pages also show catalog data: category, season (as a 12-month strip),
 Used in lists and grids:
 
 - **Recipe card**: photo or placeholder, title, summary, total time, "netestováno" for drafts.
-- **Explainer card**: banner (scaled down), section label, title, summary, "zatím nenapsáno" for planned.
+- **Explainer card**: banner (scaled down), section label (category pill for ingredients), title, summary, "zatím nenapsáno" for planned.
 
 ## Template data
 
@@ -120,6 +120,7 @@ Plain JavaScript in `static/`. Keep these classes and attributes, or update the 
 | Filters | `form.filters` on the recipe list and the `suroviny` section page; each control has `name` = a filter key (recipes: `group`, `season`, `diet`, `allergen`, `difficulty`, `time`, `cuisine`; ingredients: `category`, `month` = a month number or `all-year`). Cards in `.filter-list` carry `data-slug`; the script hides the ones that do not match with `hidden`. A month shows only ingredients in season then, not all-year ones. |
 | Scaler | `.scaler` with `input.scaler__servings[data-base]`; each ingredient amount is `.ing__amount[data-qty][data-unit]`, which the script rewrites with Czech unit forms |
 | Converter | `.converter` with `input.converter__amount`, `select.converter__from`, `select.converter__to`, `select.converter__item`, `output.converter__result` |
+| Category pill | `.category-pill.c-<colour>` > `i.category-pill__icon` (svg) + label; `.category-pill--small` on cards and in the calendar. A link only on the ingredient page (to `index.html?category=<key>`); inside a card it is a `span` |
 | Calendar | `table.season` with `tr[data-slug][data-category]`, `td.is-in-season`; filter controls `input.season__search`, `select.season__category` |
 | Status | `.is-written`/`.is-planned`/`.is-draft`/`.is-tested` on cards, links and the article |
 | Page kind | `body.page-home|recipes|recipe|section|explainer|groups|group|converter|calendar|about` |

@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "_macros.html" import link, recipe_row, explainer_row %}
+{% from "_macros.html" import link, recipe_row, explainer_row, category_pill %}
 {% block kind %}explainer{% endblock %}
 {% block meta %}<meta name="description" content="{{ page.summary }}">{% endblock %}
 {% block main %}
@@ -19,7 +19,7 @@
   <section class="box facts-box c-mint" aria-labelledby="data-h">
     <h2 id="data-h" class="sr">Údaje o surovině</h2>
     <dl class="ingdata">
-      <div><dt>kategorie</dt><dd>{{ site.label('categories', page.category) }}</dd></div>
+      <div><dt>kategorie</dt><dd>{{ category_pill(page.category, site.label('categories', page.category), href='index.html?category=' ~ page.category) }}</dd></div>
       <div><dt>alergeny</dt><dd>{% for a in site.allergens if a.slug in (page.data.allergens or []) %}{{ a.title }}{% if not loop.last %}, {% endif %}{% else %}žádné{% endfor %}</dd></div>
       {% if page.data.substitutes %}<div><dt>náhrady</dt><dd>{% for s in page.data.substitutes %}{{ link(site.pages[s], root) }}{% if not loop.last %}, {% endif %}{% endfor %}</dd></div>{% endif %}
       <div class="wide"><dt>sezóna</dt><dd>

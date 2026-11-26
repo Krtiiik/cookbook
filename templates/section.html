@@ -13,6 +13,6 @@
       <select id="f-month" name="month"><option value="">kdykoli</option><option value="all-year">celý rok</option>{% for m in range(12) %}<option value="{{ m + 1 }}">{{ MONTHS[m] }}</option>{% endfor %}</select></div>
 {% endcall %}
 {% endif %}
-<div class="grid4 filter-list">{% for p in section.pages %}{{ explainer_card(p, root) }}{% endfor %}</div>
+<div class="grid4 filter-list">{% for p in section.pages %}{{ explainer_card(site, p, root) }}{% endfor %}</div>
 {% if section.slug == 'suroviny' %}<p class="empty filters__empty" hidden>Nic neodpovídá. Zkus jiný filtr.</p>{% endif %}
 {% endblock %}

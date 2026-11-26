@@ -145,7 +145,7 @@ body {
   - **No photo yet (draft):** a dashed `--pencil` box with "zatím bez fotky" in Caveat, plus the sticker.
   - **Photo placeholder** (before real photos): mint fill with white enamel dots (`radial-gradient(rgba(255,255,255,.5) 22%, transparent 23%)`, 18–22px).
   - **"netestováno" sticker:** absolutely positioned top right, overlapping the edge (`right:-10px`). Mustard fill, `--fill-ink` text, Caveat 20px, 2px ink border, `2px 2px 0 var(--tomato)` shadow, rotated 4°.
-- **Explainer card:** the banner scaled down (2px ink frame), a section label (dot + Caveat, `--accent`), title and summary.
+- **Explainer card:** the banner scaled down (2px ink frame), a section label (dot + Caveat, `--accent`), title and summary. Ingredient cards show the small category pill instead of the label, because "suroviny" would repeat on every card of the section.
   - **Planned:** dashed `--pencil` border, transparent background, no shadow, faded tape, dashed banner frame, muted text, plus "zatím nenapsáno" in Caveat.
 
 ### Home
@@ -193,6 +193,7 @@ A card 340px wide: 2.5px ink border, mustard shadow, uneven radius. A grid with 
   - **Side:** "Související" (mint box) and "Použito v receptech" (mustard box). Each is a card with tape and a shadow in the box colour.
     - **Related items:** each has a dot in the item's section colour, a link and the section name under it. Planned items get a dashed empty dot and "zatím nenapsáno".
     - **Backlinks:** each has a 72px 3:2 thumbnail (mint dots, or dashed if there is no photo) and a link. Drafts get the mustard "netestováno" tag. Under it: time · group.
+- **Category pill** (ingredient categories): a paper pill with a 2px ink border, a 2px offset shadow in the category colour, and a 24px colour disc with a hand-drawn icon, then the label in hand 18px. The colour is per family: mint for plants (zelenina, ovoce, bylinky, houby), tomato for animals (maso, ryby, vejce), mustard for grain and fat (mouka a obiloviny, ořechy a semínka, tuky), cobalt for the rest (mléčné výrobky, koření, spíž). The text stays on paper; colour is only on the disc and the shadow. The small version (hand 15px, 18px disc) is for cards and calendar rows. A new category needs its colour and icon in the template macro.
 - **Ingredient explainers** also show the catalog data (category, a 12-month season strip in the season-grid style, substitutes, allergens) in a box between the head and the body. This is not in the prototype yet. Use the box style above with a mint colour.
 
 ### Banner drawing style
@@ -211,7 +212,7 @@ Banners follow SPEC.md (viewBox 1200×400, colours only through `--banner-*`, no
   - **Table:** `border-collapse: separate; border-spacing: 3px` inside a scroll box (2px ink border, `--card`).
   - **Cells:** 32px tall, uneven radius, `--empty` background. In season (`td.is-in-season`): `--season` fill with an inset 2px ink outline. The current month column gets a 2.5px tomato outline, and its header is in `--accent`.
   - **Headers:** month headers are 3-letter Czech abbreviations in Caveat (led, úno, bře, dub, kvě, čvn, čvc, srp, zář, říj, lis, pro), with `abbr title` holding the full month name.
-  - **Row title** `th[scope=row]`: sticky on the left with a `--card` background, a dashed right border, the link and the category in small muted text.
+  - **Row title** `th[scope=row]`: sticky on the left with a `--card` background, a dashed right border, the link and the small category pill under it.
   - **Filters:** `input.season__search` ("Hledej surovinu", placeholder "např. dýně") and `select.season__category` ("všechny", zelenina, ovoce, bylinky, houby, ryby). A legend sits above the table, with a count "N z M surovin".
   - **No results:** "Nic nenalezeno. Zkus jiné slovo." in Caveat.
 
