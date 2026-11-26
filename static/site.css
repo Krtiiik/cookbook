@@ -168,19 +168,23 @@ html:not(.js) .nav { flex-wrap: wrap; }
 .chip { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 4px 16px 4px 12px; border: 2.5px solid var(--ink); border-radius: 20px 16px 22px 18px; background: var(--card); text-decoration: none; font: 400 20px var(--font-hand); }
 .chip::before { content: ""; width: 12px; height: 12px; border-radius: 50%; background: var(--c, var(--mint)); border: 2px solid var(--ink); flex: none; }
 
-/* ingredient category pill: colour disc with a hand-drawn icon, ink border, small offset shadow */
-.category-pill { position: relative; display: inline-flex; align-items: center; gap: 7px; padding: 2px 12px 2px 3px; border: 2px solid var(--ink); border-radius: 16px 13px 17px 14px; background: var(--card); color: var(--ink); box-shadow: 2px 2px 0 var(--c); font: 400 18px/1.2 var(--font-hand); white-space: nowrap; text-decoration: none; }
-.category-pill__icon { display: grid; place-items: center; flex: none; width: 24px; height: 24px; border-radius: 50%; background: var(--c); border: 1.5px solid var(--ink); color: var(--fill-ink); }
-.category-pill.c-tomato .category-pill__icon { color: var(--on-tomato); }
-.category-pill.c-cobalt .category-pill__icon { color: var(--on-cobalt); }
-.category-pill svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
-a.category-pill::after { content: ""; position: absolute; inset: -8px -4px; } /* 44px touch target */
-a.category-pill:hover { transform: translate(-1px, -1px); box-shadow: 3px 3px 0 var(--c); }
-.category-pill--small { gap: 5px; padding: 0 9px 0 2px; font-size: 15px; box-shadow: 1.5px 1.5px 0 var(--c); }
-.category-pill--small .category-pill__icon { width: 18px; height: 18px; }
-.category-pill--small svg { width: 12px; height: 12px; }
-.card .category-pill { margin-top: 4px; }
-.season th[scope=row] .category-pill { display: flex; width: max-content; max-width: 100%; margin-top: 3px; white-space: normal; }
+/* label pill (ingredient categories, seasons): colour disc with a hand-drawn icon, ink border, small offset shadow */
+.pill { position: relative; display: inline-flex; align-items: center; gap: 7px; padding: 2px 12px 2px 3px; border: 2px solid var(--ink); border-radius: 16px 13px 17px 14px; background: var(--card); color: var(--ink); box-shadow: 2px 2px 0 var(--c); font: 400 18px/1.2 var(--font-hand); white-space: nowrap; text-decoration: none; }
+.pill__icon { display: grid; place-items: center; flex: none; width: 24px; height: 24px; border-radius: 50%; background: var(--c); border: 1.5px solid var(--ink); color: var(--fill-ink); }
+.pill.c-tomato .pill__icon { color: var(--on-tomato); }
+.pill.c-cobalt .pill__icon { color: var(--on-cobalt); }
+.c-year { --c: var(--season); }
+.pill.c-year .pill__icon { background: conic-gradient(var(--mint) 0 25%, var(--mustard) 0 50%, var(--tomato) 0 75%, var(--cobalt) 0); color: var(--fill-ink); }
+.pill.c-year svg { fill: var(--card); stroke: var(--ink); stroke-width: 1.5; }
+dd.pills { display: flex; flex-wrap: wrap; gap: 6px 8px; }
+.pill svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+a.pill::after { content: ""; position: absolute; inset: -8px -4px; } /* 44px touch target */
+a.pill:hover { transform: translate(-1px, -1px); box-shadow: 3px 3px 0 var(--c); }
+.pill--small { gap: 5px; padding: 0 9px 0 2px; font-size: 15px; box-shadow: 1.5px 1.5px 0 var(--c); }
+.pill--small .pill__icon { width: 18px; height: 18px; }
+.pill--small svg { width: 12px; height: 12px; }
+.card .pill { margin-top: 4px; }
+.season th[scope=row] .pill { display: flex; width: max-content; max-width: 100%; margin-top: 3px; white-space: normal; }
 
 /* tape strip on boxes and cards */
 .card::before, .box::before, .log::before, .sec-box::before, .ings::before, .unwritten::before, .handnote::before {

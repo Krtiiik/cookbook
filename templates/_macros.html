@@ -16,12 +16,33 @@
   'pantry': ('cobalt', '<path d="M6.5 3.2H13.5V6H6.5Z"/><path d="M5.5 6.5H14.5V16C14.5 17 13.8 17.6 12.8 17.6H7.2C6.2 17.6 5.5 17 5.5 16Z"/><path d="M7.5 10H12.5V13.5H7.5Z"/>'),
 } %}
 
-{# A pill for an ingredient category. With href it is a link; inside a card it must stay a span. #}
+{# Seasons: the enamel colour of the season (spring mint, summer mustard, autumn tomato, winter cobalt);
+   all year is a wheel of all four colours. #}
+{% set SEASON_PILLS = {
+  'spring': ('mint', '<path d="M10 17.5V9"/><path d="M10 11.5C10 7.5 7 5 3.5 5 3.5 9 6.5 11.5 10 11.5ZM10 9C10 5.5 12.5 3.5 16.5 3.5 16.5 7 14 9 10 9Z"/>'),
+  'summer': ('mustard', '<circle cx="10" cy="10" r="3.4"/><path d="M10 2.5V4.5M10 15.5V17.5M2.5 10H4.5M15.5 10H17.5M4.7 4.7 6.1 6.1M13.9 13.9 15.3 15.3M4.7 15.3 6.1 13.9M13.9 6.1 15.3 4.7"/>'),
+  'autumn': ('tomato', '<path d="M10 18V12.5M10 12.5 5 14 6 11.3 3 8.7 6.2 8.2 5.6 5 8.3 6.6 10 2.5 11.7 6.6 14.4 5 13.8 8.2 17 8.7 14 11.3 15 14Z"/>'),
+  'winter': ('cobalt', '<path d="M10 2.5V17.5M3.5 6.2 16.5 13.8M16.5 6.2 3.5 13.8"/><path d="M8.2 4 10 5.6 11.8 4M8.2 16 10 14.4 11.8 16M3.6 9 5.8 8.4 5.2 6.2M16.4 11 14.2 11.6 14.8 13.8M14.8 6.2 14.2 8.4 16.4 9M5.2 13.8 5.8 11.6 3.6 11"/>'),
+  'all-year': ('year', '<circle cx="10" cy="10" r="3.6"/>'),
+} %}
+
+{# A label pill: colour disc with an icon, then the label. With href it is a link; inside a card it
+   must stay a span. #}
+{% macro pill(color, icon, label, href=None, title=None, small=False) -%}
+{% set tag = 'a' if href else 'span' %}
+<{{ tag }} class="pill{% if small %} pill--small{% endif %} c-{{ color }}"{% if href %} href="{{ href }}"{% endif %}{% if title %} title="{{ title }}"{% endif %}>
+{%- if icon %}<i class="pill__icon"><svg viewBox="0 0 20 20" aria-hidden="true">{{ icon|safe }}</svg></i>{% endif %}{{ label }}</{{ tag }}>
+{%- endmacro %}
+
 {% macro category_pill(category, label, href=None, small=False) -%}
 {% set color, icon = CATEGORY_PILLS.get(category, ('mint', '')) %}
-{% set tag = 'a' if href else 'span' %}
-<{{ tag }} class="category-pill{% if small %} category-pill--small{% endif %} c-{{ color }}"{% if href %} href="{{ href }}" title="Všechny suroviny: {{ label }}"{% endif %}>
-{%- if icon %}<i class="category-pill__icon"><svg viewBox="0 0 20 20" aria-hidden="true">{{ icon|safe }}</svg></i>{% endif %}{{ label }}</{{ tag }}>
+{{ pill(color, icon, label, href, 'Všechny suroviny: ' ~ label if href else None, small) }}
+{%- endmacro %}
+
+{# season is a key of SEASON_PILLS: a recipe season or 'all-year'. #}
+{% macro season_pill(season, label, href=None, title=None, small=False) -%}
+{% set color, icon = SEASON_PILLS[season] %}
+{{ pill(color, icon, label, href, title, small) }}
 {%- endmacro %}
 
 {% macro link(page, root, text=None) -%}

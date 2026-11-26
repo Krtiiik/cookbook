@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "_macros.html" import link, recipe_row, explainer_row, category_pill %}
+{% from "_macros.html" import link, recipe_row, explainer_row, category_pill, season_pill %}
 {% block kind %}explainer{% endblock %}
 {% block meta %}<meta name="description" content="{{ page.summary }}">{% endblock %}
 {% block main %}
@@ -23,7 +23,7 @@
       <div><dt>alergeny</dt><dd>{% for a in site.allergens if a.slug in (page.data.allergens or []) %}{{ a.title }}{% if not loop.last %}, {% endif %}{% else %}žádné{% endfor %}</dd></div>
       {% if page.data.substitutes %}<div><dt>náhrady</dt><dd>{% for s in page.data.substitutes %}{{ link(site.pages[s], root) }}{% if not loop.last %}, {% endif %}{% endfor %}</dd></div>{% endif %}
       <div class="wide"><dt>sezóna</dt><dd>
-        {% if page.data.season == 'all-year' %}celý rok{% else %}
+        {% if page.data.season == 'all-year' %}{{ season_pill('all-year', 'celý rok', href='index.html?month=all-year', title='Suroviny, které jsou celý rok') }}{% else %}
         <ol class="strip" aria-label="Sezóna podle měsíců">
           {% for m in range(1, 13) %}<li class="{% if m in page.data.season %}is-in-season{% endif %}" data-month="{{ m }}" title="{{ MONTHS[m - 1] }}{% if m in page.data.season %}: v sezóně{% endif %}"><span>{{ MONTHS_SHORT[m - 1] }}</span></li>{% endfor %}
         </ol>

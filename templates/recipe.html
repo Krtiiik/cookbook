@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "_macros.html" import link, cards, recipe_row, explainer_card %}
+{% from "_macros.html" import link, cards, recipe_row, explainer_card, season_pill %}
 {% block kind %}recipe{% endblock %}
 {% block meta %}<meta name="description" content="{{ page.summary }}">
 <script type="application/ld+json">{{ page.jsonld|safe }}</script>{% endblock %}
@@ -26,7 +26,7 @@
         <div><dt>celkem</dt><dd>{{ page.time_total_min|minutes }}</dd></div>
         <div><dt>obtížnost</dt><dd>{{ site.label('difficulty', page.difficulty) }}</dd></div>
         <div><dt>kuchyně</dt><dd>{{ site.label('cuisine', page.cuisine) }}</dd></div>
-        <div><dt>sezóna</dt><dd>{% for s in page.season %}{{ site.label('season', s) }}{% if not loop.last %}, {% endif %}{% else %}celý rok{% endfor %}</dd></div>
+        <div><dt>sezóna</dt><dd class="pills">{% for s in page.season %}{{ season_pill(s, site.label('season', s), href='index.html?season=' ~ s, title='Všechny recepty: ' ~ site.label('season', s)) }}{% else %}{{ season_pill('all-year', 'celý rok') }}{% endfor %}</dd></div>
         <div><dt>dieta</dt><dd>{% for d in page.diet %}{{ site.label('diet', d) }}{% if not loop.last %}, {% endif %}{% else %}—{% endfor %}</dd></div>
         <div class="wide"><dt>alergeny</dt><dd>{% for a in site.allergens if a.slug in page.allergens %}{{ a.title }}{% if not loop.last %}, {% endif %}{% else %}žádné{% endfor %}</dd></div>
       </dl>
