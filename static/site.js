@@ -2,7 +2,7 @@
    unit converter and season calendar. Data comes from index.js (window.SITE_INDEX). */
 (function () {
   'use strict';
-  var INDEX = window.SITE_INDEX || { pages: [], units: {}, banners: [] };
+  var INDEX = window.SITE_INDEX || { pages: [], units: {}, banners: [], categories: {} };
   var ROOT = document.documentElement.getAttribute('data-root') || '';
   var BY_SLUG = {};
   INDEX.pages.forEach(function (p) { BY_SLUG[p.slug] = p; });
@@ -94,8 +94,18 @@
         var li = el('li', 'search__result is-' + p.status);
         var a = el('a', 'search__link');
         a.href = ROOT + p.url;
-        a.appendChild(el('span', 'search__title', p.title));
-        a.appendChild(el('span', 'search__meta', p.section + ' · ' + STATUS[p.status]));
+        var cat = p.category && INDEX.categories[p.category];
+        var title = el('span', 'search__title' + (cat ? ' has-icon' : ''));
+        if (cat) {
+          var icon = el('i', 'cat-icon c-' + cat.colour);
+          icon.setAttribute('aria-hidden', 'true');
+          icon.innerHTML = '<svg viewBox="0 0 20 20">' + cat.icon + '</svg>';
+          title.appendChild(icon);
+        }
+        title.appendChild(document.createTextNode(p.title));
+        a.appendChild(title);
+        a.appendChild(el('span', 'search__meta' + (cat ? ' is-indented' : ''),
+          p.section + (cat ? ' · ' + cat.label : '') + ' · ' + STATUS[p.status]));
         li.appendChild(a);
         list.appendChild(li);
       });

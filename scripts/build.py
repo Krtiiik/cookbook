@@ -821,8 +821,10 @@ def _compact_svg(svg: str) -> str:
     return re.sub(r"\s+", " ", re.sub(r"<!--.*?-->", "", svg, flags=re.S)).strip()
 
 
-def site_index(site: Site) -> dict:
-    """The data behind search, filters and hover previews, with URLs relative to the site root."""
+def site_index(site: Site, category_pills: dict) -> dict:
+    """The data behind search, filters and hover previews, with URLs relative to the site root.
+    category_pills maps a category to its (colour, icon) from the template macros, so search draws
+    the same disc as the pages."""
     banners: dict[str, int] = {}
 
     def entry(p: Page) -> dict:
@@ -847,6 +849,8 @@ def site_index(site: Site) -> dict:
         "sections": [{"slug": s.slug, "title": s.title, "url": s.url} for s in site.sections],
         "units": {slug: u.as_dict() for slug, u in site.units.items() if u.in_recipes},
         "banners": list(banners),
+        "categories": {c: {"label": site.label("categories", c), "colour": colour, "icon": icon}
+                       for c, (colour, icon) in category_pills.items()},
     }
 
 
@@ -912,7 +916,7 @@ def render_site(site: Site, out: Path, templates: Path, static: Path, cache: Pat
     static_out = out / "static"
     shutil.copytree(static, static_out)
     (static_out / "index.js").write_text(
-        "window.SITE_INDEX = " + json.dumps(site_index(site), ensure_ascii=False) + ";\n", encoding="utf-8")
+        "window.SITE_INDEX = " + json.dumps(site_index(site, env.get_template("_macros.html").module.CATEGORY_PILLS), ensure_ascii=False) + ";\n", encoding="utf-8")
     (out / ".nojekyll").write_text("", encoding="utf-8")
     written.extend(p for p in static_out.rglob("*") if p.is_file())
     return written

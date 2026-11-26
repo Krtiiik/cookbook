@@ -39,6 +39,13 @@
 {{ pill(color, icon, label, href, 'Všechny suroviny: ' ~ label if href else None, small) }}
 {%- endmacro %}
 
+{# The category disc alone, before an ingredient name where a pill would outshout it (calendar,
+   recipe ingredients). The label is a tooltip; the caller adds text for screen readers if needed. #}
+{% macro category_icon(category, label) -%}
+{% set color, icon = CATEGORY_PILLS.get(category, ('mint', '')) %}
+<i class="cat-icon c-{{ color }}" title="{{ label }}" aria-hidden="true"><svg viewBox="0 0 20 20">{{ icon|safe }}</svg></i>
+{%- endmacro %}
+
 {# season is a key of SEASON_PILLS: a recipe season or 'all-year'. #}
 {% macro season_pill(season, label, href=None, title=None, small=False) -%}
 {% set color, icon = SEASON_PILLS[season] %}

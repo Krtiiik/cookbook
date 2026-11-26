@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "_macros.html" import link, category_pill %}
+{% from "_macros.html" import link, category_icon %}
 {% block kind %}calendar{% endblock %}
 {% block main %}
 <h1 class="pt">Sezónní kalendář</h1>
@@ -20,7 +20,8 @@
       <tbody>
       {% for r in seasons %}
         <tr data-slug="{{ r.page.slug }}" data-category="{{ r.category }}" data-fold="{{ r.page.title|lower }}">
-          <th scope="row">{{ link(r.page, root) }}{{ category_pill(r.category, site.label('categories', r.category), small=True) }}</th>
+          {% set cat = site.label('categories', r.category) %}
+          <th scope="row"><span class="cat-name">{{ category_icon(r.category, cat) }}<span class="sr">{{ cat }}: </span>{{ link(r.page, root) }}</span></th>
           {% for m in range(1, 13) %}<td data-month="{{ m }}"{% if m in r.months %} class="is-in-season"{% endif %} title="{{ r.page.title }}, {{ MONTHS[m - 1] }}{% if m in r.months %}: v sezóně{% endif %}"><span class="sr">{% if m in r.months %}ano{% endif %}</span></td>{% endfor %}
         </tr>
       {% endfor %}

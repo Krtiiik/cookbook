@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "_macros.html" import link, cards, recipe_row, explainer_card, season_pill %}
+{% from "_macros.html" import link, cards, recipe_row, explainer_card, season_pill, category_icon %}
 {% block kind %}recipe{% endblock %}
 {% block meta %}<meta name="description" content="{{ page.summary }}">
 <script type="application/ld+json">{{ page.jsonld|safe }}</script>{% endblock %}
@@ -52,7 +52,7 @@
       <ul>
         {% for i in g.items %}
         {% set target = site.pages[i.item] %}
-        <li class="ing"><span class="ing__amount"{% if i.qty %} data-qty="{{ i.qty }}" data-unit="{{ i.unit }}"{% endif %}>{{ i.display }}</span><span>{{ link(target, root, default_link_text(target.title)) }}{% if target.kind == 'recipe' %}<span class="basic">základ</span>{% endif %}{% if i.note %}<small>, {{ i.note }}</small>{% endif %}</span></li>
+        <li class="ing"><span class="ing__amount"{% if i.qty %} data-qty="{{ i.qty }}" data-unit="{{ i.unit }}"{% endif %}>{{ i.display }}</span><span>{% if target.kind == 'explainer' and target.section == 'suroviny' %}{{ category_icon(target.category, site.label('categories', target.category)) }}{% endif %}{{ link(target, root, default_link_text(target.title)) }}{% if target.kind == 'recipe' %}<span class="basic">základ</span>{% endif %}{% if i.note %}<small>, {{ i.note }}</small>{% endif %}</span></li>
         {% endfor %}
       </ul>
       {% endfor %}

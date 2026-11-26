@@ -184,7 +184,18 @@ a.pill:hover { transform: translate(-1px, -1px); box-shadow: 3px 3px 0 var(--c);
 .pill--small .pill__icon { width: 18px; height: 18px; }
 .pill--small svg { width: 12px; height: 12px; }
 .card .pill { margin-top: 4px; }
-.season th[scope=row] .pill { display: flex; width: max-content; max-width: 100%; margin-top: 3px; white-space: normal; }
+/* The category disc alone, before an ingredient name (calendar, recipe ingredients, search). */
+.cat-icon { display: inline-grid; place-items: center; width: 20px; height: 20px; margin-right: 6px; vertical-align: -5px; border-radius: 50%; background: var(--c); border: 1.5px solid var(--ink); color: var(--fill-ink); }
+.cat-icon.c-tomato { color: var(--on-tomato); }
+.cat-icon.c-cobalt { color: var(--on-cobalt); }
+.cat-icon svg { width: 13px; height: 13px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.ing .cat-icon { width: 18px; height: 18px; vertical-align: -4px; }
+.ing .cat-icon svg { width: 12px; height: 12px; }
+.cat-name { display: inline-flex; align-items: center; }
+.season th[scope=row] .site-link { font: 400 19px/1.2 var(--font-hand); }
+.search__title.has-icon { display: flex; align-items: center; }
+.search__title.has-icon .cat-icon { flex: none; }
+.search__title + .search__meta.is-indented { padding-left: 27px; }
 
 /* tape strip on boxes and cards */
 .card::before, .box::before, .log::before, .sec-box::before, .ings::before, .unwritten::before, .handnote::before {
@@ -419,7 +430,7 @@ html:not(.js) .scaler button { display: none; }
 /* Fixed layout: the name column has a set width and the twelve month columns share the rest equally,
    so a month is as wide as any other whatever its abbreviation. */
 .season { border-collapse: separate; border-spacing: 3px; min-width: 720px; width: 100%; font-size: 14px; table-layout: fixed; margin-bottom: 5px; }
-.season thead th.season__name { width: 150px; }
+.season thead th.season__name { width: 180px; }
 .season thead th { font: 600 18px var(--font-note); color: var(--muted); padding: 4px 0; text-align: center; }
 .season thead th.season__name { position: sticky; left: 0; z-index: 2; background: var(--card); text-align: left; padding-left: 8px; border-right: 2px dashed var(--line); }
 .season abbr { text-decoration: none; }

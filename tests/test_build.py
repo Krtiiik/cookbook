@@ -379,9 +379,6 @@ def test_ingredient_categories_show_as_pills(real_site):
     assert re.search(r'<a class="pill c-mint" href="index.html\?category=vegetables"[^>]*>'
                      r'<i class="pill__icon"><svg[^>]*>.*?</svg></i>zelenina</a>', cesnek)
 
-    calendar = (out / "sezonni-kalendar" / "index.html").read_text(encoding="utf-8")
-    assert '<span class="pill pill--small c-mint">' in calendar
-
     # Ingredient cards show the category instead of the section label, which repeats on every card.
     section = (out / "suroviny" / "index.html").read_text(encoding="utf-8")
     assert '<span class="lbl">suroviny</span>' not in section
@@ -390,6 +387,45 @@ def test_ingredient_categories_show_as_pills(real_site):
     # Every category has its own icon and one of the four enamel colours.
     assert all(colour in build.COLORS and "<svg" in inner for colour, inner in pills)
     assert {"maso", "koření"} <= {re.sub(r"<.*>", "", inner) for _, inner in pills}
+
+
+CAT_ICON = r'<i class="cat-icon c-(\w+)" title="([^"]+)" aria-hidden="true"><svg[^>]*>.+?</svg></i>'
+
+
+def test_calendar_rows_show_the_category_as_an_icon(real_site):
+    # A pill under the name was louder than the name; the row shows only the category disc.
+    _, out = real_site
+    calendar = (out / "sezonni-kalendar" / "index.html").read_text(encoding="utf-8")
+    assert 'class="pill' not in calendar.split("<tbody>")[1]
+    rows = re.findall(r'<th scope="row">(.*?)</th>', calendar)
+    assert rows
+    for row in rows:
+        m = re.match(r'<span class="cat-name">' + CAT_ICON + r'<span class="sr">([^<]+): </span><a class="site-link', row)
+        assert m, row
+        assert m[1] in build.COLORS and m[2] == m[3]
+    assert any('title="zelenina"' in row and "c-mint" in row for row in rows)
+
+
+def test_recipe_ingredients_show_the_category_icon(real_site):
+    _, out = real_site
+    gulas = (out / "recepty" / "hovezi-gulas.html").read_text(encoding="utf-8")
+    items = dict((slug, li) for li, slug in re.findall(r'(<li class="ing">.*?data-slug="([\w-]+)".*?</li>)', gulas))
+    assert re.search(CAT_ICON.replace(r"c-(\w+)", "c-tomato").replace('title="([^"]+)"', 'title="maso"')
+                     + r'<a class="site-link[^"]*" data-slug="hovezi-klizka"', items["hovezi-klizka"])
+    assert 'class="cat-icon c-cobalt" title="koření"' in items["kmin"]
+    # A basic is a recipe and has no category.
+    assert "cat-icon" not in items["hovezi-vyvar"]
+
+
+def test_search_shows_the_ingredient_category(real_site):
+    _, out = real_site
+    text = (out / "static" / "index.js").read_text(encoding="utf-8")
+    data = json.loads(text.removeprefix("window.SITE_INDEX = ").rstrip().rstrip(";"))
+    veg = data["categories"]["vegetables"]
+    assert veg["label"] == "zelenina" and veg["colour"] == "mint" and "<path" in veg["icon"]
+    assert set(data["categories"]) >= {p["category"] for p in data["pages"] if p.get("section") == "suroviny"}
+    js = (ROOT / "static" / "site.js").read_text(encoding="utf-8")
+    assert "INDEX.categories[p.category]" in js and "'cat-icon c-'" in js
 
 
 def test_seasons_show_as_pills(real_site):
