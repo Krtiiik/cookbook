@@ -23,7 +23,7 @@ Disagreement: Fórum zdravé výživy on bezpecnostpotravin.cz says 1–2 days (
 
 Disagreement: SZÚ minimum for reheating is 70 °C; bezpecnostpotravin.cz glossary "Nebezpečný interval teplot" says 74 °C (https://bezpecnostpotravin.cz/termin/nebezpecny-interval-teplot/); a Společnost pro výživu article on bezpecnostpotravin.cz says at least 75 °C within 1 hour of taking food from the fridge (https://bezpecnostpotravin.cz/jak-je-to-s-ohrivanim-doma-varenych-pokrmu/); FSA says "steaming hot throughout" and reheat only once. Stricter: 75 °C (or 70 °C held 2 min), which replaces USDA 74 °C.
 
-## 3. Raw beef (whole cut, cubes)
+## 3. Raw beef and pork (whole cut, cubes)
 
 | Item | Use on the site | Cite | Source |
 |---|---|---|---|
@@ -31,7 +31,7 @@ Disagreement: SZÚ minimum for reheating is 70 °C; bezpecnostpotravin.cz glossa
 | Freezer, safety | Safe at −18 °C almost without limit | podle bezpecnostpotravin.cz | Same article: at −18 °C and below microbial growth stops, so frozen meat keeps "téměř neomezeně"; cook it soon after thawing. |
 | Freezer, quality | 3–6 months | podle BfR | BfR: beef and pork 3–6 months at −18 °C. https://www.bfr.bund.de/fragen-und-antworten/thema/vorkochen-fuer-mehrere-tage/ |
 
-Disagreement: USDA gives 3–5 days for whole cuts and 1–2 days for cubes. bezpecnostpotravin.cz freezer table gives beef 6–12 months, lean beef 12 months and more; FSA gives meat 2–3 months. Stricter safety number: 2 days for all raw beef. For quality, BfR's 3–6 months is the stricter of the Czech and German numbers. EU legal storage temperature (business rule, Regulation 853/2004 Annex III, Section I, Chapter VII): meat ≤7 °C, offal ≤3 °C, minced meat ≤2 °C. https://www.legislation.gov.uk/eur/2004/853/annex/III/adopted
+Disagreement: USDA gives 3–5 days for whole cuts and 1–2 days for cubes. bezpecnostpotravin.cz freezer table gives beef 6–12 months, lean beef 12 months and more; FSA gives meat 2–3 months. Stricter safety number: 2 days for all raw beef and pork (Fórum zdravé výživy says "maso" in general and adds that pork matures faster; BfR names pork). After thawing, cook within 24 hours (topic 1, FSA); fatty pork goes rancid in the freezer, so keep to 3–6 months. For quality, BfR's 3–6 months is the stricter of the Czech and German numbers. EU legal storage temperature (business rule, Regulation 853/2004 Annex III, Section I, Chapter VII): meat ≤7 °C, offal ≤3 °C, minced meat ≤2 °C. https://www.legislation.gov.uk/eur/2004/853/annex/III/adopted
 
 ## 4. Variety meats (líčka, oháňka, vnitřnosti)
 
@@ -57,11 +57,13 @@ Freeze on the day you buy them, or keep 1–2 days in the fridge (as topic 4). S
 | Better not to make garlic in oil for storage. If you make it: fridge at once and **eat it at the latest the day after you make it**, or freeze it. Never at room temperature. | podle BfR (bezpecnostpotravin.cz) | BfR, botulism Q&A (12 Nov 2025): keep in the fridge, eat "spätestens am Tag nach der Herstellung"; BfR advises against home stocks. https://www.bfr.bund.de/de/fragen_und_antworten_zu_botulismus-70355.html (Czech translation on the MZe portal, 25 Nov 2025: https://bezpecnostpotravin.cz/bfr-otazky-a-odpovedi-o-botulismu/) |
 
 Disagreement: NCHFP gives ≤4 °C and 4 days. BfR is stricter: 1 day. Ministerstvo zdravotnictví names garlic in oil as a typical source of botulinum toxin (2026 pâté warning, https://mzd.gov.cz/varovani-pred-konzumaci-potraviny-pastika-s-nazvem-hotel-litovel-srdce-luhacovic/). The ≤4 °C fridge number can stay (KHS, topic 10).
-## 8. Opened tins and tomato paste (tomato paste, canned tomatoes)
+## 8. Opened tins, tomato paste and mould (tins, bread, dried spices)
 
 | Item | Use on the site | Cite | Source |
 |---|---|---|---|
 | From a tin | Move it to a non-metal container with a lid and **use within 2 days** | podle bezpecnostpotravin.cz | Glossary "Lednička": do not keep food in opened tins; move it to non-metal containers, close, "spotřebujte do 2 dnů". https://bezpecnostpotravin.cz/termin/lednicka/ |
+| Bread | Mouldy bread or rolls go out whole, also the part that looks clean; not for strouhanka, knedlíky or topinky. Clean the chlebník weekly: crumbs out, wipe with vinegar water. Most mould toxins are heat- and acid-stable (not removed by cooking, frying or pickling) | podle BfR | Same BfR mould FAQ: lists Brot among foods prone to mould (no exception), "Brotkästen einmal wöchentlich reinigen und mit Essigwasser abwischen", mycotoxins "fast alle hitze- und säurestabil". It does not name baking or toasting. |
+| Dried spices, vanilla pods | Hairy grey or green coating or a musty smell: throw away whole, do not cut off | podle BfR | Same BfR mould FAQ (general rule; BfR has nothing vanilla-specific). White vanillin crystals on a pod are not mould, but that is unsourced. |
 | Mould | Throw away the whole jar | podle BfR | BfR mould FAQ (11 Mar 2026): mouldy food must not be eaten; mould can grow deep inside where you cannot see it; only dry-cured salami and whole hams are exceptions. https://www.bfr.bund.de/fragen-und-antworten/thema/schimmelpilze-in-lebensmitteln-gesundheitliche-risiken-und-wie-sie-sich-vermeiden-lassen/ |
 
 Disagreement: USDA 5–7 days. The Czech rule is for opened tins in general, not tomato paste only, but it is the only Czech number and it is stricter. For tubes and jars, the label ("po otevření spotřebujte do…") stays. The USDA reason "mould lowers acidity" can stay only as "podle USDA FSIS"; BfR's reason is mycotoxins and hidden growth.
@@ -256,9 +258,52 @@ Disagreement: HSHMP gives "above 70 °C for at least 10 minutes" for eggs; the s
 | Aluminium | No acidic or salty food cooked or stored in uncoated aluminium or wrapped in alobal; coated pots fine while the coating is whole | podle BfR | https://www.bfr.bund.de/fragen-und-antworten/thema/fragen-und-antworten-zu-aluminium-in-lebensmitteln-und-verbrauchernahen-produkten |
 | Chlorine + acid | Never mix chlorine cleaners with vinegar, citric acid or descalers: chlorine gas; TIS as topic 16 | podle gesund.bund.de | https://gesund.bund.de/chemikalien-im-haushalt |
 | Alcohol in cooking | Does not fully evaporate: about 40 % after 15 minutes, 25 % after 1 hour, 5 % after 2,5 hours; dishes with wine or koňak are not for children or pregnant women, even with pasteurised egg | podle USDA (no Czech or EU number) | https://pubmed.ncbi.nlm.nih.gov/1556354/ |
+| Alcohol in vanilla extract, aroma | Not in creams, pudink or šlehačka that are not cooked after adding, for small children or pregnant women: use the pod, vanilla sugar or a product labelled without alcohol; baking does not remove all alcohol; no known safe amount in pregnancy | podle Verbraucherzentrale; NHS | https://www.verbraucherzentrale.de/wissen/lebensmittel/kennzeichnung-und-inhaltsstoffe/alkohol-in-lebensmitteln-wie-erkenne-ich-versteckte-zutaten-59477; https://www.nhs.uk/pregnancy/keeping-well/drinking-alcohol-while-pregnant/ (precaution, no authority gives a threshold) |
 | Acidifying pickles | Acid alone gives no safety; pH must be measured below 4,6 and varies | podle BfR | topic 7 URL |
 | Octová matka | Bacteria, harmless; mould is dry, hairy, coloured or smells; when unsure throw away | podle Verbraucherzentrale Südtirol | https://www.consumer.bz.it/de/print/pdf/node/1026 |
 | Treated citrus | Post-harvest treatment must be labelled; LGL found lemons and limes sold as "unbehandelt" with residues | podle bavorského úřadu LGL | https://www.lgl.bayern.de/lebensmittel/warengruppen/wc_29_frischobst/ue_2018_zitrusfruechte.htm |
 | Treated citrus, details | Shelf sign names the substance; limes, grapefruit exempt; washing removes little; zest and tea slices only from untreated or bio fruit | podle Saxony-Anhalt LAV a test.de | https://www.test.de/Zitronen-und-Limetten-Wie-belastet-sind-Fruechte-aus-Supermarkt-und-Bioladen-4672703-4672712/ (LAV press PDF 28 Oct 2022 unread) |
 
 Vinegar needs no best-before date (nařízení EU 1169/2011, příloha X). Vyhláška 248/2018 Sb. (replaced 335/1997) sets only a maximum acidity of 25 %; 8 % and 5 % are shop values.
+
+## 30. Poppy seed (opium alkaloids)
+
+| Item | Use on the site | Cite | Source |
+|---|---|---|---|
+| EU limit | Mák for consumers at most **20 mg/kg**, bakery products with mák at most **1,5 mg/kg** (morfin + 0,2 × kodein), since 1 Jul 2022 | podle nařízení EU 2023/915 (formerly 2021/2142) | https://eur-lex.europa.eu/eli/reg/2021/2142/oj; LGL: https://www.lgl.bayern.de/lebensmittel/chemie/inhaltsstoffe/pflanzeninhaltsstoffe/morphin_index.htm. The point number in příloha I of 2023/915 is not verified; do not cite one. |
+| Where it comes from | Ripe seeds make no alkaloids; latex reaches them at harvest and through pest damage. Washing, baking and grinding lower the content (EFSA: 25–100 %); home grinding does not make unsuitable mák safe | podle BfR a EFSA | https://www.efsa.europa.eu/es/node/978092 (BfR 2018 PDF unread; wording from a snippet) |
+| Portions | Normal portions of koláč, buchty, nudle s mákem are fine; a lot of mák only now and then; pregnant women avoid large amounts. No gram figure from any authority | podle BfR; EFSA (ARfD 10 µg/kg, sensitive groups: pregnant, infants, over 75, breathing problems) | https://www.bfr.bund.de/presseinformation/erhoehte-morphingehalte-in-mohnsamen-gesundheitsrisiko-nicht-ausgeschlossen/; https://www.efsa.europa.eu/pt/press/news/180516 |
+| Infants | No mák and no "makové mléko" for infants and small children (BfR case: 6-week infant in hospital with breathing failure after 75 ml) | podle BfR | https://www.bfr.bund.de/presseinformation/backmohn-ist-kein-schlafmittel-fuer-saeuglinge/ |
+| Tea, odvar | No poppy tea or odvar: severe poisonings recorded (Tasmania: at least 19, none from bakery products) | no EU authority; Tasmania Health | https://health.tas.gov.au/node/13811 |
+
+Mák is not one of the 14 EU allergens. The old Czech 25 mg/kg (vyhláška 399/2013) is superseded by the EU limit.
+
+## 31. Toast and topinky (acrylamide)
+
+| Use on the site | Cite | Source |
+|---|---|---|
+| Toast and fry bread to golden, not brown, never black; the darker, the more acrylamide; not above 180 °C and not longer than needed; burnt bread goes out; set the toaster lighter | podle BfR | BfR acrylamide FAQ (26 Aug 2024): "Vergolden statt verkohlen", "nicht über 180 °C". https://www.bfr.bund.de/fragen-und-antworten/thema/fragen-und-antworten-zu-acrylamid-in-lebensmitteln/ |
+
+Nařízení EU 2017/2158 binds businesses only (bakers: lighter colour endpoint; benchmark 50 µg/kg wheat soft bread); do not cite it as a home rule. Do not say acrylamide sits in the crust; BfR does not.
+
+## 32. Nuts and kernels
+
+| Item | Use on the site | Cite | Source |
+|---|---|---|---|
+| Aflatoxins | Heat does not destroy them (cooking, baking, roasting); they are not visible or smellable. Throw away mouldy, shrivelled or bitter nuts. Site rule, stricter than BfR (which says sort out conspicuous nuts): several bad ones, the whole bag goes | podle BfR; SZÚ (mycotoxins thermostable) | https://www.bfr.bund.de/fragen-und-antworten/thema/fragen-und-antworten-zu-aflatoxinen-in-lebensmitteln-und-futtermitteln/; https://archiv.szu.cz/uploads/CZVP/1_Prevence_.pdf |
+| Bitter almonds, apricot kernels | Chewing releases kyanovodík. EFSA: acute reference dose 20 µg cyanide per kg body weight, exceeded by about 0,1–1,4 g of bitter almonds. BfR: adults at most 1–2 bitter apricot kernels a day, children none. Do not eat bitter kernels, never give them to children | podle EFSA; podle BfR | https://www.efsa.europa.eu/en/efsajournal/pub/5662; https://www.bfr.bund.de/presseinformation/bittere-aprikosenkerne-koennen-zu-vergiftungen-fuehren/ |
+| Peanut vs tree nuts | Two separate EU allergens (nařízení EU 1169/2011, příloha II); about a third of people allergic to one react to the other; treat both as risky until a doctor says otherwise | studies (lower-grade, no authority page) | https://pmc.ncbi.nlm.nih.gov/articles/PMC7811165/ |
+
+
+## 33. Home lactic fermentation (kysané zelí)
+
+No Czech, EU or BfR source covers home fermentation; Verbraucherzentralen come first, then NCHFP and US extensions. Numbers read 2026-11-26.
+
+| Item | Use on the site | Cite | Source |
+|---|---|---|---|
+| Salt | At least **20 g per kg** of shredded cabbage (2–2,5 %), weighed; top-up brine 20–25 g per litre of boiled, cooled water; salt without iodine and anti-caking agent | podle Verbraucherzentrale Südtirol | https://consumer.bz.it/de/wie-kann-man-gemuese-selbst-fermentieren. NCHFP: 3 tbsp per 5 lb (about 2,3 %), the ratio "controls pathogen growth": https://nchfp.uga.edu/how/ferment/recipes/sauerkraut |
+| Temperature, time | About 20 °C in the first week, then about 15 °C; done in 3–6 weeks; above 25 °C it goes soft, below 15 °C it may not ferment | podle Verbraucherzentrale Niedersachsen; NCHFP | https://www.verbraucherzentrale-niedersachsen.de/wissen/lebensmittel/gesund-ernaehren/fermentieren-so-gehts-120376 |
+| Under brine | Everything fully under the brine, weighted, clean vessel (no bare aluminium, topic 29) | podle Verbraucherzentrale Südtirol | as above |
+| Film vs mould | Flat white film without fuzz (křís, kahm yeast) is harmless, skim it. Fuzzy or coloured growth: throw away the whole batch; slimy, soft or foul-smelling kraut too | podle Verbraucherzentrale Bayern (mould); Illinois Extension (film, no European source) | https://www.zdfheute.de/ratgeber/fermentieren-lebensmittel-gemuese-milchsaeure-salz-100.html; https://extension.illinois.edu/food-preservation/fermenting-faq |
+
+Disagreement: Ohio State lets you cut mould out of kraut (https://ohioline.osu.edu/factsheet/hyg-5592); the site keeps the stricter rule. Rinsing bought kraut is quality only (less salt, acid and vitamin C), no authority.
