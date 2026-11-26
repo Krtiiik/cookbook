@@ -12,7 +12,7 @@
     <div class="field"><label for="s-cat">Kategorie</label>
       <select id="s-cat" class="season__category"><option value="">všechny</option>{% for c in cats %}<option value="{{ c }}">{{ site.label('categories', c) }}</option>{% endfor %}</select></div>
   </div>
-  <div class="legend"><span><i class="sw"></i>v sezóně</span><span><i class="sw now"></i>tento měsíc</span><span class="season__count">{{ seasons|length }} z {{ seasons|length }} surovin</span></div>
+  <div class="legend"><span>v sezóně:</span><span><i class="sw c-cobalt"></i>zima</span><span><i class="sw c-mint"></i>jaro</span><span><i class="sw c-mustard"></i>léto</span><span><i class="sw c-tomato"></i>podzim</span><span><i class="sw now"></i>tento měsíc</span><span class="season__count">{{ seasons|length }} z {{ seasons|length }} surovin</span></div>
   <div class="scroll">
     <table class="season">
       <caption class="sr">Sezónnost surovin podle měsíců</caption>

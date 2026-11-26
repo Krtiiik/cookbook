@@ -24,9 +24,14 @@
       {% if page.data.substitutes %}<div><dt>náhrady</dt><dd>{% for s in page.data.substitutes %}{{ link(site.pages[s], root) }}{% if not loop.last %}, {% endif %}{% endfor %}</dd></div>{% endif %}
       <div class="wide"><dt>sezóna</dt><dd>
         {% if page.data.season == 'all-year' %}{{ season_pill('all-year', 'celý rok', href='index.html?month=all-year', title='Suroviny, které jsou celý rok') }}{% else %}
-        <ol class="strip" aria-label="Sezóna podle měsíců">
-          {% for m in range(1, 13) %}<li class="{% if m in page.data.season %}is-in-season{% endif %}" data-month="{{ m }}" title="{{ MONTHS[m - 1] }}{% if m in page.data.season %}: v sezóně{% endif %}"><span>{{ MONTHS_SHORT[m - 1] }}</span></li>{% endfor %}
-        </ol>
+        {% set w = season_wheel(page.data.season) %}
+        <div class="wheel">
+          <svg viewBox="0 0 {{ w.size }} {{ w.size }}" role="img" aria-label="Sezóna: {{ w.range }}">
+            {% for s in w.segments %}<g class="wheel__month{% if s.in_season %} is-in-season{% endif %}" data-month="{{ s.month }}"><title>{{ s.title }}{% if s.in_season %}: v sezóně{% endif %}</title><path class="wheel__seg" d="{{ s.d }}"/><path class="wheel__seg wheel__seg--now" d="{{ s.d_now }}"/><text x="{{ s.tx }}" y="{{ s.ty }}" style="--dx: {{ s.dx }}px; --dy: {{ s.dy }}px">{{ s.label }}</text></g>{% endfor %}
+            <circle class="wheel__hub" cx="{{ w.centre[0] }}" cy="{{ w.centre[1] }}" r="{{ w.hub }}"/><text class="wheel__count" x="{{ w.centre[0] }}" y="{{ w.centre[1] + 1 }}">{{ w.count }} měs.</text>
+          </svg>
+          <p class="wheel__say">{{ w.range }}<small class="wheel__status" data-months="{{ w.months|join(' ') }}"></small></p>
+        </div>
         {% endif %}
       </dd></div>
     </dl>

@@ -392,10 +392,16 @@
     update();
   })();
 
-  /* ---------- current month in the season grid and ingredient strip */
+  /* ---------- current month in the season grid and the ingredient year wheel */
   (function () {
     var month = new Date().getMonth() + 1;
-    $$('.season [data-month="' + month + '"], .strip [data-month="' + month + '"]').forEach(function (c) { c.classList.add('now'); });
+    $$('.season [data-month="' + month + '"], .wheel [data-month="' + month + '"]').forEach(function (c) { c.classList.add('now'); });
+    // The current month's longer segment must paint over its neighbours' paper outlines.
+    $$('.wheel__month.now').forEach(function (g) { g.parentNode.insertBefore(g, $('.wheel__hub', g.parentNode)); });
+    $$('.wheel__status').forEach(function (el) {
+      var inSeason = el.getAttribute('data-months').split(' ').indexOf(String(month)) >= 0;
+      el.textContent = inSeason ? 'teď je v sezóně' : 'teď není v sezóně';
+    });
     // On a narrow screen the grid scrolls: start with the current month next to the row titles.
     var box = $('.scroll'), head = $('.season thead th[data-month="' + month + '"]'), name = $('.season thead th.season__name');
     if (box && head && name && box.scrollWidth > box.clientWidth) box.scrollLeft = head.offsetLeft - name.offsetWidth - 6;

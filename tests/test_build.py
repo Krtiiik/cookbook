@@ -404,3 +404,37 @@ def test_seasons_show_as_pills(real_site):
     klizka = (out / "suroviny" / "hovezi-klizka.html").read_text(encoding="utf-8")
     assert re.search(r'<a class="pill c-year" href="index.html\?month=all-year"[^>]*>'
                      r'<i class="pill__icon"><svg[^>]*>.*?</svg></i>celý rok</a>', klizka)
+
+
+@pytest.mark.parametrize("months, text", [
+    ([9, 10, 11], "září – listopad"),
+    ([10, 11, 12, 1], "říjen – leden"),
+    ([7, 8, 9, 10, 11, 12, 1, 2, 3, 4], "červenec – duben"),
+    ([3, 4, 9], "březen – duben, září"),
+    ([5], "květen"),
+])
+def test_season_range_reads_round_the_new_year(months, text):
+    assert build.season_range(months) == text
+
+
+def test_season_wheel_has_leden_at_the_bottom_and_paints_in_season_last():
+    wheel = build.season_wheel([12, 1])
+    segs = wheel["segments"]
+    assert len(segs) == 12 and wheel["count"] == 2 and wheel["range"] == "prosinec – leden"
+    # Empty segments come first, so an in-season segment's ink edge is drawn after its neighbours.
+    assert [s["in_season"] for s in segs] == [False] * 10 + [True] * 2
+    leden = next(s for s in segs if s["month"] == 1)
+    cx, cy = wheel["centre"]
+    assert abs(leden["tx"] - cx) < 0.5 and leden["ty"] > cy
+    cervenec = next(s for s in segs if s["month"] == 7)
+    assert abs(cervenec["tx"] - cx) < 0.5 and cervenec["ty"] < cy
+
+
+def test_ingredient_season_shows_as_a_year_wheel(real_site):
+    _, out = real_site
+    dyne = (out / "suroviny" / "dyne.html").read_text(encoding="utf-8")
+    assert 'class="strip"' not in dyne
+    wheel = re.search(r'<div class="wheel">.*?</p>\s*</div>', dyne, re.S).group(0)
+    assert len(re.findall(r'<g class="wheel__month[^"]*" data-month="\d+"', wheel)) == 12
+    assert sorted(re.findall(r'<g class="wheel__month is-in-season" data-month="(\d+)"', wheel)) == ["10", "11", "9"]
+    assert "září – listopad" in wheel and 'data-months="9 10 11"' in wheel

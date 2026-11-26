@@ -346,10 +346,28 @@ html:not(.js) .scaler button { display: none; }
 .ingdata .wide { grid-column: 1 / -1; }
 .ingdata dt { font: 600 17px var(--font-note); color: var(--accent); }
 .ingdata dd { margin: 0; font-size: 15px; }
-.strip { list-style: none; margin: 4px 0 0; padding: 0; display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 3px; }
-.strip li { height: 30px; border-radius: 9px 7px 10px 8px; background: var(--empty); display: flex; align-items: center; justify-content: center; font: 600 15px var(--font-note); color: var(--muted); }
-.strip li.is-in-season { background: var(--season); box-shadow: inset 0 0 0 2px var(--ink); color: var(--fill-ink); }
-.strip li.now { outline: 2.5px solid var(--tomato); outline-offset: -1px; }
+/* Each month carries the colour of its season: winter cobalt, spring mint, summer mustard, autumn tomato. */
+.season [data-month="12"], .season [data-month="1"], .season [data-month="2"], .wheel [data-month="12"], .wheel [data-month="1"], .wheel [data-month="2"] { --s: var(--cobalt); --on-s: var(--on-cobalt); }
+.season [data-month="3"], .season [data-month="4"], .season [data-month="5"], .wheel [data-month="3"], .wheel [data-month="4"], .wheel [data-month="5"] { --s: var(--mint); --on-s: var(--fill-ink); }
+.season [data-month="6"], .season [data-month="7"], .season [data-month="8"], .wheel [data-month="6"], .wheel [data-month="7"], .wheel [data-month="8"] { --s: var(--mustard); --on-s: var(--fill-ink); }
+.season [data-month="9"], .season [data-month="10"], .season [data-month="11"], .wheel [data-month="9"], .wheel [data-month="10"], .wheel [data-month="11"] { --s: var(--tomato); --on-s: var(--on-tomato); }
+/* Year wheel on ingredient pages: leden at the bottom, so each season fills one quarter. The current month
+   (site.js adds .now and moves it last, so it paints on top) swaps to its longer shape and the others dim. */
+.wheel { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; margin-top: 4px; }
+.wheel svg { width: 174px; height: 174px; flex: none; }
+.wheel__seg { fill: var(--empty); stroke: var(--card); stroke-width: 3; }
+.wheel__seg--now, .wheel__month.now .wheel__seg:not(.wheel__seg--now) { display: none; }
+.wheel__month.now .wheel__seg--now { display: inline; stroke: var(--ink); stroke-width: 2.5; }
+.wheel__month.is-in-season .wheel__seg { fill: var(--s); stroke: var(--ink); stroke-width: 2; }
+.wheel text { font: 600 14px var(--font-note); fill: var(--muted); text-anchor: middle; dominant-baseline: middle; }
+.wheel__month.is-in-season text { fill: var(--on-s); }
+.wheel__month.now text { font-size: 16px; fill: var(--ink); transform: translate(var(--dx), var(--dy)); }
+.wheel__month.now.is-in-season text { fill: var(--on-s); }
+.wheel svg:has(.now) .wheel__month:not(.now) { opacity: .65; }
+.wheel__hub { fill: var(--card); stroke: var(--ink); stroke-width: 2; }
+.wheel text.wheel__count { font: 400 17px var(--font-hand); fill: var(--ink); }
+.wheel__say { margin: 0; font: 400 22px/1.25 var(--font-hand); }
+.wheel__status { display: block; font: 600 18px var(--font-note); color: var(--muted); margin-top: 4px; }
 
 /* ---------- link preview */
 .link-preview { position: absolute; z-index: 30; width: 340px; max-width: calc(100vw - 32px); background: var(--card); border: 2.5px solid var(--ink); box-shadow: 5px 5px 0 var(--mustard); padding: 8px; display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: 10px; font-size: 14px; line-height: 1.35; border-radius: 5px 8px 6px 9px; pointer-events: none; }
@@ -395,7 +413,7 @@ html:not(.js) .scaler button { display: none; }
 .fold::after { content: ""; position: absolute; top: 0; bottom: 0; left: 0; width: var(--card-w, 100%); background: #000; opacity: var(--shade, 0); }
 .filters__count { margin: 0 0 6px; font: 600 18px var(--font-note); color: var(--accent); }
 .legend { display: flex; gap: 18px; font-size: 13px; color: var(--muted); margin: 6px 0 10px; flex-wrap: wrap; align-items: center; }
-.sw { display: inline-block; width: 22px; height: 14px; border-radius: 7px; margin-right: 6px; vertical-align: -2px; border: 2px solid var(--ink); background: var(--season); }
+.sw { display: inline-block; width: 22px; height: 14px; border-radius: 7px; margin-right: 6px; vertical-align: -2px; border: 2px solid var(--ink); background: var(--c, var(--season)); }
 .sw.now { width: 16px; height: 16px; box-sizing: border-box; vertical-align: -3px; border-radius: 5px 4px 6px 5px; background: var(--card); border: 2.5px solid var(--ink); }
 .scroll { overflow-x: auto; border: 2px solid var(--ink); border-radius: 6px; background: var(--card); }
 /* Fixed layout: the name column has a set width and the twelve month columns share the rest equally,
@@ -407,7 +425,7 @@ html:not(.js) .scaler button { display: none; }
 .season abbr { text-decoration: none; }
 .season th[scope=row] { position: sticky; left: 0; z-index: 1; background: var(--card); text-align: left; padding: 5px 12px 5px 8px; white-space: nowrap; font-weight: 400; min-width: 140px; border-right: 2px dashed var(--line); }
 .season td { position: relative; height: 32px; padding: 0; border-radius: 9px 7px 10px 8px; background: var(--empty); }
-.season td.is-in-season { background: var(--season); box-shadow: inset 0 0 0 2px var(--ink); }
+.season td.is-in-season { background: var(--s, var(--season)); box-shadow: inset 0 0 0 2px var(--ink); }
 /* Current month: a paper tab on the header and one ink frame down the column; the other months are dimmed.
    No colour of its own, so it never clashes with the season colours of the blocks.
    The frame sits in the 3px border-spacing, so a dimmed neighbour can't paint over it.
@@ -444,7 +462,6 @@ html:not(.js) .scaler button { display: none; }
   .head { grid-template-columns: minmax(0, 1fr); }
   .facts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .ingdata { grid-template-columns: minmax(0, 1fr); }
-  .strip li { font-size: 12px; }
   .prose ol.steps li { padding-left: 60px; }
   .prose ol.steps li::before { width: 44px; height: 44px; font-size: 28px; }
   .hist li { grid-template-columns: 24px minmax(0, 1fr); }

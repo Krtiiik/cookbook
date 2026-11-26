@@ -302,6 +302,58 @@ def default_link_text(title: str) -> str:
     return title[:1].lower() + title[1:]
 
 
+def season_range(months) -> str:
+    """An ingredient's months as Czech text, read round the new year: [10, 11, 12, 1] -> 'říjen – leden'."""
+    inside = set(months)
+    if len(inside) == 12:
+        return "celý rok"
+    # Start each run at a month whose previous month is outside, walking forward from there.
+    runs = []
+    for m in range(1, 13):
+        if m in inside and (m - 2) % 12 + 1 not in inside:
+            end = m
+            while end % 12 + 1 in inside:
+                end = end % 12 + 1
+            runs.append(MONTHS[m - 1] if end == m else f"{MONTHS[m - 1]} – {MONTHS[end - 1]}")
+    return ", ".join(runs)
+
+
+WHEEL_R, WHEEL_R_NOW, WHEEL_HUB, WHEEL_TEXT, WHEEL_TEXT_NOW = 75, 84, 38, 57, 61
+
+
+def season_wheel(months) -> dict:
+    """Geometry of the year wheel on ingredient pages: 12 ring segments, leden centred at the bottom,
+    clockwise, so each season fills one quarter (summer at the top). Each segment also has a longer
+    shape for when it is the current month, which the script marks. Empty segments come first:
+    a later segment's paper outline would otherwise cover an in-season segment's ink edge."""
+    cx = cy = WHEEL_R_NOW + 3
+    inside = set(months)
+
+    def point(radius, angle):
+        return f"{cx + radius * math.cos(angle):.1f} {cy + radius * math.sin(angle):.1f}"
+
+    def ring(outer, a0, a1):
+        return (f"M{point(outer, a0)}A{outer} {outer} 0 0 1 {point(outer, a1)}"
+                f"L{point(WHEEL_HUB, a1)}A{WHEEL_HUB} {WHEEL_HUB} 0 0 0 {point(WHEEL_HUB, a0)}Z")
+
+    segments = []
+    for m in range(1, 13):
+        # SVG angles run clockwise from east; leden spans 75°–105°, centred on south (90°).
+        a0, a1 = math.radians(75 + (m - 1) * 30), math.radians(75 + m * 30)
+        mid = (a0 + a1) / 2
+        tx, ty = cx + WHEEL_TEXT * math.cos(mid), cy + WHEEL_TEXT * math.sin(mid)
+        segments.append({
+            "month": m, "in_season": m in inside, "label": MONTHS_SHORT[m - 1], "title": MONTHS[m - 1],
+            "d": ring(WHEEL_R, a0, a1), "d_now": ring(WHEEL_R_NOW, a0, a1), "tx": round(tx, 1), "ty": round(ty, 1),
+            # the label moves outward with the longer current-month segment
+            "dx": round((WHEEL_TEXT_NOW - WHEEL_TEXT) * math.cos(mid), 1),
+            "dy": round((WHEEL_TEXT_NOW - WHEEL_TEXT) * math.sin(mid), 1),
+        })
+    segments.sort(key=lambda s: s["in_season"])
+    return {"segments": segments, "centre": (cx, cy), "size": 2 * cx, "hub": WHEEL_HUB - 6,
+            "count": len(inside), "range": season_range(months), "months": sorted(inside)}
+
+
 def fold(text: str) -> str:
     import unicodedata
     return "".join(c for c in unicodedata.normalize("NFD", text) if not unicodedata.combining(c)).lower()
@@ -818,8 +870,8 @@ def render_site(site: Site, out: Path, templates: Path, static: Path, cache: Pat
     env = Environment(loader=FileSystemLoader(templates), undefined=StrictUndefined, autoescape=True,
                       trim_blocks=True, lstrip_blocks=True)
     env.filters.update(minutes=fmt_minutes, date=fmt_date, number=fmt_number)
-    env.globals.update(cz_plural=cz_plural, default_link_text=default_link_text, COLORS=COLORS,
-                       GROUP_KINDS=GROUP_KINDS, MONTHS=MONTHS, MONTHS_SHORT=MONTHS_SHORT,
+    env.globals.update(cz_plural=cz_plural, default_link_text=default_link_text, season_wheel=season_wheel,
+                       COLORS=COLORS, GROUP_KINDS=GROUP_KINDS, MONTHS=MONTHS, MONTHS_SHORT=MONTHS_SHORT,
                        SECTIONS=SECTIONS)
     if out.exists():
         shutil.rmtree(out)

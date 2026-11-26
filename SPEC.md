@@ -49,7 +49,7 @@ Photo (or placeholder with "netestováno" badge for a draft) → groups → titl
 
 Banner (full width, the main visual of the page) → section label → title → summary → body → **Související** (explainers this page links to, plus catalog `related` and `substitutes`) → **Použito v receptech** (recipes that link here or use the ingredient). A planned explainer has no body, only a "zatím nenapsáno" note; it can already have recipe backlinks.
 
-Ingredient pages also show catalog data: category, season (as a 12-month strip), substitutes, allergens.
+Ingredient pages also show catalog data: category, season (as a year wheel, or the "celý rok" pill), substitutes, allergens.
 
 ### Converter and calendar pages
 
@@ -126,7 +126,7 @@ Plain JavaScript in `static/`. Keep these classes and attributes, or update the 
 | Page kind | `body.page-home|recipes|recipe|section|explainer|groups|group|converter|calendar|about` |
 | Theme switch | `button.theme[data-theme-current=system|light|dark]` with `.theme__icon--<choice>` and `.theme__label`; the choice is kept in `localStorage` under `kk-theme`, and the inline script in `base.html` sets `data-theme` and `html.js` before first paint |
 | Nav | `nav.nav` > `a.tab` (sections also `.c-<colour>`, secondary pages `.tab--more`; the current one `.on[aria-current=page]`) and `button.stack[aria-expanded][aria-controls=rejstrik]`, which shows and hides `#rejstrik.rejstrik` > `a.rejstrik__row` (`.rejstrik__here` on the current one) and `.rejstrik__more` |
-| Current month | the script adds `.now` to `[data-month=N]` cells in `table.season` and `.strip`, and `.is-last` to the last row the calendar filter shows |
+| Current month | the script adds `.now` to `[data-month=N]` cells in `table.season` and `g.wheel__month` in `.wheel` (moving that group last, so it paints on top), fills `.wheel__status` from its `data-months`, and adds `.is-last` to the last row the calendar filter shows |
 | No-JS | `html:not(.js)` hides controls that need the script (theme switch, scaler buttons, Rejstřík button); the nav then shows every tab |
 
 ## Constraints
