@@ -157,7 +157,11 @@ html:not(.js) .nav { flex-wrap: wrap; }
 .h2 { font: 400 34px var(--font-hand); margin: 0 0 16px; display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
 .h2::before { content: ""; width: 16px; height: 16px; border-radius: 50%; background: var(--c, var(--tomato)); border: 2.5px solid var(--ink); }
 .h2 small { font: 600 21px var(--font-note); color: var(--accent); }
-.h2 a { margin-left: auto; font: 15px var(--font-body); }
+.h2 a { margin-left: auto; display: inline-flex; align-items: center; gap: 8px; min-height: 40px; padding: 0 8px 0 16px; border: 2.5px solid var(--ink); border-radius: 20px 16px 22px 18px; background: var(--card); color: var(--ink); font: 400 20px/1 var(--font-hand); text-decoration: none; box-shadow: 3px 3px 0 var(--c, var(--tomato)); transform: rotate(-1deg); transition: transform .12s, box-shadow .12s; }
+.h2 a .arr { display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border-radius: 50% 46% 52% 48%; background: var(--c, var(--tomato)); color: var(--fill-ink); border: 2px solid var(--ink); font-size: 17px; transition: transform .12s; }
+.h2 a:hover { transform: rotate(0) translate(-1px, -1px); box-shadow: 5px 5px 0 var(--c, var(--tomato)); }
+.h2 a:hover .arr { transform: translateX(3px); }
+@media (prefers-reduced-motion: reduce) { .h2 a, .h2 a .arr { transition: none; } }
 .block { margin-top: 52px; }
 .label { display: inline-flex; align-items: center; gap: 8px; font: 600 24px var(--font-note); color: var(--accent); text-decoration: none; margin-top: 26px; }
 .label::before { content: ""; width: 14px; height: 14px; border-radius: 50%; background: var(--c, var(--tomato)); border: 2.5px solid var(--ink); }

@@ -18,7 +18,7 @@
 </section>
 
 <section class="c-tomato" aria-labelledby="new-h">
-  <h2 class="h2" id="new-h">Nejnovější recepty<a href="{{ root }}recepty/index.html">Všechny recepty →</a></h2>
+  <h2 class="h2" id="new-h">Nejnovější recepty<a href="{{ root }}recepty/index.html">Všechny recepty<span class="arr" aria-hidden="true">→</span></a></h2>
   {{ cards(site, site.recipes[:8], root) }}
 </section>
 
@@ -39,7 +39,7 @@
 </section>
 
 <section class="block c-mustard" aria-labelledby="grp-h">
-  <h2 class="h2" id="grp-h">Skupiny <small>podle druhu a příležitosti</small><a href="{{ root }}skupiny/index.html">Všechny skupiny →</a></h2>
+  <h2 class="h2" id="grp-h">Skupiny <small>podle druhu a příležitosti</small><a href="{{ root }}skupiny/index.html">Všechny skupiny<span class="arr" aria-hidden="true">→</span></a></h2>
   <div class="groups">
   {% for kind, kind_title in GROUP_KINDS.items() %}
     <div><h3>{{ kind_title }}</h3><div class="chips">
