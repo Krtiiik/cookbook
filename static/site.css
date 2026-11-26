@@ -87,7 +87,8 @@ img { max-width: 100%; }
 html:not(.js) .theme { display: none; }
 
 /* nav: divider tabs on an ink rule; the current tab joins the page below it */
-.nav { display: flex; align-items: flex-end; gap: 6px; padding: 8px 20px 0; border-bottom: 2.5px solid var(--ink); }
+/* min-height keeps the nav as tall as with a current tab (58px less its -2.5px overlap), so it does not jump on the home page, which has none */
+.nav { display: flex; align-items: flex-end; gap: 6px; min-height: calc(8px + 58px - 2.5px + 2.5px); padding: 8px 20px 0; border-bottom: 2.5px solid var(--ink); }
 .tab {
   position: relative; display: inline-flex; align-items: center; min-height: 44px; padding: 8px 18px 6px;
   font: 400 22px/1.1 var(--font-hand); text-decoration: none; white-space: nowrap;
