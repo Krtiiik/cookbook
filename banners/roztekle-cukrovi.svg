@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Dva plechy s cukrovím k vykrajování: vlevo z vychlazeného těsta zůstaly hvězdičky s ostrými hranami, vpravo z teplého těsta se hvězdičky rozlily do placek, které se slévají">
+  <style>.drop{animation:melt-pulse 2.6s ease-in-out infinite}@keyframes melt-pulse{0%,100%{transform:translateY(0)}50%{transform:translateY(3px)}}</style>
+  <rect width="1200" height="400" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M60 362 H1140" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-dasharray: 2 12; stroke-linecap: round; opacity: .45"/>
+  <rect x="60" y="122" width="470" height="216" rx="20" style="fill: var(--banner-bg, #fffaf0); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6"/>
+  <rect x="72" y="134" width="446" height="192" rx="12" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; opacity: .45"/>
+  <rect x="670" y="122" width="470" height="216" rx="20" style="fill: var(--banner-bg, #fffaf0); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6"/>
+  <rect x="682" y="134" width="446" height="192" rx="12" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; opacity: .45"/>
+  <path d="M138 153 L150 179 L178 182 L157 201 L163 229 L138 215 L113 229 L119 201 L98 182 L126 179 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+  <circle cx="138" cy="197" r="6" style="fill: #fff7ea"/>
+  <path d="M295 153 L307 179 L335 182 L314 201 L320 229 L295 215 L270 229 L276 201 L255 182 L283 179 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+  <circle cx="295" cy="197" r="6" style="fill: #fff7ea"/>
+  <path d="M452 153 L464 179 L492 182 L471 201 L477 229 L452 215 L427 229 L433 201 L412 182 L440 179 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+  <circle cx="452" cy="197" r="6" style="fill: #fff7ea"/>
+  <path d="M138 241 L150 267 L178 270 L157 289 L163 317 L138 303 L113 317 L119 289 L98 270 L126 267 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+  <circle cx="138" cy="285" r="6" style="fill: #fff7ea"/>
+  <path d="M295 241 L307 267 L335 270 L314 289 L320 317 L295 303 L270 317 L276 289 L255 270 L283 267 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+  <circle cx="295" cy="285" r="6" style="fill: #fff7ea"/>
+  <path d="M452 241 L464 267 L492 270 L471 289 L477 317 L452 303 L427 317 L433 289 L412 270 L440 267 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+  <circle cx="452" cy="285" r="6" style="fill: #fff7ea"/>
+  <path d="M806 195 C804 204 798 213 790 220 C782 227 770 236 759 238 C747 239 730 235 720 230 C710 225 702 217 697 208 C692 200 688 190 691 180 C693 171 701 157 713 151 C724 146 745 145 760 147 C774 149 792 156 800 164 C808 172 807 186 806 195 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+  <path d="M748 163 L757 184 L780 186 L763 202 L768 225 L748 213 L728 225 L733 202 L716 186 L739 184 Z" style="fill: none; stroke: #fff7ea; stroke-width: 3; stroke-dasharray: 2 8; stroke-linecap: round; opacity: .8"/>
+  <path d="M970 195 C970 206 965 218 957 226 C948 234 931 241 917 243 C902 245 882 244 869 239 C857 234 847 222 842 211 C837 201 833 186 839 178 C845 169 865 166 878 162 C891 157 902 151 916 151 C929 151 950 155 959 162 C968 170 971 184 970 195 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+  <path d="M905 163 L914 184 L937 186 L920 202 L925 225 L905 213 L885 225 L890 202 L873 186 L896 184 Z" style="fill: none; stroke: #fff7ea; stroke-width: 3; stroke-dasharray: 2 8; stroke-linecap: round; opacity: .8"/>
+  <path d="M1130 195 C1131 205 1124 219 1115 227 C1105 234 1086 238 1073 239 C1059 240 1043 236 1033 231 C1023 226 1017 217 1012 208 C1006 199 997 188 1000 179 C1003 170 1019 162 1031 157 C1043 151 1061 146 1074 147 C1087 149 1099 159 1108 167 C1118 175 1129 185 1130 195 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+  <path d="M1062 163 L1071 184 L1094 186 L1077 202 L1082 225 L1062 213 L1042 225 L1047 202 L1030 186 L1053 184 Z" style="fill: none; stroke: #fff7ea; stroke-width: 3; stroke-dasharray: 2 8; stroke-linecap: round; opacity: .8"/>
+  <path d="M807 283 C808 291 799 301 791 309 C783 316 771 328 759 329 C748 330 732 322 721 317 C709 312 693 307 688 298 C684 290 686 276 691 268 C697 260 710 254 721 249 C732 244 747 237 759 239 C770 240 781 251 789 258 C797 266 807 275 807 283 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+  <path d="M748 251 L757 272 L780 274 L763 290 L768 313 L748 301 L728 313 L733 290 L716 274 L739 272 Z" style="fill: none; stroke: #fff7ea; stroke-width: 3; stroke-dasharray: 2 8; stroke-linecap: round; opacity: .8"/>
+  <path d="M963 283 C963 293 968 309 960 316 C952 322 929 321 915 322 C900 324 882 328 872 324 C862 320 857 306 853 296 C850 287 848 279 851 269 C853 259 858 243 869 238 C880 234 901 240 915 243 C929 245 947 246 955 253 C963 260 962 273 963 283 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+  <path d="M905 251 L914 272 L937 274 L920 290 L925 313 L905 301 L885 313 L890 290 L873 274 L896 272 Z" style="fill: none; stroke: #fff7ea; stroke-width: 3; stroke-dasharray: 2 8; stroke-linecap: round; opacity: .8"/>
+  <path d="M1124 283 C1124 292 1117 304 1108 311 C1100 317 1085 320 1072 322 C1058 325 1037 330 1027 326 C1017 322 1016 306 1012 296 C1008 286 1000 277 1003 268 C1006 258 1015 243 1027 240 C1038 236 1058 242 1072 244 C1086 247 1102 247 1111 254 C1120 260 1124 274 1124 283 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+  <path d="M1062 251 L1071 272 L1094 274 L1077 290 L1082 313 L1062 301 L1042 313 L1047 290 L1030 274 L1053 272 Z" style="fill: none; stroke: #fff7ea; stroke-width: 3; stroke-dasharray: 2 8; stroke-linecap: round; opacity: .8"/>
+  <circle cx="92" cy="70" r="26" style="fill: var(--banner-cool, #1f4fa3); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5"/>
+  <g style="fill: none; stroke: var(--banner-bg, #fffaf0); stroke-width: 5; stroke-linecap: round"><path d="M92 54 V86 M78 62 L106 78 M106 62 L78 78"/></g>
+  <text x="134" y="84" style="font: 600 40px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">vychlazené těsto</text>
+  <path d="M340 98 q36 14 6 52" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <g class="drop"><path d="M702 42 q-22 30 -22 40 a22 22 0 0 0 44 0 q0 -10 -22 -40 Z" style="fill: var(--banner-warm, #e9b44c); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/></g>
+  <path d="M694 84 q0 8 8 10" style="fill: none; stroke: var(--banner-bg, #fffaf0); stroke-width: 4; stroke-linecap: round"/>
+  <text x="744" y="84" style="font: 600 40px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">teplé se rozteče</text>
+  <path d="M1010 98 q30 20 -10 54" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+</svg>
