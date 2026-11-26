@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Vlevo půlka vlašského ořechu, dvě mandle a lískový ořech, uprostřed suchá pánev na nízkém plameni s pražícími se lískovými oříšky a vpravo na utěrce oloupané oříšky a hnědé slupky">
+  <style>.steam path{animation:steam-rise 3.4s ease-in-out infinite}.steam path:nth-child(2){animation-delay:1.7s}@keyframes steam-rise{0%{opacity:0;transform:translateY(14px)}40%{opacity:1}100%{opacity:0;transform:translateY(-16px)}}</style>
+  <rect width="1200" height="400" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M60 362 H1140" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-dasharray: 2 12; stroke-linecap: round; opacity: .45"/>
+
+  <!-- walnut half -->
+  <g transform="translate(120 316)" style="stroke: var(--banner-fg, #1b2a4a); stroke-linejoin: round">
+    <path d="M-56 0 C-62 -36 -30 -50 -10 -40 C2 -52 32 -50 44 -36 C62 -30 64 0 52 18 C42 40 12 44 0 30 C-12 44 -46 38 -56 0 Z" style="fill: var(--banner-warm, #e9b44c); fill: color-mix(in srgb, var(--banner-warm, #e9b44c) 62%, #8a5a2b); stroke-width: 6"/>
+    <g style="fill: none; stroke-width: 4; stroke-linecap: round">
+      <path d="M0 -38 C-5 -12 5 10 0 28"/>
+      <path d="M-32 -22 C-22 -10 -26 6 -36 12"/>
+      <path d="M26 -24 C18 -10 24 8 32 14"/>
+    </g>
+    <path d="M-44 -18 C-40 -30 -30 -36 -20 -36" style="fill: none; stroke: #fff7ea; stroke-width: 5; stroke-linecap: round; opacity: .7"/>
+  </g>
+
+  <!-- two almonds -->
+  <g style="stroke: var(--banner-fg, #1b2a4a); stroke-linejoin: round">
+    <g transform="translate(232 334) rotate(-24)">
+      <path d="M-34 0 C-34 -26 8 -34 40 0 C8 34 -34 26 -34 0 Z" style="fill: var(--banner-warm, #e9b44c); fill: color-mix(in srgb, var(--banner-warm, #e9b44c) 70%, #8a3b10); stroke-width: 6"/>
+      <path d="M-22 0 C-4 -8 14 -6 30 0" style="fill: none; stroke-width: 3.5; stroke-linecap: round"/>
+    </g>
+    <g transform="translate(270 340) rotate(18)">
+      <path d="M-34 0 C-34 -26 8 -34 40 0 C8 34 -34 26 -34 0 Z" style="fill: var(--banner-warm, #e9b44c); fill: color-mix(in srgb, var(--banner-warm, #e9b44c) 70%, #8a3b10); stroke-width: 6"/>
+      <path d="M-22 0 C-4 8 14 6 30 0" style="fill: none; stroke-width: 3.5; stroke-linecap: round"/>
+    </g>
+  </g>
+
+  <!-- hazelnut -->
+  <g transform="translate(346 326)" style="stroke: var(--banner-fg, #1b2a4a); stroke-linejoin: round">
+    <path d="M-28 -4 C-28 -36 28 -36 28 -4 C28 22 10 34 0 34 C-10 34 -28 22 -28 -4 Z" style="fill: var(--banner-warm, #e9b44c); fill: color-mix(in srgb, var(--banner-warm, #e9b44c) 55%, #8a3b10); stroke-width: 6"/>
+    <path d="M-19 24 C-8 36 8 36 19 24 C12 18 -12 18 -19 24 Z" style="fill: var(--banner-bg, #fffaf0); stroke-width: 4"/>
+    <path d="M0 -34 L0 -42" style="fill: none; stroke-width: 5; stroke-linecap: round"/>
+    <path d="M-18 -8 C-18 -20 -12 -26 -6 -28" style="fill: none; stroke: #fff7ea; stroke-width: 5; stroke-linecap: round; opacity: .7"/>
+  </g>
+
+  <!-- dry pan on low flame -->
+  <path d="M600 360 q10-22 20-2 q10-28 20-2 q10-22 20-2 q10-28 20-2 q10-22 20-2 q10-26 20-2 Z" transform="translate(-20 0)" style="fill: var(--banner-warm, #e9b44c); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+  <path d="M470 258 L372 238" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 24; stroke-linecap: round"/>
+  <circle cx="388" cy="241" r="5" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M462 256 L476 300 Q620 348 764 300 L778 256 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+  <g style="fill: #fff7ea"><circle cx="540" cy="312" r="6"/><circle cx="620" cy="324" r="6"/><circle cx="700" cy="312" r="6"/></g>
+  <ellipse cx="620" cy="256" rx="160" ry="44" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6"/>
+  <ellipse cx="620" cy="260" rx="142" ry="33" style="fill: var(--banner-bg, #fffaf0); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5"/>
+  <g style="fill: var(--banner-warm, #e9b44c); fill: color-mix(in srgb, var(--banner-warm, #e9b44c) 50%, #8a3b10); stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linejoin: round">
+    <path d="M-14 -2 C-14 -17 14 -17 14 -2 C14 12 5 17 0 17 C-5 17 -14 12 -14 -2 Z" transform="translate(540 262)"/>
+    <path d="M-14 -2 C-14 -17 14 -17 14 -2 C14 12 5 17 0 17 C-5 17 -14 12 -14 -2 Z" transform="translate(572 246) rotate(20)"/>
+    <path d="M-14 -2 C-14 -17 14 -17 14 -2 C14 12 5 17 0 17 C-5 17 -14 12 -14 -2 Z" transform="translate(578 272) rotate(-14)"/>
+    <path d="M-14 -2 C-14 -17 14 -17 14 -2 C14 12 5 17 0 17 C-5 17 -14 12 -14 -2 Z" transform="translate(612 252) rotate(8)"/>
+    <path d="M-14 -2 C-14 -17 14 -17 14 -2 C14 12 5 17 0 17 C-5 17 -14 12 -14 -2 Z" transform="translate(620 276) rotate(30)"/>
+    <path d="M-14 -2 C-14 -17 14 -17 14 -2 C14 12 5 17 0 17 C-5 17 -14 12 -14 -2 Z" transform="translate(652 248) rotate(-22)"/>
+    <path d="M-14 -2 C-14 -17 14 -17 14 -2 C14 12 5 17 0 17 C-5 17 -14 12 -14 -2 Z" transform="translate(660 272) rotate(12)"/>
+    <path d="M-14 -2 C-14 -17 14 -17 14 -2 C14 12 5 17 0 17 C-5 17 -14 12 -14 -2 Z" transform="translate(696 256) rotate(-8)"/>
+    <path d="M-14 -2 C-14 -17 14 -17 14 -2 C14 12 5 17 0 17 C-5 17 -14 12 -14 -2 Z" transform="translate(702 276) rotate(24)"/>
+  </g>
+  <g class="steam" style="fill: none; stroke: var(--banner-warm, #e9b44c); stroke-width: 5; stroke-linecap: round">
+    <path d="M560 212 c-26 -16 18 -34 -6 -52 c-22 -16 22 -32 2 -50"/>
+    <path d="M690 214 c-22 -14 16 -30 -4 -46 c-20 -14 18 -28 2 -42"/>
+  </g>
+
+  <!-- skinned hazelnuts on a towel -->
+  <g style="stroke: var(--banner-fg, #1b2a4a); stroke-linejoin: round">
+    <path d="M880 296 Q930 286 990 294 Q1050 302 1112 292 L1118 356 Q1056 366 996 358 Q936 350 884 360 Z" style="fill: var(--banner-cool, #1f4fa3); stroke-width: 6"/>
+    <path d="M890 318 Q936 310 996 318 Q1050 326 1108 316 M892 338 Q938 330 996 338 Q1050 346 1110 336" style="fill: none; stroke: #fff7ea; stroke-width: 4; stroke-linecap: round; opacity: .7"/>
+    <g style="fill: var(--banner-warm, #e9b44c); stroke-width: 4">
+      <path d="M-20 -3 C-20 -24 20 -24 20 -3 C20 17 7 24 0 24 C-7 24 -20 17 -20 -3 Z" transform="translate(940 276)"/>
+      <path d="M-20 -3 C-20 -24 20 -24 20 -3 C20 17 7 24 0 24 C-7 24 -20 17 -20 -3 Z" transform="translate(1000 272) rotate(-12)"/>
+      <path d="M-20 -3 C-20 -24 20 -24 20 -3 C20 17 7 24 0 24 C-7 24 -20 17 -20 -3 Z" transform="translate(1062 278) rotate(14)"/>
+    </g>
+    <g style="fill: var(--banner-warm, #e9b44c); fill: color-mix(in srgb, var(--banner-warm, #e9b44c) 40%, #5a2a0c); stroke-width: 2">
+      <path d="M0 0 C7 -9 19 -9 26 0 C19 -3 7 -3 0 0 Z" transform="translate(966 322) rotate(-12)"/>
+      <path d="M0 0 C7 -9 19 -9 26 0 C19 -3 7 -3 0 0 Z" transform="translate(1030 330) rotate(160)"/>
+      <path d="M0 0 C7 -9 19 -9 26 0 C19 -3 7 -3 0 0 Z" transform="translate(1086 322) rotate(10)"/>
+      <path d="M0 0 C7 -9 19 -9 26 0 C19 -3 7 -3 0 0 Z" transform="translate(910 330) rotate(-6)"/>
+    </g>
+  </g>
+
+  <text x="60" y="94" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">vlašské, lískové, mandle</text>
+  <path d="M210 110 q28 40 -56 138" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="450" y="90" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">do zlatova, ne do tmava</text>
+  <path d="M624 106 q14 36 -2 82" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+  <text x="930" y="200" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">slupky utři</text>
+  <path d="M1010 214 q14 14 -8 36" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+</svg>
