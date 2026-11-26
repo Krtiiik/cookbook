@@ -180,7 +180,7 @@ dd.pills { display: flex; flex-wrap: wrap; gap: 6px 8px; }
 .pill svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 a.pill::after { content: ""; position: absolute; inset: -8px -4px; } /* 44px touch target */
 a.pill:hover { transform: translate(-1px, -1px); box-shadow: 3px 3px 0 var(--c); }
-.pill--small { gap: 5px; padding: 0 9px 0 2px; font-size: 15px; box-shadow: 1.5px 1.5px 0 var(--c); }
+.pill--small { gap: 5px; padding: 0 9px 0 0; font-size: 15px; box-shadow: 1.5px 1.5px 0 var(--c); }
 .pill--small .pill__icon { width: 18px; height: 18px; }
 .pill--small svg { width: 12px; height: 12px; }
 .card .pill { margin-top: 4px; }
