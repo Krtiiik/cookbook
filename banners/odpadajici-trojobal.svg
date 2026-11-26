@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Pánev s mělkým studeným tukem bez bublinek a řízek, ze kterého se odlupuje trojobal a odkrývá holé maso; z masa kapou kapky vody. Poznámky: mokré maso, studený tuk, neobracej pořád">
+  <rect width="1200" height="400" style="fill: var(--banner-bg, #fffaf0)"/>
+  <path d="M60 362 H1140" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-dasharray: 2 12; stroke-linecap: round; opacity: .45"/>
+
+  <g transform="translate(130 0)">
+    <path d="M262 252 L282 322 Q470 376 658 322 L678 252 Z" style="fill: var(--banner-fg, #1b2a4a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6; stroke-linejoin: round"/>
+    <path d="M668 236 L790 208" style="stroke: var(--banner-fg, #1b2a4a); stroke-width: 26; stroke-linecap: round"/>
+    <circle cx="772" cy="212" r="6" style="fill: var(--banner-bg, #fffaf0)"/>
+    <ellipse cx="470" cy="250" rx="200" ry="58" style="fill: var(--banner-fg, #1b2a4a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 6"/>
+    <ellipse cx="470" cy="254" rx="180" ry="46" style="fill: var(--banner-bg, #fffaf0); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5"/>
+    <ellipse cx="470" cy="258" rx="168" ry="36" style="fill: var(--banner-warm, #e9b44c); opacity: .35"/>
+    <g style="fill: #fff7ea; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3">
+      <circle cx="330" cy="262" r="5"/><circle cx="598" cy="266" r="4"/>
+    </g>
+
+    <path d="M362 258 C356 238 400 226 470 226 C545 226 590 238 584 258 C578 278 525 286 470 286 C412 286 368 278 362 258 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+    <path d="M362 246 C356 226 400 214 470 214 C545 214 590 226 584 246 C578 266 525 274 470 274 C412 274 368 266 362 246 Z" style="fill: var(--banner-warm, #e9b44c); stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linejoin: round"/>
+    <g style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linecap: round; opacity: .55">
+      <path d="M400 232 q16 -8 30 -4"/><path d="M440 252 q18 -8 34 -2"/><path d="M390 256 q14 -6 28 -2"/>
+    </g>
+    <g style="fill: var(--banner-accent, #c8462a)">
+      <circle cx="420" cy="242" r="3.5"/><circle cx="466" cy="232" r="3"/><circle cx="440" cy="264" r="3"/>
+    </g>
+    <path d="M496 222 Q534 214 568 230 Q582 240 574 252 Q556 266 528 262 L520 250 L506 254 L500 240 L508 232 Z" style="fill: var(--banner-accent, #c8462a); stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linejoin: round"/>
+    <g style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round; opacity: .5">
+      <path d="M526 238 q14 -6 28 0"/><path d="M536 250 q12 -4 22 0"/>
+    </g>
+    <path d="M498 232 Q484 214 508 208 Q528 214 516 244 Q508 252 502 244 Z" style="fill: var(--banner-warm, #e9b44c); stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linejoin: round"/>
+    <path d="M500 224 q8 -4 14 0" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round; opacity: .55"/>
+    <g style="fill: var(--banner-warm, #e9b44c); stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linejoin: round">
+      <path d="M552 284 q10 -8 20 -2 q2 10 -10 12 q-8 -2 -10 -10 Z"/>
+      <path d="M404 292 q8 -8 16 -2 q2 8 -8 10 q-8 -2 -8 -8 Z"/>
+      <circle cx="590" cy="276" r="3"/>
+    </g>
+
+    <g style="fill: var(--banner-cool, #1f4fa3); stroke: var(--banner-fg, #1b2a4a); stroke-width: 4; stroke-linejoin: round">
+      <path d="M582 178 Q594 196 582 206 Q570 196 582 178 Z"/>
+      <path d="M612 160 Q622 174 612 182 Q602 174 612 160 Z"/>
+      <path d="M560 160 Q569 172 560 180 Q551 172 560 160 Z"/>
+    </g>
+    <g style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 5; stroke-linecap: round; stroke-linejoin: round">
+      <path d="M380 208 Q430 160 486 188"/><path d="M468 172 L488 188 L464 198"/>
+    </g>
+  </g>
+
+  <g style="fill: none; stroke: var(--banner-cool, #1f4fa3); stroke-width: 5; stroke-linecap: round">
+    <path d="M262 304 v28 M248 318 h28 M252 308 l20 20 M272 308 l-20 20"/>
+  </g>
+
+  <text x="60" y="100" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">neobracej pořád</text>
+  <path d="M250 116 q110 6 232 70" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+
+  <text x="60" y="352" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">studený tuk</text>
+  <path d="M286 326 q70 6 130 -34" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+
+  <text x="880" y="96" style="font: 600 38px Caveat, cursive; fill: var(--banner-fg, #1b2a4a)">mokré maso</text>
+  <path d="M900 112 q-70 4 -160 62" style="fill: none; stroke: var(--banner-fg, #1b2a4a); stroke-width: 3; stroke-linecap: round"/>
+</svg>
