@@ -6,7 +6,7 @@
   var ROOT = document.documentElement.getAttribute('data-root') || '';
   var BY_SLUG = {};
   INDEX.pages.forEach(function (p) { BY_SLUG[p.slug] = p; });
-  var STATUS = { written: 'napsáno', planned: 'zatím nenapsáno', draft: 'netestováno', tested: 'otestováno' };
+  var PLANNED = 'zatím nenapsáno';
 
   function $(sel, el) { return (el || document).querySelector(sel); }
   function $$(sel, el) { return Array.prototype.slice.call((el || document).querySelectorAll(sel)); }
@@ -105,7 +105,7 @@
         title.appendChild(document.createTextNode(p.title));
         a.appendChild(title);
         a.appendChild(el('span', 'search__meta' + (cat ? ' is-indented' : ''),
-          p.section + (cat ? ' · ' + cat.label : '') + ' · ' + STATUS[p.status]));
+          p.section + (cat ? ' · ' + cat.label : '') + (p.status === 'planned' ? ' · ' + PLANNED : '')));
         li.appendChild(a);
         list.appendChild(li);
       });
@@ -151,7 +151,7 @@
       text.appendChild(el('div', 'link-preview__section', p.section));
       text.appendChild(el('div', 'link-preview__title', p.title));
       text.appendChild(el('div', 'link-preview__summary', p.summary));
-      text.appendChild(el('div', 'link-preview__status', STATUS[p.status]));
+      if (p.status === 'planned') text.appendChild(el('div', 'link-preview__status', PLANNED));
       box.appendChild(media);
       box.appendChild(text);
       box.className = 'link-preview is-' + p.status;

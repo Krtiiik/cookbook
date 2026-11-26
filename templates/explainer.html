@@ -12,7 +12,7 @@
       <h1 class="xt">{{ page.title }}</h1>
       <p class="lead">{{ page.summary }}</p>
     </div>
-    <span class="state"><i></i>{{ 'napsáno' if page.written else 'zatím nenapsáno' }}</span>
+    {% if not page.written %}<span class="state"><i></i>zatím nenapsáno</span>{% endif %}
   </div>
 
   {% if page.section == 'suroviny' %}

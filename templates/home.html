@@ -28,8 +28,6 @@
   {% for s in site.sections %}
     <div class="sec-box c-{{ s.color }}">
       <h3><a href="{{ root }}{{ s.url }}">{{ s.title }}</a></h3>
-      <div class="bar" aria-hidden="true"><i style="width: {{ (100 * s.written_count / ([s.pages|length, 1]|max))|round|int }}%"></i></div>
-      <div class="count">napsáno {{ s.written_count }} z {{ s.pages|length }}</div>
       <ul>
       {% for p in s.pages[:4] %}
         <li>{{ link(p, root) }}{% if not p.written %}<small>zatím nenapsáno</small>{% endif %}</li>

@@ -70,7 +70,7 @@ Templates are Jinja2 (`StrictUndefined`, autoescape on). Every template receives
 | Name | What |
 |---|---|
 | `site.recipes` | list of recipe pages, newest change first |
-| `site.sections` | list of sections: `slug`, `title`, `url`, `pages` (explainers in catalog order), `written_count` |
+| `site.sections` | list of sections: `slug`, `title`, `url`, `pages` (explainers in catalog order) |
 | `site.groups` | list of groups: `slug`, `kind`, `title`, `summary`, `url`, `recipes` |
 | `site.pages` | dict slug → page, every recipe and explainer |
 | `site.units` | dict unit slug → unit |

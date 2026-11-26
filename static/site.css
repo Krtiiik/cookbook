@@ -243,9 +243,6 @@ a.pill:hover { transform: translate(-1px, -1px); box-shadow: 3px 3px 0 var(--c);
 .sec-box::before { left: 18px; width: 60px; height: 20px; top: -10px; }
 .sec-box h3 { font: 400 26px var(--font-hand); margin: 0; }
 .sec-box h3 a { text-decoration: none; }
-.bar { height: 10px; border: 2px solid var(--ink); border-radius: 6px; margin: 6px 0 4px; overflow: hidden; background: var(--paper); }
-.bar i { display: block; height: 100%; background: var(--c); }
-.count { font-size: 13px; color: var(--muted); }
 .sec-box ul { list-style: none; margin: 10px 0 0; padding: 0; font-size: 15px; }
 .sec-box li { padding: 5px 0; border-top: 1.5px dashed var(--line); }
 .sec-box li small { color: var(--muted); font: 600 16px var(--font-note); margin-left: 6px; }

@@ -372,6 +372,20 @@ def test_home_has_no_meta_description(real_site):
     assert 'name="description"' not in (out / "index.html").read_text(encoding="utf-8")
 
 
+def test_status_shows_only_on_planned_pages_without_written_counts(site_root, tmp_path):
+    site = build.load_site(site_root)
+    out = tmp_path / "out"
+    build.render_site(site, out, ROOT / "templates", ROOT / "static", tmp_path / "cache")
+    read = lambda rel: (out / rel).read_text(encoding="utf-8")
+    for rel in ["index.html", *(f"{s.slug}/index.html" for s in site.sections)]:
+        assert not re.search(r"[Nn]apsáno \d+ z \d+", read(rel)), rel
+    assert 'class="state"' not in read(site.pages["duseni"].url)
+    assert '<span class="state"><i></i>zatím nenapsáno</span>' in read(site.pages["hnednuti-masa"].url)
+    js = (ROOT / "static" / "site.js").read_text(encoding="utf-8")
+    assert "'napsáno'" not in js and "testováno" not in js
+    assert "p.status === 'planned'" in js
+
+
 def test_ingredient_categories_show_as_pills(real_site):
     site, out = real_site
     cesnek = (out / "suroviny" / "cesnek.html").read_text(encoding="utf-8")

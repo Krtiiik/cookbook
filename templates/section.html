@@ -3,7 +3,7 @@
 {% block kind %}section{% endblock %}
 {% block main %}
 <h1 class="pt">{{ section.title }}</h1>
-<p class="lead">Napsáno {{ section.written_count }} z {{ section.pages|length }}. Stránky v plánu už mají odkazy a ukazují recepty, které je používají.</p>
+<p class="lead">Stránky v plánu už mají odkazy a ukazují recepty, které je používají.</p>
 {% if section.slug == 'suroviny' %}
 
 {% call filter_box("Filtry surovin") %}

@@ -123,7 +123,7 @@ body {
 
 - **Top row:** logo, search, theme switch. No rule under it: the nav's ink rule closes the header.
   - **Logo:** a 44px tomato circle with a white icon of a chef's hat on a molehill (a nod to "Krtkova") (inline SVG, `aria-hidden`), then "Krtkova Kuchařka" (hand 34px).
-  - **Search** `.search`: a pill input with a 2.5px ink border on `--card` and a magnifier icon inside on the left. The placeholder is "Hledej recept, surovinu, postup…". Results (`ol.search__results`) open below it as a card with a 5px mustard shadow. An ingredient result starts with its category icon, and its meta line adds the category ("suroviny · zelenina · napsáno").
+  - **Search** `.search`: a pill input with a 2.5px ink border on `--card` and a magnifier icon inside on the left. The placeholder is "Hledej recept, surovinu, postup…". Results (`ol.search__results`) open below it as a card with a 5px mustard shadow. An ingredient result starts with its category icon, and its meta line adds the category ("suroviny · zelenina"); only a planned page adds "· zatím nenapsáno".
   - **Theme switch** `button.theme[data-theme-current]`: a cobalt-filled pill (`--on-cobalt` text) with a 3px mustard shadow. It cycles system → light → dark. The icon is a half-filled circle, a sun or a moon. The label is "Auto", "Světlý" or "Tmavý" in Caveat. Its `aria-label` and `title` are "Motiv: podle systému. Přepni." (and the same for the other states).
 - **Nav row: divider tabs** (`a.tab`) standing on a 2.5px ink rule, like the tabs of a notebook's dividers. Each tab is `--card` with a 2.5px ink border (no bottom), a 12–14px top radius and a 6px stripe of its section colour along the top (Recepty ink, Metody tomato, Suroviny mint, Vybavení mustard, Řešení problémů cobalt). Hand 22px.
   - **Secondary tabs** (`.tab--more`: Skupiny, Převodník, Sezónní kalendář, O webu) sit at the right: smaller (hand 18px), `--ink2`, with a `--pencil` stripe, because they are pages, not colour-coded sections.
@@ -152,7 +152,7 @@ body {
 
 - **Hero:** h1 "Co dnes uvaříme?" and a row of 4 colour dots (tomato, mint, mustard, cobalt) as decoration. On the right is "Poslední úpravy", a card with a tomato tape strip and a mustard shadow, listing the latest `changes` (date in Caveat `--accent`, title link, note).
 - **"Nejnovější recepty":** a grid of 4 columns (8 cards), with no count next to the heading.
-- **"Jak a proč":** 4 section boxes, each in its section colour (tape, shadow, progress bar fill). Each box has the title, a bar "napsáno N z M" (10px, 2px ink border, paper background), and 4 explainer links. Planned links get "zatím nenapsáno" in Caveat.
+- **"Jak a proč":** 4 section boxes, each in its section colour (tape, shadow). Each box has the title and 4 explainer links; no written count. Planned links get "zatím nenapsáno" in Caveat.
 - **"Skupiny":** 2 columns, "Druh jídla" (course) and "Příležitost" (occasion). Chips are 44px pills with a colour dot.
 
 ### Recipe page
@@ -180,13 +180,13 @@ Order as in SPEC.md. Desktop layout:
 
 ### Link preview (`.link-preview`)
 
-A card 340px wide: 2.5px ink border, mustard shadow, uneven radius. A grid with the banner (120px wide, 2px ink frame) on the left. The text is on the right: `__section` in Caveat `--accent`, `__title` in hand 21px, `__summary` 14px `--ink2`, `__status` 12px `--muted` ("napsáno", "zatím nenapsáno", "netestováno"). The prototypes place it under the hovered step. In the real site, one shared element is positioned by the script near the link.
+A card 340px wide: 2.5px ink border, mustard shadow, uneven radius. A grid with the banner (120px wide, 2px ink frame) on the left. The text is on the right: `__section` in Caveat `--accent`, `__title` in hand 21px, `__summary` 14px `--ink2`, `__status` 12px `--muted` ("zatím nenapsáno", only for a planned page; nothing otherwise). The prototypes place it under the hovered step. In the real site, one shared element is positioned by the script near the link.
 
 ### Explainer page
 
 - **Banner:** full content width, 3:1. Frame: 2.5px ink border, `7px 7px 0 var(--tomato)` shadow (use the section's colour), uneven radius, and 2 tape strips (mustard on the left, mint on the right).
   - **Planned:** a dashed `--pencil` frame, no shadow, tape at 30% opacity.
-- **Head:** the section label (dot + Caveat 24px, `--accent`, links to the section), the title (hand 66px) and the lead. On the right is a status pill: mint dot + "napsáno", or dashed + "zatím nenapsáno".
+- **Head:** the section label (dot + Caveat 24px, `--accent`, links to the section), the title (hand 66px) and the lead. A planned explainer has a dashed status pill "zatím nenapsáno" on the right; a written one has none.
 - **Body:** 2 columns (1fr / 350px).
   - **Prose:** h2 with a colour dot. An `ol` uses 36px cobalt discs. A table sits in a card with a mustard shadow: `th` in Caveat `--accent`, rows with dashed separators. Wrap tables in an `overflow-x: auto` box.
   - **Planned:** the body is replaced by a dashed box with "zatím nenapsáno" (Caveat 32px) and one line: "Tahle stránka je v plánu. Odkazy na ni už fungují a vpravo vidíš recepty, které ji používají."

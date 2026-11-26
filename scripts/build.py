@@ -198,10 +198,6 @@ class Section:
     url: str
     pages: list[Page] = field(default_factory=list)
 
-    @property
-    def written_count(self) -> int:
-        return sum(p.written for p in self.pages)
-
 
 @dataclass
 class Group:
