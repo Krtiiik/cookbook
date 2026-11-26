@@ -396,20 +396,29 @@ html:not(.js) .scaler button { display: none; }
 .filters__count { margin: 0 0 6px; font: 600 18px var(--font-note); color: var(--accent); }
 .legend { display: flex; gap: 18px; font-size: 13px; color: var(--muted); margin: 6px 0 10px; flex-wrap: wrap; align-items: center; }
 .sw { display: inline-block; width: 22px; height: 14px; border-radius: 7px; margin-right: 6px; vertical-align: -2px; border: 2px solid var(--ink); background: var(--season); }
-.sw.now { background: transparent; border: 2.5px solid var(--tomato); }
+.sw.now { width: 16px; height: 16px; box-sizing: border-box; vertical-align: -3px; border-radius: 5px 4px 6px 5px; background: var(--empty); border: 2.5px solid var(--ink); box-shadow: inset 0 0 0 3px var(--tomato); }
 .scroll { overflow-x: auto; border: 2px solid var(--ink); border-radius: 6px; background: var(--card); }
 /* Fixed layout: the name column has a set width and the twelve month columns share the rest equally,
    so a month is as wide as any other whatever its abbreviation. */
-.season { border-collapse: separate; border-spacing: 3px; min-width: 720px; width: 100%; font-size: 14px; table-layout: fixed; }
+.season { border-collapse: separate; border-spacing: 3px; min-width: 720px; width: 100%; font-size: 14px; table-layout: fixed; margin-bottom: 5px; }
 .season thead th.season__name { width: 150px; }
 .season thead th { font: 600 18px var(--font-note); color: var(--muted); padding: 4px 0; text-align: center; }
-.season thead th.now { color: var(--accent); }
 .season thead th.season__name { position: sticky; left: 0; z-index: 2; background: var(--card); text-align: left; padding-left: 8px; border-right: 2px dashed var(--line); }
 .season abbr { text-decoration: none; }
 .season th[scope=row] { position: sticky; left: 0; z-index: 1; background: var(--card); text-align: left; padding: 5px 12px 5px 8px; white-space: nowrap; font-weight: 400; min-width: 140px; border-right: 2px dashed var(--line); }
 .season td { position: relative; height: 32px; padding: 0; border-radius: 9px 7px 10px 8px; background: var(--empty); }
 .season td.is-in-season { background: var(--season); box-shadow: inset 0 0 0 2px var(--ink); }
-.season td.now { outline: 2.5px solid var(--tomato); outline-offset: -1px; }
+/* Current month: a tomato tab on the header and one framed tomato column behind the blocks.
+   The column fill sits in ::before over the cell, so ::after draws the block again on top in its usual colour.
+   The frame closes on the last row on screen (site.js marks it, as the filter hides rows). */
+.season thead th.now { position: relative; color: var(--on-tomato); font-size: 21px; }
+.season thead th.now::before { content: ""; position: absolute; left: -4px; right: -4px; top: -2px; bottom: -3px; background: var(--tomato); border: 2.5px solid var(--ink); border-bottom: 0; border-radius: 11px 9px 0 0; box-shadow: 3px -1px 0 var(--mustard); }
+.season thead th.now abbr { position: relative; }
+.season td.now { background: transparent; box-shadow: none; }
+.season td.now::before { content: ""; position: absolute; left: -4px; right: -4px; top: -3px; bottom: -3px; background: var(--tomato); border-left: 2.5px solid var(--ink); border-right: 2.5px solid var(--ink); pointer-events: none; }
+.season td.now::after { content: ""; position: absolute; inset: 0; border-radius: inherit; background: var(--empty); pointer-events: none; }
+.season td.now.is-in-season::after { background: var(--season); box-shadow: inset 0 0 0 2px var(--ink); }
+.season tr.is-last td.now::before { bottom: -7px; border-bottom: 2.5px solid var(--ink); border-radius: 0 0 10px 9px; }
 .season__empty { padding: 16px; }
 
 /* grid children may shrink below their content (wide tables scroll inside their own box) */

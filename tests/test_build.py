@@ -311,6 +311,14 @@ def test_filtered_out_cards_are_not_shown():
     assert ".card[hidden] { display: none; }" in (ROOT / "static" / "site.css").read_text(encoding="utf-8")
 
 
+def test_current_month_frame_closes_on_the_last_shown_row():
+    # The filter hides rows, so :last-child is not the last row on screen; site.js marks it instead.
+    css = (ROOT / "static" / "site.css").read_text(encoding="utf-8")
+    js = (ROOT / "static" / "site.js").read_text(encoding="utf-8")
+    assert ".season tr.is-last td.now::before" in css
+    assert "classList.toggle('is-last'" in js
+
+
 def test_ingredient_section_has_category_and_season_filters(real_site):
     site, out = real_site
     text = (out / "static" / "index.js").read_text(encoding="utf-8")

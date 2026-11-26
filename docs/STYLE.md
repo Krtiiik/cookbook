@@ -211,7 +211,7 @@ Banners follow SPEC.md (viewBox 1200×400, colours only through `--banner-*`, no
 - **Converter result** (`output.converter__result`): a mustard sticker with `--fill-ink` text in Caveat 36px, a 2.5px ink border and a `4px 4px 0 var(--tomato)` shadow, rotated −1°. Messages: "Zadej číslo", "Zvol °C", "Zvol g nebo ml". The hint is "Surovinu potřebuješ jen pro převod objemu na hmotnost."
 - **Season grid** (`table.season`):
   - **Table:** `border-collapse: separate; border-spacing: 3px` inside a scroll box (2px ink border, `--card`).
-  - **Cells:** 32px tall, uneven radius, `--empty` background. In season (`td.is-in-season`): `--season` fill with an inset 2px ink outline. The current month column gets a 2.5px tomato outline, and its header is in `--accent`.
+  - **Cells:** 32px tall, uneven radius, `--empty` background. In season (`td.is-in-season`): `--season` fill with an inset 2px ink outline. The current month: its header is a tomato tab (ink border, mustard offset shadow, `--on-tomato` text), and the column behind the blocks is tomato in one ink frame that closes under the last row on screen. The blocks keep their usual colours.
   - **Headers:** month headers are 3-letter Czech abbreviations in Caveat (led, úno, bře, dub, kvě, čvn, čvc, srp, zář, říj, lis, pro), with `abbr title` holding the full month name.
   - **Row title** `th[scope=row]`: sticky on the left with a `--card` background, a dashed right border, the link and the small category pill under it.
   - **Filters:** `input.season__search` ("Hledej surovinu", placeholder "např. dýně") and `select.season__category` ("všechny", zelenina, ovoce, bylinky, houby, ryby). A legend sits above the table, with a count "N z M surovin".

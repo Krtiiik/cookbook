@@ -416,7 +416,14 @@
       });
       countEl.textContent = shown + ' z ' + rows.length + ' surovin';
       empty.hidden = shown > 0;
+      markLast();
     }
+    // The current-month frame closes under the last row on screen, which :last-child misses once rows are hidden.
+    function markLast() {
+      var last = rows.filter(function (r) { return !r.hidden; }).pop();
+      rows.forEach(function (r) { r.classList.toggle('is-last', r === last); });
+    }
+    markLast();
     q.addEventListener('input', apply);
     cat.addEventListener('change', apply);
   })();
